@@ -1,0 +1,1630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="SzTestCodeCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem SzTestCodeCS</b></p><a name="SzTestCodeCS"> </a><a name="hcSzTestCodeCS"> </a><p>This  code system <code>http://192.168.10.200:3447/fhir/CodeSystem/SzTestCodeCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">CD4<a name="SzTestCodeCS-CD4"> </a></td><td>CD4 Test</td></tr><tr><td style="white-space:nowrap">AST<a name="SzTestCodeCS-AST"> </a></td><td>AST (Aspartate Transaminase)</td></tr><tr><td style="white-space:nowrap">CREA<a name="SzTestCodeCS-CREA"> </a></td><td>Creatinine </td></tr><tr><td style="white-space:nowrap">HB<a name="SzTestCodeCS-HB"> </a></td><td>Haemoglobin</td></tr><tr><td style="white-space:nowrap">LFT<a name="SzTestCodeCS-LFT"> </a></td><td>Liver Function Tests - Profile</td></tr><tr><td style="white-space:nowrap">HIVVL<a name="SzTestCodeCS-HIVVL"> </a></td><td>HIV Viral Load (Plasma)</td></tr><tr><td style="white-space:nowrap">ICUP<a name="SzTestCodeCS-ICUP"> </a></td><td>ICU-  Profile</td></tr><tr><td style="white-space:nowrap">GGT<a name="SzTestCodeCS-GGT"> </a></td><td>Gamma-Glutamyl Transferase GGT</td></tr><tr><td style="white-space:nowrap">KFT<a name="SzTestCodeCS-KFT"> </a></td><td>Kidney Function Test - Profile</td></tr><tr><td style="white-space:nowrap">CARDE<a name="SzTestCodeCS-CARDE"> </a></td><td>Cardiac Enzymes</td></tr><tr><td style="white-space:nowrap">ART<a name="SzTestCodeCS-ART"> </a></td><td>ART Baseline - Profile</td></tr><tr><td style="white-space:nowrap">ELECT<a name="SzTestCodeCS-ELECT"> </a></td><td>Electrolytes - Profile</td></tr><tr><td style="white-space:nowrap">GLUCF<a name="SzTestCodeCS-GLUCF"> </a></td><td>Glucose (Fasting)</td></tr><tr><td style="white-space:nowrap">GLUCR<a name="SzTestCodeCS-GLUCR"> </a></td><td>Glucose (Random)</td></tr><tr><td style="white-space:nowrap">GTT<a name="SzTestCodeCS-GTT"> </a></td><td>Glucose Tolerance Test</td></tr><tr><td style="white-space:nowrap">CL<a name="SzTestCodeCS-CL"> </a></td><td>S-Chloride</td></tr><tr><td style="white-space:nowrap">K<a name="SzTestCodeCS-K"> </a></td><td>S-Potassium</td></tr><tr><td style="white-space:nowrap">NA<a name="SzTestCodeCS-NA"> </a></td><td>S-Sodium</td></tr><tr><td style="white-space:nowrap">CO2<a name="SzTestCodeCS-CO2"> </a></td><td>S-Carbon Dioxide</td></tr><tr><td style="white-space:nowrap">UA<a name="SzTestCodeCS-UA"> </a></td><td>Uric Acid</td></tr><tr><td style="white-space:nowrap">CREAC<a name="SzTestCodeCS-CREAC"> </a></td><td>Creatinine Clearance</td></tr><tr><td style="white-space:nowrap">TBIL<a name="SzTestCodeCS-TBIL"> </a></td><td>Total Bilirubin</td></tr><tr><td style="white-space:nowrap">BILI<a name="SzTestCodeCS-BILI"> </a></td><td>Total and Direct Bilirubin</td></tr><tr><td style="white-space:nowrap">ALP<a name="SzTestCodeCS-ALP"> </a></td><td>Alkaline Phosphatase</td></tr><tr><td style="white-space:nowrap">ALT<a name="SzTestCodeCS-ALT"> </a></td><td>ALT (Alanine Aminotransferase)</td></tr><tr><td style="white-space:nowrap">ALB<a name="SzTestCodeCS-ALB"> </a></td><td>Albumin</td></tr><tr><td style="white-space:nowrap">TPROT<a name="SzTestCodeCS-TPROT"> </a></td><td>Total Protein</td></tr><tr><td style="white-space:nowrap">CK<a name="SzTestCodeCS-CK"> </a></td><td>Creatine Kinase (CK)</td></tr><tr><td style="white-space:nowrap">CKMB<a name="SzTestCodeCS-CKMB"> </a></td><td>Creatine Kinase (MB-Frac)</td></tr><tr><td style="white-space:nowrap">MYOG<a name="SzTestCodeCS-MYOG"> </a></td><td>Myoglobin</td></tr><tr><td style="white-space:nowrap">TROPI<a name="SzTestCodeCS-TROPI"> </a></td><td>S-Troponin I</td></tr><tr><td style="white-space:nowrap">MAG<a name="SzTestCodeCS-MAG"> </a></td><td>S-Magnesium</td></tr><tr><td style="white-space:nowrap">PO4<a name="SzTestCodeCS-PO4"> </a></td><td>Phosphate</td></tr><tr><td style="white-space:nowrap">CAL<a name="SzTestCodeCS-CAL"> </a></td><td>S-Calcium</td></tr><tr><td style="white-space:nowrap">LDH<a name="SzTestCodeCS-LDH"> </a></td><td>Lactate Dehydrogenase (LD)</td></tr><tr><td style="white-space:nowrap">TRIG<a name="SzTestCodeCS-TRIG"> </a></td><td>Triglyceride</td></tr><tr><td style="white-space:nowrap">LDL<a name="SzTestCodeCS-LDL"> </a></td><td>LDL - Cholesterol</td></tr><tr><td style="white-space:nowrap">HDL<a name="SzTestCodeCS-HDL"> </a></td><td>HDL - Cholesterol</td></tr><tr><td style="white-space:nowrap">CHOL<a name="SzTestCodeCS-CHOL"> </a></td><td>Total Cholesterol</td></tr><tr><td style="white-space:nowrap">AMY<a name="SzTestCodeCS-AMY"> </a></td><td>Serum Amylase</td></tr><tr><td style="white-space:nowrap">LACT<a name="SzTestCodeCS-LACT"> </a></td><td>Lactate</td></tr><tr><td style="white-space:nowrap">CRP<a name="SzTestCodeCS-CRP"> </a></td><td>C-Reactive Protein (CRP)</td></tr><tr><td style="white-space:nowrap">LIPAS<a name="SzTestCodeCS-LIPAS"> </a></td><td>Lipase (Serum)</td></tr><tr><td style="white-space:nowrap">HBA1C<a name="SzTestCodeCS-HBA1C"> </a></td><td>Glycated Haemoglobin (HbA1C)</td></tr><tr><td style="white-space:nowrap">M-TP<a name="SzTestCodeCS-M-TP"> </a></td><td>Micro Total Protein</td></tr><tr><td style="white-space:nowrap">FBC<a name="SzTestCodeCS-FBC"> </a></td><td>FBC (Full Blood Count)</td></tr><tr><td style="white-space:nowrap">DIFF<a name="SzTestCodeCS-DIFF"> </a></td><td>Differential Count</td></tr><tr><td style="white-space:nowrap">ESR<a name="SzTestCodeCS-ESR"> </a></td><td>ESR (Westergren)</td></tr><tr><td style="white-space:nowrap">RET<a name="SzTestCodeCS-RET"> </a></td><td>Reticulocyte Studies</td></tr><tr><td style="white-space:nowrap">COOMB<a name="SzTestCodeCS-COOMB"> </a></td><td>Coombs Test</td></tr><tr><td style="white-space:nowrap">SICKL<a name="SzTestCodeCS-SICKL"> </a></td><td>Sickle Cells Screen</td></tr><tr><td style="white-space:nowrap">MAL<a name="SzTestCodeCS-MAL"> </a></td><td>Malaria</td></tr><tr><td style="white-space:nowrap">MALPC<a name="SzTestCodeCS-MALPC"> </a></td><td>Malaria: PCR</td></tr><tr><td style="white-space:nowrap">MALS<a name="SzTestCodeCS-MALS"> </a></td><td>Malaria Smear: Parasitemia</td></tr><tr><td style="white-space:nowrap">PT<a name="SzTestCodeCS-PT"> </a></td><td>Prothrombin Time(INR/PI)</td></tr><tr><td style="white-space:nowrap">APTT<a name="SzTestCodeCS-APTT"> </a></td><td>Partial Thromboplastin Time</td></tr><tr><td style="white-space:nowrap">PI<a name="SzTestCodeCS-PI"> </a></td><td>Prothrombin Time (INR/PI)</td></tr><tr><td style="white-space:nowrap">BTIME<a name="SzTestCodeCS-BTIME"> </a></td><td>Bleeding Time</td></tr><tr><td style="white-space:nowrap">DDIME<a name="SzTestCodeCS-DDIME"> </a></td><td>D-Dimer</td></tr><tr><td style="white-space:nowrap">TFT<a name="SzTestCodeCS-TFT"> </a></td><td>Thyroid Function Tests </td></tr><tr><td style="white-space:nowrap">T3<a name="SzTestCodeCS-T3"> </a></td><td>Free Tri-iodothyronine (FT3)</td></tr><tr><td style="white-space:nowrap">T4<a name="SzTestCodeCS-T4"> </a></td><td>Free Thyroxine (T4)</td></tr><tr><td style="white-space:nowrap">TSH<a name="SzTestCodeCS-TSH"> </a></td><td>Thyroid Stimulating Hormone</td></tr><tr><td style="white-space:nowrap">LH<a name="SzTestCodeCS-LH"> </a></td><td>Luteinising Hormone</td></tr><tr><td style="white-space:nowrap">FSH<a name="SzTestCodeCS-FSH"> </a></td><td>Follicle Stimulating Hormone</td></tr><tr><td style="white-space:nowrap">E2<a name="SzTestCodeCS-E2"> </a></td><td>17 b Oestradial (E2)</td></tr><tr><td style="white-space:nowrap">PROG<a name="SzTestCodeCS-PROG"> </a></td><td>Progesterone</td></tr><tr><td style="white-space:nowrap">PRL<a name="SzTestCodeCS-PRL"> </a></td><td>Prolactin</td></tr><tr><td style="white-space:nowrap">TESTO<a name="SzTestCodeCS-TESTO"> </a></td><td>Testosterone</td></tr><tr><td style="white-space:nowrap">CORT<a name="SzTestCodeCS-CORT"> </a></td><td>Cortisol</td></tr><tr><td style="white-space:nowrap">PTH<a name="SzTestCodeCS-PTH"> </a></td><td>Parathyroid Hormone</td></tr><tr><td style="white-space:nowrap">HCGSU<a name="SzTestCodeCS-HCGSU"> </a></td><td>Qualitative  -HCG (Urine)</td></tr><tr><td style="white-space:nowrap">HCGSB<a name="SzTestCodeCS-HCGSB"> </a></td><td>Qualitative  -HCG</td></tr><tr><td style="white-space:nowrap">ABORH<a name="SzTestCodeCS-ABORH"> </a></td><td>ABO + Rh Group</td></tr><tr><td style="white-space:nowrap">RPR<a name="SzTestCodeCS-RPR"> </a></td><td>Syphilis RPR</td></tr><tr><td style="white-space:nowrap">TPHA<a name="SzTestCodeCS-TPHA"> </a></td><td>TPHA</td></tr><tr><td style="white-space:nowrap">PSSA<a name="SzTestCodeCS-PSSA"> </a></td><td>ANTIBIOTIC SENS: PSA</td></tr><tr><td style="white-space:nowrap">BHCG<a name="SzTestCodeCS-BHCG"> </a></td><td>Beta-HCG (Pregnancy Test)</td></tr><tr><td style="white-space:nowrap">AFP<a name="SzTestCodeCS-AFP"> </a></td><td>Alfa Feto Protein</td></tr><tr><td style="white-space:nowrap">CA153<a name="SzTestCodeCS-CA153"> </a></td><td>CA15-3</td></tr><tr><td style="white-space:nowrap">CA125<a name="SzTestCodeCS-CA125"> </a></td><td>CA125</td></tr><tr><td style="white-space:nowrap">CEA<a name="SzTestCodeCS-CEA"> </a></td><td>Carcino-embryonic Antigen</td></tr><tr><td style="white-space:nowrap">CA199<a name="SzTestCodeCS-CA199"> </a></td><td>CA19-9</td></tr><tr><td style="white-space:nowrap">GRAM<a name="SzTestCodeCS-GRAM"> </a></td><td>MICROBIOLOGY : GRAM STAIN</td></tr><tr><td style="white-space:nowrap">MCSF<a name="SzTestCodeCS-MCSF"> </a></td><td>MICROBIOLOGY : CSF</td></tr><tr><td style="white-space:nowrap">CSF<a name="SzTestCodeCS-CSF"> </a></td><td>CSF Chem Profile</td></tr><tr><td style="white-space:nowrap">CRINK<a name="SzTestCodeCS-CRINK"> </a></td><td>India Ink Stain</td></tr><tr><td style="white-space:nowrap">SEMEN<a name="SzTestCodeCS-SEMEN"> </a></td><td>Semen Analysis</td></tr><tr><td style="white-space:nowrap">HIVR<a name="SzTestCodeCS-HIVR"> </a></td><td>HIV Rapid Test</td></tr><tr><td style="white-space:nowrap">HIVE<a name="SzTestCodeCS-HIVE"> </a></td><td>HIV ELISA</td></tr><tr><td style="white-space:nowrap">HIPOC<a name="SzTestCodeCS-HIPOC"> </a></td><td>Point of Care DNA PCR</td></tr><tr><td style="white-space:nowrap">LCRAG<a name="SzTestCodeCS-LCRAG"> </a></td><td>LFA Cryptococal Antigen</td></tr><tr><td style="white-space:nowrap">TOXO<a name="SzTestCodeCS-TOXO"> </a></td><td>Toxoplasmosis Test</td></tr><tr><td style="white-space:nowrap">HELIP<a name="SzTestCodeCS-HELIP"> </a></td><td>MICROBIOLOGY : H.pylori</td></tr><tr><td style="white-space:nowrap">HEAG<a name="SzTestCodeCS-HEAG"> </a></td><td>Hepatitis A IgG</td></tr><tr><td style="white-space:nowrap">HBCAB<a name="SzTestCodeCS-HBCAB"> </a></td><td>Hepatitis B Core Antibodies</td></tr><tr><td style="white-space:nowrap">HEPC<a name="SzTestCodeCS-HEPC"> </a></td><td>Hepatitis C Antibodies</td></tr><tr><td style="white-space:nowrap">QCRPR<a name="SzTestCodeCS-QCRPR"> </a></td><td>QC RPR</td></tr><tr><td style="white-space:nowrap">WIDAL<a name="SzTestCodeCS-WIDAL"> </a></td><td>Widal</td></tr><tr><td style="white-space:nowrap">RF<a name="SzTestCodeCS-RF"> </a></td><td>Rheumatoid Factor</td></tr><tr><td style="white-space:nowrap">ASOT<a name="SzTestCodeCS-ASOT"> </a></td><td>Anti-Streptolysin O Test</td></tr><tr><td style="white-space:nowrap">XMAT<a name="SzTestCodeCS-XMAT"> </a></td><td>Cross Match</td></tr><tr><td style="white-space:nowrap">HLAX<a name="SzTestCodeCS-HLAX"> </a></td><td>Grouping/Crossmatch</td></tr><tr><td style="white-space:nowrap">ANISC<a name="SzTestCodeCS-ANISC"> </a></td><td>Antibody Screening (^Bbloodban</td></tr><tr><td style="white-space:nowrap">DCT<a name="SzTestCodeCS-DCT"> </a></td><td>Direct Coombs Test</td></tr><tr><td style="white-space:nowrap">ICT<a name="SzTestCodeCS-ICT"> </a></td><td>Indirect Coomb's Test</td></tr><tr><td style="white-space:nowrap">IGGS<a name="SzTestCodeCS-IGGS"> </a></td><td>IMMUNOGLOBULINS</td></tr><tr><td style="white-space:nowrap">ZN1<a name="SzTestCodeCS-ZN1"> </a></td><td>Smear Microscopy 1</td></tr><tr><td style="white-space:nowrap">CUBFL<a name="SzTestCodeCS-CUBFL"> </a></td><td>Culture : Body Fuilds</td></tr><tr><td style="white-space:nowrap">HIVGE<a name="SzTestCodeCS-HIVGE"> </a></td><td>HIV GENE XPERT</td></tr><tr><td style="white-space:nowrap">TROPT<a name="SzTestCodeCS-TROPT"> </a></td><td>Troponin-T</td></tr><tr><td style="white-space:nowrap">UCHEM<a name="SzTestCodeCS-UCHEM"> </a></td><td>Biochemistry : Urine (Dipstick)</td></tr><tr><td style="white-space:nowrap">CRAG<a name="SzTestCodeCS-CRAG"> </a></td><td>CRAG (CSF)</td></tr><tr><td style="white-space:nowrap">CRGLF<a name="SzTestCodeCS-CRGLF"> </a></td><td>CRAG (LFA)  Blood</td></tr><tr><td style="white-space:nowrap">TBLAM<a name="SzTestCodeCS-TBLAM"> </a></td><td>TB LAM Ag TEST</td></tr><tr><td style="white-space:nowrap">17OPH<a name="SzTestCodeCS-17OPH"> </a></td><td>17 Hydroxyprogesterone</td></tr><tr><td style="white-space:nowrap">A1ATR<a name="SzTestCodeCS-A1ATR"> </a></td><td>Alpha-1-antitrypsin</td></tr><tr><td style="white-space:nowrap">ACA<a name="SzTestCodeCS-ACA"> </a></td><td>Anti-Centromere Antibodies</td></tr><tr><td style="white-space:nowrap">ACE<a name="SzTestCodeCS-ACE"> </a></td><td>Angiotensin Converting Enzyme</td></tr><tr><td style="white-space:nowrap">ACERA<a name="SzTestCodeCS-ACERA"> </a></td><td>Acetylcholine Receptor Ab's</td></tr><tr><td style="white-space:nowrap">ACLA<a name="SzTestCodeCS-ACLA"> </a></td><td>Anti-Cardiolipin Antibodies</td></tr><tr><td style="white-space:nowrap">ACOLA<a name="SzTestCodeCS-ACOLA"> </a></td><td>Anti-Collagen Antibodies</td></tr><tr><td style="white-space:nowrap">ACTH<a name="SzTestCodeCS-ACTH"> </a></td><td>Adrenocorticotrophic Hormone</td></tr><tr><td style="white-space:nowrap">ADENO<a name="SzTestCodeCS-ADENO"> </a></td><td>ADENO</td></tr><tr><td style="white-space:nowrap">ADNA<a name="SzTestCodeCS-ADNA"> </a></td><td>Anti-Double Stranded DNA</td></tr><tr><td style="white-space:nowrap">ALDOS<a name="SzTestCodeCS-ALDOS"> </a></td><td>Aldosterone</td></tr><tr><td style="white-space:nowrap">AMITA<a name="SzTestCodeCS-AMITA"> </a></td><td>Anti-Mitochondrial Antibodies</td></tr><tr><td style="white-space:nowrap">AMYU<a name="SzTestCodeCS-AMYU"> </a></td><td>Urine Amylase</td></tr><tr><td style="white-space:nowrap">ANA<a name="SzTestCodeCS-ANA"> </a></td><td>Anti-Nuclear Antibodies</td></tr><tr><td style="white-space:nowrap">ANCA<a name="SzTestCodeCS-ANCA"> </a></td><td>Anti-Neutrophil Cytoplasmic Ab</td></tr><tr><td style="white-space:nowrap">ANDRO<a name="SzTestCodeCS-ANDRO"> </a></td><td>Androstenedione</td></tr><tr><td style="white-space:nowrap">ANTBG<a name="SzTestCodeCS-ANTBG"> </a></td><td>Blood Group + Rh</td></tr><tr><td style="white-space:nowrap">ANTE<a name="SzTestCodeCS-ANTE"> </a></td><td>Antenatal Screening</td></tr><tr><td style="white-space:nowrap">AUR1<a name="SzTestCodeCS-AUR1"> </a></td><td>TB Auramine Specimen 1</td></tr><tr><td style="white-space:nowrap">AUR2<a name="SzTestCodeCS-AUR2"> </a></td><td>TB Auramine Specimen 2</td></tr><tr><td style="white-space:nowrap">AUR3<a name="SzTestCodeCS-AUR3"> </a></td><td>TB Auramine Specimen 3</td></tr><tr><td style="white-space:nowrap">AUR4<a name="SzTestCodeCS-AUR4"> </a></td><td>TB Auramine Specimen 4</td></tr><tr><td style="white-space:nowrap">BFCC<a name="SzTestCodeCS-BFCC"> </a></td><td>Cell Count : Body Fluid</td></tr><tr><td style="white-space:nowrap">BG<a name="SzTestCodeCS-BG"> </a></td><td>Blood Group + Rh</td></tr><tr><td style="white-space:nowrap">BGAS<a name="SzTestCodeCS-BGAS"> </a></td><td>Blood Gases</td></tr><tr><td style="white-space:nowrap">BGRP<a name="SzTestCodeCS-BGRP"> </a></td><td>Blood grouping</td></tr><tr><td style="white-space:nowrap">BHCG2<a name="SzTestCodeCS-BHCG2"> </a></td><td>HCG TOTAL BETA 2</td></tr><tr><td style="white-space:nowrap">BM<a name="SzTestCodeCS-BM"> </a></td><td>Bone Marrow Report</td></tr><tr><td style="white-space:nowrap">BNP<a name="SzTestCodeCS-BNP"> </a></td><td>B-Type Natriuretic Peptide</td></tr><tr><td style="white-space:nowrap">BPARA<a name="SzTestCodeCS-BPARA"> </a></td><td>Blood Parasite Investigation</td></tr><tr><td style="white-space:nowrap">BPARM<a name="SzTestCodeCS-BPARM"> </a></td><td>Blood Parasites</td></tr><tr><td style="white-space:nowrap">C/UP<a name="SzTestCodeCS-C.47UP"> </a></td><td>Cutup</td></tr><tr><td style="white-space:nowrap">C1EST<a name="SzTestCodeCS-C1EST"> </a></td><td>C1 Esterase Inhibitor Assay</td></tr><tr><td style="white-space:nowrap">CA724<a name="SzTestCodeCS-CA724"> </a></td><td>CA 72-4</td></tr><tr><td style="white-space:nowrap">CAERU<a name="SzTestCodeCS-CAERU"> </a></td><td>Caeruloplasmin</td></tr><tr><td style="white-space:nowrap">CALCI<a name="SzTestCodeCS-CALCI"> </a></td><td>Calcitonin</td></tr><tr><td style="white-space:nowrap">CALCT<a name="SzTestCodeCS-CALCT"> </a></td><td>1.25 Dihydroxy Vitamin D</td></tr><tr><td style="white-space:nowrap">CARB<a name="SzTestCodeCS-CARB"> </a></td><td>S-Carbamazepine</td></tr><tr><td style="white-space:nowrap">CATS<a name="SzTestCodeCS-CATS"> </a></td><td>U-Catecholamines</td></tr><tr><td style="white-space:nowrap">CHLAM<a name="SzTestCodeCS-CHLAM"> </a></td><td>Antibody test for Chlamydia</td></tr><tr><td style="white-space:nowrap">CMP<a name="SzTestCodeCS-CMP"> </a></td><td>Calcium,Magnesium,PO4</td></tr><tr><td style="white-space:nowrap">CMV<a name="SzTestCodeCS-CMV"> </a></td><td>CYTOMEGALOVIRUS</td></tr><tr><td style="white-space:nowrap">CPEPT<a name="SzTestCodeCS-CPEPT"> </a></td><td>C-Peptide</td></tr><tr><td style="white-space:nowrap">CPROT<a name="SzTestCodeCS-CPROT"> </a></td><td>CSF PROTEIN</td></tr><tr><td style="white-space:nowrap">CRPS<a name="SzTestCodeCS-CRPS"> </a></td><td>CRP Serology</td></tr><tr><td style="white-space:nowrap">CSFA<a name="SzTestCodeCS-CSFA"> </a></td><td>CSF Analysis</td></tr><tr><td style="white-space:nowrap">CSFAG<a name="SzTestCodeCS-CSFAG"> </a></td><td>BACTERIAL ANTIGEN TESTS</td></tr><tr><td style="white-space:nowrap">CSFC<a name="SzTestCodeCS-CSFC"> </a></td><td>Cell Count : CSF</td></tr><tr><td style="white-space:nowrap">CUCSF<a name="SzTestCodeCS-CUCSF"> </a></td><td>CULTURE : CSF</td></tr><tr><td style="white-space:nowrap">CULFU<a name="SzTestCodeCS-CULFU"> </a></td><td>MYCOLOGY</td></tr><tr><td style="white-space:nowrap">CULMY<a name="SzTestCodeCS-CULMY"> </a></td><td>Mycology Culture</td></tr><tr><td style="white-space:nowrap">CULPU<a name="SzTestCodeCS-CULPU"> </a></td><td>Culture : PUS</td></tr><tr><td style="white-space:nowrap">CULSP<a name="SzTestCodeCS-CULSP"> </a></td><td>Culture : Sputum</td></tr><tr><td style="white-space:nowrap">CUTUP<a name="SzTestCodeCS-CUTUP"> </a></td><td>Histo Cut Up (Dummy)</td></tr><tr><td style="white-space:nowrap">CYTCO<a name="SzTestCodeCS-CYTCO"> </a></td><td>Gynaecological Detail</td></tr><tr><td style="white-space:nowrap">DBILI<a name="SzTestCodeCS-DBILI"> </a></td><td>Conjugated Bilirubin (Direct)</td></tr><tr><td style="white-space:nowrap">DBSGE<a name="SzTestCodeCS-DBSGE"> </a></td><td>Dry Blood Spot Gene Xpert</td></tr><tr><td style="white-space:nowrap">DCRT<a name="SzTestCodeCS-DCRT"> </a></td><td>1:20 Diluted CRT</td></tr><tr><td style="white-space:nowrap">DIFFM<a name="SzTestCodeCS-DIFFM"> </a></td><td>Differential Count</td></tr><tr><td style="white-space:nowrap">DIFFF<a name="SzTestCodeCS-DIFFF"> </a></td><td>Diff Micro</td></tr><tr><td style="white-space:nowrap">DRUGR<a name="SzTestCodeCS-DRUGR"> </a></td><td>Drug Resistance Testing</td></tr><tr><td style="white-space:nowrap">DRUGS<a name="SzTestCodeCS-DRUGS"> </a></td><td>DRUG SCREEN</td></tr><tr><td style="white-space:nowrap">E2M<a name="SzTestCodeCS-E2M"> </a></td><td>Oestradiol</td></tr><tr><td style="white-space:nowrap">EQAM1<a name="SzTestCodeCS-EQAM1"> </a></td><td>Microbiology EQA</td></tr><tr><td style="white-space:nowrap">FDP<a name="SzTestCodeCS-FDP"> </a></td><td>Fibrinogen Deg. Products (FDP)</td></tr><tr><td style="white-space:nowrap">FE<a name="SzTestCodeCS-FE"> </a></td><td>S-Iron</td></tr><tr><td style="white-space:nowrap">FERR<a name="SzTestCodeCS-FERR"> </a></td><td>Ferritin</td></tr><tr><td style="white-space:nowrap">FERRX<a name="SzTestCodeCS-FERRX"> </a></td><td>S-Ferritin</td></tr><tr><td style="white-space:nowrap">FGLU<a name="SzTestCodeCS-FGLU"> </a></td><td>Fluid-Glucose</td></tr><tr><td style="white-space:nowrap">FNA<a name="SzTestCodeCS-FNA"> </a></td><td>Fine Needle Biopsy</td></tr><tr><td style="white-space:nowrap">FPROT<a name="SzTestCodeCS-FPROT"> </a></td><td>F-Total Protein</td></tr><tr><td style="white-space:nowrap">GLOB<a name="SzTestCodeCS-GLOB"> </a></td><td>Globulin</td></tr><tr><td style="white-space:nowrap">GLUC<a name="SzTestCodeCS-GLUC"> </a></td><td>Glucose</td></tr><tr><td style="white-space:nowrap">GLUCS<a name="SzTestCodeCS-GLUCS"> </a></td><td>Glucose Strip</td></tr><tr><td style="white-space:nowrap">GNBST<a name="SzTestCodeCS-GNBST"> </a></td><td>GNB Sensitivity Testing</td></tr><tr><td style="white-space:nowrap">GPCST<a name="SzTestCodeCS-GPCST"> </a></td><td>GPC Sensitivity testing</td></tr><tr><td style="white-space:nowrap">GROUP<a name="SzTestCodeCS-GROUP"> </a></td><td>Blood Group Serology</td></tr><tr><td style="white-space:nowrap">GTT2<a name="SzTestCodeCS-GTT2"> </a></td><td>GTT - 2 hourly</td></tr><tr><td style="white-space:nowrap">GTT4<a name="SzTestCodeCS-GTT4"> </a></td><td>GTT Prolonged</td></tr><tr><td style="white-space:nowrap">GYN<a name="SzTestCodeCS-GYN"> </a></td><td>Gynaecological Cytology</td></tr><tr><td style="white-space:nowrap">GYNAE<a name="SzTestCodeCS-GYNAE"> </a></td><td>MICROSCOPIC EXAMINATION</td></tr><tr><td style="white-space:nowrap">HBELE<a name="SzTestCodeCS-HBELE"> </a></td><td>Haemoglobin Electrophoresis</td></tr><tr><td style="white-space:nowrap">HBSAB<a name="SzTestCodeCS-HBSAB"> </a></td><td>Hepatitis B Surface Antibody</td></tr><tr><td style="white-space:nowrap">HBSAG<a name="SzTestCodeCS-HBSAG"> </a></td><td>Hepatitis B Surface Antigen</td></tr><tr><td style="white-space:nowrap">HELIC<a name="SzTestCodeCS-HELIC"> </a></td><td>Helicobacter pylori Antibodies</td></tr><tr><td style="white-space:nowrap">HEPAG<a name="SzTestCodeCS-HEPAG"> </a></td><td>Hepatitis A (IgG)(Immunity)</td></tr><tr><td style="white-space:nowrap">HEPAM<a name="SzTestCodeCS-HEPAM"> </a></td><td>Hepatitis A IgM</td></tr><tr><td style="white-space:nowrap">HEPD<a name="SzTestCodeCS-HEPD"> </a></td><td>HEPATITIS D INVESTIGATION</td></tr><tr><td style="white-space:nowrap">HEPE<a name="SzTestCodeCS-HEPE"> </a></td><td>HEPATITIS E INVESTIGATION</td></tr><tr><td style="white-space:nowrap">HERP<a name="SzTestCodeCS-HERP"> </a></td><td>Herpes simplex virus</td></tr><tr><td style="white-space:nowrap">HGH<a name="SzTestCodeCS-HGH"> </a></td><td>Human Growth Hormone</td></tr><tr><td style="white-space:nowrap">HI2DF<a name="SzTestCodeCS-HI2DF"> </a></td><td>HIV Viral Load (DBS)</td></tr><tr><td style="white-space:nowrap">HISIN<a name="SzTestCodeCS-HISIN"> </a></td><td>CLINICAL HISTORY</td></tr><tr><td style="white-space:nowrap">HISSU<a name="SzTestCodeCS-HISSU"> </a></td><td>Supplementary Report</td></tr><tr><td style="white-space:nowrap">HISTO<a name="SzTestCodeCS-HISTO"> </a></td><td>MACROSCOPIC EXAMINATION</td></tr><tr><td style="white-space:nowrap">HISTX<a name="SzTestCodeCS-HISTX"> </a></td><td>Histo Extended text</td></tr><tr><td style="white-space:nowrap">HIV48<a name="SzTestCodeCS-HIV48"> </a></td><td>CD4 + CD8*</td></tr><tr><td style="white-space:nowrap">HIVA<a name="SzTestCodeCS-HIVA"> </a></td><td>HIV ASANTE</td></tr><tr><td style="white-space:nowrap">HIVC<a name="SzTestCodeCS-HIVC"> </a></td><td>HIV Ag/Ab Combo</td></tr><tr><td style="white-space:nowrap">HIVCW<a name="SzTestCodeCS-HIVCW"> </a></td><td>Child Welfare Number</td></tr><tr><td style="white-space:nowrap">HIVLD<a name="SzTestCodeCS-HIVLD"> </a></td><td>HIV Viral Load*</td></tr><tr><td style="white-space:nowrap">HIVPC<a name="SzTestCodeCS-HIVPC"> </a></td><td>HIV DNA PCR</td></tr><tr><td style="white-space:nowrap">HIVP<a name="SzTestCodeCS-HIVP"> </a></td><td>HIV RAPID TEST</td></tr><tr><td style="white-space:nowrap">HIVST<a name="SzTestCodeCS-HIVST"> </a></td><td>HIV EID Information</td></tr><tr><td style="white-space:nowrap">HIVWB<a name="SzTestCodeCS-HIVWB"> </a></td><td>HIV DNA PCR : Whole Blood</td></tr><tr><td style="white-space:nowrap">HSAGR<a name="SzTestCodeCS-HSAGR"> </a></td><td>HepB surface antigen Rapid</td></tr><tr><td style="white-space:nowrap">HSV<a name="SzTestCodeCS-HSV"> </a></td><td>Herpes simplex Virus</td></tr><tr><td style="white-space:nowrap">HVART<a name="SzTestCodeCS-HVART"> </a></td><td>ART Number</td></tr><tr><td style="white-space:nowrap">HYS<a name="SzTestCodeCS-HYS"> </a></td><td>Homocysteine</td></tr><tr><td style="white-space:nowrap">ICD10<a name="SzTestCodeCS-ICD10"> </a></td><td>ICD10</td></tr><tr><td style="white-space:nowrap">IGE<a name="SzTestCodeCS-IGE"> </a></td><td>Total IgE</td></tr><tr><td style="white-space:nowrap">INR<a name="SzTestCodeCS-INR"> </a></td><td>INR</td></tr><tr><td style="white-space:nowrap">IRONX<a name="SzTestCodeCS-IRONX"> </a></td><td>S-IRON STUDIES</td></tr><tr><td style="white-space:nowrap">LALB<a name="SzTestCodeCS-LALB"> </a></td><td>ALBUMIN</td></tr><tr><td style="white-space:nowrap">LCHOL<a name="SzTestCodeCS-LCHOL"> </a></td><td>S-Cholesterol</td></tr><tr><td style="white-space:nowrap">LCOT<a name="SzTestCodeCS-LCOT"> </a></td><td>Cotinine ELISA</td></tr><tr><td style="white-space:nowrap">LCREA<a name="SzTestCodeCS-LCREA"> </a></td><td>Creatinine</td></tr><tr><td style="white-space:nowrap">LESR<a name="SzTestCodeCS-LESR"> </a></td><td>ESR (Westergren)</td></tr><tr><td style="white-space:nowrap">LFBC<a name="SzTestCodeCS-LFBC"> </a></td><td>Full Blood Count</td></tr><tr><td style="white-space:nowrap">LGGT<a name="SzTestCodeCS-LGGT"> </a></td><td>Gamma Glutamyl Transferase</td></tr><tr><td style="white-space:nowrap">LGLPF<a name="SzTestCodeCS-LGLPF"> </a></td><td>P-Glucose (Fasting)</td></tr><tr><td style="white-space:nowrap">LGLPR<a name="SzTestCodeCS-LGLPR"> </a></td><td>P-Glucose (Random)</td></tr><tr><td style="white-space:nowrap">LGLUF<a name="SzTestCodeCS-LGLUF"> </a></td><td>S-Glucose (Fasting)</td></tr><tr><td style="white-space:nowrap">LGLUR<a name="SzTestCodeCS-LGLUR"> </a></td><td>S-Glucose (Random)</td></tr><tr><td style="white-space:nowrap">LHBA1<a name="SzTestCodeCS-LHBA1"> </a></td><td>HbA1C</td></tr><tr><td style="white-space:nowrap">LHDL<a name="SzTestCodeCS-LHDL"> </a></td><td>HDL Cholesterol</td></tr><tr><td style="white-space:nowrap">LI<a name="SzTestCodeCS-LI"> </a></td><td>S-Lithium</td></tr><tr><td style="white-space:nowrap">LIPO<a name="SzTestCodeCS-LIPO"> </a></td><td>Lipogram</td></tr><tr><td style="white-space:nowrap">LRF<a name="SzTestCodeCS-LRF"> </a></td><td>Rheumatoid factor</td></tr><tr><td style="white-space:nowrap">LUPUS<a name="SzTestCodeCS-LUPUS"> </a></td><td>Lupus anticoagulant</td></tr><tr><td style="white-space:nowrap">LUR<a name="SzTestCodeCS-LUR"> </a></td><td>Urea</td></tr><tr><td style="white-space:nowrap">MALB<a name="SzTestCodeCS-MALB"> </a></td><td>Micro-albumin</td></tr><tr><td style="white-space:nowrap">MBCAT<a name="SzTestCodeCS-MBCAT"> </a></td><td>Microbiology: Catheter Tip</td></tr><tr><td style="white-space:nowrap">MBCLT<a name="SzTestCodeCS-MBCLT"> </a></td><td>Microbiology: Catheter Line Ti</td></tr><tr><td style="white-space:nowrap">MBFAM<a name="SzTestCodeCS-MBFAM"> </a></td><td>MICROBIOLOGY:AMNIOTIC FLUID</td></tr><tr><td style="white-space:nowrap">MBFAS<a name="SzTestCodeCS-MBFAS"> </a></td><td>MICROBIOLOGY : ASCITIC FLUID</td></tr><tr><td style="white-space:nowrap">MBFCA<a name="SzTestCodeCS-MBFCA"> </a></td><td>MICROBIOLOGY:PERICARDIAL FLUID</td></tr><tr><td style="white-space:nowrap">MBFL<a name="SzTestCodeCS-MBFL"> </a></td><td>Microbiology:Body Fluid</td></tr><tr><td style="white-space:nowrap">MBFLU<a name="SzTestCodeCS-MBFLU"> </a></td><td>Microbiology:Body Fluid</td></tr><tr><td style="white-space:nowrap">MBFPE<a name="SzTestCodeCS-MBFPE"> </a></td><td>MICROBIOLOGY:PERITONEAL FLUID</td></tr><tr><td style="white-space:nowrap">MBFPL<a name="SzTestCodeCS-MBFPL"> </a></td><td>MICROBIOLOGY:PLEURAL FLUID</td></tr><tr><td style="white-space:nowrap">MBFSY<a name="SzTestCodeCS-MBFSY"> </a></td><td>MICROBIOLOGY:SYNOVIAL FLUID</td></tr><tr><td style="white-space:nowrap">MBTRA<a name="SzTestCodeCS-MBTRA"> </a></td><td>Microbiology: Tracheal Tip</td></tr><tr><td style="white-space:nowrap">MBUCT<a name="SzTestCodeCS-MBUCT"> </a></td><td>Microbiology: Urinary Catheter</td></tr><tr><td style="white-space:nowrap">MBUMC<a name="SzTestCodeCS-MBUMC"> </a></td><td>Microbiology:Umbilical Cathete</td></tr><tr><td style="white-space:nowrap">MCES<a name="SzTestCodeCS-MCES"> </a></td><td>MICROBIOLOGY : CERVICAL SWAB</td></tr><tr><td style="white-space:nowrap">MEAS<a name="SzTestCodeCS-MEAS"> </a></td><td>MICROBIOLOGY : EAR SWAB</td></tr><tr><td style="white-space:nowrap">MENDC<a name="SzTestCodeCS-MENDC"> </a></td><td>MICROBIOLOGY:ENDOCERVICAL SWAB</td></tr><tr><td style="white-space:nowrap">MEYE<a name="SzTestCodeCS-MEYE"> </a></td><td>MICROBIOLOGY : EYE SWAB</td></tr><tr><td style="white-space:nowrap">MGAS<a name="SzTestCodeCS-MGAS"> </a></td><td>MICROBIOLOGY : GASTRIC ASP</td></tr><tr><td style="white-space:nowrap">MICBC<a name="SzTestCodeCS-MICBC"> </a></td><td>MICROBIOLOGY: BLOOD CULTURE</td></tr><tr><td style="white-space:nowrap">MICFL<a name="SzTestCodeCS-MICFL"> </a></td><td>MICROBIOLOGY : FLUID</td></tr><tr><td style="white-space:nowrap">MICNS<a name="SzTestCodeCS-MICNS"> </a></td><td>MICROBIOLOGY : NASAL SWAB</td></tr><tr><td style="white-space:nowrap">MICSA<a name="SzTestCodeCS-MICSA"> </a></td><td>Microscopy - Sexual Assault</td></tr><tr><td style="white-space:nowrap">MICTS<a name="SzTestCodeCS-MICTS"> </a></td><td>MICROBIOLOGY : THROAT SWAB</td></tr><tr><td style="white-space:nowrap">MICU<a name="SzTestCodeCS-MICU"> </a></td><td>MICROBIOLOGY: URINE</td></tr><tr><td style="white-space:nowrap">MONO<a name="SzTestCodeCS-MONO"> </a></td><td>Epstein Barr Ser-Mono Test</td></tr><tr><td style="white-space:nowrap">MPEN<a name="SzTestCodeCS-MPEN"> </a></td><td>MICROBIOLOGY : PENILE SWAB</td></tr><tr><td style="white-space:nowrap">MPT64<a name="SzTestCodeCS-MPT64"> </a></td><td>MPT64 Rapid</td></tr><tr><td style="white-space:nowrap">MPUS<a name="SzTestCodeCS-MPUS"> </a></td><td>MICROBIOLOGY : PUS</td></tr><tr><td style="white-space:nowrap">MRCSW<a name="SzTestCodeCS-MRCSW"> </a></td><td>MICROBIOLOGY : RECTAL SWAB</td></tr><tr><td style="white-space:nowrap">MSPUT<a name="SzTestCodeCS-MSPUT"> </a></td><td>MICROBIOLOGY : SPUTUM</td></tr><tr><td style="white-space:nowrap">MSTRS<a name="SzTestCodeCS-MSTRS"> </a></td><td>MICROBIOLOGY : STOOL CULTURE</td></tr><tr><td style="white-space:nowrap">MTISS<a name="SzTestCodeCS-MTISS"> </a></td><td>MICROBIOLOGY : TISSUE</td></tr><tr><td style="white-space:nowrap">MUMPS<a name="SzTestCodeCS-MUMPS"> </a></td><td>Mumps Serology (ELISA)</td></tr><tr><td style="white-space:nowrap">MUPS<a name="SzTestCodeCS-MUPS"> </a></td><td>MICROBIOLOGY : URETHRAL SWAB</td></tr><tr><td style="white-space:nowrap">MWUS<a name="SzTestCodeCS-MWUS"> </a></td><td>MICROBILOLOGY: Wound Swab</td></tr><tr><td style="white-space:nowrap">MYGT<a name="SzTestCodeCS-MYGT"> </a></td><td>Germ Tube Test</td></tr><tr><td style="white-space:nowrap">MYMIC<a name="SzTestCodeCS-MYMIC"> </a></td><td>Microscopy for Fungi</td></tr><tr><td style="white-space:nowrap">MYOB<a name="SzTestCodeCS-MYOB"> </a></td><td>Myogloblin (Serum)</td></tr><tr><td style="white-space:nowrap">NGYN<a name="SzTestCodeCS-NGYN"> </a></td><td>Non-Gynaecological Cytology</td></tr><tr><td style="white-space:nowrap">MFOB<a name="SzTestCodeCS-MFOB"> </a></td><td>Faecal Occult Blood</td></tr><tr><td style="white-space:nowrap">PARA<a name="SzTestCodeCS-PARA"> </a></td><td>Parasitology:Urine</td></tr><tr><td style="white-space:nowrap">PBILI<a name="SzTestCodeCS-PBILI"> </a></td><td>Neonatal Bilirubin</td></tr><tr><td style="white-space:nowrap">PBS<a name="SzTestCodeCS-PBS"> </a></td><td>Peripheral Blood Smear</td></tr><tr><td style="white-space:nowrap">PCRAP<a name="SzTestCodeCS-PCRAP"> </a></td><td>Factor V Leiden Mutation</td></tr><tr><td style="white-space:nowrap">PCTR<a name="SzTestCodeCS-PCTR"> </a></td><td>Procalcitonin</td></tr><tr><td style="white-space:nowrap">PHENB<a name="SzTestCodeCS-PHENB"> </a></td><td>Phenobarbitone</td></tr><tr><td style="white-space:nowrap">PHENY<a name="SzTestCodeCS-PHENY"> </a></td><td>S-Phenytoin</td></tr><tr><td style="white-space:nowrap">PHVS<a name="SzTestCodeCS-PHVS"> </a></td><td>PARASITOLOGY: VAGINAL SWAB</td></tr><tr><td style="white-space:nowrap">PLAT<a name="SzTestCodeCS-PLAT"> </a></td><td>Platelets</td></tr><tr><td style="white-space:nowrap">PM<a name="SzTestCodeCS-PM"> </a></td><td>Post-Mortem Examination</td></tr><tr><td style="white-space:nowrap">POLIO<a name="SzTestCodeCS-POLIO"> </a></td><td>Polio Neutralisation Serology</td></tr><tr><td style="white-space:nowrap">POSTM<a name="SzTestCodeCS-POSTM"> </a></td><td>POST MORTEM REPORT</td></tr><tr><td style="white-space:nowrap">POSTX<a name="SzTestCodeCS-POSTX"> </a></td><td>Postmorten Supplement</td></tr><tr><td style="white-space:nowrap">PRD<a name="SzTestCodeCS-PRD"> </a></td><td>Pregnandiol</td></tr><tr><td style="white-space:nowrap">PROT<a name="SzTestCodeCS-PROT"> </a></td><td>Total Protein &amp; Albumin</td></tr><tr><td style="white-space:nowrap">PRT24<a name="SzTestCodeCS-PRT24"> </a></td><td>Urine Protein (24 hr)</td></tr><tr><td style="white-space:nowrap">PSA<a name="SzTestCodeCS-PSA"> </a></td><td>Prostate Specific Antigen</td></tr><tr><td style="white-space:nowrap">PTT<a name="SzTestCodeCS-PTT"> </a></td><td>Part Thromboplastin Time (PTT)</td></tr><tr><td style="white-space:nowrap">RA<a name="SzTestCodeCS-RA"> </a></td><td>RA Latex Test</td></tr><tr><td style="white-space:nowrap">RAPI2<a name="SzTestCodeCS-RAPI2"> </a></td><td>HIV Rapid Repeat</td></tr><tr><td style="white-space:nowrap">RCCHE<a name="SzTestCodeCS-RCCHE"> </a></td><td>Cholinesterase</td></tr><tr><td style="white-space:nowrap">RH<a name="SzTestCodeCS-RH"> </a></td><td>RHESUS FACTOR</td></tr><tr><td style="white-space:nowrap">ROTA<a name="SzTestCodeCS-ROTA"> </a></td><td>Rotavirus Antigen EIA Test</td></tr><tr><td style="white-space:nowrap">ROTPC<a name="SzTestCodeCS-ROTPC"> </a></td><td>Rotavirus: PCR</td></tr><tr><td style="white-space:nowrap">RUB<a name="SzTestCodeCS-RUB"> </a></td><td>Rubella Serology</td></tr><tr><td style="white-space:nowrap">SADA<a name="SzTestCodeCS-SADA"> </a></td><td>Adenosine Deaminase</td></tr><tr><td style="white-space:nowrap">SCREA<a name="SzTestCodeCS-SCREA"> </a></td><td>Creatinine Clearance</td></tr><tr><td style="white-space:nowrap">SEICU<a name="SzTestCodeCS-SEICU"> </a></td><td>SENS ICU</td></tr><tr><td style="white-space:nowrap">SENFA<a name="SzTestCodeCS-SENFA"> </a></td><td>ANTIBIOTIC SUSCEPTIBILITY</td></tr><tr><td style="white-space:nowrap">SENGN<a name="SzTestCodeCS-SENGN"> </a></td><td>ANTIBIOTIC SENS: GN</td></tr><tr><td style="white-space:nowrap">SENGP<a name="SzTestCodeCS-SENGP"> </a></td><td>ANTIBIOTIC SENS: GP</td></tr><tr><td style="white-space:nowrap">SENSA<a name="SzTestCodeCS-SENSA"> </a></td><td>ANTIBIOTIC SENS: STOOL</td></tr><tr><td style="white-space:nowrap">SENST<a name="SzTestCodeCS-SENST"> </a></td><td>ANTIBIOTIC SENS: STOOL</td></tr><tr><td style="white-space:nowrap">SENSU<a name="SzTestCodeCS-SENSU"> </a></td><td>ANTIBIOTIC SENS: URINE</td></tr><tr><td style="white-space:nowrap">SHBG<a name="SzTestCodeCS-SHBG"> </a></td><td>Sex Hormone Binding Globulin</td></tr><tr><td style="white-space:nowrap">STDM<a name="SzTestCodeCS-STDM"> </a></td><td>Direct Microscopy : Stool</td></tr><tr><td style="white-space:nowrap">STOOL<a name="SzTestCodeCS-STOOL"> </a></td><td>Stool Microscopy</td></tr><tr><td style="white-space:nowrap">TBA1<a name="SzTestCodeCS-TBA1"> </a></td><td>TB Microscopy Auramine 1</td></tr><tr><td style="white-space:nowrap">TBA2<a name="SzTestCodeCS-TBA2"> </a></td><td>TB Microscopy Auramine 2</td></tr><tr><td style="white-space:nowrap">TBA3<a name="SzTestCodeCS-TBA3"> </a></td><td>TB Microscopy Specimen 3</td></tr><tr><td style="white-space:nowrap">TBBA<a name="SzTestCodeCS-TBBA"> </a></td><td>TB Blood Agar (TB Nat Ref)</td></tr><tr><td style="white-space:nowrap">TBCL<a name="SzTestCodeCS-TBCL"> </a></td><td>TB Culture</td></tr><tr><td style="white-space:nowrap">TBCL1<a name="SzTestCodeCS-TBCL1"> </a></td><td>TB Culture 1</td></tr><tr><td style="white-space:nowrap">TBCL2<a name="SzTestCodeCS-TBCL2"> </a></td><td>TB Culture 2</td></tr><tr><td style="white-space:nowrap">TBCL3<a name="SzTestCodeCS-TBCL3"> </a></td><td>TB Culture 3</td></tr><tr><td style="white-space:nowrap">TBCON<a name="SzTestCodeCS-TBCON"> </a></td><td>TB Control</td></tr><tr><td style="white-space:nowrap">TBEQA<a name="SzTestCodeCS-TBEQA"> </a></td><td>TB EQA</td></tr><tr><td style="white-space:nowrap">TBGEN<a name="SzTestCodeCS-TBGEN"> </a></td><td>TB Genexpert</td></tr><tr><td style="white-space:nowrap">TBHCG<a name="SzTestCodeCS-TBHCG"> </a></td><td>S-HCG Total Beta</td></tr><tr><td style="white-space:nowrap">TBILI<a name="SzTestCodeCS-TBILI"> </a></td><td>S-Total Bilirubin</td></tr><tr><td style="white-space:nowrap">TBINF<a name="SzTestCodeCS-TBINF"> </a></td><td>TB Diagnosis Information</td></tr><tr><td style="white-space:nowrap">TBLP1<a name="SzTestCodeCS-TBLP1"> </a></td><td>TB Line Probe SP1</td></tr><tr><td style="white-space:nowrap">TBLP2<a name="SzTestCodeCS-TBLP2"> </a></td><td>TB Line Probe SP2</td></tr><tr><td style="white-space:nowrap">TBLP3<a name="SzTestCodeCS-TBLP3"> </a></td><td>TB Line Probe SP3</td></tr><tr><td style="white-space:nowrap">TBLP<a name="SzTestCodeCS-TBLP"> </a></td><td>TB First Line -Line  Probe Assay</td></tr><tr><td style="white-space:nowrap">TBLPS<a name="SzTestCodeCS-TBLPS"> </a></td><td>TB Second Line -Line  Probe Assay</td></tr><tr><td style="white-space:nowrap">TBLSF<a name="SzTestCodeCS-TBLSF"> </a></td><td>2nd Line Probe Assay Final</td></tr><tr><td style="white-space:nowrap">TBPC1<a name="SzTestCodeCS-TBPC1"> </a></td><td>TB PCR Specimen 1</td></tr><tr><td style="white-space:nowrap">TBPC2<a name="SzTestCodeCS-TBPC2"> </a></td><td>TB PCR Specimen 2</td></tr><tr><td style="white-space:nowrap">TBPC3<a name="SzTestCodeCS-TBPC3"> </a></td><td>TB PCR Specimen 3</td></tr><tr><td style="white-space:nowrap">TBRAP<a name="SzTestCodeCS-TBRAP"> </a></td><td>TB Capilia Rapid Test</td></tr><tr><td style="white-space:nowrap">TBRP1<a name="SzTestCodeCS-TBRP1"> </a></td><td>TB Capilia Rapid ID Test SP1</td></tr><tr><td style="white-space:nowrap">TBRP2<a name="SzTestCodeCS-TBRP2"> </a></td><td>TB Capilia Rapid ID Test SP2</td></tr><tr><td style="white-space:nowrap">TBRP3<a name="SzTestCodeCS-TBRP3"> </a></td><td>TB Capilia Rapid ID Test SP3</td></tr><tr><td style="white-space:nowrap">TBSF1<a name="SzTestCodeCS-TBSF1"> </a></td><td>TB First Line Sens 1</td></tr><tr><td style="white-space:nowrap">TBSF2<a name="SzTestCodeCS-TBSF2"> </a></td><td>TB First Line Sens 2</td></tr><tr><td style="white-space:nowrap">TBSF3<a name="SzTestCodeCS-TBSF3"> </a></td><td>TB First Line Sens 3</td></tr><tr><td style="white-space:nowrap">TBSFF<a name="SzTestCodeCS-TBSFF"> </a></td><td>TB First Line Sens Final</td></tr><tr><td style="white-space:nowrap">TBSS<a name="SzTestCodeCS-TBSS"> </a></td><td>TB Second Line DST</td></tr><tr><td style="white-space:nowrap">TBSS2<a name="SzTestCodeCS-TBSS2"> </a></td><td>TB Seconde Line Sens 2</td></tr><tr><td style="white-space:nowrap">TBSS3<a name="SzTestCodeCS-TBSS3"> </a></td><td>TB Seconde Line Sens 3</td></tr><tr><td style="white-space:nowrap">TBSSF<a name="SzTestCodeCS-TBSSF"> </a></td><td>TB Second Line Final</td></tr><tr><td style="white-space:nowrap">TBZ<a name="SzTestCodeCS-TBZ"> </a></td><td>TBZN TB National Ref Lab</td></tr><tr><td style="white-space:nowrap">TBZ1<a name="SzTestCodeCS-TBZ1"> </a></td><td>TB Direct Microscopy Spec. 1</td></tr><tr><td style="white-space:nowrap">TBZ2<a name="SzTestCodeCS-TBZ2"> </a></td><td>TB Direct Microscopy Spec. 2</td></tr><tr><td style="white-space:nowrap">TBZ3<a name="SzTestCodeCS-TBZ3"> </a></td><td>TB Direct Microscopy Spec. 3</td></tr><tr><td style="white-space:nowrap">TBZN<a name="SzTestCodeCS-TBZN"> </a></td><td>TB Smear Microscopy</td></tr><tr><td style="white-space:nowrap">TBZN1<a name="SzTestCodeCS-TBZN1"> </a></td><td>TBZN SP1</td></tr><tr><td style="white-space:nowrap">TBZN2<a name="SzTestCodeCS-TBZN2"> </a></td><td>TBZN SP2</td></tr><tr><td style="white-space:nowrap">TBZN3<a name="SzTestCodeCS-TBZN3"> </a></td><td>TBZN SP3</td></tr><tr><td style="white-space:nowrap">THCGB<a name="SzTestCodeCS-THCGB"> </a></td><td>S-TOTAL HCG Beta</td></tr><tr><td style="white-space:nowrap">TT3<a name="SzTestCodeCS-TT3"> </a></td><td>Total Tri-iodothyronine (TT3)</td></tr><tr><td style="white-space:nowrap">TTA<a name="SzTestCodeCS-TTA"> </a></td><td>Tetanus Serology</td></tr><tr><td style="white-space:nowrap">LURIC<a name="SzTestCodeCS-LURIC"> </a></td><td>Uric Acid</td></tr><tr><td style="white-space:nowrap">UBHCG<a name="SzTestCodeCS-UBHCG"> </a></td><td>Urine Beta-HCG (Preg Test)</td></tr><tr><td style="white-space:nowrap">UBJP<a name="SzTestCodeCS-UBJP"> </a></td><td>Urine Bence Jones Protein</td></tr><tr><td style="white-space:nowrap">UCREA<a name="SzTestCodeCS-UCREA"> </a></td><td>Creatine Clearance</td></tr><tr><td style="white-space:nowrap">UCUL<a name="SzTestCodeCS-UCUL"> </a></td><td>CULTURE : Urine</td></tr><tr><td style="white-space:nowrap">UE<a name="SzTestCodeCS-UE"> </a></td><td>Urea &amp; electrolytes</td></tr><tr><td style="white-space:nowrap">UECA<a name="SzTestCodeCS-UECA"> </a></td><td>Urea, Electrolytes &amp; Creatinin</td></tr><tr><td style="white-space:nowrap">UECA+<a name="SzTestCodeCS-UECA.43"> </a></td><td>Urea, Elec, Creat &amp; eGFR</td></tr><tr><td style="white-space:nowrap">UMAC<a name="SzTestCodeCS-UMAC"> </a></td><td>MACROSCOPY : Urine</td></tr><tr><td style="white-space:nowrap">UMIC<a name="SzTestCodeCS-UMIC"> </a></td><td>MICROSCOPY : Urine</td></tr><tr><td style="white-space:nowrap">UPREG<a name="SzTestCodeCS-UPREG"> </a></td><td>Urine Pregnancy Test</td></tr><tr><td style="white-space:nowrap">UPROT<a name="SzTestCodeCS-UPROT"> </a></td><td>Total Protein (Urine)</td></tr><tr><td style="white-space:nowrap">UREA<a name="SzTestCodeCS-UREA"> </a></td><td>Urea</td></tr><tr><td style="white-space:nowrap">VALPR<a name="SzTestCodeCS-VALPR"> </a></td><td>S-Valproate</td></tr><tr><td style="white-space:nowrap">VDRL<a name="SzTestCodeCS-VDRL"> </a></td><td>VDRL</td></tr><tr><td style="white-space:nowrap">VLPOC<a name="SzTestCodeCS-VLPOC"> </a></td><td>HIV VIRAL LOAD (POC)</td></tr><tr><td style="white-space:nowrap">VMAC<a name="SzTestCodeCS-VMAC"> </a></td><td>Vanillylmandelic Acid</td></tr><tr><td style="white-space:nowrap">VZV<a name="SzTestCodeCS-VZV"> </a></td><td>VARICELLA-ZOSTER SEROLOGY</td></tr><tr><td style="white-space:nowrap">WBCP<a name="SzTestCodeCS-WBCP"> </a></td><td>White Cell Count + Platelets</td></tr><tr><td style="white-space:nowrap">WCC<a name="SzTestCodeCS-WCC"> </a></td><td>White Cell Count</td></tr><tr><td style="white-space:nowrap">WF<a name="SzTestCodeCS-WF"> </a></td><td>WEIL FELIX</td></tr><tr><td style="white-space:nowrap">YELLO<a name="SzTestCodeCS-YELLO"> </a></td><td>Yellow Fever</td></tr><tr><td style="white-space:nowrap">ZN<a name="SzTestCodeCS-ZN"> </a></td><td>TBZN</td></tr><tr><td style="white-space:nowrap">ZN2<a name="SzTestCodeCS-ZN2"> </a></td><td>Smear Microscopy 2</td></tr><tr><td style="white-space:nowrap">ZN3<a name="SzTestCodeCS-ZN3"> </a></td><td>TBZN Specimen 3</td></tr><tr><td style="white-space:nowrap">TBSF<a name="SzTestCodeCS-TBSF"> </a></td><td>TB First Line DST</td></tr><tr><td style="white-space:nowrap">QHCG<a name="SzTestCodeCS-QHCG"> </a></td><td>Quantitative Beta-HCG (Blood)</td></tr><tr><td style="white-space:nowrap">CVID<a name="SzTestCodeCS-CVID"> </a></td><td>PCR SARS-CoV-2</td></tr><tr><td style="white-space:nowrap">CVRP<a name="SzTestCodeCS-CVRP"> </a></td><td>COVID-19 Ag Rapid Test</td></tr><tr><td style="white-space:nowrap">MEASL<a name="SzTestCodeCS-MEASL"> </a></td><td>Measles</td></tr></table></div>
+  </text>
+  <url value="http://192.168.10.200:3447/fhir/CodeSystem/SzTestCodeCS"/>
+  <version value="0.1.0"/>
+  <name value="EswatiniTestCodes"/>
+  <title value="Code System: Eswatini Local Test Codes"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-07-09T11:11:31+00:00"/>
+  <publisher value="Ministry of Health Eswatini"/>
+  <contact>
+    <name value="Ministry of Health Eswatini"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://192.168.10.200:3447"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="eswatinihie@moh.gov.sz"/>
+    </telecom>
+  </contact>
+  <description value="Data element that contains alternate test codes used by the Laboratory Information System to identify laboratory tests."/>
+  <content value="complete"/>
+  <count value="400"/>
+  <concept>
+    <code value="CD4"/>
+    <display value="CD4 Test"/>
+  </concept>
+  <concept>
+    <code value="AST"/>
+    <display value="AST (Aspartate Transaminase)"/>
+  </concept>
+  <concept>
+    <code value="CREA"/>
+    <display value="Creatinine "/>
+  </concept>
+  <concept>
+    <code value="HB"/>
+    <display value="Haemoglobin"/>
+  </concept>
+  <concept>
+    <code value="LFT"/>
+    <display value="Liver Function Tests - Profile"/>
+  </concept>
+  <concept>
+    <code value="HIVVL"/>
+    <display value="HIV Viral Load (Plasma)"/>
+  </concept>
+  <concept>
+    <code value="ICUP"/>
+    <display value="ICU-  Profile"/>
+  </concept>
+  <concept>
+    <code value="GGT"/>
+    <display value="Gamma-Glutamyl Transferase GGT"/>
+  </concept>
+  <concept>
+    <code value="KFT"/>
+    <display value="Kidney Function Test - Profile"/>
+  </concept>
+  <concept>
+    <code value="CARDE"/>
+    <display value="Cardiac Enzymes"/>
+  </concept>
+  <concept>
+    <code value="ART"/>
+    <display value="ART Baseline - Profile"/>
+  </concept>
+  <concept>
+    <code value="ELECT"/>
+    <display value="Electrolytes - Profile"/>
+  </concept>
+  <concept>
+    <code value="GLUCF"/>
+    <display value="Glucose (Fasting)"/>
+  </concept>
+  <concept>
+    <code value="GLUCR"/>
+    <display value="Glucose (Random)"/>
+  </concept>
+  <concept>
+    <code value="GTT"/>
+    <display value="Glucose Tolerance Test"/>
+  </concept>
+  <concept>
+    <code value="CL"/>
+    <display value="S-Chloride"/>
+  </concept>
+  <concept>
+    <code value="K"/>
+    <display value="S-Potassium"/>
+  </concept>
+  <concept>
+    <code value="NA"/>
+    <display value="S-Sodium"/>
+  </concept>
+  <concept>
+    <code value="CO2"/>
+    <display value="S-Carbon Dioxide"/>
+  </concept>
+  <concept>
+    <code value="UA"/>
+    <display value="Uric Acid"/>
+  </concept>
+  <concept>
+    <code value="CREAC"/>
+    <display value="Creatinine Clearance"/>
+  </concept>
+  <concept>
+    <code value="TBIL"/>
+    <display value="Total Bilirubin"/>
+  </concept>
+  <concept>
+    <code value="BILI"/>
+    <display value="Total and Direct Bilirubin"/>
+  </concept>
+  <concept>
+    <code value="ALP"/>
+    <display value="Alkaline Phosphatase"/>
+  </concept>
+  <concept>
+    <code value="ALT"/>
+    <display value="ALT (Alanine Aminotransferase)"/>
+  </concept>
+  <concept>
+    <code value="ALB"/>
+    <display value="Albumin"/>
+  </concept>
+  <concept>
+    <code value="TPROT"/>
+    <display value="Total Protein"/>
+  </concept>
+  <concept>
+    <code value="CK"/>
+    <display value="Creatine Kinase (CK)"/>
+  </concept>
+  <concept>
+    <code value="CKMB"/>
+    <display value="Creatine Kinase (MB-Frac)"/>
+  </concept>
+  <concept>
+    <code value="MYOG"/>
+    <display value="Myoglobin"/>
+  </concept>
+  <concept>
+    <code value="TROPI"/>
+    <display value="S-Troponin I"/>
+  </concept>
+  <concept>
+    <code value="MAG"/>
+    <display value="S-Magnesium"/>
+  </concept>
+  <concept>
+    <code value="PO4"/>
+    <display value="Phosphate"/>
+  </concept>
+  <concept>
+    <code value="CAL"/>
+    <display value="S-Calcium"/>
+  </concept>
+  <concept>
+    <code value="LDH"/>
+    <display value="Lactate Dehydrogenase (LD)"/>
+  </concept>
+  <concept>
+    <code value="TRIG"/>
+    <display value="Triglyceride"/>
+  </concept>
+  <concept>
+    <code value="LDL"/>
+    <display value="LDL - Cholesterol"/>
+  </concept>
+  <concept>
+    <code value="HDL"/>
+    <display value="HDL - Cholesterol"/>
+  </concept>
+  <concept>
+    <code value="CHOL"/>
+    <display value="Total Cholesterol"/>
+  </concept>
+  <concept>
+    <code value="AMY"/>
+    <display value="Serum Amylase"/>
+  </concept>
+  <concept>
+    <code value="LACT"/>
+    <display value="Lactate"/>
+  </concept>
+  <concept>
+    <code value="CRP"/>
+    <display value="C-Reactive Protein (CRP)"/>
+  </concept>
+  <concept>
+    <code value="LIPAS"/>
+    <display value="Lipase (Serum)"/>
+  </concept>
+  <concept>
+    <code value="HBA1C"/>
+    <display value="Glycated Haemoglobin (HbA1C)"/>
+  </concept>
+  <concept>
+    <code value="M-TP"/>
+    <display value="Micro Total Protein"/>
+  </concept>
+  <concept>
+    <code value="FBC"/>
+    <display value="FBC (Full Blood Count)"/>
+  </concept>
+  <concept>
+    <code value="DIFF"/>
+    <display value="Differential Count"/>
+  </concept>
+  <concept>
+    <code value="ESR"/>
+    <display value="ESR (Westergren)"/>
+  </concept>
+  <concept>
+    <code value="RET"/>
+    <display value="Reticulocyte Studies"/>
+  </concept>
+  <concept>
+    <code value="COOMB"/>
+    <display value="Coombs Test"/>
+  </concept>
+  <concept>
+    <code value="SICKL"/>
+    <display value="Sickle Cells Screen"/>
+  </concept>
+  <concept>
+    <code value="MAL"/>
+    <display value="Malaria"/>
+  </concept>
+  <concept>
+    <code value="MALPC"/>
+    <display value="Malaria: PCR"/>
+  </concept>
+  <concept>
+    <code value="MALS"/>
+    <display value="Malaria Smear: Parasitemia"/>
+  </concept>
+  <concept>
+    <code value="PT"/>
+    <display value="Prothrombin Time(INR/PI)"/>
+  </concept>
+  <concept>
+    <code value="APTT"/>
+    <display value="Partial Thromboplastin Time"/>
+  </concept>
+  <concept>
+    <code value="PI"/>
+    <display value="Prothrombin Time (INR/PI)"/>
+  </concept>
+  <concept>
+    <code value="BTIME"/>
+    <display value="Bleeding Time"/>
+  </concept>
+  <concept>
+    <code value="DDIME"/>
+    <display value="D-Dimer"/>
+  </concept>
+  <concept>
+    <code value="TFT"/>
+    <display value="Thyroid Function Tests "/>
+  </concept>
+  <concept>
+    <code value="T3"/>
+    <display value="Free Tri-iodothyronine (FT3)"/>
+  </concept>
+  <concept>
+    <code value="T4"/>
+    <display value="Free Thyroxine (T4)"/>
+  </concept>
+  <concept>
+    <code value="TSH"/>
+    <display value="Thyroid Stimulating Hormone"/>
+  </concept>
+  <concept>
+    <code value="LH"/>
+    <display value="Luteinising Hormone"/>
+  </concept>
+  <concept>
+    <code value="FSH"/>
+    <display value="Follicle Stimulating Hormone"/>
+  </concept>
+  <concept>
+    <code value="E2"/>
+    <display value="17 b Oestradial (E2)"/>
+  </concept>
+  <concept>
+    <code value="PROG"/>
+    <display value="Progesterone"/>
+  </concept>
+  <concept>
+    <code value="PRL"/>
+    <display value="Prolactin"/>
+  </concept>
+  <concept>
+    <code value="TESTO"/>
+    <display value="Testosterone"/>
+  </concept>
+  <concept>
+    <code value="CORT"/>
+    <display value="Cortisol"/>
+  </concept>
+  <concept>
+    <code value="PTH"/>
+    <display value="Parathyroid Hormone"/>
+  </concept>
+  <concept>
+    <code value="HCGSU"/>
+    <display value="Qualitative  -HCG (Urine)"/>
+  </concept>
+  <concept>
+    <code value="HCGSB"/>
+    <display value="Qualitative  -HCG"/>
+  </concept>
+  <concept>
+    <code value="ABORH"/>
+    <display value="ABO + Rh Group"/>
+  </concept>
+  <concept>
+    <code value="RPR"/>
+    <display value="Syphilis RPR"/>
+  </concept>
+  <concept>
+    <code value="TPHA"/>
+    <display value="TPHA"/>
+  </concept>
+  <concept>
+    <code value="PSSA"/>
+    <display value="ANTIBIOTIC SENS: PSA"/>
+  </concept>
+  <concept>
+    <code value="BHCG"/>
+    <display value="Beta-HCG (Pregnancy Test)"/>
+  </concept>
+  <concept>
+    <code value="AFP"/>
+    <display value="Alfa Feto Protein"/>
+  </concept>
+  <concept>
+    <code value="CA153"/>
+    <display value="CA15-3"/>
+  </concept>
+  <concept>
+    <code value="CA125"/>
+    <display value="CA125"/>
+  </concept>
+  <concept>
+    <code value="CEA"/>
+    <display value="Carcino-embryonic Antigen"/>
+  </concept>
+  <concept>
+    <code value="CA199"/>
+    <display value="CA19-9"/>
+  </concept>
+  <concept>
+    <code value="GRAM"/>
+    <display value="MICROBIOLOGY : GRAM STAIN"/>
+  </concept>
+  <concept>
+    <code value="MCSF"/>
+    <display value="MICROBIOLOGY : CSF"/>
+  </concept>
+  <concept>
+    <code value="CSF"/>
+    <display value="CSF Chem Profile"/>
+  </concept>
+  <concept>
+    <code value="CRINK"/>
+    <display value="India Ink Stain"/>
+  </concept>
+  <concept>
+    <code value="SEMEN"/>
+    <display value="Semen Analysis"/>
+  </concept>
+  <concept>
+    <code value="HIVR"/>
+    <display value="HIV Rapid Test"/>
+  </concept>
+  <concept>
+    <code value="HIVE"/>
+    <display value="HIV ELISA"/>
+  </concept>
+  <concept>
+    <code value="HIPOC"/>
+    <display value="Point of Care DNA PCR"/>
+  </concept>
+  <concept>
+    <code value="LCRAG"/>
+    <display value="LFA Cryptococal Antigen"/>
+  </concept>
+  <concept>
+    <code value="TOXO"/>
+    <display value="Toxoplasmosis Test"/>
+  </concept>
+  <concept>
+    <code value="HELIP"/>
+    <display value="MICROBIOLOGY : H.pylori"/>
+  </concept>
+  <concept>
+    <code value="HEAG"/>
+    <display value="Hepatitis A IgG"/>
+  </concept>
+  <concept>
+    <code value="HBCAB"/>
+    <display value="Hepatitis B Core Antibodies"/>
+  </concept>
+  <concept>
+    <code value="HEPC"/>
+    <display value="Hepatitis C Antibodies"/>
+  </concept>
+  <concept>
+    <code value="QCRPR"/>
+    <display value="QC RPR"/>
+  </concept>
+  <concept>
+    <code value="WIDAL"/>
+    <display value="Widal"/>
+  </concept>
+  <concept>
+    <code value="RF"/>
+    <display value="Rheumatoid Factor"/>
+  </concept>
+  <concept>
+    <code value="ASOT"/>
+    <display value="Anti-Streptolysin O Test"/>
+  </concept>
+  <concept>
+    <code value="XMAT"/>
+    <display value="Cross Match"/>
+  </concept>
+  <concept>
+    <code value="HLAX"/>
+    <display value="Grouping/Crossmatch"/>
+  </concept>
+  <concept>
+    <code value="ANISC"/>
+    <display value="Antibody Screening (^Bbloodban"/>
+  </concept>
+  <concept>
+    <code value="DCT"/>
+    <display value="Direct Coombs Test"/>
+  </concept>
+  <concept>
+    <code value="ICT"/>
+    <display value="Indirect Coomb's Test"/>
+  </concept>
+  <concept>
+    <code value="IGGS"/>
+    <display value="IMMUNOGLOBULINS"/>
+  </concept>
+  <concept>
+    <code value="ZN1"/>
+    <display value="Smear Microscopy 1"/>
+  </concept>
+  <concept>
+    <code value="CUBFL"/>
+    <display value="Culture : Body Fuilds"/>
+  </concept>
+  <concept>
+    <code value="HIVGE"/>
+    <display value="HIV GENE XPERT"/>
+  </concept>
+  <concept>
+    <code value="TROPT"/>
+    <display value="Troponin-T"/>
+  </concept>
+  <concept>
+    <code value="UCHEM"/>
+    <display value="Biochemistry : Urine (Dipstick)"/>
+  </concept>
+  <concept>
+    <code value="CRAG"/>
+    <display value="CRAG (CSF)"/>
+  </concept>
+  <concept>
+    <code value="CRGLF"/>
+    <display value="CRAG (LFA)  Blood"/>
+  </concept>
+  <concept>
+    <code value="TBLAM"/>
+    <display value="TB LAM Ag TEST"/>
+  </concept>
+  <concept>
+    <code value="17OPH"/>
+    <display value="17 Hydroxyprogesterone"/>
+  </concept>
+  <concept>
+    <code value="A1ATR"/>
+    <display value="Alpha-1-antitrypsin"/>
+  </concept>
+  <concept>
+    <code value="ACA"/>
+    <display value="Anti-Centromere Antibodies"/>
+  </concept>
+  <concept>
+    <code value="ACE"/>
+    <display value="Angiotensin Converting Enzyme"/>
+  </concept>
+  <concept>
+    <code value="ACERA"/>
+    <display value="Acetylcholine Receptor Ab's"/>
+  </concept>
+  <concept>
+    <code value="ACLA"/>
+    <display value="Anti-Cardiolipin Antibodies"/>
+  </concept>
+  <concept>
+    <code value="ACOLA"/>
+    <display value="Anti-Collagen Antibodies"/>
+  </concept>
+  <concept>
+    <code value="ACTH"/>
+    <display value="Adrenocorticotrophic Hormone"/>
+  </concept>
+  <concept>
+    <code value="ADENO"/>
+    <display value="ADENO"/>
+  </concept>
+  <concept>
+    <code value="ADNA"/>
+    <display value="Anti-Double Stranded DNA"/>
+  </concept>
+  <concept>
+    <code value="ALDOS"/>
+    <display value="Aldosterone"/>
+  </concept>
+  <concept>
+    <code value="AMITA"/>
+    <display value="Anti-Mitochondrial Antibodies"/>
+  </concept>
+  <concept>
+    <code value="AMYU"/>
+    <display value="Urine Amylase"/>
+  </concept>
+  <concept>
+    <code value="ANA"/>
+    <display value="Anti-Nuclear Antibodies"/>
+  </concept>
+  <concept>
+    <code value="ANCA"/>
+    <display value="Anti-Neutrophil Cytoplasmic Ab"/>
+  </concept>
+  <concept>
+    <code value="ANDRO"/>
+    <display value="Androstenedione"/>
+  </concept>
+  <concept>
+    <code value="ANTBG"/>
+    <display value="Blood Group + Rh"/>
+  </concept>
+  <concept>
+    <code value="ANTE"/>
+    <display value="Antenatal Screening"/>
+  </concept>
+  <concept>
+    <code value="AUR1"/>
+    <display value="TB Auramine Specimen 1"/>
+  </concept>
+  <concept>
+    <code value="AUR2"/>
+    <display value="TB Auramine Specimen 2"/>
+  </concept>
+  <concept>
+    <code value="AUR3"/>
+    <display value="TB Auramine Specimen 3"/>
+  </concept>
+  <concept>
+    <code value="AUR4"/>
+    <display value="TB Auramine Specimen 4"/>
+  </concept>
+  <concept>
+    <code value="BFCC"/>
+    <display value="Cell Count : Body Fluid"/>
+  </concept>
+  <concept>
+    <code value="BG"/>
+    <display value="Blood Group + Rh"/>
+  </concept>
+  <concept>
+    <code value="BGAS"/>
+    <display value="Blood Gases"/>
+  </concept>
+  <concept>
+    <code value="BGRP"/>
+    <display value="Blood grouping"/>
+  </concept>
+  <concept>
+    <code value="BHCG2"/>
+    <display value="HCG TOTAL BETA 2"/>
+  </concept>
+  <concept>
+    <code value="BM"/>
+    <display value="Bone Marrow Report"/>
+  </concept>
+  <concept>
+    <code value="BNP"/>
+    <display value="B-Type Natriuretic Peptide"/>
+  </concept>
+  <concept>
+    <code value="BPARA"/>
+    <display value="Blood Parasite Investigation"/>
+  </concept>
+  <concept>
+    <code value="BPARM"/>
+    <display value="Blood Parasites"/>
+  </concept>
+  <concept>
+    <code value="C/UP"/>
+    <display value="Cutup"/>
+  </concept>
+  <concept>
+    <code value="C1EST"/>
+    <display value="C1 Esterase Inhibitor Assay"/>
+  </concept>
+  <concept>
+    <code value="CA724"/>
+    <display value="CA 72-4"/>
+  </concept>
+  <concept>
+    <code value="CAERU"/>
+    <display value="Caeruloplasmin"/>
+  </concept>
+  <concept>
+    <code value="CALCI"/>
+    <display value="Calcitonin"/>
+  </concept>
+  <concept>
+    <code value="CALCT"/>
+    <display value="1.25 Dihydroxy Vitamin D"/>
+  </concept>
+  <concept>
+    <code value="CARB"/>
+    <display value="S-Carbamazepine"/>
+  </concept>
+  <concept>
+    <code value="CATS"/>
+    <display value="U-Catecholamines"/>
+  </concept>
+  <concept>
+    <code value="CHLAM"/>
+    <display value="Antibody test for Chlamydia"/>
+  </concept>
+  <concept>
+    <code value="CMP"/>
+    <display value="Calcium,Magnesium,PO4"/>
+  </concept>
+  <concept>
+    <code value="CMV"/>
+    <display value="CYTOMEGALOVIRUS"/>
+  </concept>
+  <concept>
+    <code value="CPEPT"/>
+    <display value="C-Peptide"/>
+  </concept>
+  <concept>
+    <code value="CPROT"/>
+    <display value="CSF PROTEIN"/>
+  </concept>
+  <concept>
+    <code value="CRPS"/>
+    <display value="CRP Serology"/>
+  </concept>
+  <concept>
+    <code value="CSFA"/>
+    <display value="CSF Analysis"/>
+  </concept>
+  <concept>
+    <code value="CSFAG"/>
+    <display value="BACTERIAL ANTIGEN TESTS"/>
+  </concept>
+  <concept>
+    <code value="CSFC"/>
+    <display value="Cell Count : CSF"/>
+  </concept>
+  <concept>
+    <code value="CUCSF"/>
+    <display value="CULTURE : CSF"/>
+  </concept>
+  <concept>
+    <code value="CULFU"/>
+    <display value="MYCOLOGY"/>
+  </concept>
+  <concept>
+    <code value="CULMY"/>
+    <display value="Mycology Culture"/>
+  </concept>
+  <concept>
+    <code value="CULPU"/>
+    <display value="Culture : PUS"/>
+  </concept>
+  <concept>
+    <code value="CULSP"/>
+    <display value="Culture : Sputum"/>
+  </concept>
+  <concept>
+    <code value="CUTUP"/>
+    <display value="Histo Cut Up (Dummy)"/>
+  </concept>
+  <concept>
+    <code value="CYTCO"/>
+    <display value="Gynaecological Detail"/>
+  </concept>
+  <concept>
+    <code value="DBILI"/>
+    <display value="Conjugated Bilirubin (Direct)"/>
+  </concept>
+  <concept>
+    <code value="DBSGE"/>
+    <display value="Dry Blood Spot Gene Xpert"/>
+  </concept>
+  <concept>
+    <code value="DCRT"/>
+    <display value="1:20 Diluted CRT"/>
+  </concept>
+  <concept>
+    <code value="DIFFM"/>
+    <display value="Differential Count"/>
+  </concept>
+  <concept>
+    <code value="DIFFF"/>
+    <display value="Diff Micro"/>
+  </concept>
+  <concept>
+    <code value="DRUGR"/>
+    <display value="Drug Resistance Testing"/>
+  </concept>
+  <concept>
+    <code value="DRUGS"/>
+    <display value="DRUG SCREEN"/>
+  </concept>
+  <concept>
+    <code value="E2M"/>
+    <display value="Oestradiol"/>
+  </concept>
+  <concept>
+    <code value="EQAM1"/>
+    <display value="Microbiology EQA"/>
+  </concept>
+  <concept>
+    <code value="FDP"/>
+    <display value="Fibrinogen Deg. Products (FDP)"/>
+  </concept>
+  <concept>
+    <code value="FE"/>
+    <display value="S-Iron"/>
+  </concept>
+  <concept>
+    <code value="FERR"/>
+    <display value="Ferritin"/>
+  </concept>
+  <concept>
+    <code value="FERRX"/>
+    <display value="S-Ferritin"/>
+  </concept>
+  <concept>
+    <code value="FGLU"/>
+    <display value="Fluid-Glucose"/>
+  </concept>
+  <concept>
+    <code value="FNA"/>
+    <display value="Fine Needle Biopsy"/>
+  </concept>
+  <concept>
+    <code value="FPROT"/>
+    <display value="F-Total Protein"/>
+  </concept>
+  <concept>
+    <code value="GLOB"/>
+    <display value="Globulin"/>
+  </concept>
+  <concept>
+    <code value="GLUC"/>
+    <display value="Glucose"/>
+  </concept>
+  <concept>
+    <code value="GLUCS"/>
+    <display value="Glucose Strip"/>
+  </concept>
+  <concept>
+    <code value="GNBST"/>
+    <display value="GNB Sensitivity Testing"/>
+  </concept>
+  <concept>
+    <code value="GPCST"/>
+    <display value="GPC Sensitivity testing"/>
+  </concept>
+  <concept>
+    <code value="GROUP"/>
+    <display value="Blood Group Serology"/>
+  </concept>
+  <concept>
+    <code value="GTT2"/>
+    <display value="GTT - 2 hourly"/>
+  </concept>
+  <concept>
+    <code value="GTT4"/>
+    <display value="GTT Prolonged"/>
+  </concept>
+  <concept>
+    <code value="GYN"/>
+    <display value="Gynaecological Cytology"/>
+  </concept>
+  <concept>
+    <code value="GYNAE"/>
+    <display value="MICROSCOPIC EXAMINATION"/>
+  </concept>
+  <concept>
+    <code value="HBELE"/>
+    <display value="Haemoglobin Electrophoresis"/>
+  </concept>
+  <concept>
+    <code value="HBSAB"/>
+    <display value="Hepatitis B Surface Antibody"/>
+  </concept>
+  <concept>
+    <code value="HBSAG"/>
+    <display value="Hepatitis B Surface Antigen"/>
+  </concept>
+  <concept>
+    <code value="HELIC"/>
+    <display value="Helicobacter pylori Antibodies"/>
+  </concept>
+  <concept>
+    <code value="HEPAG"/>
+    <display value="Hepatitis A (IgG)(Immunity)"/>
+  </concept>
+  <concept>
+    <code value="HEPAM"/>
+    <display value="Hepatitis A IgM"/>
+  </concept>
+  <concept>
+    <code value="HEPD"/>
+    <display value="HEPATITIS D INVESTIGATION"/>
+  </concept>
+  <concept>
+    <code value="HEPE"/>
+    <display value="HEPATITIS E INVESTIGATION"/>
+  </concept>
+  <concept>
+    <code value="HERP"/>
+    <display value="Herpes simplex virus"/>
+  </concept>
+  <concept>
+    <code value="HGH"/>
+    <display value="Human Growth Hormone"/>
+  </concept>
+  <concept>
+    <code value="HI2DF"/>
+    <display value="HIV Viral Load (DBS)"/>
+  </concept>
+  <concept>
+    <code value="HISIN"/>
+    <display value="CLINICAL HISTORY"/>
+  </concept>
+  <concept>
+    <code value="HISSU"/>
+    <display value="Supplementary Report"/>
+  </concept>
+  <concept>
+    <code value="HISTO"/>
+    <display value="MACROSCOPIC EXAMINATION"/>
+  </concept>
+  <concept>
+    <code value="HISTX"/>
+    <display value="Histo Extended text"/>
+  </concept>
+  <concept>
+    <code value="HIV48"/>
+    <display value="CD4 + CD8*"/>
+  </concept>
+  <concept>
+    <code value="HIVA"/>
+    <display value="HIV ASANTE"/>
+  </concept>
+  <concept>
+    <code value="HIVC"/>
+    <display value="HIV Ag/Ab Combo"/>
+  </concept>
+  <concept>
+    <code value="HIVCW"/>
+    <display value="Child Welfare Number"/>
+  </concept>
+  <concept>
+    <code value="HIVLD"/>
+    <display value="HIV Viral Load*"/>
+  </concept>
+  <concept>
+    <code value="HIVPC"/>
+    <display value="HIV DNA PCR"/>
+  </concept>
+  <concept>
+    <code value="HIVP"/>
+    <display value="HIV RAPID TEST"/>
+  </concept>
+  <concept>
+    <code value="HIVST"/>
+    <display value="HIV EID Information"/>
+  </concept>
+  <concept>
+    <code value="HIVWB"/>
+    <display value="HIV DNA PCR : Whole Blood"/>
+  </concept>
+  <concept>
+    <code value="HSAGR"/>
+    <display value="HepB surface antigen Rapid"/>
+  </concept>
+  <concept>
+    <code value="HSV"/>
+    <display value="Herpes simplex Virus"/>
+  </concept>
+  <concept>
+    <code value="HVART"/>
+    <display value="ART Number"/>
+  </concept>
+  <concept>
+    <code value="HYS"/>
+    <display value="Homocysteine"/>
+  </concept>
+  <concept>
+    <code value="ICD10"/>
+    <display value="ICD10"/>
+  </concept>
+  <concept>
+    <code value="IGE"/>
+    <display value="Total IgE"/>
+  </concept>
+  <concept>
+    <code value="INR"/>
+    <display value="INR"/>
+  </concept>
+  <concept>
+    <code value="IRONX"/>
+    <display value="S-IRON STUDIES"/>
+  </concept>
+  <concept>
+    <code value="LALB"/>
+    <display value="ALBUMIN"/>
+  </concept>
+  <concept>
+    <code value="LCHOL"/>
+    <display value="S-Cholesterol"/>
+  </concept>
+  <concept>
+    <code value="LCOT"/>
+    <display value="Cotinine ELISA"/>
+  </concept>
+  <concept>
+    <code value="LCREA"/>
+    <display value="Creatinine"/>
+  </concept>
+  <concept>
+    <code value="LESR"/>
+    <display value="ESR (Westergren)"/>
+  </concept>
+  <concept>
+    <code value="LFBC"/>
+    <display value="Full Blood Count"/>
+  </concept>
+  <concept>
+    <code value="LGGT"/>
+    <display value="Gamma Glutamyl Transferase"/>
+  </concept>
+  <concept>
+    <code value="LGLPF"/>
+    <display value="P-Glucose (Fasting)"/>
+  </concept>
+  <concept>
+    <code value="LGLPR"/>
+    <display value="P-Glucose (Random)"/>
+  </concept>
+  <concept>
+    <code value="LGLUF"/>
+    <display value="S-Glucose (Fasting)"/>
+  </concept>
+  <concept>
+    <code value="LGLUR"/>
+    <display value="S-Glucose (Random)"/>
+  </concept>
+  <concept>
+    <code value="LHBA1"/>
+    <display value="HbA1C"/>
+  </concept>
+  <concept>
+    <code value="LHDL"/>
+    <display value="HDL Cholesterol"/>
+  </concept>
+  <concept>
+    <code value="LI"/>
+    <display value="S-Lithium"/>
+  </concept>
+  <concept>
+    <code value="LIPO"/>
+    <display value="Lipogram"/>
+  </concept>
+  <concept>
+    <code value="LRF"/>
+    <display value="Rheumatoid factor"/>
+  </concept>
+  <concept>
+    <code value="LUPUS"/>
+    <display value="Lupus anticoagulant"/>
+  </concept>
+  <concept>
+    <code value="LUR"/>
+    <display value="Urea"/>
+  </concept>
+  <concept>
+    <code value="MALB"/>
+    <display value="Micro-albumin"/>
+  </concept>
+  <concept>
+    <code value="MBCAT"/>
+    <display value="Microbiology: Catheter Tip"/>
+  </concept>
+  <concept>
+    <code value="MBCLT"/>
+    <display value="Microbiology: Catheter Line Ti"/>
+  </concept>
+  <concept>
+    <code value="MBFAM"/>
+    <display value="MICROBIOLOGY:AMNIOTIC FLUID"/>
+  </concept>
+  <concept>
+    <code value="MBFAS"/>
+    <display value="MICROBIOLOGY : ASCITIC FLUID"/>
+  </concept>
+  <concept>
+    <code value="MBFCA"/>
+    <display value="MICROBIOLOGY:PERICARDIAL FLUID"/>
+  </concept>
+  <concept>
+    <code value="MBFL"/>
+    <display value="Microbiology:Body Fluid"/>
+  </concept>
+  <concept>
+    <code value="MBFLU"/>
+    <display value="Microbiology:Body Fluid"/>
+  </concept>
+  <concept>
+    <code value="MBFPE"/>
+    <display value="MICROBIOLOGY:PERITONEAL FLUID"/>
+  </concept>
+  <concept>
+    <code value="MBFPL"/>
+    <display value="MICROBIOLOGY:PLEURAL FLUID"/>
+  </concept>
+  <concept>
+    <code value="MBFSY"/>
+    <display value="MICROBIOLOGY:SYNOVIAL FLUID"/>
+  </concept>
+  <concept>
+    <code value="MBTRA"/>
+    <display value="Microbiology: Tracheal Tip"/>
+  </concept>
+  <concept>
+    <code value="MBUCT"/>
+    <display value="Microbiology: Urinary Catheter"/>
+  </concept>
+  <concept>
+    <code value="MBUMC"/>
+    <display value="Microbiology:Umbilical Cathete"/>
+  </concept>
+  <concept>
+    <code value="MCES"/>
+    <display value="MICROBIOLOGY : CERVICAL SWAB"/>
+  </concept>
+  <concept>
+    <code value="MEAS"/>
+    <display value="MICROBIOLOGY : EAR SWAB"/>
+  </concept>
+  <concept>
+    <code value="MENDC"/>
+    <display value="MICROBIOLOGY:ENDOCERVICAL SWAB"/>
+  </concept>
+  <concept>
+    <code value="MEYE"/>
+    <display value="MICROBIOLOGY : EYE SWAB"/>
+  </concept>
+  <concept>
+    <code value="MGAS"/>
+    <display value="MICROBIOLOGY : GASTRIC ASP"/>
+  </concept>
+  <concept>
+    <code value="MICBC"/>
+    <display value="MICROBIOLOGY: BLOOD CULTURE"/>
+  </concept>
+  <concept>
+    <code value="MICFL"/>
+    <display value="MICROBIOLOGY : FLUID"/>
+  </concept>
+  <concept>
+    <code value="MICNS"/>
+    <display value="MICROBIOLOGY : NASAL SWAB"/>
+  </concept>
+  <concept>
+    <code value="MICSA"/>
+    <display value="Microscopy - Sexual Assault"/>
+  </concept>
+  <concept>
+    <code value="MICTS"/>
+    <display value="MICROBIOLOGY : THROAT SWAB"/>
+  </concept>
+  <concept>
+    <code value="MICU"/>
+    <display value="MICROBIOLOGY: URINE"/>
+  </concept>
+  <concept>
+    <code value="MONO"/>
+    <display value="Epstein Barr Ser-Mono Test"/>
+  </concept>
+  <concept>
+    <code value="MPEN"/>
+    <display value="MICROBIOLOGY : PENILE SWAB"/>
+  </concept>
+  <concept>
+    <code value="MPT64"/>
+    <display value="MPT64 Rapid"/>
+  </concept>
+  <concept>
+    <code value="MPUS"/>
+    <display value="MICROBIOLOGY : PUS"/>
+  </concept>
+  <concept>
+    <code value="MRCSW"/>
+    <display value="MICROBIOLOGY : RECTAL SWAB"/>
+  </concept>
+  <concept>
+    <code value="MSPUT"/>
+    <display value="MICROBIOLOGY : SPUTUM"/>
+  </concept>
+  <concept>
+    <code value="MSTRS"/>
+    <display value="MICROBIOLOGY : STOOL CULTURE"/>
+  </concept>
+  <concept>
+    <code value="MTISS"/>
+    <display value="MICROBIOLOGY : TISSUE"/>
+  </concept>
+  <concept>
+    <code value="MUMPS"/>
+    <display value="Mumps Serology (ELISA)"/>
+  </concept>
+  <concept>
+    <code value="MUPS"/>
+    <display value="MICROBIOLOGY : URETHRAL SWAB"/>
+  </concept>
+  <concept>
+    <code value="MWUS"/>
+    <display value="MICROBILOLOGY: Wound Swab"/>
+  </concept>
+  <concept>
+    <code value="MYGT"/>
+    <display value="Germ Tube Test"/>
+  </concept>
+  <concept>
+    <code value="MYMIC"/>
+    <display value="Microscopy for Fungi"/>
+  </concept>
+  <concept>
+    <code value="MYOB"/>
+    <display value="Myogloblin (Serum)"/>
+  </concept>
+  <concept>
+    <code value="NGYN"/>
+    <display value="Non-Gynaecological Cytology"/>
+  </concept>
+  <concept>
+    <code value="MFOB"/>
+    <display value="Faecal Occult Blood"/>
+  </concept>
+  <concept>
+    <code value="PARA"/>
+    <display value="Parasitology:Urine"/>
+  </concept>
+  <concept>
+    <code value="PBILI"/>
+    <display value="Neonatal Bilirubin"/>
+  </concept>
+  <concept>
+    <code value="PBS"/>
+    <display value="Peripheral Blood Smear"/>
+  </concept>
+  <concept>
+    <code value="PCRAP"/>
+    <display value="Factor V Leiden Mutation"/>
+  </concept>
+  <concept>
+    <code value="PCTR"/>
+    <display value="Procalcitonin"/>
+  </concept>
+  <concept>
+    <code value="PHENB"/>
+    <display value="Phenobarbitone"/>
+  </concept>
+  <concept>
+    <code value="PHENY"/>
+    <display value="S-Phenytoin"/>
+  </concept>
+  <concept>
+    <code value="PHVS"/>
+    <display value="PARASITOLOGY: VAGINAL SWAB"/>
+  </concept>
+  <concept>
+    <code value="PLAT"/>
+    <display value="Platelets"/>
+  </concept>
+  <concept>
+    <code value="PM"/>
+    <display value="Post-Mortem Examination"/>
+  </concept>
+  <concept>
+    <code value="POLIO"/>
+    <display value="Polio Neutralisation Serology"/>
+  </concept>
+  <concept>
+    <code value="POSTM"/>
+    <display value="POST MORTEM REPORT"/>
+  </concept>
+  <concept>
+    <code value="POSTX"/>
+    <display value="Postmorten Supplement"/>
+  </concept>
+  <concept>
+    <code value="PRD"/>
+    <display value="Pregnandiol"/>
+  </concept>
+  <concept>
+    <code value="PROT"/>
+    <display value="Total Protein &amp; Albumin"/>
+  </concept>
+  <concept>
+    <code value="PRT24"/>
+    <display value="Urine Protein (24 hr)"/>
+  </concept>
+  <concept>
+    <code value="PSA"/>
+    <display value="Prostate Specific Antigen"/>
+  </concept>
+  <concept>
+    <code value="PTT"/>
+    <display value="Part Thromboplastin Time (PTT)"/>
+  </concept>
+  <concept>
+    <code value="RA"/>
+    <display value="RA Latex Test"/>
+  </concept>
+  <concept>
+    <code value="RAPI2"/>
+    <display value="HIV Rapid Repeat"/>
+  </concept>
+  <concept>
+    <code value="RCCHE"/>
+    <display value="Cholinesterase"/>
+  </concept>
+  <concept>
+    <code value="RH"/>
+    <display value="RHESUS FACTOR"/>
+  </concept>
+  <concept>
+    <code value="ROTA"/>
+    <display value="Rotavirus Antigen EIA Test"/>
+  </concept>
+  <concept>
+    <code value="ROTPC"/>
+    <display value="Rotavirus: PCR"/>
+  </concept>
+  <concept>
+    <code value="RUB"/>
+    <display value="Rubella Serology"/>
+  </concept>
+  <concept>
+    <code value="SADA"/>
+    <display value="Adenosine Deaminase"/>
+  </concept>
+  <concept>
+    <code value="SCREA"/>
+    <display value="Creatinine Clearance"/>
+  </concept>
+  <concept>
+    <code value="SEICU"/>
+    <display value="SENS ICU"/>
+  </concept>
+  <concept>
+    <code value="SENFA"/>
+    <display value="ANTIBIOTIC SUSCEPTIBILITY"/>
+  </concept>
+  <concept>
+    <code value="SENGN"/>
+    <display value="ANTIBIOTIC SENS: GN"/>
+  </concept>
+  <concept>
+    <code value="SENGP"/>
+    <display value="ANTIBIOTIC SENS: GP"/>
+  </concept>
+  <concept>
+    <code value="SENSA"/>
+    <display value="ANTIBIOTIC SENS: STOOL"/>
+  </concept>
+  <concept>
+    <code value="SENST"/>
+    <display value="ANTIBIOTIC SENS: STOOL"/>
+  </concept>
+  <concept>
+    <code value="SENSU"/>
+    <display value="ANTIBIOTIC SENS: URINE"/>
+  </concept>
+  <concept>
+    <code value="SHBG"/>
+    <display value="Sex Hormone Binding Globulin"/>
+  </concept>
+  <concept>
+    <code value="STDM"/>
+    <display value="Direct Microscopy : Stool"/>
+  </concept>
+  <concept>
+    <code value="STOOL"/>
+    <display value="Stool Microscopy"/>
+  </concept>
+  <concept>
+    <code value="TBA1"/>
+    <display value="TB Microscopy Auramine 1"/>
+  </concept>
+  <concept>
+    <code value="TBA2"/>
+    <display value="TB Microscopy Auramine 2"/>
+  </concept>
+  <concept>
+    <code value="TBA3"/>
+    <display value="TB Microscopy Specimen 3"/>
+  </concept>
+  <concept>
+    <code value="TBBA"/>
+    <display value="TB Blood Agar (TB Nat Ref)"/>
+  </concept>
+  <concept>
+    <code value="TBCL"/>
+    <display value="TB Culture"/>
+  </concept>
+  <concept>
+    <code value="TBCL1"/>
+    <display value="TB Culture 1"/>
+  </concept>
+  <concept>
+    <code value="TBCL2"/>
+    <display value="TB Culture 2"/>
+  </concept>
+  <concept>
+    <code value="TBCL3"/>
+    <display value="TB Culture 3"/>
+  </concept>
+  <concept>
+    <code value="TBCON"/>
+    <display value="TB Control"/>
+  </concept>
+  <concept>
+    <code value="TBEQA"/>
+    <display value="TB EQA"/>
+  </concept>
+  <concept>
+    <code value="TBGEN"/>
+    <display value="TB Genexpert"/>
+  </concept>
+  <concept>
+    <code value="TBHCG"/>
+    <display value="S-HCG Total Beta"/>
+  </concept>
+  <concept>
+    <code value="TBILI"/>
+    <display value="S-Total Bilirubin"/>
+  </concept>
+  <concept>
+    <code value="TBINF"/>
+    <display value="TB Diagnosis Information"/>
+  </concept>
+  <concept>
+    <code value="TBLP1"/>
+    <display value="TB Line Probe SP1"/>
+  </concept>
+  <concept>
+    <code value="TBLP2"/>
+    <display value="TB Line Probe SP2"/>
+  </concept>
+  <concept>
+    <code value="TBLP3"/>
+    <display value="TB Line Probe SP3"/>
+  </concept>
+  <concept>
+    <code value="TBLP"/>
+    <display value="TB First Line -Line  Probe Assay"/>
+  </concept>
+  <concept>
+    <code value="TBLPS"/>
+    <display value="TB Second Line -Line  Probe Assay"/>
+  </concept>
+  <concept>
+    <code value="TBLSF"/>
+    <display value="2nd Line Probe Assay Final"/>
+  </concept>
+  <concept>
+    <code value="TBPC1"/>
+    <display value="TB PCR Specimen 1"/>
+  </concept>
+  <concept>
+    <code value="TBPC2"/>
+    <display value="TB PCR Specimen 2"/>
+  </concept>
+  <concept>
+    <code value="TBPC3"/>
+    <display value="TB PCR Specimen 3"/>
+  </concept>
+  <concept>
+    <code value="TBRAP"/>
+    <display value="TB Capilia Rapid Test"/>
+  </concept>
+  <concept>
+    <code value="TBRP1"/>
+    <display value="TB Capilia Rapid ID Test SP1"/>
+  </concept>
+  <concept>
+    <code value="TBRP2"/>
+    <display value="TB Capilia Rapid ID Test SP2"/>
+  </concept>
+  <concept>
+    <code value="TBRP3"/>
+    <display value="TB Capilia Rapid ID Test SP3"/>
+  </concept>
+  <concept>
+    <code value="TBSF1"/>
+    <display value="TB First Line Sens 1"/>
+  </concept>
+  <concept>
+    <code value="TBSF2"/>
+    <display value="TB First Line Sens 2"/>
+  </concept>
+  <concept>
+    <code value="TBSF3"/>
+    <display value="TB First Line Sens 3"/>
+  </concept>
+  <concept>
+    <code value="TBSFF"/>
+    <display value="TB First Line Sens Final"/>
+  </concept>
+  <concept>
+    <code value="TBSS"/>
+    <display value="TB Second Line DST"/>
+  </concept>
+  <concept>
+    <code value="TBSS2"/>
+    <display value="TB Seconde Line Sens 2"/>
+  </concept>
+  <concept>
+    <code value="TBSS3"/>
+    <display value="TB Seconde Line Sens 3"/>
+  </concept>
+  <concept>
+    <code value="TBSSF"/>
+    <display value="TB Second Line Final"/>
+  </concept>
+  <concept>
+    <code value="TBZ"/>
+    <display value="TBZN TB National Ref Lab"/>
+  </concept>
+  <concept>
+    <code value="TBZ1"/>
+    <display value="TB Direct Microscopy Spec. 1"/>
+  </concept>
+  <concept>
+    <code value="TBZ2"/>
+    <display value="TB Direct Microscopy Spec. 2"/>
+  </concept>
+  <concept>
+    <code value="TBZ3"/>
+    <display value="TB Direct Microscopy Spec. 3"/>
+  </concept>
+  <concept>
+    <code value="TBZN"/>
+    <display value="TB Smear Microscopy"/>
+  </concept>
+  <concept>
+    <code value="TBZN1"/>
+    <display value="TBZN SP1"/>
+  </concept>
+  <concept>
+    <code value="TBZN2"/>
+    <display value="TBZN SP2"/>
+  </concept>
+  <concept>
+    <code value="TBZN3"/>
+    <display value="TBZN SP3"/>
+  </concept>
+  <concept>
+    <code value="THCGB"/>
+    <display value="S-TOTAL HCG Beta"/>
+  </concept>
+  <concept>
+    <code value="TT3"/>
+    <display value="Total Tri-iodothyronine (TT3)"/>
+  </concept>
+  <concept>
+    <code value="TTA"/>
+    <display value="Tetanus Serology"/>
+  </concept>
+  <concept>
+    <code value="LURIC"/>
+    <display value="Uric Acid"/>
+  </concept>
+  <concept>
+    <code value="UBHCG"/>
+    <display value="Urine Beta-HCG (Preg Test)"/>
+  </concept>
+  <concept>
+    <code value="UBJP"/>
+    <display value="Urine Bence Jones Protein"/>
+  </concept>
+  <concept>
+    <code value="UCREA"/>
+    <display value="Creatine Clearance"/>
+  </concept>
+  <concept>
+    <code value="UCUL"/>
+    <display value="CULTURE : Urine"/>
+  </concept>
+  <concept>
+    <code value="UE"/>
+    <display value="Urea &amp; electrolytes"/>
+  </concept>
+  <concept>
+    <code value="UECA"/>
+    <display value="Urea, Electrolytes &amp; Creatinin"/>
+  </concept>
+  <concept>
+    <code value="UECA+"/>
+    <display value="Urea, Elec, Creat &amp; eGFR"/>
+  </concept>
+  <concept>
+    <code value="UMAC"/>
+    <display value="MACROSCOPY : Urine"/>
+  </concept>
+  <concept>
+    <code value="UMIC"/>
+    <display value="MICROSCOPY : Urine"/>
+  </concept>
+  <concept>
+    <code value="UPREG"/>
+    <display value="Urine Pregnancy Test"/>
+  </concept>
+  <concept>
+    <code value="UPROT"/>
+    <display value="Total Protein (Urine)"/>
+  </concept>
+  <concept>
+    <code value="UREA"/>
+    <display value="Urea"/>
+  </concept>
+  <concept>
+    <code value="VALPR"/>
+    <display value="S-Valproate"/>
+  </concept>
+  <concept>
+    <code value="VDRL"/>
+    <display value="VDRL"/>
+  </concept>
+  <concept>
+    <code value="VLPOC"/>
+    <display value="HIV VIRAL LOAD (POC)"/>
+  </concept>
+  <concept>
+    <code value="VMAC"/>
+    <display value="Vanillylmandelic Acid"/>
+  </concept>
+  <concept>
+    <code value="VZV"/>
+    <display value="VARICELLA-ZOSTER SEROLOGY"/>
+  </concept>
+  <concept>
+    <code value="WBCP"/>
+    <display value="White Cell Count + Platelets"/>
+  </concept>
+  <concept>
+    <code value="WCC"/>
+    <display value="White Cell Count"/>
+  </concept>
+  <concept>
+    <code value="WF"/>
+    <display value="WEIL FELIX"/>
+  </concept>
+  <concept>
+    <code value="YELLO"/>
+    <display value="Yellow Fever"/>
+  </concept>
+  <concept>
+    <code value="ZN"/>
+    <display value="TBZN"/>
+  </concept>
+  <concept>
+    <code value="ZN2"/>
+    <display value="Smear Microscopy 2"/>
+  </concept>
+  <concept>
+    <code value="ZN3"/>
+    <display value="TBZN Specimen 3"/>
+  </concept>
+  <concept>
+    <code value="TBSF"/>
+    <display value="TB First Line DST"/>
+  </concept>
+  <concept>
+    <code value="QHCG"/>
+    <display value="Quantitative Beta-HCG (Blood)"/>
+  </concept>
+  <concept>
+    <code value="CVID"/>
+    <display value="PCR SARS-CoV-2"/>
+  </concept>
+  <concept>
+    <code value="CVRP"/>
+    <display value="COVID-19 Ag Rapid Test"/>
+  </concept>
+  <concept>
+    <code value="MEASL"/>
+    <display value="Measles"/>
+  </concept>
+</CodeSystem>

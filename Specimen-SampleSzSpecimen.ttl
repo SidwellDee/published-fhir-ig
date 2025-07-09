@@ -1,0 +1,47 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://192.168.10.200:3447/fhir/Specimen/SampleSzSpecimen> a fhir:Specimen ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "SampleSzSpecimen"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzLabSpecimen"^^xsd:anyURI ;
+       fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzLabSpecimen>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Specimen SampleSzSpecimen</b></p><a name=\"SampleSzSpecimen\"> </a><a name=\"hcSampleSzSpecimen\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzLabSpecimen.html\">Eswatini Specimen Profile</a></p></div><p><b>status</b>: Available</p><p><b>type</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v2-0487 BLD}\">Blood</span></p><p><b>subject</b>: <a href=\"Patient-SampleSzPatient.html\">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</a></p><h3>Collections</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Collector</b></td><td><b>Collected[x]</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Practitioner-SampleSzPractitioner.html\">Practitioner Thabile Celiwe Dlamini </a></td><td>2024-09-11 10:00:00+0000</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:status [ fhir:v "available"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0487"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "BLD" ] ;
+       fhir:display [ fhir:v "Blood" ]
+     ] ) ;
+     fhir:text [ fhir:v "Blood" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzPatient> ;
+     fhir:reference [ fhir:v "Patient/SampleSzPatient" ]
+  ] ; # 
+  fhir:collection [
+     fhir:collector [
+       fhir:link <http://192.168.10.200:3447/fhir/Practitioner/SampleSzPractitioner> ;
+       fhir:reference [ fhir:v "Practitioner/SampleSzPractitioner" ]
+     ] ;
+     fhir:collected [
+       a fhir:dateTime ;
+       fhir:v "2024-09-11T10:00:00Z"^^xsd:dateTime
+     ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

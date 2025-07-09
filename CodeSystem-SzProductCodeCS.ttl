@@ -1,0 +1,162 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://192.168.10.200:3447/fhir/CodeSystem/SzProductCodeCS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "SzProductCodeCS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem SzProductCodeCS</b></p><a name=\"SzProductCodeCS\"> </a><a name=\"hcSzProductCodeCS\"> </a><p>This  code system <code>http://192.168.10.200:3447/fhir/CodeSystem/SzProductCodeCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">100648<a name=\"SzProductCodeCS-100648\"> </a></td><td>Abacavir 300mg Tablets 60 TABS</td></tr><tr><td style=\"white-space:nowrap\">102273<a name=\"SzProductCodeCS-102273\"> </a></td><td>Isoniazid Tablets 300mg 28 TABS</td></tr><tr><td style=\"white-space:nowrap\">102268<a name=\"SzProductCodeCS-102268\"> </a></td><td>Ethambutol FILM COATEDTablets 100mg 100 TABS</td></tr><tr><td style=\"white-space:nowrap\">100686<a name=\"SzProductCodeCS-100686\"> </a></td><td>Isoniazid 100mg Tablets 100 TABS</td></tr><tr><td style=\"white-space:nowrap\">102276<a name=\"SzProductCodeCS-102276\"> </a></td><td>Levofloxacin Tablets 500mg 100 TABS</td></tr><tr><td style=\"white-space:nowrap\">100449<a name=\"SzProductCodeCS-100449\"> </a></td><td>Acyclovir Eye Ointment 3% 4.5 G</td></tr><tr><td style=\"white-space:nowrap\">100304<a name=\"SzProductCodeCS-100304\"> </a></td><td>Adrenaline Injection 1:1000 10 AMPS</td></tr><tr><td style=\"white-space:nowrap\">100460<a name=\"SzProductCodeCS-100460\"> </a></td><td>Betamethasone Cream 0.1% 15G</td></tr><tr><td style=\"white-space:nowrap\">100014<a name=\"SzProductCodeCS-100014\"> </a></td><td>Cefaclor Tablets 375mg 10 TABS</td></tr><tr><td style=\"white-space:nowrap\">102443<a name=\"SzProductCodeCS-102443\"> </a></td><td>Cefazolin 1g; 10 Vial 10 VIAL</td></tr><tr><td style=\"white-space:nowrap\">100221<a name=\"SzProductCodeCS-100221\"> </a></td><td>Cloxacillin Suspension 125mg/5ml 100 ML</td></tr><tr><td style=\"white-space:nowrap\">100238<a name=\"SzProductCodeCS-100238\"> </a></td><td>Cold &amp; Flu Syrup 100 ML</td></tr><tr><td style=\"white-space:nowrap\">100001<a name=\"SzProductCodeCS-100001\"> </a></td><td>Cyclophosphamide Tablets 25mg 100</td></tr><tr><td style=\"white-space:nowrap\">102492<a name=\"SzProductCodeCS-102492\"> </a></td><td>Paracetamol Tablets 500g (Coloured Green) 100 TABS</td></tr><tr><td style=\"white-space:nowrap\">102277<a name=\"SzProductCodeCS-102277\"> </a></td><td>Linezolid FILM COATED Tablets 600mg 60 TABS</td></tr><tr><td style=\"white-space:nowrap\">100689<a name=\"SzProductCodeCS-100689\"> </a></td><td>Saquinavir 200mg Capsules 270 CAPS</td></tr><tr><td style=\"white-space:nowrap\">100706<a name=\"SzProductCodeCS-100706\"> </a></td><td>Dapsone Tablets 100mg 100</td></tr><tr><td style=\"white-space:nowrap\">100089<a name=\"SzProductCodeCS-100089\"> </a></td><td>Albendazole Tablets 200mg (Chewable) 1000 TABS</td></tr><tr><td style=\"white-space:nowrap\">102304<a name=\"SzProductCodeCS-102304\"> </a></td><td>Amikacin 1g 50 VIALS</td></tr><tr><td style=\"white-space:nowrap\">102272<a name=\"SzProductCodeCS-102272\"> </a></td><td>Ethionamide FILM COATED Capsules 250mg 50 CAPS</td></tr><tr><td style=\"white-space:nowrap\">100700<a name=\"SzProductCodeCS-100700\"> </a></td><td>Flucytosine 500mg 100 TABS</td></tr><tr><td style=\"white-space:nowrap\">102327<a name=\"SzProductCodeCS-102327\"> </a></td><td>Levonorgestrel +Ethinyl Estradiol 150mcg+30mcg Tab 3 TABS</td></tr><tr><td style=\"white-space:nowrap\">102323<a name=\"SzProductCodeCS-102323\"> </a></td><td>Levonorgestrel 30mcg Tablets 84 TABS</td></tr><tr><td style=\"white-space:nowrap\">100666<a name=\"SzProductCodeCS-100666\"> </a></td><td>Raltegravir 400mg Tablets 60 TABS</td></tr><tr><td style=\"white-space:nowrap\">102346<a name=\"SzProductCodeCS-102346\"> </a></td><td>Strawberry Scented Male Condoms ( natural latex,53mm) 100</td></tr><tr><td style=\"white-space:nowrap\">102502<a name=\"SzProductCodeCS-102502\"> </a></td><td>T Section; 1 Each 1 EACH</td></tr><tr><td style=\"white-space:nowrap\">102348<a name=\"SzProductCodeCS-102348\"> </a></td><td>Water Based Lubricant (SRH) SATCHET</td></tr><tr><td style=\"white-space:nowrap\">102282<a name=\"SzProductCodeCS-102282\"> </a></td><td>Pyrazinamide Tablets 500mg 1000 TABS</td></tr><tr><td style=\"white-space:nowrap\">102341<a name=\"SzProductCodeCS-102341\"> </a></td><td>Intra-Uterine Device (Iucd) T380 ( Polymer Film Po 1</td></tr><tr><td style=\"white-space:nowrap\">102280<a name=\"SzProductCodeCS-102280\"> </a></td><td>Moxifloxacillin  FILM COATED Tablets 400mg 100 TABS</td></tr><tr><td style=\"white-space:nowrap\">100734<a name=\"SzProductCodeCS-100734\"> </a></td><td>Bleomycin Injection 15 Units Vial (With Cold Chain 1 AMP</td></tr><tr><td style=\"white-space:nowrap\">100651<a name=\"SzProductCodeCS-100651\"> </a></td><td>Atazanavir/Ritonavir 300/100mg Tablets 30</td></tr><tr><td style=\"white-space:nowrap\">100654<a name=\"SzProductCodeCS-100654\"> </a></td><td>Efavirenz 200mg Scored Tablets 90</td></tr><tr><td style=\"white-space:nowrap\">100528<a name=\"SzProductCodeCS-100528\"> </a></td><td>Beclomethasone Nasal Spray 27.5mcg/dose (Paeds)Com 1</td></tr><tr><td style=\"white-space:nowrap\">102266<a name=\"SzProductCodeCS-102266\"> </a></td><td>Delamanid FILM COATED Tablets 50mg 48 TABS</td></tr><tr><td style=\"white-space:nowrap\">102332<a name=\"SzProductCodeCS-102332\"> </a></td><td>Medroxyprogesterone Acetate 150mg/ml Injection 20 VIALS</td></tr><tr><td style=\"white-space:nowrap\">102333<a name=\"SzProductCodeCS-102333\"> </a></td><td>Norethisterone Enanthate + Estradiol Valerate In O 100 VIALS</td></tr><tr><td style=\"white-space:nowrap\">100707<a name=\"SzProductCodeCS-100707\"> </a></td><td>Cotrimoxazole/Isoniazid/Pyridoxine 960/300/25mg 30 TABS</td></tr><tr><td style=\"white-space:nowrap\">102324<a name=\"SzProductCodeCS-102324\"> </a></td><td>Norgestrel 300mcg/Ethinylestradiol 30mcg Tablets 28 TABS</td></tr><tr><td style=\"white-space:nowrap\">102263<a name=\"SzProductCodeCS-102263\"> </a></td><td>Clofazimine Tablets 100mg 100 TABS</td></tr><tr><td style=\"white-space:nowrap\">100009<a name=\"SzProductCodeCS-100009\"> </a></td><td>Amoxycillin Capsules 500mg 500 CAPS</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://192.168.10.200:3447/fhir/CodeSystem/SzProductCodeCS"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "SzProductCodeCS"] ; # 
+  fhir:title [ fhir:v "Code System: Eswatini Product Codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2025-07-09T11:11:31+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministry of Health Eswatini"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Ministry of Health Eswatini" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://192.168.10.200:3447" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "eswatinihie@moh.gov.sz" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Code system for ESwatini Product Codes"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "41"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "100648" ] ;
+     fhir:display [ fhir:v "Abacavir 300mg Tablets 60 TABS" ]
+  ] [
+     fhir:code [ fhir:v "102273" ] ;
+     fhir:display [ fhir:v "Isoniazid Tablets 300mg 28 TABS" ]
+  ] [
+     fhir:code [ fhir:v "102268" ] ;
+     fhir:display [ fhir:v "Ethambutol FILM COATEDTablets 100mg 100 TABS" ]
+  ] [
+     fhir:code [ fhir:v "100686" ] ;
+     fhir:display [ fhir:v "Isoniazid 100mg Tablets 100 TABS" ]
+  ] [
+     fhir:code [ fhir:v "102276" ] ;
+     fhir:display [ fhir:v "Levofloxacin Tablets 500mg 100 TABS" ]
+  ] [
+     fhir:code [ fhir:v "100449" ] ;
+     fhir:display [ fhir:v "Acyclovir Eye Ointment 3% 4.5 G" ]
+  ] [
+     fhir:code [ fhir:v "100304" ] ;
+     fhir:display [ fhir:v "Adrenaline Injection 1:1000 10 AMPS" ]
+  ] [
+     fhir:code [ fhir:v "100460" ] ;
+     fhir:display [ fhir:v "Betamethasone Cream 0.1% 15G" ]
+  ] [
+     fhir:code [ fhir:v "100014" ] ;
+     fhir:display [ fhir:v "Cefaclor Tablets 375mg 10 TABS" ]
+  ] [
+     fhir:code [ fhir:v "102443" ] ;
+     fhir:display [ fhir:v "Cefazolin 1g; 10 Vial 10 VIAL" ]
+  ] [
+     fhir:code [ fhir:v "100221" ] ;
+     fhir:display [ fhir:v "Cloxacillin Suspension 125mg/5ml 100 ML" ]
+  ] [
+     fhir:code [ fhir:v "100238" ] ;
+     fhir:display [ fhir:v "Cold & Flu Syrup 100 ML" ]
+  ] [
+     fhir:code [ fhir:v "100001" ] ;
+     fhir:display [ fhir:v "Cyclophosphamide Tablets 25mg 100" ]
+  ] [
+     fhir:code [ fhir:v "102492" ] ;
+     fhir:display [ fhir:v "Paracetamol Tablets 500g (Coloured Green) 100 TABS" ]
+  ] [
+     fhir:code [ fhir:v "102277" ] ;
+     fhir:display [ fhir:v "Linezolid FILM COATED Tablets 600mg 60 TABS" ]
+  ] [
+     fhir:code [ fhir:v "100689" ] ;
+     fhir:display [ fhir:v "Saquinavir 200mg Capsules 270 CAPS" ]
+  ] [
+     fhir:code [ fhir:v "100706" ] ;
+     fhir:display [ fhir:v "Dapsone Tablets 100mg 100" ]
+  ] [
+     fhir:code [ fhir:v "100089" ] ;
+     fhir:display [ fhir:v "Albendazole Tablets 200mg (Chewable) 1000 TABS" ]
+  ] [
+     fhir:code [ fhir:v "102304" ] ;
+     fhir:display [ fhir:v "Amikacin 1g 50 VIALS" ]
+  ] [
+     fhir:code [ fhir:v "102272" ] ;
+     fhir:display [ fhir:v "Ethionamide FILM COATED Capsules 250mg 50 CAPS" ]
+  ] [
+     fhir:code [ fhir:v "100700" ] ;
+     fhir:display [ fhir:v "Flucytosine 500mg 100 TABS" ]
+  ] [
+     fhir:code [ fhir:v "102327" ] ;
+     fhir:display [ fhir:v "Levonorgestrel +Ethinyl Estradiol 150mcg+30mcg Tab 3 TABS" ]
+  ] [
+     fhir:code [ fhir:v "102323" ] ;
+     fhir:display [ fhir:v "Levonorgestrel 30mcg Tablets 84 TABS" ]
+  ] [
+     fhir:code [ fhir:v "100666" ] ;
+     fhir:display [ fhir:v "Raltegravir 400mg Tablets 60 TABS" ]
+  ] [
+     fhir:code [ fhir:v "102346" ] ;
+     fhir:display [ fhir:v "Strawberry Scented Male Condoms ( natural latex,53mm) 100" ]
+  ] [
+     fhir:code [ fhir:v "102502" ] ;
+     fhir:display [ fhir:v "T Section; 1 Each 1 EACH" ]
+  ] [
+     fhir:code [ fhir:v "102348" ] ;
+     fhir:display [ fhir:v "Water Based Lubricant (SRH) SATCHET" ]
+  ] [
+     fhir:code [ fhir:v "102282" ] ;
+     fhir:display [ fhir:v "Pyrazinamide Tablets 500mg 1000 TABS" ]
+  ] [
+     fhir:code [ fhir:v "102341" ] ;
+     fhir:display [ fhir:v "Intra-Uterine Device (Iucd) T380 ( Polymer Film Po 1" ]
+  ] [
+     fhir:code [ fhir:v "102280" ] ;
+     fhir:display [ fhir:v "Moxifloxacillin  FILM COATED Tablets 400mg 100 TABS" ]
+  ] [
+     fhir:code [ fhir:v "100734" ] ;
+     fhir:display [ fhir:v "Bleomycin Injection 15 Units Vial (With Cold Chain 1 AMP" ]
+  ] [
+     fhir:code [ fhir:v "100651" ] ;
+     fhir:display [ fhir:v "Atazanavir/Ritonavir 300/100mg Tablets 30" ]
+  ] [
+     fhir:code [ fhir:v "100654" ] ;
+     fhir:display [ fhir:v "Efavirenz 200mg Scored Tablets 90" ]
+  ] [
+     fhir:code [ fhir:v "100528" ] ;
+     fhir:display [ fhir:v "Beclomethasone Nasal Spray 27.5mcg/dose (Paeds)Com 1" ]
+  ] [
+     fhir:code [ fhir:v "102266" ] ;
+     fhir:display [ fhir:v "Delamanid FILM COATED Tablets 50mg 48 TABS" ]
+  ] [
+     fhir:code [ fhir:v "102332" ] ;
+     fhir:display [ fhir:v "Medroxyprogesterone Acetate 150mg/ml Injection 20 VIALS" ]
+  ] [
+     fhir:code [ fhir:v "102333" ] ;
+     fhir:display [ fhir:v "Norethisterone Enanthate + Estradiol Valerate In O 100 VIALS" ]
+  ] [
+     fhir:code [ fhir:v "100707" ] ;
+     fhir:display [ fhir:v "Cotrimoxazole/Isoniazid/Pyridoxine 960/300/25mg 30 TABS" ]
+  ] [
+     fhir:code [ fhir:v "102324" ] ;
+     fhir:display [ fhir:v "Norgestrel 300mcg/Ethinylestradiol 30mcg Tablets 28 TABS" ]
+  ] [
+     fhir:code [ fhir:v "102263" ] ;
+     fhir:display [ fhir:v "Clofazimine Tablets 100mg 100 TABS" ]
+  ] [
+     fhir:code [ fhir:v "100009" ] ;
+     fhir:display [ fhir:v "Amoxycillin Capsules 500mg 500 CAPS" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="NamingSystemCbhis"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: NamingSystem NamingSystemCbhis</b></p><a name="NamingSystemCbhis"> </a><a name="hcNamingSystemCbhis"> </a><h3>Summary</h3><table class="grid"><tr><td>Defining URL</td><td>http://192.168.10.200:3447/fhir/NamingSystem/NamingSystemCbhis</td></tr><tr><td>Version</td><td>0.1.0</td></tr><tr><td>Name</td><td>Community Based Health Information System</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Community Based Health Information System Electronic Medical Record</p>
+</div></td></tr><tr><td>Publisher</td><td>Ministry of Health Eswatini</td></tr></table><h3>Identifiers</h3><table class="grid"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>urn:health:cbhis</td><td>true</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url">
+    <valueUri value="http://192.168.10.200:3447/fhir/NamingSystem/NamingSystemCbhis"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version">
+    <valueString value="0.1.0"/>
+  </extension>
+  <name value="Community Based Health Information System"/>
+  <status value="active"/>
+  <kind value="identifier"/>
+  <date value="2024-12-17"/>
+  <publisher value="Ministry of Health Eswatini"/>
+  <contact>
+    <name value="Ministry of Health Eswatini"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://192.168.10.200:3447"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="eswatinihie@moh.gov.sz"/>
+    </telecom>
+  </contact>
+  <responsible value="Ministry of Health"/>
+  <description value="Community Based Health Information System Electronic Medical Record"/>
+  <usage value="official"/>
+  <uniqueId>
+    <type value="uri"/>
+    <value value="urn:health:cbhis"/>
+    <preferred value="true"/>
+  </uniqueId>
+</NamingSystem>

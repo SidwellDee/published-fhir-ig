@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="SzEncounterClassificationCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem SzEncounterClassificationCS</b></p><a name="SzEncounterClassificationCS"> </a><a name="hcSzEncounterClassificationCS"> </a><p>This  code system <code>http://192.168.10.200:3447/fhir/CodeSystem/SzEncounterClassificationCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">OPD<a name="SzEncounterClassificationCS-OPD"> </a></td><td>Out Patient Department</td></tr><tr><td style="white-space:nowrap">IPD<a name="SzEncounterClassificationCS-IPD"> </a></td><td>In Patient Department</td></tr><tr><td style="white-space:nowrap">EMG<a name="SzEncounterClassificationCS-EMG"> </a></td><td>Emergency</td></tr></table></div>
+  </text>
+  <url value="http://192.168.10.200:3447/fhir/CodeSystem/SzEncounterClassificationCS"/>
+  <version value="0.1.0"/>
+  <name value="EswatiniEncounterClassification"/>
+  <title value="Code System: Encounter Classification"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-07-09T11:11:31+00:00"/>
+  <publisher value="Ministry of Health Eswatini"/>
+  <contact>
+    <name value="Ministry of Health Eswatini"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://192.168.10.200:3447"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="eswatinihie@moh.gov.sz"/>
+    </telecom>
+  </contact>
+  <description value="Data element that contains the classification of encounters."/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="OPD"/>
+    <display value="Out Patient Department"/>
+  </concept>
+  <concept>
+    <code value="IPD"/>
+    <display value="In Patient Department"/>
+  </concept>
+  <concept>
+    <code value="EMG"/>
+    <display value="Emergency"/>
+  </concept>
+</CodeSystem>

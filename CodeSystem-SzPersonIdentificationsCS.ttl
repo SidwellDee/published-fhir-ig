@@ -1,0 +1,57 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "SzPersonIdentificationsCS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem SzPersonIdentificationsCS</b></p><a name=\"SzPersonIdentificationsCS\"> </a><a name=\"hcSzPersonIdentificationsCS\"> </a><p>This  code system <code>http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">PI<a name=\"SzPersonIdentificationsCS-PI\"> </a></td><td>Personal ID Number</td></tr><tr><td style=\"white-space:nowrap\">PA<a name=\"SzPersonIdentificationsCS-PA\"> </a></td><td>Passport Number</td></tr><tr><td style=\"white-space:nowrap\">TP<a name=\"SzPersonIdentificationsCS-TP\"> </a></td><td>Temporary Permit</td></tr><tr><td style=\"white-space:nowrap\">FD<a name=\"SzPersonIdentificationsCS-FD\"> </a></td><td>Foreign Document</td></tr><tr><td style=\"white-space:nowrap\">MH<a name=\"SzPersonIdentificationsCS-MH\"> </a></td><td>Ministry of Health Workder ID</td></tr><tr><td style=\"white-space:nowrap\">MR<a name=\"SzPersonIdentificationsCS-MR\"> </a></td><td>Medical Record Number</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "SzPersonIdentificationsCS"] ; # 
+  fhir:title [ fhir:v "Code System: Person Identification Types"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2025-07-09T11:11:31+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministry of Health Eswatini"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Ministry of Health Eswatini" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://192.168.10.200:3447" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "eswatinihie@moh.gov.sz" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Data element that contains the name and identification number of a specific person for identity and individualization purposes."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "6"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "PI" ] ;
+     fhir:display [ fhir:v "Personal ID Number" ]
+  ] [
+     fhir:code [ fhir:v "PA" ] ;
+     fhir:display [ fhir:v "Passport Number" ]
+  ] [
+     fhir:code [ fhir:v "TP" ] ;
+     fhir:display [ fhir:v "Temporary Permit" ]
+  ] [
+     fhir:code [ fhir:v "FD" ] ;
+     fhir:display [ fhir:v "Foreign Document" ]
+  ] [
+     fhir:code [ fhir:v "MH" ] ;
+     fhir:display [ fhir:v "Ministry of Health Workder ID" ]
+  ] [
+     fhir:code [ fhir:v "MR" ] ;
+     fhir:display [ fhir:v "Medical Record Number" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,10 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://192.168.10.200:3447/fhir/ValueSet/CIE10VS,0.1.0,active,,CIE10VS,Value Set: ICD10,"CIE10 code values",,"hl7.terminology.r4"
+http://192.168.10.200:3447/fhir/ValueSet/PersonIdentifiersVS,0.1.0,draft,,PersonIdentifiersVS,Value Set: Person Identifier,"Eswatini Person Identifiers",,"Internal"
+http://192.168.10.200:3447/fhir/ValueSet/SzChiefdomVS,0.1.0,draft,,SzChiefdomVS,Value Set: Chiefdoms Value Set,"Value set for ESwatini chiefdoms",,"Internal"
+http://192.168.10.200:3447/fhir/ValueSet/SzEncounterClassificationVS,0.1.0,active,,EswatiniEncounterClassification,Value Set: Encounter Classification,"Eswatini Encounter Classification Codes",,"Internal"
+http://192.168.10.200:3447/fhir/ValueSet/SzProductCodeVS,0.1.0,draft,,SzProductCodeVS,Value Set: Product Code Value Set,"Value set for ESwatini Product Codes",,"Internal"
+http://192.168.10.200:3447/fhir/ValueSet/SzServicePointVS,0.1.0,draft,,SzServicePointVS,Value set: Eswatini Service Points,"Value set for Eswatini service points",,"Internal"
+http://192.168.10.200:3447/fhir/ValueSet/SzTestCodeVS,0.1.0,active,,SzTestCodeVS,Value Set: Local Test Codes,"Eswatini Local Test Codes",,"Internal"
+http://192.168.10.200:3447/fhir/ValueSet/SzTestParameterCodeVS,0.1.0,draft,,SzTestParameterCodeVS,Value Set: Eswatini Local Test Parameter Codes,"",,"Internal"
+http://192.168.10.200:3447/fhir/ValueSet/SzTinkhundlaVS,0.1.0,draft,,SzTinkhundlaVS,Value Set: Tinkhundla,"Value set for Eswatini Tinkhundla",,"Internal"

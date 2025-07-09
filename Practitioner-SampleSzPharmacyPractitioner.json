@@ -1,0 +1,38 @@
+{
+  "resourceType" : "Practitioner",
+  "id" : "SampleSzPharmacyPractitioner",
+  "meta" : {
+    "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzPractitioner"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner SampleSzPharmacyPractitioner</b></p><a name=\"SampleSzPharmacyPractitioner\"> </a><a name=\"hcSampleSzPharmacyPractitioner\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzPractitioner.html\">Eswatini Practitioner Profile</a></p></div><p><b>identifier</b>: Personal ID Number/9101010000100\u00a0(use:\u00a0official,\u00a0)</p><p><b>name</b>: Susan Carol Smith </p><p><b>telecom</b>: -unknown-(Mobile), ph: 7911 0000</p><p><b>gender</b>: Female</p><p><b>birthDate</b>: 1990-01-01</p></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "type" : {
+      "coding" : [{
+        "system" : "http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS",
+        "code" : "PI",
+        "display" : "Personal ID Number"
+      }]
+    },
+    "system" : "urn:homeaffairs:population-register",
+    "value" : "9101010000100"
+  }],
+  "name" : [{
+    "family" : "Smith",
+    "given" : ["Susan",
+    "Carol"]
+  }],
+  "telecom" : [{
+    "use" : "mobile"
+  },
+  {
+    "system" : "phone",
+    "value" : "7911 0000",
+    "rank" : 1
+  }],
+  "gender" : "female",
+  "birthDate" : "1990-01-01"
+}

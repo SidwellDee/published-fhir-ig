@@ -1,0 +1,41 @@
+{
+  "resourceType" : "Appointment",
+  "id" : "SampleSzAppointment",
+  "meta" : {
+    "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzAppointment"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Appointment SampleSzAppointment</b></p><a name=\"SampleSzAppointment\"> </a><a name=\"hcSampleSzAppointment\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzAppointment.html\">Eswatini Appointment Profile</a></p></div><p><b>status</b>: Proposed</p><p><b>serviceCategory</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/service-category 17}\">General Practice</span></p><p><b>serviceType</b>: <span title=\"Codes:{http://localhost:3447/fhir/CodeSystem/SzServicePointCS ART}\">Antiretrovial Therapy</span></p><p><b>start</b>: 2024-09-11 10:00:00+0000</p><p><b>end</b>: 2024-09-11 10:00:00+0000</p><p><b>created</b>: 2024-09-01</p><blockquote><p><b>participant</b></p><p><b>actor</b>: <a href=\"Patient-SampleSzPatient.html\">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1\u00a0(use:\u00a0usual,\u00a0))</a></p><p><b>status</b>: Accepted</p></blockquote><blockquote><p><b>participant</b></p><p><b>actor</b>: <a href=\"Location-SampleSzLocation.html\">Location Mahwalala Red Cross Clinic</a></p><p><b>status</b>: Accepted</p></blockquote></div>"
+  },
+  "status" : "proposed",
+  "serviceCategory" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/service-category",
+      "code" : "17",
+      "display" : "General Practice"
+    }]
+  }],
+  "serviceType" : [{
+    "coding" : [{
+      "system" : "http://localhost:3447/fhir/CodeSystem/SzServicePointCS",
+      "code" : "ART",
+      "display" : "Antiretrovial Therapy"
+    }]
+  }],
+  "start" : "2024-09-11T10:00:00Z",
+  "end" : "2024-09-11T10:00:00Z",
+  "created" : "2024-09-01",
+  "participant" : [{
+    "actor" : {
+      "reference" : "Patient/SampleSzPatient"
+    },
+    "status" : "accepted"
+  },
+  {
+    "actor" : {
+      "reference" : "Location/SampleSzLocation"
+    },
+    "status" : "accepted"
+  }]
+}

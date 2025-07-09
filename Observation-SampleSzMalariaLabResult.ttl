@@ -1,0 +1,76 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://192.168.10.200:3447/fhir/Observation/SampleSzMalariaLabResult> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "SampleSzMalariaLabResult"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzLabResult"^^xsd:anyURI ;
+       fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzLabResult>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation SampleSzMalariaLabResult</b></p><a name=\"SampleSzMalariaLabResult\"> </a><a name=\"hcSampleSzMalariaLabResult\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzLabResult.html\">Eswatini Lab Result Profile</a></p></div><p><b>Extention: Eswatini Lab Result Authorizer</b>: <a href=\"Practitioner-SampleSzPractitioner.html\">Practitioner Thabile Celiwe Dlamini </a></p><p><b>Extention: Eswatini Testing Laboratory</b>: <a href=\"Location-SampleSzLabLocation.html\">Location Mbabane Central Laboratory</a></p><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://localhost:3447/fhir/CodeSystem/SzTestParameterCodeCS PAN}\">PAN Antigen</span></p><p><b>subject</b>: <a href=\"Patient-SampleSzMalariaPatient.html\">Jacob Samuel Gule  Male, DoB: 1990-01-01 ( Medical Record Number: M002111111-11 (use: usual, ))</a></p><p><b>encounter</b>: <a href=\"Encounter-SampleSzMalariaEncounter.html\">Encounter: status = finished; class = Out Patient Department (SzEncounterClassificationCS#OPD); reasonCode = Antiretrovial Therapy</a></p><p><b>performer</b>: <a href=\"Practitioner-SampleSzPractitioner.html\">Practitioner Thabile Celiwe Dlamini </a></p><p><b>value</b>: </p><p><b>interpretation</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation POS}\">Positive</span></p><p><b>specimen</b>: <a href=\"Specimen-SampleSzMalariaSpecimen.html\">Specimen: status = available; type = Blood</a></p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzAuthorizerExtension"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Reference ;
+       fhir:link <http://192.168.10.200:3447/fhir/Practitioner/SampleSzPractitioner> ;
+       fhir:reference [ fhir:v "Practitioner/SampleSzPractitioner" ]
+     ]
+  ] [
+     fhir:url [ fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzTestingLabExtension"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Reference ;
+       fhir:link <http://192.168.10.200:3447/fhir/Location/SampleSzLabLocation> ;
+       fhir:reference [ fhir:v "Location/SampleSzLabLocation" ]
+     ]
+  ] ) ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://localhost:3447/fhir/CodeSystem/SzTestParameterCodeCS"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "PAN" ] ;
+       fhir:display [ fhir:v "PAN Antigen" ]
+     ] ) ;
+     fhir:text [ fhir:v "PAN Antigen" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzMalariaPatient> ;
+     fhir:reference [ fhir:v "Patient/SampleSzMalariaPatient" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:link <http://192.168.10.200:3447/fhir/Encounter/SampleSzMalariaEncounter> ;
+     fhir:reference [ fhir:v "Encounter/SampleSzMalariaEncounter" ]
+  ] ; # 
+  fhir:performer ( [
+     fhir:link <http://192.168.10.200:3447/fhir/Practitioner/SampleSzPractitioner> ;
+     fhir:reference [ fhir:v "Practitioner/SampleSzPractitioner" ]
+  ] ) ; # 
+  fhir:value [
+     a fhir:string ;
+     fhir:value [ fhir:v "Positive" ]
+  ] ; # 
+  fhir:interpretation ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "POS" ] ;
+       fhir:display [ fhir:v "Positive" ]
+     ] ) ;
+     fhir:text [ fhir:v "Positive" ]
+  ] ) ; # 
+  fhir:specimen [
+     fhir:link <http://192.168.10.200:3447/fhir/Specimen/SampleSzMalariaSpecimen> ;
+     fhir:reference [ fhir:v "Specimen/SampleSzMalariaSpecimen" ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

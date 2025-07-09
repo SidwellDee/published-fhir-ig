@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Artifacts Summary - Eswatini HL7 FHIR Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"2"}
+    h3,h4,h5,h6{--heading-prefix:"2.0"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Eswatini HL7 FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - ci-build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Eswatini HL7 FHIR Implementation Guide - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://192.168.10.200:3447/fhir/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Artifacts Summary</h2>
+  
+  
+  
+  <!--DO NOT EDIT THIS FILE - It is generated by https://github.com/HL7/ig-template-base/blob/master/scripts/createArtifactSummary.xslt and any changes made will be overwritten--><div xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     xmlns:html="http://www.w3.org/1999/xhtml"
+     class="markdown-toc">
+   <p>Contents:</p>
+   <ul>
+      <li>
+         <a href="#1">Structures: Resource Profiles</a>
+      </li>
+      <li>
+         <a href="#2">Structures: Extension Definitions</a>
+      </li>
+      <li>
+         <a href="#3">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#4">Terminology: Code Systems</a>
+      </li>
+      <li>
+         <a href="#5">Terminology: Naming Systems</a>
+      </li>
+      <li>
+         <a href="#6">Example: Example Instances</a>
+      </li>
+   </ul>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     xmlns:html="http://www.w3.org/1999/xhtml">
+   <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
+   <a name="1"> </a>
+   <h3>Structures: Resource Profiles </h3>
+    <p>These define constraints on FHIR resources for systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SzAppointment.html"
+                  title="StructureDefinition/SzAppointment">Eswatini Appointment Profile</a>
+            </td>
+            <td>
+<p>Definition of Eswatini Appointment Profile</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SzClinicalObservation.html"
+                  title="StructureDefinition/SzClinicalObservation">Eswatini Clinical Observation Profile</a>
+            </td>
+            <td>
+<p>Eswatini Clinical Observation Profile</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SzEncounter.html"
+                  title="StructureDefinition/SzEncounter">Eswatini Encounter Profile</a>
+            </td>
+            <td>
+<p>The Eswatini Encounter Profile inherits from …. This profile sets minimum expectations for the Encounter resource to record basic encounter
+information for a patient. It specifies which core elements shall be present and constrains how the elements are used.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SzLabResult.html"
+                  title="StructureDefinition/SzLabResult">Eswatini Lab Result Profile</a>
+            </td>
+            <td>
+<p>Eswatini Lab Result Profile</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SzLabTest.html"
+                  title="StructureDefinition/SzLabTest">Eswatini Lab Test Profile</a>
+            </td>
+            <td>
+<p>Eswatini Lab Test Profile</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SzLocation.html"
+                  title="StructureDefinition/SzLocation">Eswatini Location Profile</a>
+            </td>
+            <td>
+<p>Eswatini Location Profile sets a standard for recording locations where medical care is provided</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SzMedication.html"
+                  title="StructureDefinition/SzMedication">Eswatini Medication Profile</a>
+            </td>
+            <td>
+<p>Definition of Eswatinit Medication Profile</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SzMedicationDispense.html"
+                  title="StructureDefinition/SzMedicationDispense">Eswatini Medication Request Profile</a>
+            </td>
+            <td>
+<p>Definition of Eswatinit Medication Request Profile</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SzMedicationRequest.html"
+                  title="StructureDefinition/SzMedicationRequest">Eswatini Medication Request Profile</a>
+            </td>
+            <td>
+<p>Definition of Eswatinit Medication Request Profile</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SzOrganization.html"
+                  title="StructureDefinition/SzOrganization">Eswatini Organization Profile</a>
+            </td>
+            <td>
+<p>Organization profile</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SzPatient.html"
+                  title="StructureDefinition/SzPatient">Eswatini Patient Profile</a>
+            </td>
+            <td>
+<p>Definition of the FHIR Eswatini Patient resource</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SzPractitioner.html"
+                  title="StructureDefinition/SzPractitioner">Eswatini Practitioner Profile</a>
+            </td>
+            <td>
+<p>Definition of the FHRI Eswatini Practitioner resource</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SzProcedure.html"
+                  title="StructureDefinition/SzProcedure">Eswatini Procedure Profile</a>
+            </td>
+            <td>
+<p>This resource is designed to record details of current and historical procedures performed on a patient.
+This may include the start and stop dates of treatment like IPT.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SzLabSpecimen.html"
+                  title="StructureDefinition/SzLabSpecimen">Eswatini Specimen Profile</a>
+            </td>
+            <td>
+<p>The Eswatini Specimen Profile is based on the FHIR Specimen resource. This profile sets minimum
+expectation for Specimen resource to record information about substances associated with a patient or laboratory request being tested.
+This profile specifies which core elements shall be present and how these elements are used.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SzVitalSigns.html"
+                  title="StructureDefinition/SzVitalSigns">Eswatini Vital Signs Profile</a>
+            </td>
+            <td>
+<p>This profile is based on the base FHIR Vital Signs Profile and defines additional constraints on the Observation resource to represent
+vital signs observations specifically for Eswatini.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="2"> </a>
+   <h3>Structures: Extension Definitions </h3>
+    <p>These define constraints on FHIR data types for systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SzChiefdomExtension.html"
+                  title="StructureDefinition/SzChiefdomExtension">Extention: Eswatini Chiefdom</a>
+            </td>
+            <td>
+<p>Extention for Eswatini Chiefdom</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SzInkhundlaExtension.html"
+                  title="StructureDefinition/SzInkhundlaExtension">Extention: Eswatini Inkhundla</a>
+            </td>
+            <td>
+<p>Extention for Eswatini Tinkhundla</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SzAuthorizerExtension.html"
+                  title="StructureDefinition/SzAuthorizerExtension">Extention: Eswatini Lab Result Authorizer</a>
+            </td>
+            <td>
+<p>Extention for Eswatini Lab Result Authorizer</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SzLocationCodeExtension.html"
+                  title="StructureDefinition/SzLocationCodeExtension">Extention: Eswatini Location Code</a>
+            </td>
+            <td>
+<p>Extention for Eswatini Location Code</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-SzTestingLabExtension.html"
+                  title="StructureDefinition/SzTestingLabExtension">Extention: Eswatini Testing Laboratory</a>
+            </td>
+            <td>
+<p>Extention for Eswatini Testing Laboratory</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="3"> </a>
+   <h3>Terminology: Value Sets </h3>
+    <p>These define sets of codes used by systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-SzChiefdomVS.html" title="ValueSet/SzChiefdomVS">Value Set: Chiefdoms Value Set</a>
+            </td>
+            <td>
+<p>Value set for ESwatini chiefdoms</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-SzEncounterClassificationVS.html"
+                  title="ValueSet/SzEncounterClassificationVS">Value Set: Encounter Classification</a>
+            </td>
+            <td>
+<p>Eswatini Encounter Classification Codes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-SzTestParameterCodeVS.html"
+                  title="ValueSet/SzTestParameterCodeVS">Value Set: Eswatini Local Test Parameter Codes</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-CIE10VS.html" title="ValueSet/CIE10VS">Value Set: ICD10</a>
+            </td>
+            <td>
+<p>CIE10 code values</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-SzTestCodeVS.html" title="ValueSet/SzTestCodeVS">Value Set: Local Test Codes</a>
+            </td>
+            <td>
+<p>Eswatini Local Test Codes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-PersonIdentifiersVS.html"
+                  title="ValueSet/PersonIdentifiersVS">Value Set: Person Identifier</a>
+            </td>
+            <td>
+<p>Eswatini Person Identifiers</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-SzProductCodeVS.html" title="ValueSet/SzProductCodeVS">Value Set: Product Code Value Set</a>
+            </td>
+            <td>
+<p>Value set for ESwatini Product Codes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-SzTinkhundlaVS.html" title="ValueSet/SzTinkhundlaVS">Value Set: Tinkhundla</a>
+            </td>
+            <td>
+<p>Value set for Eswatini Tinkhundla</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-SzServicePointVS.html" title="ValueSet/SzServicePointVS">Value set: Eswatini Service Points</a>
+            </td>
+            <td>
+<p>Value set for Eswatini service points</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="4"> </a>
+   <h3>Terminology: Code Systems </h3>
+    <p>These define new code systems used by systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-SzEncounterClassificationCS.html"
+                  title="CodeSystem/SzEncounterClassificationCS">Code System: Encounter Classification</a>
+            </td>
+            <td>
+<p>Data element that contains the classification of encounters.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-SzChiefdomCS.html" title="CodeSystem/SzChiefdomCS">Code System: Eswatini Chiefdoms</a>
+            </td>
+            <td>
+<p>Code system for ESwatini Chiefdoms</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-SzTestCodeCS.html" title="CodeSystem/SzTestCodeCS">Code System: Eswatini Local Test Codes</a>
+            </td>
+            <td>
+<p>Data element that contains alternate test codes used by the Laboratory Information System to identify laboratory tests.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-SzTestParameterCodeCS.html"
+                  title="CodeSystem/SzTestParameterCodeCS">Code System: Eswatini Local Test Parameter Codes</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-SzProductCodeCS.html"
+                  title="CodeSystem/SzProductCodeCS">Code System: Eswatini Product Codes</a>
+            </td>
+            <td>
+<p>Code system for ESwatini Product Codes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-SzServicePointCS.html"
+                  title="CodeSystem/SzServicePointCS">Code System: Eswatini Service Points</a>
+            </td>
+            <td>
+<p>Code System for Eswatini service points</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-SzTinkhundlaCS.html" title="CodeSystem/SzTinkhundlaCS">Code System: Eswatini Tinkhundla</a>
+            </td>
+            <td>
+<p>Code system for Eswatini Tinkhundla</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-SzPersonIdentificationsCS.html"
+                  title="CodeSystem/SzPersonIdentificationsCS">Code System: Person Identification Types</a>
+            </td>
+            <td>
+<p>Data element that contains the name and identification number of a specific person for identity and individualization purposes.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="5"> </a>
+   <h3>Terminology: Naming Systems </h3>
+    <p>These define identifier and/or code system identities used by systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="NamingSystem-NamingSystemCbhis.html"
+                  title="NamingSystem/NamingSystemCbhis">NamingSystemCbhis</a>
+            </td>
+            <td>
+<p>Community Based Health Information System Electronic Medical Record</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="NamingSystem-NamingSystemCivilRegistry.html"
+                  title="NamingSystem/NamingSystemCivilRegistry">NamingSystemCivilRegistry</a>
+            </td>
+            <td>
+<p>Civil Registry</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="NamingSystem-NamingSystemCmis.html"
+                  title="NamingSystem/NamingSystemCmis">NamingSystemCmis</a>
+            </td>
+            <td>
+<p>Client Management Information System Electronic Medical Record</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="NamingSystem-NamingSystemMsds.html"
+                  title="NamingSystem/NamingSystemMsds">NamingSystemMsds</a>
+            </td>
+            <td>
+<p>Malaria Surveilance Data System</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="6"> </a>
+   <h3>Example: Example Instances </h3>
+    <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Patient-SampleSzPatient.html" title="Patient/SampleSzPatient">Sample Eswatini Patient</a>
+            </td>
+            <td>
+<p>Sample Eswaitni Patient</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Practitioner-SampleSzPharmacyPractitioner.html"
+                  title="Practitioner/SampleSzPharmacyPractitioner">Sample Pharmacy Practitioner</a>
+            </td>
+            <td>
+<p>Sample Eswatini Pharmacist</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Practitioner-SampleSzPractitioner.html"
+                  title="Practitioner/SampleSzPractitioner">Sample SzPractitioner</a>
+            </td>
+            <td>
+<p>Sample Eswatini Practitioner</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-SampleSzARTStartDateClinicalObservation.html"
+                  title="Observation/SampleSzARTStartDateClinicalObservation">SampleSzARTStartDateClinicalObservation</a>
+            </td>
+            <td>
+<p>Sample Eswatini Clinical Observation</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Appointment-SampleSzAppointment.html"
+                  title="Appointment/SampleSzAppointment">SampleSzAppointment</a>
+            </td>
+            <td>
+<p>Sample Eswatini Appointment</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Bundle-SampleSzBundle.html" title="Bundle/SampleSzBundle">SampleSzBundle</a>
+            </td>
+            <td>
+<p>Sample Eswatini Bundle</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Bundle-SampleSzBundle1.html" title="Bundle/SampleSzBundle1">SampleSzBundle1</a>
+            </td>
+            <td>
+<p>Sample Eswatini Patient and Encounter bundle</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Encounter-SampleSzEncounter.html"
+                  title="Encounter/SampleSzEncounter">SampleSzEncounter</a>
+            </td>
+            <td>
+<p>Sample Eswatini Encounter</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Procedure-SampleSzIPTProcedure.html"
+                  title="Procedure/SampleSzIPTProcedure">SampleSzIPTProcedure</a>
+            </td>
+            <td>
+<p>Sample Eswatini Procedure showing how the Eswainit Procedure Profile can be used to record IPT Start and Stop Dates.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Location-SampleSzLabLocation.html"
+                  title="Location/SampleSzLabLocation">SampleSzLabLocation</a>
+            </td>
+            <td>
+<p>Sample Eswatini Testing Laboratory</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-SampleSzLabResult1.html"
+                  title="Observation/SampleSzLabResult1">SampleSzLabResult1</a>
+            </td>
+            <td>
+<p>Sample Eswatini Lab Result</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="DiagnosticReport-SampleSzLabTest.html"
+                  title="DiagnosticReport/SampleSzLabTest">SampleSzLabTest</a>
+            </td>
+            <td>
+<p>Sample Eswatini Lab Test</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Location-SampleSzLocation.html" title="Location/SampleSzLocation">SampleSzLocation</a>
+            </td>
+            <td>
+<p>Sample Eswatini Location</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Bundle-SampleSzMalariaBundle.html"
+                  title="Bundle/SampleSzMalariaBundle">SampleSzMalariaBundle</a>
+            </td>
+            <td>
+<p>Sample Malaria Bundle</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Condition-SampleSzMalariaCondition-001.html"
+                  title="Condition/SampleSzMalariaCondition-001">SampleSzMalariaCondition-001</a>
+            </td>
+            <td>
+<p>Sample Eswatini Malaria Condition</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Encounter-SampleSzMalariaEncounter.html"
+                  title="Encounter/SampleSzMalariaEncounter">SampleSzMalariaEncounter</a>
+            </td>
+            <td>
+<p>Sample Eswatini Malaria Encounter</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-SampleSzMalariaLabResult.html"
+                  title="Observation/SampleSzMalariaLabResult">SampleSzMalariaLabResult</a>
+            </td>
+            <td>
+<p>Sample Malaria Lab Result</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="DiagnosticReport-SampleSzMalariaLabTest.html"
+                  title="DiagnosticReport/SampleSzMalariaLabTest">SampleSzMalariaLabTest</a>
+            </td>
+            <td>
+<p>Sample Malaria Lab Test</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="MedicationDispense-SampleSzMalariaMedicalDispense.html"
+                  title="MedicationDispense/SampleSzMalariaMedicalDispense">SampleSzMalariaMedicalDispense</a>
+            </td>
+            <td>
+<p>Sample Eswatini Malaria Medication Dispense</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="MedicationRequest-SampleSzMalariaMedicationRequest.html"
+                  title="MedicationRequest/SampleSzMalariaMedicationRequest">SampleSzMalariaMedicationRequest</a>
+            </td>
+            <td>
+<p>Sample Eswatini Malaria Medication Request</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Patient-SampleSzMalariaPatient.html"
+                  title="Patient/SampleSzMalariaPatient">SampleSzMalariaPatient</a>
+            </td>
+            <td>
+<p>Sample Eswatini Malaria Patient</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Specimen-SampleSzMalariaSpecimen.html"
+                  title="Specimen/SampleSzMalariaSpecimen">SampleSzMalariaSpecimen</a>
+            </td>
+            <td>
+<p>Sample Eswatini Malaria Specimen</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-SampleSzMalariaTravelHistory.html"
+                  title="Observation/SampleSzMalariaTravelHistory">SampleSzMalariaTravelHistory</a>
+            </td>
+            <td>
+<p>Sample Malaria Lab Result</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="MedicationDispense-SampleSzMedicalDispense.html"
+                  title="MedicationDispense/SampleSzMedicalDispense">SampleSzMedicalDispense</a>
+            </td>
+            <td>
+<p>Sample Eswatini Medication Request</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Medication-SampleSzMedication.html"
+                  title="Medication/SampleSzMedication">SampleSzMedication</a>
+            </td>
+            <td>
+<p>Sample Eswatini Medication</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="MedicationRequest-SampleSzMedicationRequest.html"
+                  title="MedicationRequest/SampleSzMedicationRequest">SampleSzMedicationRequest</a>
+            </td>
+            <td>
+<p>Sample Eswatini Medication Request</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Specimen-SampleSzSpecimen.html" title="Specimen/SampleSzSpecimen">SampleSzSpecimen</a>
+            </td>
+            <td>
+<p>Sample Eswatini Specimen</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-SampleVitalsBodyMassIndex.html"
+                  title="Observation/SampleVitalsBodyMassIndex">SampleVitalsBodyMassIndex</a>
+            </td>
+            <td>
+<p>Sample Eswatini Body Mass Index Vital Sign</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-SampleVitalsHeight.html"
+                  title="Observation/SampleVitalsHeight">SampleVitalsHeight</a>
+            </td>
+            <td>
+<p>Sample Eswatini Height Vital Sign</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-SampleVitalsRespiratoryRate.html"
+                  title="Observation/SampleVitalsRespiratoryRate">SampleVitalsRespiratoryRate</a>
+            </td>
+            <td>
+<p>Sample Eswatini Respiratory Rate Vital Sign</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-SampleVitalsTemperature.html"
+                  title="Observation/SampleVitalsTemperature">SampleVitalsTemperature</a>
+            </td>
+            <td>
+<p>Sample Eswatini Temperature Vital Sign</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-SampleVitalsWeight.html"
+                  title="Observation/SampleVitalsWeight">SampleVitalsWeight</a>
+            </td>
+            <td>
+<p>Sample Eswatini Weight Vital Sign</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+</div>
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="https://192.168.10.200:3447">Ministry of Health Eswatini</a>.  Package org.fshschool.courses.fsh-seminar-exercise#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jul 9, 2025 11:14+0000">2025-07-09</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

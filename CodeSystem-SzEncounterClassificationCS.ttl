@@ -1,0 +1,49 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://192.168.10.200:3447/fhir/CodeSystem/SzEncounterClassificationCS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "SzEncounterClassificationCS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem SzEncounterClassificationCS</b></p><a name=\"SzEncounterClassificationCS\"> </a><a name=\"hcSzEncounterClassificationCS\"> </a><p>This  code system <code>http://192.168.10.200:3447/fhir/CodeSystem/SzEncounterClassificationCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">OPD<a name=\"SzEncounterClassificationCS-OPD\"> </a></td><td>Out Patient Department</td></tr><tr><td style=\"white-space:nowrap\">IPD<a name=\"SzEncounterClassificationCS-IPD\"> </a></td><td>In Patient Department</td></tr><tr><td style=\"white-space:nowrap\">EMG<a name=\"SzEncounterClassificationCS-EMG\"> </a></td><td>Emergency</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://192.168.10.200:3447/fhir/CodeSystem/SzEncounterClassificationCS"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "EswatiniEncounterClassification"] ; # 
+  fhir:title [ fhir:v "Code System: Encounter Classification"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-07-09T11:11:31+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministry of Health Eswatini"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Ministry of Health Eswatini" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://192.168.10.200:3447" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "eswatinihie@moh.gov.sz" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Data element that contains the classification of encounters."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "OPD" ] ;
+     fhir:display [ fhir:v "Out Patient Department" ]
+  ] [
+     fhir:code [ fhir:v "IPD" ] ;
+     fhir:display [ fhir:v "In Patient Department" ]
+  ] [
+     fhir:code [ fhir:v "EMG" ] ;
+     fhir:display [ fhir:v "Emergency" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

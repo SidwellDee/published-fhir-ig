@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="NamingSystemCmis"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: NamingSystem NamingSystemCmis</b></p><a name="NamingSystemCmis"> </a><a name="hcNamingSystemCmis"> </a><h3>Summary</h3><table class="grid"><tr><td>Defining URL</td><td>http://192.168.10.200:3447/fhir/NamingSystem/NamingSystemCmis</td></tr><tr><td>Version</td><td>0.1.0</td></tr><tr><td>Name</td><td>Client Management Information System</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Client Management Information System Electronic Medical Record</p>
+</div></td></tr><tr><td>Publisher</td><td>Ministry of Health Eswatini</td></tr></table><h3>Identifiers</h3><table class="grid"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>urn:health:cmis</td><td>true</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url">
+    <valueUri value="http://192.168.10.200:3447/fhir/NamingSystem/NamingSystemCmis"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version">
+    <valueString value="0.1.0"/>
+  </extension>
+  <name value="Client Management Information System"/>
+  <status value="active"/>
+  <kind value="identifier"/>
+  <date value="2024-12-17"/>
+  <publisher value="Ministry of Health Eswatini"/>
+  <contact>
+    <name value="Ministry of Health Eswatini"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://192.168.10.200:3447"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="eswatinihie@moh.gov.sz"/>
+    </telecom>
+  </contact>
+  <responsible value="Ministry of Health"/>
+  <description value="Client Management Information System Electronic Medical Record"/>
+  <usage value="official"/>
+  <uniqueId>
+    <type value="uri"/>
+    <value value="urn:health:cmis"/>
+    <preferred value="true"/>
+  </uniqueId>
+</NamingSystem>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CIE10VS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet CIE10VS</b></p><a name="CIE10VS"> </a><a name="hcCIE10VS"> </a><ul><li>Include all codes defined in <a href="http://terminology.hl7.org/5.5.0/CodeSystem-icd10.html"><code>http://hl7.org/fhir/sid/icd-10</code></a></li></ul></div>
+  </text>
+  <url value="http://192.168.10.200:3447/fhir/ValueSet/CIE10VS"/>
+  <version value="0.1.0"/>
+  <name value="CIE10VS"/>
+  <title value="Value Set: ICD10"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-01-01T00:00:00-05:00"/>
+  <publisher value="Ministry of Health Eswatini"/>
+  <contact>
+    <name value="Ministry of Health Eswatini"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://192.168.10.200:3447"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="eswatinihie@moh.gov.sz"/>
+    </telecom>
+  </contact>
+  <description value="CIE10 code values"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/sid/icd-10"/>
+    </include>
+  </compose>
+</ValueSet>

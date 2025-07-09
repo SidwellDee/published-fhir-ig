@@ -1,0 +1,55 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://192.168.10.200:3447/fhir/Appointment/SampleSzAppointment> a fhir:Appointment ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "SampleSzAppointment"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzAppointment"^^xsd:anyURI ;
+       fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzAppointment>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Appointment SampleSzAppointment</b></p><a name=\"SampleSzAppointment\"> </a><a name=\"hcSampleSzAppointment\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzAppointment.html\">Eswatini Appointment Profile</a></p></div><p><b>status</b>: Proposed</p><p><b>serviceCategory</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/service-category 17}\">General Practice</span></p><p><b>serviceType</b>: <span title=\"Codes:{http://localhost:3447/fhir/CodeSystem/SzServicePointCS ART}\">Antiretrovial Therapy</span></p><p><b>start</b>: 2024-09-11 10:00:00+0000</p><p><b>end</b>: 2024-09-11 10:00:00+0000</p><p><b>created</b>: 2024-09-01</p><blockquote><p><b>participant</b></p><p><b>actor</b>: <a href=\"Patient-SampleSzPatient.html\">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</a></p><p><b>status</b>: Accepted</p></blockquote><blockquote><p><b>participant</b></p><p><b>actor</b>: <a href=\"Location-SampleSzLocation.html\">Location Mahwalala Red Cross Clinic</a></p><p><b>status</b>: Accepted</p></blockquote></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:status [ fhir:v "proposed"] ; # 
+  fhir:serviceCategory ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/service-category"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "17" ] ;
+       fhir:display [ fhir:v "General Practice" ]
+     ] )
+  ] ) ; # 
+  fhir:serviceType ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://localhost:3447/fhir/CodeSystem/SzServicePointCS"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "ART" ] ;
+       fhir:display [ fhir:v "Antiretrovial Therapy" ]
+     ] )
+  ] ) ; # 
+  fhir:start [ fhir:v "2024-09-11T10:00:00Z"^^xsd:dateTime] ; # 
+  fhir:end [ fhir:v "2024-09-11T10:00:00Z"^^xsd:dateTime] ; # 
+  fhir:created [ fhir:v "2024-09-01"^^xsd:date] ; # 
+  fhir:participant ( [
+     fhir:actor [
+       fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzPatient> ;
+       fhir:reference [ fhir:v "Patient/SampleSzPatient" ]
+     ] ;
+     fhir:status [ fhir:v "accepted" ]
+  ] [
+     fhir:actor [
+       fhir:link <http://192.168.10.200:3447/fhir/Location/SampleSzLocation> ;
+       fhir:reference [ fhir:v "Location/SampleSzLocation" ]
+     ] ;
+     fhir:status [ fhir:v "accepted" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

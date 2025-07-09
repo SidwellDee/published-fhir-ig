@@ -1,0 +1,562 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "SampleSzMalariaBundle",
+  "type" : "transaction",
+  "entry" : [{
+    "fullUrl" : "http://localhost:3447/fhir/Patient/SampleSzMalariaPatient",
+    "resource" : {
+      "resourceType" : "Patient",
+      "id" : "SampleSzMalariaPatient",
+      "meta" : {
+        "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzPatient"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Patient_SampleSzMalariaPatient\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Patient SampleSzMalariaPatient</b></p><a name=\"SampleSzMalariaPatient\"> </a><a name=\"hcSampleSzMalariaPatient\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzPatient.html\">Eswatini Patient Profile</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Jacob Samuel Gule  Male, DoB: 1990-01-01 ( Medical Record Number: M002111111-11\u00a0(use:\u00a0usual,\u00a0))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Other Id (see the one above)\">Other Id:</td><td colspan=\"3\">Personal ID Number/1999001000000\u00a0(use:\u00a0official,\u00a0)</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The nationality of the patient.\">Patient Nationality:</td><td colspan=\"3\"><ul><li>code: <span title=\"Codes:{urn:iso:std:iso:3166 SWZ}\">Eswatini</span></li><li>period: 1981-01-20 --&gt; (ongoing)</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Base StructureDefinition for code type: A string which has at least one character and no leading or trailing whitespace and where there is no whitespace other than single spaces in the contents\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\"/></td><td colspan=\"3\"><ul><li><span title=\"Codes:{http://localhost:3447/fhir/CodeSystem/SzTinkhundlaCS DVOKODVWENI}\">Dvokodvweni</span></li><li><span title=\"Codes:{http://localhost:3447/fhir/CodeSystem/SzChiefdomCS Kwaluseni}\">Kwaluseni</span></li></ul></td></tr></table></div>"
+      },
+      "extension" : [{
+        "extension" : [{
+          "url" : "code",
+          "valueCodeableConcept" : {
+            "coding" : [{
+              "system" : "urn:iso:std:iso:3166",
+              "code" : "SWZ",
+              "display" : "Eswatini"
+            }]
+          }
+        },
+        {
+          "url" : "period",
+          "valuePeriod" : {
+            "start" : "1981-01-20"
+          }
+        }],
+        "url" : "http://hl7.org/fhir/StructureDefinition/patient-nationality"
+      },
+      {
+        "url" : "code",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://localhost:3447/fhir/CodeSystem/SzTinkhundlaCS",
+            "code" : "DVOKODVWENI",
+            "display" : "Dvokodvweni"
+          }],
+          "text" : "Dvokodvweni"
+        }
+      },
+      {
+        "url" : "code",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://localhost:3447/fhir/CodeSystem/SzChiefdomCS",
+            "code" : "Kwaluseni",
+            "display" : "Kwaluseni"
+          }],
+          "text" : "Kwaluseni"
+        }
+      }],
+      "identifier" : [{
+        "use" : "usual",
+        "type" : {
+          "coding" : [{
+            "system" : "http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS",
+            "code" : "MR",
+            "display" : "Medical Record Number"
+          }]
+        },
+        "system" : "http://mfl.sys/m001",
+        "value" : "M002111111-11"
+      },
+      {
+        "use" : "official",
+        "type" : {
+          "coding" : [{
+            "system" : "http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS",
+            "code" : "PI",
+            "display" : "Personal ID Number"
+          }]
+        },
+        "system" : "http://homeaffairs.sys",
+        "value" : "1999001000000"
+      }],
+      "name" : [{
+        "family" : "Gule",
+        "given" : ["Jacob",
+        "Samuel"]
+      }],
+      "gender" : "male",
+      "birthDate" : "1990-01-01",
+      "_birthDate" : {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/patient-birthTime",
+          "valueDateTime" : "2000-01-01T14:35:45-05:00"
+        }]
+      }
+    },
+    "request" : {
+      "method" : "PUT",
+      "url" : "Patient/SampleSzMalariaPatient"
+    }
+  },
+  {
+    "fullUrl" : "http://localhost:3447/fhir/Encounter/SampleSzMalariaEncounter",
+    "resource" : {
+      "resourceType" : "Encounter",
+      "id" : "SampleSzMalariaEncounter",
+      "meta" : {
+        "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzEncounter"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Encounter_SampleSzMalariaEncounter\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Encounter SampleSzMalariaEncounter</b></p><a name=\"SampleSzMalariaEncounter\"> </a><a name=\"hcSampleSzMalariaEncounter\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzEncounter.html\">Eswatini Encounter Profile</a></p></div><p><b>status</b>: Finished</p><p><b>class</b>: SzEncounterClassificationCS OPD: Out Patient Department</p><p><b>subject</b>: <a href=\"Patient-SampleSzPatient.html\">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1\u00a0(use:\u00a0usual,\u00a0))</a></p><h3>Participants</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Individual</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Practitioner-SampleSzPractitioner.html\">Practitioner Thabile Celiwe Dlamini </a></td></tr></table><p><b>reasonCode</b>: <span title=\"Codes:{http://localhost:3447/fhir/CodeSystem/SzServicePointCS ART}\">Antiretrovial Therapy</span></p><h3>Locations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Location</b></td><td><b>Status</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Location-SampleSzLocation.html\">Location Mahwalala Red Cross Clinic</a></td><td>Completed</td></tr></table></div>"
+      },
+      "status" : "finished",
+      "class" : {
+        "system" : "http://localhost:3447/fhir/CodeSystem/SzEncounterClassificationCS",
+        "code" : "OPD",
+        "display" : "Out Patient Department"
+      },
+      "subject" : {
+        "reference" : "Patient/SampleSzPatient"
+      },
+      "participant" : [{
+        "individual" : {
+          "reference" : "Practitioner/SampleSzPractitioner"
+        }
+      }],
+      "reasonCode" : [{
+        "coding" : [{
+          "system" : "http://localhost:3447/fhir/CodeSystem/SzServicePointCS",
+          "code" : "ART",
+          "display" : "Antiretrovial Therapy"
+        }],
+        "text" : "Antiretrovial Therapy"
+      }],
+      "location" : [{
+        "location" : {
+          "reference" : "Location/SampleSzLocation"
+        },
+        "status" : "completed"
+      }]
+    },
+    "request" : {
+      "method" : "PUT",
+      "url" : "Encounter/SampleSzMalariaEncounter"
+    }
+  },
+  {
+    "fullUrl" : "http://localhost:3447/fhir/Observation/SampleVitalsWeight",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "SampleVitalsWeight",
+      "meta" : {
+        "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_SampleVitalsWeight\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation SampleVitalsWeight</b></p><a name=\"SampleVitalsWeight\"> </a><a name=\"hcSampleVitalsWeight\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzVitalSigns.html\">Eswatini Vital Signs Profile</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/ValueSet/observation-vitalsignresult 29463-7}\">Body weight</span></p><p><b>subject</b>: <a href=\"Patient-SampleSzPatient.html\">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1\u00a0(use:\u00a0usual,\u00a0))</a></p><p><b>effective</b>: 2024-11-25</p><p><b>value</b>: 75 kg</p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "vital-signs"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/ValueSet/observation-vitalsignresult",
+          "code" : "29463-7",
+          "display" : "Body weight"
+        }],
+        "text" : "Body weight"
+      },
+      "subject" : {
+        "reference" : "Patient/SampleSzPatient"
+      },
+      "effectiveDateTime" : "2024-11-25",
+      "valueQuantity" : {
+        "value" : 75,
+        "unit" : "kg"
+      }
+    },
+    "request" : {
+      "method" : "PUT",
+      "url" : "Observation/SampleVitalsWeight"
+    }
+  },
+  {
+    "fullUrl" : "http://localhost:3447/fhir/Observation/SampleVitalsHeight",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "SampleVitalsHeight",
+      "meta" : {
+        "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_SampleVitalsHeight\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation SampleVitalsHeight</b></p><a name=\"SampleVitalsHeight\"> </a><a name=\"hcSampleVitalsHeight\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzVitalSigns.html\">Eswatini Vital Signs Profile</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/ValueSet/observation-vitalsignresult 8302-2}\">Body height</span></p><p><b>subject</b>: <a href=\"Patient-SampleSzPatient.html\">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1\u00a0(use:\u00a0usual,\u00a0))</a></p><p><b>effective</b>: 2024-11-25</p><p><b>value</b>: 175 cm</p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "vital-signs"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/ValueSet/observation-vitalsignresult",
+          "code" : "8302-2",
+          "display" : "Body height"
+        }],
+        "text" : "Body height"
+      },
+      "subject" : {
+        "reference" : "Patient/SampleSzPatient"
+      },
+      "effectiveDateTime" : "2024-11-25",
+      "valueQuantity" : {
+        "value" : 175,
+        "unit" : "cm"
+      }
+    },
+    "request" : {
+      "method" : "PUT",
+      "url" : "Observation/SampleVitalsHeight"
+    }
+  },
+  {
+    "fullUrl" : "http://localhost:3447/fhir/Observation/SampleVitalsTemperature",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "SampleVitalsTemperature",
+      "meta" : {
+        "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_SampleVitalsTemperature\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation SampleVitalsTemperature</b></p><a name=\"SampleVitalsTemperature\"> </a><a name=\"hcSampleVitalsTemperature\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzVitalSigns.html\">Eswatini Vital Signs Profile</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/ValueSet/observation-vitalsignresult 8310-5}\">Temperature</span></p><p><b>subject</b>: <a href=\"Patient-SampleSzPatient.html\">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1\u00a0(use:\u00a0usual,\u00a0))</a></p><p><b>effective</b>: 2024-11-25</p><p><b>value</b>: 37.5 °C</p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "vital-signs"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/ValueSet/observation-vitalsignresult",
+          "code" : "8310-5",
+          "display" : "Body temperature"
+        }],
+        "text" : "Temperature"
+      },
+      "subject" : {
+        "reference" : "Patient/SampleSzPatient"
+      },
+      "effectiveDateTime" : "2024-11-25",
+      "valueQuantity" : {
+        "value" : 37.5,
+        "unit" : "°C"
+      }
+    },
+    "request" : {
+      "method" : "PUT",
+      "url" : "Observation/SampleVitalsTemperature"
+    }
+  },
+  {
+    "fullUrl" : "http://localhost:3447/fhir/Observation/SampleVitalsRespiratoryRate",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "SampleVitalsRespiratoryRate",
+      "meta" : {
+        "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_SampleVitalsRespiratoryRate\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation SampleVitalsRespiratoryRate</b></p><a name=\"SampleVitalsRespiratoryRate\"> </a><a name=\"hcSampleVitalsRespiratoryRate\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzVitalSigns.html\">Eswatini Vital Signs Profile</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/ValueSet/observation-vitalsignresult 9279-1}\">Respiratory rate</span></p><p><b>subject</b>: <a href=\"Patient-SampleSzPatient.html\">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1\u00a0(use:\u00a0usual,\u00a0))</a></p><p><b>effective</b>: 2024-11-25</p><p><b>value</b>: 89 bpm</p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "vital-signs"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/ValueSet/observation-vitalsignresult",
+          "code" : "9279-1",
+          "display" : "Respiratory rate"
+        }],
+        "text" : "Respiratory rate"
+      },
+      "subject" : {
+        "reference" : "Patient/SampleSzPatient"
+      },
+      "effectiveDateTime" : "2024-11-25",
+      "valueQuantity" : {
+        "value" : 89,
+        "unit" : "bpm"
+      }
+    },
+    "request" : {
+      "method" : "PUT",
+      "url" : "Observation/SampleVitalsRespiratoryRate"
+    }
+  },
+  {
+    "fullUrl" : "http://localhost:3447/fhir/Observation/SampleVitalsBodyMassIndex",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "SampleVitalsBodyMassIndex",
+      "meta" : {
+        "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_SampleVitalsBodyMassIndex\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation SampleVitalsBodyMassIndex</b></p><a name=\"SampleVitalsBodyMassIndex\"> </a><a name=\"hcSampleVitalsBodyMassIndex\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzVitalSigns.html\">Eswatini Vital Signs Profile</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/ValueSet/observation-vitalsignresult 39156-5}\">Body mass index</span></p><p><b>subject</b>: <a href=\"Patient-SampleSzPatient.html\">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1\u00a0(use:\u00a0usual,\u00a0))</a></p><p><b>effective</b>: 2024-11-25</p><p><b>value</b>: 18.1 kg/m²</p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "vital-signs"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/ValueSet/observation-vitalsignresult",
+          "code" : "39156-5",
+          "display" : "Body mass index"
+        }],
+        "text" : "Body mass index"
+      },
+      "subject" : {
+        "reference" : "Patient/SampleSzPatient"
+      },
+      "effectiveDateTime" : "2024-11-25",
+      "valueQuantity" : {
+        "value" : 18.1,
+        "unit" : "kg/m²"
+      }
+    },
+    "request" : {
+      "method" : "PUT",
+      "url" : "Observation/SampleVitalsBodyMassIndex"
+    }
+  },
+  {
+    "fullUrl" : "http://localhost:3447/fhir/DiagnosticReport/SampleSzMalariaLabTest",
+    "resource" : {
+      "resourceType" : "DiagnosticReport",
+      "id" : "SampleSzMalariaLabTest",
+      "meta" : {
+        "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzLabTest"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"DiagnosticReport_SampleSzMalariaLabTest\"> </a><p class=\"res-header-id\"><b>Generated Narrative: DiagnosticReport SampleSzMalariaLabTest</b></p><a name=\"SampleSzMalariaLabTest\"> </a><a name=\"hcSampleSzMalariaLabTest\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzLabTest.html\">Eswatini Lab Test Profile</a></p></div><h2><span title=\"Codes:{http://localhost:3447/fhir/CodeSystem/SzTestCodeCS MALS}\">Malaria Smear</span> </h2><table class=\"grid\"><tr><td>Subject</td><td>Jacob Samuel Gule  Male, DoB: 1990-01-01 ( Medical Record Number: M002111111-11\u00a0(use:\u00a0usual,\u00a0))</td></tr><tr><td>When For</td><td>2024-11-26 10:00:00+0000</td></tr><tr><td>Reported</td><td>2024-11-26 10:00:00+0000</td></tr><tr><td>Performer</td><td> <a href=\"Practitioner-SampleSzPractitioner.html\">Practitioner Thabile Celiwe Dlamini </a></td></tr></table><p><b>Report Details</b></p></div>"
+      },
+      "status" : "final",
+      "code" : {
+        "coding" : [{
+          "system" : "http://localhost:3447/fhir/CodeSystem/SzTestCodeCS",
+          "code" : "MALS",
+          "display" : "Malaria Smear"
+        }],
+        "text" : "Malaria Smear"
+      },
+      "subject" : {
+        "reference" : "Patient/SampleSzMalariaPatient"
+      },
+      "encounter" : {
+        "reference" : "Encounter/SampleSzMalariaEncounter"
+      },
+      "effectiveDateTime" : "2024-11-26T10:00:00Z",
+      "issued" : "2024-11-26T10:00:00Z",
+      "performer" : [{
+        "reference" : "Practitioner/SampleSzPractitioner"
+      }],
+      "specimen" : [{
+        "reference" : "Specimen/SampleSzMalariaSpecimen"
+      }]
+    },
+    "request" : {
+      "method" : "PUT",
+      "url" : "DiagnosticReport/SampleSzMalariaLabTest"
+    }
+  },
+  {
+    "fullUrl" : "http://localhost:3447/fhir/Condition/SampleSzMalariaCondition-001",
+    "resource" : {
+      "resourceType" : "Condition",
+      "id" : "SampleSzMalariaCondition-001",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Condition_SampleSzMalariaCondition-001\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Condition SampleSzMalariaCondition-001</b></p><a name=\"SampleSzMalariaCondition-001\"> </a><a name=\"hcSampleSzMalariaCondition-001\"> </a><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>verificationStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}\">Confirmed</span></p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category diagnosis}\">Diagnosis</span></p><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/sid/icd-11 1A11.0}, {http://hl7.org/fhir/sid/icd-11 1A11.1}, {http://hl7.org/fhir/sid/icd-11 1A11.2}, {http://hl7.org/fhir/sid/icd-11 1A11.3}\">Plasmodium falciparum malaria</span></p><p><b>subject</b>: <a href=\"Patient-SampleSzMalariaPatient.html\">Jacob Samuel Gule  Male, DoB: 1990-01-01 ( Medical Record Number: M002111111-11\u00a0(use:\u00a0usual,\u00a0))</a></p><p><b>onset</b>: 2024-11-24</p><p><b>recordedDate</b>: 2024-11-26</p><p><b>asserter</b>: <a href=\"Practitioner-SampleSzPractitioner.html\">Practitioner Thabile Celiwe Dlamini </a></p></div>"
+      },
+      "clinicalStatus" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code" : "active",
+          "display" : "Active"
+        }]
+      },
+      "verificationStatus" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code" : "confirmed",
+          "display" : "Confirmed"
+        }]
+      },
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code" : "diagnosis",
+          "display" : "Diagnosis"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/sid/icd-11",
+          "code" : "1A11.0",
+          "display" : "Plasmodium falciparum malaria"
+        },
+        {
+          "system" : "http://hl7.org/fhir/sid/icd-11",
+          "code" : "1A11.1",
+          "display" : "Plasmodium vivax malaria"
+        },
+        {
+          "system" : "http://hl7.org/fhir/sid/icd-11",
+          "code" : "1A11.2",
+          "display" : "Plasmodium malariae malaria"
+        },
+        {
+          "system" : "http://hl7.org/fhir/sid/icd-11",
+          "code" : "1A11.3",
+          "display" : "Plasmodium ovale malaria"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/SampleSzMalariaPatient"
+      },
+      "onsetDateTime" : "2024-11-24",
+      "recordedDate" : "2024-11-26",
+      "asserter" : {
+        "reference" : "Practitioner/SampleSzPractitioner"
+      }
+    },
+    "request" : {
+      "method" : "PUT",
+      "url" : "Condition/SampleSzMalariaCondition-001"
+    }
+  },
+  {
+    "fullUrl" : "http://localhost:3447/fhir/MedicationRequest/SampleSzMalariaMedicationRequest",
+    "resource" : {
+      "resourceType" : "MedicationRequest",
+      "id" : "SampleSzMalariaMedicationRequest",
+      "meta" : {
+        "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzMedicationRequest"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicationRequest_SampleSzMalariaMedicationRequest\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MedicationRequest SampleSzMalariaMedicationRequest</b></p><a name=\"SampleSzMalariaMedicationRequest\"> </a><a name=\"hcSampleSzMalariaMedicationRequest\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzMedicationRequest.html\">Eswatini Medication Request Profile</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>medication</b>: <span title=\"Codes:{http://localhost:3447/fhir/CodeSystem/SzProductCodeCS 102492}\">Paracetamol Tablets 500g (Coloured Green) 100 TABS</span></p><p><b>subject</b>: <a href=\"Patient-SampleSzMalariaPatient.html\">Jacob Samuel Gule  Male, DoB: 1990-01-01 ( Medical Record Number: M002111111-11\u00a0(use:\u00a0usual,\u00a0))</a></p><p><b>encounter</b>: <a href=\"Encounter-SampleSzMalariaEncounter.html\">Encounter: status = finished; class = Out Patient Department (SzEncounterClassificationCS#OPD); reasonCode = Antiretrovial Therapy</a></p><p><b>authoredOn</b>: 2024-11-25 10:00:00+0000</p><p><b>requester</b>: <a href=\"Practitioner-SampleSzPractitioner.html\">Practitioner Thabile Celiwe Dlamini </a></p><blockquote><p><b>dosageInstruction</b></p><p><b>text</b>: Take one tablet by mouth 3 times a day before food</p><p><b>timing</b>: 3 per 1 day</p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>1 tablet</td></tr></table></blockquote></div>"
+      },
+      "status" : "active",
+      "intent" : "order",
+      "medicationCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://localhost:3447/fhir/CodeSystem/SzProductCodeCS",
+          "code" : "102492",
+          "display" : "Paracetamol Tablets 500g (Coloured Green) 100 TABS"
+        }],
+        "text" : "Paracetamol Tablets 500g (Coloured Green) 100 TABS"
+      },
+      "subject" : {
+        "reference" : "Patient/SampleSzMalariaPatient"
+      },
+      "encounter" : {
+        "reference" : "Encounter/SampleSzMalariaEncounter"
+      },
+      "authoredOn" : "2024-11-25T10:00:00Z",
+      "requester" : {
+        "reference" : "Practitioner/SampleSzPractitioner"
+      },
+      "dosageInstruction" : [{
+        "text" : "Take one tablet by mouth 3 times a day before food",
+        "timing" : {
+          "repeat" : {
+            "frequency" : 3,
+            "period" : 1,
+            "periodUnit" : "d"
+          }
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 1,
+            "unit" : "tablet"
+          }
+        }]
+      }]
+    },
+    "request" : {
+      "method" : "PUT",
+      "url" : "MedicationRequest/SampleSzMalariaMedicationRequest"
+    }
+  },
+  {
+    "fullUrl" : "http://localhost:3447/fhir/Observation/SampleSzMalariaTravelHistory",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "SampleSzMalariaTravelHistory",
+      "meta" : {
+        "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzClinicalObservation"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_SampleSzMalariaTravelHistory\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation SampleSzMalariaTravelHistory</b></p><a name=\"SampleSzMalariaTravelHistory\"> </a><a name=\"hcSampleSzMalariaTravelHistory\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzClinicalObservation.html\">Eswatini Clinical Observation Profile</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 420008001}\">Travel history</span></p><p><b>subject</b>: <a href=\"Patient-SampleSzMalariaPatient.html\">Jacob Samuel Gule  Male, DoB: 1990-01-01 ( Medical Record Number: M002111111-11\u00a0(use:\u00a0usual,\u00a0))</a></p><p><b>effective</b>: 2024-11-01 --&gt; 2024-11-15</p><h3>Components</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Value[x]</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://snomed.info/sct 420008001}\">Travel location</span></td><td><span title=\"Codes:{http://snomed.info/sct 24658006}\">France</span></td></tr></table></div>"
+      },
+      "status" : "final",
+      "code" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "420008001",
+          "display" : "Travel history"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/SampleSzMalariaPatient"
+      },
+      "effectivePeriod" : {
+        "start" : "2024-11-01",
+        "end" : "2024-11-15"
+      },
+      "component" : [{
+        "code" : {
+          "coding" : [{
+            "system" : "http://snomed.info/sct",
+            "code" : "420008001",
+            "display" : "Travel location"
+          }]
+        },
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://snomed.info/sct",
+            "code" : "24658006",
+            "display" : "France"
+          }]
+        }
+      }]
+    },
+    "request" : {
+      "method" : "PUT",
+      "url" : "Observation/SampleSzMalariaTravelHistory"
+    }
+  }]
+}

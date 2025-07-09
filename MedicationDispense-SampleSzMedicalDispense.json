@@ -1,0 +1,60 @@
+{
+  "resourceType" : "MedicationDispense",
+  "id" : "SampleSzMedicalDispense",
+  "meta" : {
+    "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzMedicationDispense"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: MedicationDispense SampleSzMedicalDispense</b></p><a name=\"SampleSzMedicalDispense\"> </a><a name=\"hcSampleSzMedicalDispense\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzMedicationDispense.html\">Eswatini Medication Request Profile</a></p></div><p><b>status</b>: Completed</p><p><b>medication</b>: <span title=\"Codes:{http://localhost:3447/fhir/CodeSystem/SzProductCodeCS 102492}\">Paracetamol Tablets 500g (Coloured Green) 100 TABS</span></p><p><b>subject</b>: <a href=\"Patient-SampleSzPatient.html\">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1\u00a0(use:\u00a0usual,\u00a0))</a></p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Practitioner-SampleSzPharmacyPractitioner.html\">Practitioner Susan Carol Smith </a></td></tr></table><p><b>location</b>: <a href=\"Location-SampleSzLocation.html\">Location Mahwalala Red Cross Clinic</a></p><p><b>authorizingPrescription</b>: <a href=\"MedicationRequest-SampleSzMedicationRequest.html\">MedicationRequest: status = active; intent = order; medication[x] = Paracetamol Tablets 500g (Coloured Green) 100 TABS; authoredOn = 2024-09-11 10:00:00+0000</a></p><p><b>quantity</b>: 30 tablets</p><p><b>daysSupply</b>: 30 days</p><p><b>whenPrepared</b>: 2024-09-11 10:00:00+0000</p><p><b>whenHandedOver</b>: 2024-09-12 10:00:00+0000</p><blockquote><p><b>dosageInstruction</b></p><p><b>text</b>: Take one tablet by mouth 3 times a day before food</p><p><b>timing</b>: 3 per 1 day</p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>1 tablet</td></tr></table></blockquote></div>"
+  },
+  "status" : "completed",
+  "medicationCodeableConcept" : {
+    "coding" : [{
+      "system" : "http://localhost:3447/fhir/CodeSystem/SzProductCodeCS",
+      "code" : "102492",
+      "display" : "Paracetamol Tablets 500g (Coloured Green) 100 TABS"
+    }],
+    "text" : "Paracetamol Tablets 500g (Coloured Green) 100 TABS"
+  },
+  "subject" : {
+    "reference" : "Patient/SampleSzPatient"
+  },
+  "performer" : [{
+    "actor" : {
+      "reference" : "Practitioner/SampleSzPharmacyPractitioner"
+    }
+  }],
+  "location" : {
+    "reference" : "Location/SampleSzLocation"
+  },
+  "authorizingPrescription" : [{
+    "reference" : "MedicationRequest/SampleSzMedicationRequest"
+  }],
+  "quantity" : {
+    "value" : 30,
+    "unit" : "tablets"
+  },
+  "daysSupply" : {
+    "value" : 30,
+    "unit" : "days"
+  },
+  "whenPrepared" : "2024-09-11T10:00:00Z",
+  "whenHandedOver" : "2024-09-12T10:00:00Z",
+  "dosageInstruction" : [{
+    "text" : "Take one tablet by mouth 3 times a day before food",
+    "timing" : {
+      "repeat" : {
+        "frequency" : 3,
+        "period" : 1,
+        "periodUnit" : "d"
+      }
+    },
+    "doseAndRate" : [{
+      "doseQuantity" : {
+        "value" : 1,
+        "unit" : "tablet"
+      }
+    }]
+  }]
+}

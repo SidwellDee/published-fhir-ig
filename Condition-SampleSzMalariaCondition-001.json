@@ -1,0 +1,59 @@
+{
+  "resourceType" : "Condition",
+  "id" : "SampleSzMalariaCondition-001",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition SampleSzMalariaCondition-001</b></p><a name=\"SampleSzMalariaCondition-001\"> </a><a name=\"hcSampleSzMalariaCondition-001\"> </a><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>verificationStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}\">Confirmed</span></p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category diagnosis}\">Diagnosis</span></p><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/sid/icd-11 1A11.0}, {http://hl7.org/fhir/sid/icd-11 1A11.1}, {http://hl7.org/fhir/sid/icd-11 1A11.2}, {http://hl7.org/fhir/sid/icd-11 1A11.3}\">Plasmodium falciparum malaria</span></p><p><b>subject</b>: <a href=\"Patient-SampleSzMalariaPatient.html\">Jacob Samuel Gule  Male, DoB: 1990-01-01 ( Medical Record Number: M002111111-11\u00a0(use:\u00a0usual,\u00a0))</a></p><p><b>onset</b>: 2024-11-24</p><p><b>recordedDate</b>: 2024-11-26</p><p><b>asserter</b>: <a href=\"Practitioner-SampleSzPractitioner.html\">Practitioner Thabile Celiwe Dlamini </a></p></div>"
+  },
+  "clinicalStatus" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+      "code" : "active",
+      "display" : "Active"
+    }]
+  },
+  "verificationStatus" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+      "code" : "confirmed",
+      "display" : "Confirmed"
+    }]
+  },
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-category",
+      "code" : "diagnosis",
+      "display" : "Diagnosis"
+    }]
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-11",
+      "code" : "1A11.0",
+      "display" : "Plasmodium falciparum malaria"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-11",
+      "code" : "1A11.1",
+      "display" : "Plasmodium vivax malaria"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-11",
+      "code" : "1A11.2",
+      "display" : "Plasmodium malariae malaria"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-11",
+      "code" : "1A11.3",
+      "display" : "Plasmodium ovale malaria"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/SampleSzMalariaPatient"
+  },
+  "onsetDateTime" : "2024-11-24",
+  "recordedDate" : "2024-11-26",
+  "asserter" : {
+    "reference" : "Practitioner/SampleSzPractitioner"
+  }
+}

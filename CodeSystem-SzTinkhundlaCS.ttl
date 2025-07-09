@@ -1,0 +1,220 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://192.168.10.200:3447/fhir/CodeSystem/SzTinkhundlaCS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "SzTinkhundlaCS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem SzTinkhundlaCS</b></p><a name=\"SzTinkhundlaCS\"> </a><a name=\"hcSzTinkhundlaCS\"> </a><p>This  code system <code>http://192.168.10.200:3447/fhir/CodeSystem/SzTinkhundlaCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Unspecified<a name=\"SzTinkhundlaCS-Unspecified\"> </a></td><td>Unspecified</td></tr><tr><td style=\"white-space:nowrap\">HHUKWINI<a name=\"SzTinkhundlaCS-HHUKWINI\"> </a></td><td>HHUKWINI</td></tr><tr><td style=\"white-space:nowrap\">LOBAMBA<a name=\"SzTinkhundlaCS-LOBAMBA\"> </a></td><td>LOBAMBA</td></tr><tr><td style=\"white-space:nowrap\">MADLANGEMPISI<a name=\"SzTinkhundlaCS-MADLANGEMPISI\"> </a></td><td>MADLANGEMPISI</td></tr><tr><td style=\"white-space:nowrap\">MAPHALALENI<a name=\"SzTinkhundlaCS-MAPHALALENI\"> </a></td><td>MAPHALALENI</td></tr><tr><td style=\"white-space:nowrap\">MAYIWANE<a name=\"SzTinkhundlaCS-MAYIWANE\"> </a></td><td>MAYIWANE</td></tr><tr><td style=\"white-space:nowrap\">MBABANE_EAST<a name=\"SzTinkhundlaCS-MBABANE_EAST\"> </a></td><td>MBABANE EAST</td></tr><tr><td style=\"white-space:nowrap\">MBABANE_WEST<a name=\"SzTinkhundlaCS-MBABANE_WEST\"> </a></td><td>MBABANE WEST</td></tr><tr><td style=\"white-space:nowrap\">MHLANGATANE<a name=\"SzTinkhundlaCS-MHLANGATANE\"> </a></td><td>MHLANGATANE</td></tr><tr><td style=\"white-space:nowrap\">NDZINGENI<a name=\"SzTinkhundlaCS-NDZINGENI\"> </a></td><td>NDZINGENI</td></tr><tr><td style=\"white-space:nowrap\">NKHABA<a name=\"SzTinkhundlaCS-NKHABA\"> </a></td><td>NKHABA</td></tr><tr><td style=\"white-space:nowrap\">NTFONJENI<a name=\"SzTinkhundlaCS-NTFONJENI\"> </a></td><td>NTFONJENI</td></tr><tr><td style=\"white-space:nowrap\">PIGGS_PEAK<a name=\"SzTinkhundlaCS-PIGGS_PEAK\"> </a></td><td>PIGGS PEAK</td></tr><tr><td style=\"white-space:nowrap\">SIPHOCOSINI<a name=\"SzTinkhundlaCS-SIPHOCOSINI\"> </a></td><td>SIPHOCOSINI</td></tr><tr><td style=\"white-space:nowrap\">TIMPHISINI<a name=\"SzTinkhundlaCS-TIMPHISINI\"> </a></td><td>TIMPHISINI</td></tr><tr><td style=\"white-space:nowrap\">DVOKODVWENI<a name=\"SzTinkhundlaCS-DVOKODVWENI\"> </a></td><td>DVOKODVWENI</td></tr><tr><td style=\"white-space:nowrap\">GILGALI<a name=\"SzTinkhundlaCS-GILGALI\"> </a></td><td>GILGALI</td></tr><tr><td style=\"white-space:nowrap\">LOMAHASHA<a name=\"SzTinkhundlaCS-LOMAHASHA\"> </a></td><td>LOMAHASHA</td></tr><tr><td style=\"white-space:nowrap\">LUBULI<a name=\"SzTinkhundlaCS-LUBULI\"> </a></td><td>LUBULI</td></tr><tr><td style=\"white-space:nowrap\">LUGONGOLWENI<a name=\"SzTinkhundlaCS-LUGONGOLWENI\"> </a></td><td>LUGONGOLWENI</td></tr><tr><td style=\"white-space:nowrap\">MATSANJENI_NORTH<a name=\"SzTinkhundlaCS-MATSANJENI_NORTH\"> </a></td><td>MATSANJENI NORTH</td></tr><tr><td style=\"white-space:nowrap\">MHLUME<a name=\"SzTinkhundlaCS-MHLUME\"> </a></td><td>MHLUME</td></tr><tr><td style=\"white-space:nowrap\">MPOLONJENI<a name=\"SzTinkhundlaCS-MPOLONJENI\"> </a></td><td>MPOLONJENI</td></tr><tr><td style=\"white-space:nowrap\">NKILONGO<a name=\"SzTinkhundlaCS-NKILONGO\"> </a></td><td>NKILONGO</td></tr><tr><td style=\"white-space:nowrap\">SIPHOFANENI<a name=\"SzTinkhundlaCS-SIPHOFANENI\"> </a></td><td>SIPHOFANENI</td></tr><tr><td style=\"white-space:nowrap\">SITHOBELA<a name=\"SzTinkhundlaCS-SITHOBELA\"> </a></td><td>SITHOBELA</td></tr><tr><td style=\"white-space:nowrap\">KUKHANYENI<a name=\"SzTinkhundlaCS-KUKHANYENI\"> </a></td><td>KUKHANYENI</td></tr><tr><td style=\"white-space:nowrap\">KWALUSENI<a name=\"SzTinkhundlaCS-KWALUSENI\"> </a></td><td>KWALUSENI</td></tr><tr><td style=\"white-space:nowrap\">LAMGABHI<a name=\"SzTinkhundlaCS-LAMGABHI\"> </a></td><td>LAMGABHI</td></tr><tr><td style=\"white-space:nowrap\">LOBAMBA_LOMDZALA<a name=\"SzTinkhundlaCS-LOBAMBA_LOMDZALA\"> </a></td><td>LOBAMBA LOMDZALA</td></tr><tr><td style=\"white-space:nowrap\">LUDZELUDZE<a name=\"SzTinkhundlaCS-LUDZELUDZE\"> </a></td><td>LUDZELUDZE</td></tr><tr><td style=\"white-space:nowrap\">MAFUTSENI<a name=\"SzTinkhundlaCS-MAFUTSENI\"> </a></td><td>MAFUTSENI</td></tr><tr><td style=\"white-space:nowrap\">MAHLANGATSHA<a name=\"SzTinkhundlaCS-MAHLANGATSHA\"> </a></td><td>MAHLANGATSHA</td></tr><tr><td style=\"white-space:nowrap\">MANGCONGCO<a name=\"SzTinkhundlaCS-MANGCONGCO\"> </a></td><td>MANGCONGCO</td></tr><tr><td style=\"white-space:nowrap\">MANZINI_NORTH<a name=\"SzTinkhundlaCS-MANZINI_NORTH\"> </a></td><td>MANZINI NORTH</td></tr><tr><td style=\"white-space:nowrap\">MANZINI_SOUTH<a name=\"SzTinkhundlaCS-MANZINI_SOUTH\"> </a></td><td>MANZINI SOUTH</td></tr><tr><td style=\"white-space:nowrap\">MHLAMBANYATSI<a name=\"SzTinkhundlaCS-MHLAMBANYATSI\"> </a></td><td>MHLAMBANYATSI</td></tr><tr><td style=\"white-space:nowrap\">MKHIWENI<a name=\"SzTinkhundlaCS-MKHIWENI\"> </a></td><td>MKHIWENI</td></tr><tr><td style=\"white-space:nowrap\">MTFONGWANENI<a name=\"SzTinkhundlaCS-MTFONGWANENI\"> </a></td><td>MTFONGWANENI</td></tr><tr><td style=\"white-space:nowrap\">NGWEMPISI<a name=\"SzTinkhundlaCS-NGWEMPISI\"> </a></td><td>NGWEMPISI</td></tr><tr><td style=\"white-space:nowrap\">NHLAMBENI<a name=\"SzTinkhundlaCS-NHLAMBENI\"> </a></td><td>NHLAMBENI</td></tr><tr><td style=\"white-space:nowrap\">NKOMIYAHLABA<a name=\"SzTinkhundlaCS-NKOMIYAHLABA\"> </a></td><td>NKOMIYAHLABA</td></tr><tr><td style=\"white-space:nowrap\">NTONDOZI<a name=\"SzTinkhundlaCS-NTONDOZI\"> </a></td><td>NTONDOZI</td></tr><tr><td style=\"white-space:nowrap\">PHONDO<a name=\"SzTinkhundlaCS-PHONDO\"> </a></td><td>PHONDO</td></tr><tr><td style=\"white-space:nowrap\">GEGE<a name=\"SzTinkhundlaCS-GEGE\"> </a></td><td>GEGE</td></tr><tr><td style=\"white-space:nowrap\">HOSEA<a name=\"SzTinkhundlaCS-HOSEA\"> </a></td><td>HOSEA</td></tr><tr><td style=\"white-space:nowrap\">KUBUTA<a name=\"SzTinkhundlaCS-KUBUTA\"> </a></td><td>KUBUTA</td></tr><tr><td style=\"white-space:nowrap\">KUMETHULA<a name=\"SzTinkhundlaCS-KUMETHULA\"> </a></td><td>KUMETHULA</td></tr><tr><td style=\"white-space:nowrap\">MASEYISINI<a name=\"SzTinkhundlaCS-MASEYISINI\"> </a></td><td>MASEYISINI</td></tr><tr><td style=\"white-space:nowrap\">MATSANJENI_SOUTH<a name=\"SzTinkhundlaCS-MATSANJENI_SOUTH\"> </a></td><td>MATSANJENI SOUTH</td></tr><tr><td style=\"white-space:nowrap\">MTSAMBAMA<a name=\"SzTinkhundlaCS-MTSAMBAMA\"> </a></td><td>MTSAMBAMA</td></tr><tr><td style=\"white-space:nowrap\">NGUDZENI<a name=\"SzTinkhundlaCS-NGUDZENI\"> </a></td><td>NGUDZENI</td></tr><tr><td style=\"white-space:nowrap\">NKWENE<a name=\"SzTinkhundlaCS-NKWENE\"> </a></td><td>NKWENE</td></tr><tr><td style=\"white-space:nowrap\">SANDLENI<a name=\"SzTinkhundlaCS-SANDLENI\"> </a></td><td>SANDLENI</td></tr><tr><td style=\"white-space:nowrap\">SHISELWENI_I<a name=\"SzTinkhundlaCS-SHISELWENI_I\"> </a></td><td>SHISELWENI I</td></tr><tr><td style=\"white-space:nowrap\">SHISELWENI_II<a name=\"SzTinkhundlaCS-SHISELWENI_II\"> </a></td><td>SHISELWENI II</td></tr><tr><td style=\"white-space:nowrap\">SIGWE<a name=\"SzTinkhundlaCS-SIGWE\"> </a></td><td>SIGWE</td></tr><tr><td style=\"white-space:nowrap\">SOMNTONGO<a name=\"SzTinkhundlaCS-SOMNTONGO\"> </a></td><td>SOMNTONGO</td></tr><tr><td style=\"white-space:nowrap\">ZOMBODZE_EMUVA<a name=\"SzTinkhundlaCS-ZOMBODZE_EMUVA\"> </a></td><td>ZOMBODZE EMUVA</td></tr><tr><td style=\"white-space:nowrap\">MOTSHANE<a name=\"SzTinkhundlaCS-MOTSHANE\"> </a></td><td>MOTSHANE</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://192.168.10.200:3447/fhir/CodeSystem/SzTinkhundlaCS"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "EswatiniTinkhundla"] ; # 
+  fhir:title [ fhir:v "Code System: Eswatini Tinkhundla"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-07-09T11:11:31+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministry of Health Eswatini"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Ministry of Health Eswatini" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://192.168.10.200:3447" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "eswatinihie@moh.gov.sz" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Code system for Eswatini Tinkhundla"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "60"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "Unspecified" ] ;
+     fhir:display [ fhir:v "Unspecified" ]
+  ] [
+     fhir:code [ fhir:v "HHUKWINI" ] ;
+     fhir:display [ fhir:v "HHUKWINI" ]
+  ] [
+     fhir:code [ fhir:v "LOBAMBA" ] ;
+     fhir:display [ fhir:v "LOBAMBA" ]
+  ] [
+     fhir:code [ fhir:v "MADLANGEMPISI" ] ;
+     fhir:display [ fhir:v "MADLANGEMPISI" ]
+  ] [
+     fhir:code [ fhir:v "MAPHALALENI" ] ;
+     fhir:display [ fhir:v "MAPHALALENI" ]
+  ] [
+     fhir:code [ fhir:v "MAYIWANE" ] ;
+     fhir:display [ fhir:v "MAYIWANE" ]
+  ] [
+     fhir:code [ fhir:v "MBABANE_EAST" ] ;
+     fhir:display [ fhir:v "MBABANE EAST" ]
+  ] [
+     fhir:code [ fhir:v "MBABANE_WEST" ] ;
+     fhir:display [ fhir:v "MBABANE WEST" ]
+  ] [
+     fhir:code [ fhir:v "MHLANGATANE" ] ;
+     fhir:display [ fhir:v "MHLANGATANE" ]
+  ] [
+     fhir:code [ fhir:v "NDZINGENI" ] ;
+     fhir:display [ fhir:v "NDZINGENI" ]
+  ] [
+     fhir:code [ fhir:v "NKHABA" ] ;
+     fhir:display [ fhir:v "NKHABA" ]
+  ] [
+     fhir:code [ fhir:v "NTFONJENI" ] ;
+     fhir:display [ fhir:v "NTFONJENI" ]
+  ] [
+     fhir:code [ fhir:v "PIGGS_PEAK" ] ;
+     fhir:display [ fhir:v "PIGGS PEAK" ]
+  ] [
+     fhir:code [ fhir:v "SIPHOCOSINI" ] ;
+     fhir:display [ fhir:v "SIPHOCOSINI" ]
+  ] [
+     fhir:code [ fhir:v "TIMPHISINI" ] ;
+     fhir:display [ fhir:v "TIMPHISINI" ]
+  ] [
+     fhir:code [ fhir:v "DVOKODVWENI" ] ;
+     fhir:display [ fhir:v "DVOKODVWENI" ]
+  ] [
+     fhir:code [ fhir:v "GILGALI" ] ;
+     fhir:display [ fhir:v "GILGALI" ]
+  ] [
+     fhir:code [ fhir:v "LOMAHASHA" ] ;
+     fhir:display [ fhir:v "LOMAHASHA" ]
+  ] [
+     fhir:code [ fhir:v "LUBULI" ] ;
+     fhir:display [ fhir:v "LUBULI" ]
+  ] [
+     fhir:code [ fhir:v "LUGONGOLWENI" ] ;
+     fhir:display [ fhir:v "LUGONGOLWENI" ]
+  ] [
+     fhir:code [ fhir:v "MATSANJENI_NORTH" ] ;
+     fhir:display [ fhir:v "MATSANJENI NORTH" ]
+  ] [
+     fhir:code [ fhir:v "MHLUME" ] ;
+     fhir:display [ fhir:v "MHLUME" ]
+  ] [
+     fhir:code [ fhir:v "MPOLONJENI" ] ;
+     fhir:display [ fhir:v "MPOLONJENI" ]
+  ] [
+     fhir:code [ fhir:v "NKILONGO" ] ;
+     fhir:display [ fhir:v "NKILONGO" ]
+  ] [
+     fhir:code [ fhir:v "SIPHOFANENI" ] ;
+     fhir:display [ fhir:v "SIPHOFANENI" ]
+  ] [
+     fhir:code [ fhir:v "SITHOBELA" ] ;
+     fhir:display [ fhir:v "SITHOBELA" ]
+  ] [
+     fhir:code [ fhir:v "KUKHANYENI" ] ;
+     fhir:display [ fhir:v "KUKHANYENI" ]
+  ] [
+     fhir:code [ fhir:v "KWALUSENI" ] ;
+     fhir:display [ fhir:v "KWALUSENI" ]
+  ] [
+     fhir:code [ fhir:v "LAMGABHI" ] ;
+     fhir:display [ fhir:v "LAMGABHI" ]
+  ] [
+     fhir:code [ fhir:v "LOBAMBA_LOMDZALA" ] ;
+     fhir:display [ fhir:v "LOBAMBA LOMDZALA" ]
+  ] [
+     fhir:code [ fhir:v "LUDZELUDZE" ] ;
+     fhir:display [ fhir:v "LUDZELUDZE" ]
+  ] [
+     fhir:code [ fhir:v "MAFUTSENI" ] ;
+     fhir:display [ fhir:v "MAFUTSENI" ]
+  ] [
+     fhir:code [ fhir:v "MAHLANGATSHA" ] ;
+     fhir:display [ fhir:v "MAHLANGATSHA" ]
+  ] [
+     fhir:code [ fhir:v "MANGCONGCO" ] ;
+     fhir:display [ fhir:v "MANGCONGCO" ]
+  ] [
+     fhir:code [ fhir:v "MANZINI_NORTH" ] ;
+     fhir:display [ fhir:v "MANZINI NORTH" ]
+  ] [
+     fhir:code [ fhir:v "MANZINI_SOUTH" ] ;
+     fhir:display [ fhir:v "MANZINI SOUTH" ]
+  ] [
+     fhir:code [ fhir:v "MHLAMBANYATSI" ] ;
+     fhir:display [ fhir:v "MHLAMBANYATSI" ]
+  ] [
+     fhir:code [ fhir:v "MKHIWENI" ] ;
+     fhir:display [ fhir:v "MKHIWENI" ]
+  ] [
+     fhir:code [ fhir:v "MTFONGWANENI" ] ;
+     fhir:display [ fhir:v "MTFONGWANENI" ]
+  ] [
+     fhir:code [ fhir:v "NGWEMPISI" ] ;
+     fhir:display [ fhir:v "NGWEMPISI" ]
+  ] [
+     fhir:code [ fhir:v "NHLAMBENI" ] ;
+     fhir:display [ fhir:v "NHLAMBENI" ]
+  ] [
+     fhir:code [ fhir:v "NKOMIYAHLABA" ] ;
+     fhir:display [ fhir:v "NKOMIYAHLABA" ]
+  ] [
+     fhir:code [ fhir:v "NTONDOZI" ] ;
+     fhir:display [ fhir:v "NTONDOZI" ]
+  ] [
+     fhir:code [ fhir:v "PHONDO" ] ;
+     fhir:display [ fhir:v "PHONDO" ]
+  ] [
+     fhir:code [ fhir:v "GEGE" ] ;
+     fhir:display [ fhir:v "GEGE" ]
+  ] [
+     fhir:code [ fhir:v "HOSEA" ] ;
+     fhir:display [ fhir:v "HOSEA" ]
+  ] [
+     fhir:code [ fhir:v "KUBUTA" ] ;
+     fhir:display [ fhir:v "KUBUTA" ]
+  ] [
+     fhir:code [ fhir:v "KUMETHULA" ] ;
+     fhir:display [ fhir:v "KUMETHULA" ]
+  ] [
+     fhir:code [ fhir:v "MASEYISINI" ] ;
+     fhir:display [ fhir:v "MASEYISINI" ]
+  ] [
+     fhir:code [ fhir:v "MATSANJENI_SOUTH" ] ;
+     fhir:display [ fhir:v "MATSANJENI SOUTH" ]
+  ] [
+     fhir:code [ fhir:v "MTSAMBAMA" ] ;
+     fhir:display [ fhir:v "MTSAMBAMA" ]
+  ] [
+     fhir:code [ fhir:v "NGUDZENI" ] ;
+     fhir:display [ fhir:v "NGUDZENI" ]
+  ] [
+     fhir:code [ fhir:v "NKWENE" ] ;
+     fhir:display [ fhir:v "NKWENE" ]
+  ] [
+     fhir:code [ fhir:v "SANDLENI" ] ;
+     fhir:display [ fhir:v "SANDLENI" ]
+  ] [
+     fhir:code [ fhir:v "SHISELWENI_I" ] ;
+     fhir:display [ fhir:v "SHISELWENI I" ]
+  ] [
+     fhir:code [ fhir:v "SHISELWENI_II" ] ;
+     fhir:display [ fhir:v "SHISELWENI II" ]
+  ] [
+     fhir:code [ fhir:v "SIGWE" ] ;
+     fhir:display [ fhir:v "SIGWE" ]
+  ] [
+     fhir:code [ fhir:v "SOMNTONGO" ] ;
+     fhir:display [ fhir:v "SOMNTONGO" ]
+  ] [
+     fhir:code [ fhir:v "ZOMBODZE_EMUVA" ] ;
+     fhir:display [ fhir:v "ZOMBODZE EMUVA" ]
+  ] [
+     fhir:code [ fhir:v "MOTSHANE" ] ;
+     fhir:display [ fhir:v "MOTSHANE" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

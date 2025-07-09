@@ -1,0 +1,193 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "SzProductCodeCS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem SzProductCodeCS</b></p><a name=\"SzProductCodeCS\"> </a><a name=\"hcSzProductCodeCS\"> </a><p>This  code system <code>http://192.168.10.200:3447/fhir/CodeSystem/SzProductCodeCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">100648<a name=\"SzProductCodeCS-100648\"> </a></td><td>Abacavir 300mg Tablets 60 TABS</td></tr><tr><td style=\"white-space:nowrap\">102273<a name=\"SzProductCodeCS-102273\"> </a></td><td>Isoniazid Tablets 300mg 28 TABS</td></tr><tr><td style=\"white-space:nowrap\">102268<a name=\"SzProductCodeCS-102268\"> </a></td><td>Ethambutol FILM COATEDTablets 100mg 100 TABS</td></tr><tr><td style=\"white-space:nowrap\">100686<a name=\"SzProductCodeCS-100686\"> </a></td><td>Isoniazid 100mg Tablets 100 TABS</td></tr><tr><td style=\"white-space:nowrap\">102276<a name=\"SzProductCodeCS-102276\"> </a></td><td>Levofloxacin Tablets 500mg 100 TABS</td></tr><tr><td style=\"white-space:nowrap\">100449<a name=\"SzProductCodeCS-100449\"> </a></td><td>Acyclovir Eye Ointment 3% 4.5 G</td></tr><tr><td style=\"white-space:nowrap\">100304<a name=\"SzProductCodeCS-100304\"> </a></td><td>Adrenaline Injection 1:1000 10 AMPS</td></tr><tr><td style=\"white-space:nowrap\">100460<a name=\"SzProductCodeCS-100460\"> </a></td><td>Betamethasone Cream 0.1% 15G</td></tr><tr><td style=\"white-space:nowrap\">100014<a name=\"SzProductCodeCS-100014\"> </a></td><td>Cefaclor Tablets 375mg 10 TABS</td></tr><tr><td style=\"white-space:nowrap\">102443<a name=\"SzProductCodeCS-102443\"> </a></td><td>Cefazolin 1g; 10 Vial 10 VIAL</td></tr><tr><td style=\"white-space:nowrap\">100221<a name=\"SzProductCodeCS-100221\"> </a></td><td>Cloxacillin Suspension 125mg/5ml 100 ML</td></tr><tr><td style=\"white-space:nowrap\">100238<a name=\"SzProductCodeCS-100238\"> </a></td><td>Cold &amp; Flu Syrup 100 ML</td></tr><tr><td style=\"white-space:nowrap\">100001<a name=\"SzProductCodeCS-100001\"> </a></td><td>Cyclophosphamide Tablets 25mg 100</td></tr><tr><td style=\"white-space:nowrap\">102492<a name=\"SzProductCodeCS-102492\"> </a></td><td>Paracetamol Tablets 500g (Coloured Green) 100 TABS</td></tr><tr><td style=\"white-space:nowrap\">102277<a name=\"SzProductCodeCS-102277\"> </a></td><td>Linezolid FILM COATED Tablets 600mg 60 TABS</td></tr><tr><td style=\"white-space:nowrap\">100689<a name=\"SzProductCodeCS-100689\"> </a></td><td>Saquinavir 200mg Capsules 270 CAPS</td></tr><tr><td style=\"white-space:nowrap\">100706<a name=\"SzProductCodeCS-100706\"> </a></td><td>Dapsone Tablets 100mg 100</td></tr><tr><td style=\"white-space:nowrap\">100089<a name=\"SzProductCodeCS-100089\"> </a></td><td>Albendazole Tablets 200mg (Chewable) 1000 TABS</td></tr><tr><td style=\"white-space:nowrap\">102304<a name=\"SzProductCodeCS-102304\"> </a></td><td>Amikacin 1g 50 VIALS</td></tr><tr><td style=\"white-space:nowrap\">102272<a name=\"SzProductCodeCS-102272\"> </a></td><td>Ethionamide FILM COATED Capsules 250mg 50 CAPS</td></tr><tr><td style=\"white-space:nowrap\">100700<a name=\"SzProductCodeCS-100700\"> </a></td><td>Flucytosine 500mg 100 TABS</td></tr><tr><td style=\"white-space:nowrap\">102327<a name=\"SzProductCodeCS-102327\"> </a></td><td>Levonorgestrel +Ethinyl Estradiol 150mcg+30mcg Tab 3 TABS</td></tr><tr><td style=\"white-space:nowrap\">102323<a name=\"SzProductCodeCS-102323\"> </a></td><td>Levonorgestrel 30mcg Tablets 84 TABS</td></tr><tr><td style=\"white-space:nowrap\">100666<a name=\"SzProductCodeCS-100666\"> </a></td><td>Raltegravir 400mg Tablets 60 TABS</td></tr><tr><td style=\"white-space:nowrap\">102346<a name=\"SzProductCodeCS-102346\"> </a></td><td>Strawberry Scented Male Condoms ( natural latex,53mm) 100</td></tr><tr><td style=\"white-space:nowrap\">102502<a name=\"SzProductCodeCS-102502\"> </a></td><td>T Section; 1 Each 1 EACH</td></tr><tr><td style=\"white-space:nowrap\">102348<a name=\"SzProductCodeCS-102348\"> </a></td><td>Water Based Lubricant (SRH) SATCHET</td></tr><tr><td style=\"white-space:nowrap\">102282<a name=\"SzProductCodeCS-102282\"> </a></td><td>Pyrazinamide Tablets 500mg 1000 TABS</td></tr><tr><td style=\"white-space:nowrap\">102341<a name=\"SzProductCodeCS-102341\"> </a></td><td>Intra-Uterine Device (Iucd) T380 ( Polymer Film Po 1</td></tr><tr><td style=\"white-space:nowrap\">102280<a name=\"SzProductCodeCS-102280\"> </a></td><td>Moxifloxacillin  FILM COATED Tablets 400mg 100 TABS</td></tr><tr><td style=\"white-space:nowrap\">100734<a name=\"SzProductCodeCS-100734\"> </a></td><td>Bleomycin Injection 15 Units Vial (With Cold Chain 1 AMP</td></tr><tr><td style=\"white-space:nowrap\">100651<a name=\"SzProductCodeCS-100651\"> </a></td><td>Atazanavir/Ritonavir 300/100mg Tablets 30</td></tr><tr><td style=\"white-space:nowrap\">100654<a name=\"SzProductCodeCS-100654\"> </a></td><td>Efavirenz 200mg Scored Tablets 90</td></tr><tr><td style=\"white-space:nowrap\">100528<a name=\"SzProductCodeCS-100528\"> </a></td><td>Beclomethasone Nasal Spray 27.5mcg/dose (Paeds)Com 1</td></tr><tr><td style=\"white-space:nowrap\">102266<a name=\"SzProductCodeCS-102266\"> </a></td><td>Delamanid FILM COATED Tablets 50mg 48 TABS</td></tr><tr><td style=\"white-space:nowrap\">102332<a name=\"SzProductCodeCS-102332\"> </a></td><td>Medroxyprogesterone Acetate 150mg/ml Injection 20 VIALS</td></tr><tr><td style=\"white-space:nowrap\">102333<a name=\"SzProductCodeCS-102333\"> </a></td><td>Norethisterone Enanthate + Estradiol Valerate In O 100 VIALS</td></tr><tr><td style=\"white-space:nowrap\">100707<a name=\"SzProductCodeCS-100707\"> </a></td><td>Cotrimoxazole/Isoniazid/Pyridoxine 960/300/25mg 30 TABS</td></tr><tr><td style=\"white-space:nowrap\">102324<a name=\"SzProductCodeCS-102324\"> </a></td><td>Norgestrel 300mcg/Ethinylestradiol 30mcg Tablets 28 TABS</td></tr><tr><td style=\"white-space:nowrap\">102263<a name=\"SzProductCodeCS-102263\"> </a></td><td>Clofazimine Tablets 100mg 100 TABS</td></tr><tr><td style=\"white-space:nowrap\">100009<a name=\"SzProductCodeCS-100009\"> </a></td><td>Amoxycillin Capsules 500mg 500 CAPS</td></tr></table></div>"
+  },
+  "url" : "http://192.168.10.200:3447/fhir/CodeSystem/SzProductCodeCS",
+  "version" : "0.1.0",
+  "name" : "SzProductCodeCS",
+  "title" : "Code System: Eswatini Product Codes",
+  "status" : "draft",
+  "date" : "2025-07-09T11:11:31+00:00",
+  "publisher" : "Ministry of Health Eswatini",
+  "contact" : [{
+    "name" : "Ministry of Health Eswatini",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://192.168.10.200:3447"
+    },
+    {
+      "system" : "email",
+      "value" : "eswatinihie@moh.gov.sz"
+    }]
+  }],
+  "description" : "Code system for ESwatini Product Codes",
+  "content" : "complete",
+  "count" : 41,
+  "concept" : [{
+    "code" : "100648",
+    "display" : "Abacavir 300mg Tablets 60 TABS"
+  },
+  {
+    "code" : "102273",
+    "display" : "Isoniazid Tablets 300mg 28 TABS"
+  },
+  {
+    "code" : "102268",
+    "display" : "Ethambutol FILM COATEDTablets 100mg 100 TABS"
+  },
+  {
+    "code" : "100686",
+    "display" : "Isoniazid 100mg Tablets 100 TABS"
+  },
+  {
+    "code" : "102276",
+    "display" : "Levofloxacin Tablets 500mg 100 TABS"
+  },
+  {
+    "code" : "100449",
+    "display" : "Acyclovir Eye Ointment 3% 4.5 G"
+  },
+  {
+    "code" : "100304",
+    "display" : "Adrenaline Injection 1:1000 10 AMPS"
+  },
+  {
+    "code" : "100460",
+    "display" : "Betamethasone Cream 0.1% 15G"
+  },
+  {
+    "code" : "100014",
+    "display" : "Cefaclor Tablets 375mg 10 TABS"
+  },
+  {
+    "code" : "102443",
+    "display" : "Cefazolin 1g; 10 Vial 10 VIAL"
+  },
+  {
+    "code" : "100221",
+    "display" : "Cloxacillin Suspension 125mg/5ml 100 ML"
+  },
+  {
+    "code" : "100238",
+    "display" : "Cold & Flu Syrup 100 ML"
+  },
+  {
+    "code" : "100001",
+    "display" : "Cyclophosphamide Tablets 25mg 100"
+  },
+  {
+    "code" : "102492",
+    "display" : "Paracetamol Tablets 500g (Coloured Green) 100 TABS"
+  },
+  {
+    "code" : "102277",
+    "display" : "Linezolid FILM COATED Tablets 600mg 60 TABS"
+  },
+  {
+    "code" : "100689",
+    "display" : "Saquinavir 200mg Capsules 270 CAPS"
+  },
+  {
+    "code" : "100706",
+    "display" : "Dapsone Tablets 100mg 100"
+  },
+  {
+    "code" : "100089",
+    "display" : "Albendazole Tablets 200mg (Chewable) 1000 TABS"
+  },
+  {
+    "code" : "102304",
+    "display" : "Amikacin 1g 50 VIALS"
+  },
+  {
+    "code" : "102272",
+    "display" : "Ethionamide FILM COATED Capsules 250mg 50 CAPS"
+  },
+  {
+    "code" : "100700",
+    "display" : "Flucytosine 500mg 100 TABS"
+  },
+  {
+    "code" : "102327",
+    "display" : "Levonorgestrel +Ethinyl Estradiol 150mcg+30mcg Tab 3 TABS"
+  },
+  {
+    "code" : "102323",
+    "display" : "Levonorgestrel 30mcg Tablets 84 TABS"
+  },
+  {
+    "code" : "100666",
+    "display" : "Raltegravir 400mg Tablets 60 TABS"
+  },
+  {
+    "code" : "102346",
+    "display" : "Strawberry Scented Male Condoms ( natural latex,53mm) 100"
+  },
+  {
+    "code" : "102502",
+    "display" : "T Section; 1 Each 1 EACH"
+  },
+  {
+    "code" : "102348",
+    "display" : "Water Based Lubricant (SRH) SATCHET"
+  },
+  {
+    "code" : "102282",
+    "display" : "Pyrazinamide Tablets 500mg 1000 TABS"
+  },
+  {
+    "code" : "102341",
+    "display" : "Intra-Uterine Device (Iucd) T380 ( Polymer Film Po 1"
+  },
+  {
+    "code" : "102280",
+    "display" : "Moxifloxacillin  FILM COATED Tablets 400mg 100 TABS"
+  },
+  {
+    "code" : "100734",
+    "display" : "Bleomycin Injection 15 Units Vial (With Cold Chain 1 AMP"
+  },
+  {
+    "code" : "100651",
+    "display" : "Atazanavir/Ritonavir 300/100mg Tablets 30"
+  },
+  {
+    "code" : "100654",
+    "display" : "Efavirenz 200mg Scored Tablets 90"
+  },
+  {
+    "code" : "100528",
+    "display" : "Beclomethasone Nasal Spray 27.5mcg/dose (Paeds)Com 1"
+  },
+  {
+    "code" : "102266",
+    "display" : "Delamanid FILM COATED Tablets 50mg 48 TABS"
+  },
+  {
+    "code" : "102332",
+    "display" : "Medroxyprogesterone Acetate 150mg/ml Injection 20 VIALS"
+  },
+  {
+    "code" : "102333",
+    "display" : "Norethisterone Enanthate + Estradiol Valerate In O 100 VIALS"
+  },
+  {
+    "code" : "100707",
+    "display" : "Cotrimoxazole/Isoniazid/Pyridoxine 960/300/25mg 30 TABS"
+  },
+  {
+    "code" : "102324",
+    "display" : "Norgestrel 300mcg/Ethinylestradiol 30mcg Tablets 28 TABS"
+  },
+  {
+    "code" : "102263",
+    "display" : "Clofazimine Tablets 100mg 100 TABS"
+  },
+  {
+    "code" : "100009",
+    "display" : "Amoxycillin Capsules 500mg 500 CAPS"
+  }]
+}

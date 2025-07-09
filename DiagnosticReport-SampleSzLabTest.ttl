@@ -1,0 +1,54 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://192.168.10.200:3447/fhir/DiagnosticReport/SampleSzLabTest> a fhir:DiagnosticReport ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "SampleSzLabTest"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzLabTest"^^xsd:anyURI ;
+       fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzLabTest>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: DiagnosticReport SampleSzLabTest</b></p><a name=\"SampleSzLabTest\"> </a><a name=\"hcSampleSzLabTest\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzLabTest.html\">Eswatini Lab Test Profile</a></p></div><h2><span title=\"Codes:{http://localhost:3447/fhir/CodeSystem/SzTestCodeCS HIVVL}\">HIV Viral Load (Plasma)</span> </h2><table class=\"grid\"><tr><td>Subject</td><td>Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</td></tr><tr><td>When For</td><td>2024-09-11 10:00:00+0000</td></tr><tr><td>Reported</td><td>2024-09-11 10:00:00+0000</td></tr><tr><td>Performer</td><td> <a href=\"Practitioner-SampleSzPractitioner.html\">Practitioner Thabile Celiwe Dlamini </a></td></tr></table><p><b>Report Details</b></p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://localhost:3447/fhir/CodeSystem/SzTestCodeCS"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "HIVVL" ] ;
+       fhir:display [ fhir:v "HIV Viral Load (Plasma)" ]
+     ] ) ;
+     fhir:text [ fhir:v "HIV Viral Load (Plasma)" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzPatient> ;
+     fhir:reference [ fhir:v "Patient/SampleSzPatient" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:link <http://192.168.10.200:3447/fhir/Encounter/SampleSzEncounter> ;
+     fhir:reference [ fhir:v "Encounter/SampleSzEncounter" ]
+  ] ; # 
+  fhir:effective [
+     a fhir:dateTime ;
+     fhir:v "2024-09-11T10:00:00Z"^^xsd:dateTime
+  ] ; # 
+  fhir:issued [ fhir:v "2024-09-11T10:00:00Z"^^xsd:dateTime] ; # 
+  fhir:performer ( [
+     fhir:link <http://192.168.10.200:3447/fhir/Practitioner/SampleSzPractitioner> ;
+     fhir:reference [ fhir:v "Practitioner/SampleSzPractitioner" ]
+  ] ) ; # 
+  fhir:specimen ( [
+     fhir:link <http://192.168.10.200:3447/fhir/Specimen/SampleSzSpecimen> ;
+     fhir:reference [ fhir:v "Specimen/SampleSzSpecimen" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

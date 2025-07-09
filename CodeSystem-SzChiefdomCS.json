@@ -1,0 +1,1309 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "SzChiefdomCS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem SzChiefdomCS</b></p><a name=\"SzChiefdomCS\"> </a><a name=\"hcSzChiefdomCS\"> </a><p>This  code system <code>http://192.168.10.200:3447/fhir/CodeSystem/SzChiefdomCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Bambitje<a name=\"SzChiefdomCS-Bambitje\"> </a></td><td>Bambitje</td></tr><tr><td style=\"white-space:nowrap\">Benezer<a name=\"SzChiefdomCS-Benezer\"> </a></td><td>Benezer</td></tr><tr><td style=\"white-space:nowrap\">Bhadzeni_1<a name=\"SzChiefdomCS-Bhadzeni_1\"> </a></td><td>Bhadzeni 1</td></tr><tr><td style=\"white-space:nowrap\">Bhadzeni_2<a name=\"SzChiefdomCS-Bhadzeni_2\"> </a></td><td>Bhadzeni 2</td></tr><tr><td style=\"white-space:nowrap\">Bhahwini<a name=\"SzChiefdomCS-Bhahwini\"> </a></td><td>Bhahwini</td></tr><tr><td style=\"white-space:nowrap\">Bhanganoma<a name=\"SzChiefdomCS-Bhanganoma\"> </a></td><td>Bhanganoma</td></tr><tr><td style=\"white-space:nowrap\">Bhekinkhosi<a name=\"SzChiefdomCS-Bhekinkhosi\"> </a></td><td>Bhekinkhosi</td></tr><tr><td style=\"white-space:nowrap\">Bhudla<a name=\"SzChiefdomCS-Bhudla\"> </a></td><td>Bhudla</td></tr><tr><td style=\"white-space:nowrap\">Bhunya<a name=\"SzChiefdomCS-Bhunya\"> </a></td><td>Bhunya</td></tr><tr><td style=\"white-space:nowrap\">Bufaneni<a name=\"SzChiefdomCS-Bufaneni\"> </a></td><td>Bufaneni</td></tr><tr><td style=\"white-space:nowrap\">Bulandzeni<a name=\"SzChiefdomCS-Bulandzeni\"> </a></td><td>Bulandzeni</td></tr><tr><td style=\"white-space:nowrap\">Bulekeni<a name=\"SzChiefdomCS-Bulekeni\"> </a></td><td>Bulekeni</td></tr><tr><td style=\"white-space:nowrap\">Bulembu_Luhhumaneni_1<a name=\"SzChiefdomCS-Bulembu_Luhhumaneni_1\"> </a></td><td>Bulembu (Luhhumaneni 1)</td></tr><tr><td style=\"white-space:nowrap\">Bulunga<a name=\"SzChiefdomCS-Bulunga\"> </a></td><td>Bulunga</td></tr><tr><td style=\"white-space:nowrap\">Buseleni<a name=\"SzChiefdomCS-Buseleni\"> </a></td><td>Buseleni</td></tr><tr><td style=\"white-space:nowrap\">Canter_berry<a name=\"SzChiefdomCS-Canter_berry\"> </a></td><td>Canter berry</td></tr><tr><td style=\"white-space:nowrap\">Crooks_Plantations<a name=\"SzChiefdomCS-Crooks_Plantations\"> </a></td><td>Crooks Plantations</td></tr><tr><td style=\"white-space:nowrap\">Dilini<a name=\"SzChiefdomCS-Dilini\"> </a></td><td>Dilini</td></tr><tr><td style=\"white-space:nowrap\">Dinabanye<a name=\"SzChiefdomCS-Dinabanye\"> </a></td><td>Dinabanye</td></tr><tr><td style=\"white-space:nowrap\">Dingizwe<a name=\"SzChiefdomCS-Dingizwe\"> </a></td><td>Dingizwe</td></tr><tr><td style=\"white-space:nowrap\">Dladleni<a name=\"SzChiefdomCS-Dladleni\"> </a></td><td>Dladleni</td></tr><tr><td style=\"white-space:nowrap\">Dlangeni<a name=\"SzChiefdomCS-Dlangeni\"> </a></td><td>Dlangeni</td></tr><tr><td style=\"white-space:nowrap\">Dlozini<a name=\"SzChiefdomCS-Dlozini\"> </a></td><td>Dlozini</td></tr><tr><td style=\"white-space:nowrap\">Dumenkhungwini<a name=\"SzChiefdomCS-Dumenkhungwini\"> </a></td><td>Dumenkhungwini</td></tr><tr><td style=\"white-space:nowrap\">Dvokolwako<a name=\"SzChiefdomCS-Dvokolwako\"> </a></td><td>Dvokolwako</td></tr><tr><td style=\"white-space:nowrap\">Dvokolwako_Ekuphakameni<a name=\"SzChiefdomCS-Dvokolwako_Ekuphakameni\"> </a></td><td>Dvokolwako / Ekuphakameni</td></tr><tr><td style=\"white-space:nowrap\">Dvudvusini<a name=\"SzChiefdomCS-Dvudvusini\"> </a></td><td>Dvudvusini</td></tr><tr><td style=\"white-space:nowrap\">Dwaleni<a name=\"SzChiefdomCS-Dwaleni\"> </a></td><td>Dwaleni</td></tr><tr><td style=\"white-space:nowrap\">Dwalile<a name=\"SzChiefdomCS-Dwalile\"> </a></td><td>Dwalile</td></tr><tr><td style=\"white-space:nowrap\">Ejubukweni<a name=\"SzChiefdomCS-Ejubukweni\"> </a></td><td>Ejubukweni</td></tr><tr><td style=\"white-space:nowrap\">Ekukhulumeni_Mandlangempisi<a name=\"SzChiefdomCS-Ekukhulumeni_Mandlangempisi\"> </a></td><td>Ekukhulumeni/ Mandlangempisi</td></tr><tr><td style=\"white-space:nowrap\">ELangeni<a name=\"SzChiefdomCS-ELangeni\"> </a></td><td>ELangeni</td></tr><tr><td style=\"white-space:nowrap\">Emalibeni<a name=\"SzChiefdomCS-Emalibeni\"> </a></td><td>Emalibeni   </td></tr><tr><td style=\"white-space:nowrap\">Emhlangeni<a name=\"SzChiefdomCS-Emhlangeni\"> </a></td><td>Emhlangeni</td></tr><tr><td style=\"white-space:nowrap\">Emvembili<a name=\"SzChiefdomCS-Emvembili\"> </a></td><td>Emvembili</td></tr><tr><td style=\"white-space:nowrap\">Eni<a name=\"SzChiefdomCS-Eni\"> </a></td><td>Eni</td></tr><tr><td style=\"white-space:nowrap\">Eposini<a name=\"SzChiefdomCS-Eposini\"> </a></td><td>Eposini</td></tr><tr><td style=\"white-space:nowrap\">Etjedze<a name=\"SzChiefdomCS-Etjedze\"> </a></td><td>Etjedze</td></tr><tr><td style=\"white-space:nowrap\">Ezibondeni_Kashiba<a name=\"SzChiefdomCS-Ezibondeni_Kashiba\"> </a></td><td>Ezibondeni/Kashiba</td></tr><tr><td style=\"white-space:nowrap\">Ezindwendweni<a name=\"SzChiefdomCS-Ezindwendweni\"> </a></td><td>Ezindwendweni</td></tr><tr><td style=\"white-space:nowrap\">Ezishineni_Manyeveni<a name=\"SzChiefdomCS-Ezishineni_Manyeveni\"> </a></td><td>Ezishineni/ Manyeveni</td></tr><tr><td style=\"white-space:nowrap\">Fontein<a name=\"SzChiefdomCS-Fontein\"> </a></td><td>Fontein</td></tr><tr><td style=\"white-space:nowrap\">Gamula<a name=\"SzChiefdomCS-Gamula\"> </a></td><td>Gamula</td></tr><tr><td style=\"white-space:nowrap\">Gasa<a name=\"SzChiefdomCS-Gasa\"> </a></td><td>Gasa</td></tr><tr><td style=\"white-space:nowrap\">Gebeni<a name=\"SzChiefdomCS-Gebeni\"> </a></td><td>Gebeni</td></tr><tr><td style=\"white-space:nowrap\">Gucuka<a name=\"SzChiefdomCS-Gucuka\"> </a></td><td>Gucuka </td></tr><tr><td style=\"white-space:nowrap\">Gundvwini<a name=\"SzChiefdomCS-Gundvwini\"> </a></td><td>Gundvwini</td></tr><tr><td style=\"white-space:nowrap\">Gundvwini_Lesibovu<a name=\"SzChiefdomCS-Gundvwini_Lesibovu\"> </a></td><td>Gundvwini/Lesibovu</td></tr><tr><td style=\"white-space:nowrap\">Herefords<a name=\"SzChiefdomCS-Herefords\"> </a></td><td>Herefords</td></tr><tr><td style=\"white-space:nowrap\">Hhelehhele<a name=\"SzChiefdomCS-Hhelehhele\"> </a></td><td>Hhelehhele</td></tr><tr><td style=\"white-space:nowrap\">Hhohho<a name=\"SzChiefdomCS-Hhohho\"> </a></td><td>Hhohho</td></tr><tr><td style=\"white-space:nowrap\">Hhohho_Emuva<a name=\"SzChiefdomCS-Hhohho_Emuva\"> </a></td><td>Hhohho Emuva</td></tr><tr><td style=\"white-space:nowrap\">Hhuhhuma<a name=\"SzChiefdomCS-Hhuhhuma\"> </a></td><td>Hhuhhuma</td></tr><tr><td style=\"white-space:nowrap\">Hlane<a name=\"SzChiefdomCS-Hlane\"> </a></td><td>Hlane</td></tr><tr><td style=\"white-space:nowrap\">Hlane_Bulunga<a name=\"SzChiefdomCS-Hlane_Bulunga\"> </a></td><td>Hlane/Bulunga</td></tr><tr><td style=\"white-space:nowrap\">Hlobane<a name=\"SzChiefdomCS-Hlobane\"> </a></td><td>Hlobane</td></tr><tr><td style=\"white-space:nowrap\">Hlutse<a name=\"SzChiefdomCS-Hlutse\"> </a></td><td>Hlutse</td></tr><tr><td style=\"white-space:nowrap\">Illovo_Mayaluka<a name=\"SzChiefdomCS-Illovo_Mayaluka\"> </a></td><td>Illovo/Mayaluka</td></tr><tr><td style=\"white-space:nowrap\">KaDinga<a name=\"SzChiefdomCS-KaDinga\"> </a></td><td>KaDinga</td></tr><tr><td style=\"white-space:nowrap\">KaDlovunga_<a name=\"SzChiefdomCS-KaDlovunga_\"> </a></td><td>KaDlovunga </td></tr><tr><td style=\"white-space:nowrap\">kaGwebu<a name=\"SzChiefdomCS-kaGwebu\"> </a></td><td>kaGwebu</td></tr><tr><td style=\"white-space:nowrap\">kaGwegwe<a name=\"SzChiefdomCS-kaGwegwe\"> </a></td><td>kaGwegwe</td></tr><tr><td style=\"white-space:nowrap\">ka-Hhohho<a name=\"SzChiefdomCS-ka-Hhohho\"> </a></td><td>ka-Hhohho</td></tr><tr><td style=\"white-space:nowrap\">KaKholwane<a name=\"SzChiefdomCS-KaKholwane\"> </a></td><td>KaKholwane</td></tr><tr><td style=\"white-space:nowrap\">kaLanga<a name=\"SzChiefdomCS-kaLanga\"> </a></td><td>kaLanga</td></tr><tr><td style=\"white-space:nowrap\">kaLiba<a name=\"SzChiefdomCS-kaLiba\"> </a></td><td>kaLiba</td></tr><tr><td style=\"white-space:nowrap\">kaMbhoke<a name=\"SzChiefdomCS-kaMbhoke\"> </a></td><td>kaMbhoke</td></tr><tr><td style=\"white-space:nowrap\">KaMbiko<a name=\"SzChiefdomCS-KaMbiko\"> </a></td><td>KaMbiko</td></tr><tr><td style=\"white-space:nowrap\">KaMhawu<a name=\"SzChiefdomCS-KaMhawu\"> </a></td><td>KaMhawu</td></tr><tr><td style=\"white-space:nowrap\">kaMkhweli<a name=\"SzChiefdomCS-kaMkhweli\"> </a></td><td>kaMkhweli</td></tr><tr><td style=\"white-space:nowrap\">KaMshengu<a name=\"SzChiefdomCS-KaMshengu\"> </a></td><td>KaMshengu</td></tr><tr><td style=\"white-space:nowrap\">KaMzizi<a name=\"SzChiefdomCS-KaMzizi\"> </a></td><td>KaMzizi</td></tr><tr><td style=\"white-space:nowrap\">KaNdlovu<a name=\"SzChiefdomCS-KaNdlovu\"> </a></td><td>KaNdlovu</td></tr><tr><td style=\"white-space:nowrap\">Kandwandwa<a name=\"SzChiefdomCS-Kandwandwa\"> </a></td><td>Kandwandwa</td></tr><tr><td style=\"white-space:nowrap\">Ka-Nkhambule<a name=\"SzChiefdomCS-Ka-Nkhambule\"> </a></td><td>Ka-Nkhambule</td></tr><tr><td style=\"white-space:nowrap\">Kaphunga<a name=\"SzChiefdomCS-Kaphunga\"> </a></td><td>Kaphunga</td></tr><tr><td style=\"white-space:nowrap\">kaShoba<a name=\"SzChiefdomCS-kaShoba\"> </a></td><td>kaShoba</td></tr><tr><td style=\"white-space:nowrap\">Kasiko<a name=\"SzChiefdomCS-Kasiko\"> </a></td><td>Kasiko</td></tr><tr><td style=\"white-space:nowrap\">kaTsambekwako<a name=\"SzChiefdomCS-kaTsambekwako\"> </a></td><td>kaTsambekwako</td></tr><tr><td style=\"white-space:nowrap\">kaVuma<a name=\"SzChiefdomCS-kaVuma\"> </a></td><td>kaVuma</td></tr><tr><td style=\"white-space:nowrap\">KaZulu<a name=\"SzChiefdomCS-KaZulu\"> </a></td><td>KaZulu</td></tr><tr><td style=\"white-space:nowrap\">Khabonina<a name=\"SzChiefdomCS-Khabonina\"> </a></td><td>Khabonina</td></tr><tr><td style=\"white-space:nowrap\">Khalangilile<a name=\"SzChiefdomCS-Khalangilile\"> </a></td><td>Khalangilile</td></tr><tr><td style=\"white-space:nowrap\">Khamsile<a name=\"SzChiefdomCS-Khamsile\"> </a></td><td>Khamsile</td></tr><tr><td style=\"white-space:nowrap\">Khuphuka<a name=\"SzChiefdomCS-Khuphuka\"> </a></td><td>Khuphuka</td></tr><tr><td style=\"white-space:nowrap\">Kudzeni<a name=\"SzChiefdomCS-Kudzeni\"> </a></td><td>Kudzeni</td></tr><tr><td style=\"white-space:nowrap\">Kufinyeni<a name=\"SzChiefdomCS-Kufinyeni\"> </a></td><td>Kufinyeni</td></tr><tr><td style=\"white-space:nowrap\">Kupheleni<a name=\"SzChiefdomCS-Kupheleni\"> </a></td><td>Kupheleni</td></tr><tr><td style=\"white-space:nowrap\">Kuphumleni<a name=\"SzChiefdomCS-Kuphumleni\"> </a></td><td>Kuphumleni </td></tr><tr><td style=\"white-space:nowrap\">Kuphumuleni<a name=\"SzChiefdomCS-Kuphumuleni\"> </a></td><td>Kuphumuleni</td></tr><tr><td style=\"white-space:nowrap\">Kutsimuleni<a name=\"SzChiefdomCS-Kutsimuleni\"> </a></td><td>Kutsimuleni</td></tr><tr><td style=\"white-space:nowrap\">Kuvinjelweni<a name=\"SzChiefdomCS-Kuvinjelweni\"> </a></td><td>Kuvinjelweni</td></tr><tr><td style=\"white-space:nowrap\">Kwaliweni<a name=\"SzChiefdomCS-Kwaliweni\"> </a></td><td>Kwaliweni</td></tr><tr><td style=\"white-space:nowrap\">Kwaluseni<a name=\"SzChiefdomCS-Kwaluseni\"> </a></td><td>Kwaluseni</td></tr><tr><td style=\"white-space:nowrap\">Kwendzeni<a name=\"SzChiefdomCS-Kwendzeni\"> </a></td><td>Kwendzeni</td></tr><tr><td style=\"white-space:nowrap\">Lamgabhi<a name=\"SzChiefdomCS-Lamgabhi\"> </a></td><td>Lamgabhi</td></tr><tr><td style=\"white-space:nowrap\">Likima<a name=\"SzChiefdomCS-Likima\"> </a></td><td>Likima</td></tr><tr><td style=\"white-space:nowrap\">Lobamba<a name=\"SzChiefdomCS-Lobamba\"> </a></td><td>Lobamba </td></tr><tr><td style=\"white-space:nowrap\">Logoba<a name=\"SzChiefdomCS-Logoba\"> </a></td><td>Logoba</td></tr><tr><td style=\"white-space:nowrap\">Lomahasha<a name=\"SzChiefdomCS-Lomahasha\"> </a></td><td>Lomahasha</td></tr><tr><td style=\"white-space:nowrap\">Lomfa<a name=\"SzChiefdomCS-Lomfa\"> </a></td><td>Lomfa</td></tr><tr><td style=\"white-space:nowrap\">Lomshiyo<a name=\"SzChiefdomCS-Lomshiyo\"> </a></td><td>Lomshiyo</td></tr><tr><td style=\"white-space:nowrap\">Lozitha<a name=\"SzChiefdomCS-Lozitha\"> </a></td><td>Lozitha</td></tr><tr><td style=\"white-space:nowrap\">Ludlawini<a name=\"SzChiefdomCS-Ludlawini\"> </a></td><td>Ludlawini </td></tr><tr><td style=\"white-space:nowrap\">Ludvondvolweni<a name=\"SzChiefdomCS-Ludvondvolweni\"> </a></td><td>Ludvondvolweni</td></tr><tr><td style=\"white-space:nowrap\">Ludzibini<a name=\"SzChiefdomCS-Ludzibini\"> </a></td><td>Ludzibini</td></tr><tr><td style=\"white-space:nowrap\">Luhhumaneni_kaNdeva<a name=\"SzChiefdomCS-Luhhumaneni_kaNdeva\"> </a></td><td>Luhhumaneni/kaNdeva</td></tr><tr><td style=\"white-space:nowrap\">Luhlangotsini<a name=\"SzChiefdomCS-Luhlangotsini\"> </a></td><td>Luhlangotsini</td></tr><tr><td style=\"white-space:nowrap\">Luhlanyeni<a name=\"SzChiefdomCS-Luhlanyeni\"> </a></td><td>Luhlanyeni</td></tr><tr><td style=\"white-space:nowrap\">Luhleko<a name=\"SzChiefdomCS-Luhleko\"> </a></td><td>Luhleko</td></tr><tr><td style=\"white-space:nowrap\">Luhlekweni<a name=\"SzChiefdomCS-Luhlekweni\"> </a></td><td>Luhlekweni</td></tr><tr><td style=\"white-space:nowrap\">Luhlendlweni<a name=\"SzChiefdomCS-Luhlendlweni\"> </a></td><td>Luhlendlweni</td></tr><tr><td style=\"white-space:nowrap\">Luhlokohla<a name=\"SzChiefdomCS-Luhlokohla\"> </a></td><td>Luhlokohla</td></tr><tr><td style=\"white-space:nowrap\">Lukhetseni<a name=\"SzChiefdomCS-Lukhetseni\"> </a></td><td>Lukhetseni</td></tr><tr><td style=\"white-space:nowrap\">Lulakeni<a name=\"SzChiefdomCS-Lulakeni\"> </a></td><td>Lulakeni</td></tr><tr><td style=\"white-space:nowrap\">Lundzi<a name=\"SzChiefdomCS-Lundzi\"> </a></td><td>Lundzi</td></tr><tr><td style=\"white-space:nowrap\">Lunkuntfu<a name=\"SzChiefdomCS-Lunkuntfu\"> </a></td><td>Lunkuntfu</td></tr><tr><td style=\"white-space:nowrap\">Lushikishini<a name=\"SzChiefdomCS-Lushikishini\"> </a></td><td>Lushikishini</td></tr><tr><td style=\"white-space:nowrap\">Lushini<a name=\"SzChiefdomCS-Lushini\"> </a></td><td>Lushini</td></tr><tr><td style=\"white-space:nowrap\">Lusitini<a name=\"SzChiefdomCS-Lusitini\"> </a></td><td>Lusitini</td></tr><tr><td style=\"white-space:nowrap\">Luyengo<a name=\"SzChiefdomCS-Luyengo\"> </a></td><td>Luyengo</td></tr><tr><td style=\"white-space:nowrap\">Luzelweni<a name=\"SzChiefdomCS-Luzelweni\"> </a></td><td>Luzelweni</td></tr><tr><td style=\"white-space:nowrap\">Lwandle<a name=\"SzChiefdomCS-Lwandle\"> </a></td><td>Lwandle</td></tr><tr><td style=\"white-space:nowrap\">Mabantaneni<a name=\"SzChiefdomCS-Mabantaneni\"> </a></td><td>Mabantaneni</td></tr><tr><td style=\"white-space:nowrap\">Mabhukwini<a name=\"SzChiefdomCS-Mabhukwini\"> </a></td><td>Mabhukwini</td></tr><tr><td style=\"white-space:nowrap\">Mabonabulawe<a name=\"SzChiefdomCS-Mabonabulawe\"> </a></td><td>Mabonabulawe</td></tr><tr><td style=\"white-space:nowrap\">Macetjeni<a name=\"SzChiefdomCS-Macetjeni\"> </a></td><td>Macetjeni</td></tr><tr><td style=\"white-space:nowrap\">Macetjeni_Mabondvweni<a name=\"SzChiefdomCS-Macetjeni_Mabondvweni\"> </a></td><td>Macetjeni (Mabondvweni)</td></tr><tr><td style=\"white-space:nowrap\">Macudvulwini<a name=\"SzChiefdomCS-Macudvulwini\"> </a></td><td>Macudvulwini</td></tr><tr><td style=\"white-space:nowrap\">Madlenya<a name=\"SzChiefdomCS-Madlenya\"> </a></td><td>Madlenya</td></tr><tr><td style=\"white-space:nowrap\">Madlolo<a name=\"SzChiefdomCS-Madlolo\"> </a></td><td>Madlolo</td></tr><tr><td style=\"white-space:nowrap\">Mafucula<a name=\"SzChiefdomCS-Mafucula\"> </a></td><td>Mafucula</td></tr><tr><td style=\"white-space:nowrap\">Mafutseni<a name=\"SzChiefdomCS-Mafutseni\"> </a></td><td>Mafutseni</td></tr><tr><td style=\"white-space:nowrap\">Magele<a name=\"SzChiefdomCS-Magele\"> </a></td><td>Magele</td></tr><tr><td style=\"white-space:nowrap\">Mahhashini<a name=\"SzChiefdomCS-Mahhashini\"> </a></td><td>Mahhashini</td></tr><tr><td style=\"white-space:nowrap\">Mahlalini<a name=\"SzChiefdomCS-Mahlalini\"> </a></td><td>Mahlalini</td></tr><tr><td style=\"white-space:nowrap\">Mahlanya<a name=\"SzChiefdomCS-Mahlanya\"> </a></td><td>Mahlanya</td></tr><tr><td style=\"white-space:nowrap\">Makhewu<a name=\"SzChiefdomCS-Makhewu\"> </a></td><td>Makhewu</td></tr><tr><td style=\"white-space:nowrap\">Makholweni<a name=\"SzChiefdomCS-Makholweni\"> </a></td><td>Makholweni</td></tr><tr><td style=\"white-space:nowrap\">Makhwelela<a name=\"SzChiefdomCS-Makhwelela\"> </a></td><td>Makhwelela</td></tr><tr><td style=\"white-space:nowrap\">Malanti<a name=\"SzChiefdomCS-Malanti\"> </a></td><td>Malanti</td></tr><tr><td style=\"white-space:nowrap\">Malindza<a name=\"SzChiefdomCS-Malindza\"> </a></td><td>Malindza</td></tr><tr><td style=\"white-space:nowrap\">Maliyaduma<a name=\"SzChiefdomCS-Maliyaduma\"> </a></td><td>Maliyaduma</td></tr><tr><td style=\"white-space:nowrap\">Mambane<a name=\"SzChiefdomCS-Mambane\"> </a></td><td>Mambane</td></tr><tr><td style=\"white-space:nowrap\">Mambatfweni<a name=\"SzChiefdomCS-Mambatfweni\"> </a></td><td>Mambatfweni</td></tr><tr><td style=\"white-space:nowrap\">Mamisa<a name=\"SzChiefdomCS-Mamisa\"> </a></td><td>Mamisa</td></tr><tr><td style=\"white-space:nowrap\">Mampondweni<a name=\"SzChiefdomCS-Mampondweni\"> </a></td><td>Mampondweni</td></tr><tr><td style=\"white-space:nowrap\">Mangcongco_Zenukeni<a name=\"SzChiefdomCS-Mangcongco_Zenukeni\"> </a></td><td>Mangcongco/Zenukeni</td></tr><tr><td style=\"white-space:nowrap\">Mangwaneni<a name=\"SzChiefdomCS-Mangwaneni\"> </a></td><td>Mangwaneni </td></tr><tr><td style=\"white-space:nowrap\">Mangweni<a name=\"SzChiefdomCS-Mangweni\"> </a></td><td>Mangweni</td></tr><tr><td style=\"white-space:nowrap\">Mantabeni<a name=\"SzChiefdomCS-Mantabeni\"> </a></td><td>Mantabeni</td></tr><tr><td style=\"white-space:nowrap\">Manyandzeni<a name=\"SzChiefdomCS-Manyandzeni\"> </a></td><td>Manyandzeni </td></tr><tr><td style=\"white-space:nowrap\">Manyiseni<a name=\"SzChiefdomCS-Manyiseni\"> </a></td><td>Manyiseni</td></tr><tr><td style=\"white-space:nowrap\">Manzana<a name=\"SzChiefdomCS-Manzana\"> </a></td><td>Manzana</td></tr><tr><td style=\"white-space:nowrap\">Manzini_Central<a name=\"SzChiefdomCS-Manzini_Central\"> </a></td><td>Manzini Central</td></tr><tr><td style=\"white-space:nowrap\">Maphalaleni<a name=\"SzChiefdomCS-Maphalaleni\"> </a></td><td>Maphalaleni</td></tr><tr><td style=\"white-space:nowrap\">Maphilingo<a name=\"SzChiefdomCS-Maphilingo\"> </a></td><td>Maphilingo</td></tr><tr><td style=\"white-space:nowrap\">Maphungwane<a name=\"SzChiefdomCS-Maphungwane\"> </a></td><td>Maphungwane</td></tr><tr><td style=\"white-space:nowrap\">Maplotini<a name=\"SzChiefdomCS-Maplotini\"> </a></td><td>Maplotini</td></tr><tr><td style=\"white-space:nowrap\">Mashobeni<a name=\"SzChiefdomCS-Mashobeni\"> </a></td><td>Mashobeni</td></tr><tr><td style=\"white-space:nowrap\">Mashobeni_North<a name=\"SzChiefdomCS-Mashobeni_North\"> </a></td><td>Mashobeni North</td></tr><tr><td style=\"white-space:nowrap\">Masibini<a name=\"SzChiefdomCS-Masibini\"> </a></td><td>Masibini</td></tr><tr><td style=\"white-space:nowrap\">Masundvwini<a name=\"SzChiefdomCS-Masundvwini\"> </a></td><td>Masundvwini</td></tr><tr><td style=\"white-space:nowrap\">Mathendele<a name=\"SzChiefdomCS-Mathendele\"> </a></td><td>Mathendele</td></tr><tr><td style=\"white-space:nowrap\">Mavula<a name=\"SzChiefdomCS-Mavula\"> </a></td><td>Mavula</td></tr><tr><td style=\"white-space:nowrap\">Mbabala<a name=\"SzChiefdomCS-Mbabala\"> </a></td><td>Mbabala</td></tr><tr><td style=\"white-space:nowrap\">Mbabane<a name=\"SzChiefdomCS-Mbabane\"> </a></td><td>Mbabane</td></tr><tr><td style=\"white-space:nowrap\">Mbangave<a name=\"SzChiefdomCS-Mbangave\"> </a></td><td>Mbangave</td></tr><tr><td style=\"white-space:nowrap\">Mbangweni<a name=\"SzChiefdomCS-Mbangweni\"> </a></td><td>Mbangweni</td></tr><tr><td style=\"white-space:nowrap\">Mbeka<a name=\"SzChiefdomCS-Mbeka\"> </a></td><td>Mbeka</td></tr><tr><td style=\"white-space:nowrap\">Mbekelweni<a name=\"SzChiefdomCS-Mbekelweni\"> </a></td><td>Mbekelweni</td></tr><tr><td style=\"white-space:nowrap\">Mbelebeleni<a name=\"SzChiefdomCS-Mbelebeleni\"> </a></td><td>Mbelebeleni</td></tr><tr><td style=\"white-space:nowrap\">Mbilaneni<a name=\"SzChiefdomCS-Mbilaneni\"> </a></td><td>Mbilaneni</td></tr><tr><td style=\"white-space:nowrap\">Mcengeni<a name=\"SzChiefdomCS-Mcengeni\"> </a></td><td>Mcengeni</td></tr><tr><td style=\"white-space:nowrap\">Mchinsweni<a name=\"SzChiefdomCS-Mchinsweni\"> </a></td><td>Mchinsweni </td></tr><tr><td style=\"white-space:nowrap\">Mdumezulu<a name=\"SzChiefdomCS-Mdumezulu\"> </a></td><td>Mdumezulu</td></tr><tr><td style=\"white-space:nowrap\">Mdzimba_Lofokati<a name=\"SzChiefdomCS-Mdzimba_Lofokati\"> </a></td><td>Mdzimba/Lofokati</td></tr><tr><td style=\"white-space:nowrap\">Meleti<a name=\"SzChiefdomCS-Meleti\"> </a></td><td>Meleti</td></tr><tr><td style=\"white-space:nowrap\">Mfasini<a name=\"SzChiefdomCS-Mfasini\"> </a></td><td>Mfasini</td></tr><tr><td style=\"white-space:nowrap\">Mfeni<a name=\"SzChiefdomCS-Mfeni\"> </a></td><td>Mfeni</td></tr><tr><td style=\"white-space:nowrap\">Mgazini<a name=\"SzChiefdomCS-Mgazini\"> </a></td><td>Mgazini</td></tr><tr><td style=\"white-space:nowrap\">Mgomfelweni<a name=\"SzChiefdomCS-Mgomfelweni\"> </a></td><td>Mgomfelweni</td></tr><tr><td style=\"white-space:nowrap\">Mgungundlovu<a name=\"SzChiefdomCS-Mgungundlovu\"> </a></td><td>Mgungundlovu</td></tr><tr><td style=\"white-space:nowrap\">Mhawini<a name=\"SzChiefdomCS-Mhawini\"> </a></td><td>Mhawini</td></tr><tr><td style=\"white-space:nowrap\">Mhlahlweni<a name=\"SzChiefdomCS-Mhlahlweni\"> </a></td><td>Mhlahlweni </td></tr><tr><td style=\"white-space:nowrap\">Mhlane<a name=\"SzChiefdomCS-Mhlane\"> </a></td><td>Mhlane</td></tr><tr><td style=\"white-space:nowrap\">Mhlangatane<a name=\"SzChiefdomCS-Mhlangatane\"> </a></td><td>Mhlangatane</td></tr><tr><td style=\"white-space:nowrap\">Mhlume<a name=\"SzChiefdomCS-Mhlume\"> </a></td><td>Mhlume</td></tr><tr><td style=\"white-space:nowrap\">Mhobodleni<a name=\"SzChiefdomCS-Mhobodleni\"> </a></td><td>Mhobodleni</td></tr><tr><td style=\"white-space:nowrap\">Mjingo<a name=\"SzChiefdomCS-Mjingo\"> </a></td><td>Mjingo </td></tr><tr><td style=\"white-space:nowrap\">Mkhitsini<a name=\"SzChiefdomCS-Mkhitsini\"> </a></td><td>Mkhitsini</td></tr><tr><td style=\"white-space:nowrap\">Mkhulamini<a name=\"SzChiefdomCS-Mkhulamini\"> </a></td><td>Mkhulamini</td></tr><tr><td style=\"white-space:nowrap\">Mkhuzweni<a name=\"SzChiefdomCS-Mkhuzweni\"> </a></td><td>Mkhuzweni</td></tr><tr><td style=\"white-space:nowrap\">Mkhweni<a name=\"SzChiefdomCS-Mkhweni\"> </a></td><td>Mkhweni</td></tr><tr><td style=\"white-space:nowrap\">Mlindazwe<a name=\"SzChiefdomCS-Mlindazwe\"> </a></td><td>Mlindazwe</td></tr><tr><td style=\"white-space:nowrap\">Mnyenyweni<a name=\"SzChiefdomCS-Mnyenyweni\"> </a></td><td>Mnyenyweni</td></tr><tr><td style=\"white-space:nowrap\">Moneni<a name=\"SzChiefdomCS-Moneni\"> </a></td><td>Moneni</td></tr><tr><td style=\"white-space:nowrap\">Mpangisweni<a name=\"SzChiefdomCS-Mpangisweni\"> </a></td><td>Mpangisweni</td></tr><tr><td style=\"white-space:nowrap\">Mphankhomo<a name=\"SzChiefdomCS-Mphankhomo\"> </a></td><td>Mphankhomo</td></tr><tr><td style=\"white-space:nowrap\">Mphini<a name=\"SzChiefdomCS-Mphini\"> </a></td><td>Mphini</td></tr><tr><td style=\"white-space:nowrap\">Mphofu<a name=\"SzChiefdomCS-Mphofu\"> </a></td><td>Mphofu</td></tr><tr><td style=\"white-space:nowrap\">Mphumakudze<a name=\"SzChiefdomCS-Mphumakudze\"> </a></td><td>Mphumakudze</td></tr><tr><td style=\"white-space:nowrap\">Mpolonjeni<a name=\"SzChiefdomCS-Mpolonjeni\"> </a></td><td>Mpolonjeni</td></tr><tr><td style=\"white-space:nowrap\">Mshingishingini<a name=\"SzChiefdomCS-Mshingishingini\"> </a></td><td>Mshingishingini</td></tr><tr><td style=\"white-space:nowrap\">Msunduza<a name=\"SzChiefdomCS-Msunduza\"> </a></td><td>Msunduza</td></tr><tr><td style=\"white-space:nowrap\">Mvembili<a name=\"SzChiefdomCS-Mvembili\"> </a></td><td>Mvembili</td></tr><tr><td style=\"white-space:nowrap\">Mvuma<a name=\"SzChiefdomCS-Mvuma\"> </a></td><td>Mvuma</td></tr><tr><td style=\"white-space:nowrap\">Mzimnene<a name=\"SzChiefdomCS-Mzimnene\"> </a></td><td>Mzimnene</td></tr><tr><td style=\"white-space:nowrap\">Ncabaneni<a name=\"SzChiefdomCS-Ncabaneni\"> </a></td><td>Ncabaneni</td></tr><tr><td style=\"white-space:nowrap\">Nceka<a name=\"SzChiefdomCS-Nceka\"> </a></td><td>Nceka</td></tr><tr><td style=\"white-space:nowrap\">Nciniselweni<a name=\"SzChiefdomCS-Nciniselweni\"> </a></td><td>Nciniselweni</td></tr><tr><td style=\"white-space:nowrap\">Ndinda<a name=\"SzChiefdomCS-Ndinda\"> </a></td><td>Ndinda</td></tr><tr><td style=\"white-space:nowrap\">Ndlandlameni<a name=\"SzChiefdomCS-Ndlandlameni\"> </a></td><td>Ndlandlameni</td></tr><tr><td style=\"white-space:nowrap\">Ndlinilembi<a name=\"SzChiefdomCS-Ndlinilembi\"> </a></td><td>Ndlinilembi</td></tr><tr><td style=\"white-space:nowrap\">Nduma<a name=\"SzChiefdomCS-Nduma\"> </a></td><td>Nduma</td></tr><tr><td style=\"white-space:nowrap\">Ndunayithini<a name=\"SzChiefdomCS-Ndunayithini\"> </a></td><td>Ndunayithini</td></tr><tr><td style=\"white-space:nowrap\">Ndushulweni<a name=\"SzChiefdomCS-Ndushulweni\"> </a></td><td>Ndushulweni</td></tr><tr><td style=\"white-space:nowrap\">Ndvwabangeni<a name=\"SzChiefdomCS-Ndvwabangeni\"> </a></td><td>Ndvwabangeni</td></tr><tr><td style=\"white-space:nowrap\">Ndzangu<a name=\"SzChiefdomCS-Ndzangu\"> </a></td><td>Ndzangu</td></tr><tr><td style=\"white-space:nowrap\">Ndzeleni<a name=\"SzChiefdomCS-Ndzeleni\"> </a></td><td>Ndzeleni</td></tr><tr><td style=\"white-space:nowrap\">Ndzingeni<a name=\"SzChiefdomCS-Ndzingeni\"> </a></td><td>Ndzingeni</td></tr><tr><td style=\"white-space:nowrap\">Ngcayini<a name=\"SzChiefdomCS-Ngcayini\"> </a></td><td>Ngcayini</td></tr><tr><td style=\"white-space:nowrap\">Ngcina<a name=\"SzChiefdomCS-Ngcina\"> </a></td><td>Ngcina</td></tr><tr><td style=\"white-space:nowrap\">Ngcoseni<a name=\"SzChiefdomCS-Ngcoseni\"> </a></td><td>Ngcoseni</td></tr><tr><td style=\"white-space:nowrap\">Ngculwini<a name=\"SzChiefdomCS-Ngculwini\"> </a></td><td>Ngculwini</td></tr><tr><td style=\"white-space:nowrap\">Ngevini<a name=\"SzChiefdomCS-Ngevini\"> </a></td><td>Ngevini</td></tr><tr><td style=\"white-space:nowrap\">Nginamadvolo<a name=\"SzChiefdomCS-Nginamadvolo\"> </a></td><td>Nginamadvolo</td></tr><tr><td style=\"white-space:nowrap\">Ngobelweni<a name=\"SzChiefdomCS-Ngobelweni\"> </a></td><td>Ngobelweni</td></tr><tr><td style=\"white-space:nowrap\">Ngololweni<a name=\"SzChiefdomCS-Ngololweni\"> </a></td><td>Ngololweni</td></tr><tr><td style=\"white-space:nowrap\">Ngonini<a name=\"SzChiefdomCS-Ngonini\"> </a></td><td>Ngonini</td></tr><tr><td style=\"white-space:nowrap\">Ngwane_Park<a name=\"SzChiefdomCS-Ngwane_Park\"> </a></td><td>Ngwane Park</td></tr><tr><td style=\"white-space:nowrap\">Ngwenyameni<a name=\"SzChiefdomCS-Ngwenyameni\"> </a></td><td>Ngwenyameni</td></tr><tr><td style=\"white-space:nowrap\">Nhlalabantfu<a name=\"SzChiefdomCS-Nhlalabantfu\"> </a></td><td>Nhlalabantfu</td></tr><tr><td style=\"white-space:nowrap\">Nhlanguyavuka<a name=\"SzChiefdomCS-Nhlanguyavuka\"> </a></td><td>Nhlanguyavuka</td></tr><tr><td style=\"white-space:nowrap\">Nhletjeni<a name=\"SzChiefdomCS-Nhletjeni\"> </a></td><td>Nhletjeni</td></tr><tr><td style=\"white-space:nowrap\">Nhlulweni<a name=\"SzChiefdomCS-Nhlulweni\"> </a></td><td>Nhlulweni</td></tr><tr><td style=\"white-space:nowrap\">Njabulweni<a name=\"SzChiefdomCS-Njabulweni\"> </a></td><td>Njabulweni</td></tr><tr><td style=\"white-space:nowrap\">Njelu<a name=\"SzChiefdomCS-Njelu\"> </a></td><td>Njelu</td></tr><tr><td style=\"white-space:nowrap\">Nkalaneni<a name=\"SzChiefdomCS-Nkalaneni\"> </a></td><td>Nkalaneni</td></tr><tr><td style=\"white-space:nowrap\">Nkamanzi<a name=\"SzChiefdomCS-Nkamanzi\"> </a></td><td>Nkamanzi</td></tr><tr><td style=\"white-space:nowrap\">Nkhaba<a name=\"SzChiefdomCS-Nkhaba\"> </a></td><td>Nkhaba</td></tr><tr><td style=\"white-space:nowrap\">Nkhanini<a name=\"SzChiefdomCS-Nkhanini\"> </a></td><td>Nkhanini</td></tr><tr><td style=\"white-space:nowrap\">Nkhanini_Lusabeni<a name=\"SzChiefdomCS-Nkhanini_Lusabeni\"> </a></td><td>Nkhanini/Lusabeni</td></tr><tr><td style=\"white-space:nowrap\">Nkhungwini<a name=\"SzChiefdomCS-Nkhungwini\"> </a></td><td>Nkhungwini</td></tr><tr><td style=\"white-space:nowrap\">Nkiliji<a name=\"SzChiefdomCS-Nkiliji\"> </a></td><td>Nkiliji</td></tr><tr><td style=\"white-space:nowrap\">Nkomonye<a name=\"SzChiefdomCS-Nkomonye\"> </a></td><td>Nkomonye</td></tr><tr><td style=\"white-space:nowrap\">Nkonjwa<a name=\"SzChiefdomCS-Nkonjwa\"> </a></td><td>Nkonjwa</td></tr><tr><td style=\"white-space:nowrap\">Nkonka<a name=\"SzChiefdomCS-Nkonka\"> </a></td><td>Nkonka</td></tr><tr><td style=\"white-space:nowrap\">Nkwalini<a name=\"SzChiefdomCS-Nkwalini\"> </a></td><td>Nkwalini </td></tr><tr><td style=\"white-space:nowrap\">Nkwene<a name=\"SzChiefdomCS-Nkwene\"> </a></td><td>Nkwene</td></tr><tr><td style=\"white-space:nowrap\">Nokwane<a name=\"SzChiefdomCS-Nokwane\"> </a></td><td>Nokwane</td></tr><tr><td style=\"white-space:nowrap\">Nsalitje<a name=\"SzChiefdomCS-Nsalitje\"> </a></td><td>Nsalitje</td></tr><tr><td style=\"white-space:nowrap\">Nsangwini<a name=\"SzChiefdomCS-Nsangwini\"> </a></td><td>Nsangwini</td></tr><tr><td style=\"white-space:nowrap\">Nsenga<a name=\"SzChiefdomCS-Nsenga\"> </a></td><td>Nsenga</td></tr><tr><td style=\"white-space:nowrap\">Nshamanti<a name=\"SzChiefdomCS-Nshamanti\"> </a></td><td>Nshamanti</td></tr><tr><td style=\"white-space:nowrap\">Nsingizini<a name=\"SzChiefdomCS-Nsingizini\"> </a></td><td>Nsingizini</td></tr><tr><td style=\"white-space:nowrap\">Nsingweni<a name=\"SzChiefdomCS-Nsingweni\"> </a></td><td>Nsingweni</td></tr><tr><td style=\"white-space:nowrap\">Nsubane<a name=\"SzChiefdomCS-Nsubane\"> </a></td><td>Nsubane</td></tr><tr><td style=\"white-space:nowrap\">Nsukazi<a name=\"SzChiefdomCS-Nsukazi\"> </a></td><td>Nsukazi </td></tr><tr><td style=\"white-space:nowrap\">Nswaceni<a name=\"SzChiefdomCS-Nswaceni\"> </a></td><td>Nswaceni</td></tr><tr><td style=\"white-space:nowrap\">Ntandweni_Malindza<a name=\"SzChiefdomCS-Ntandweni_Malindza\"> </a></td><td>Ntandweni (Malindza)</td></tr><tr><td style=\"white-space:nowrap\">Ntondozi<a name=\"SzChiefdomCS-Ntondozi\"> </a></td><td>Ntondozi</td></tr><tr><td style=\"white-space:nowrap\">Ntsanjeni<a name=\"SzChiefdomCS-Ntsanjeni\"> </a></td><td>Ntsanjeni</td></tr><tr><td style=\"white-space:nowrap\">Ntunja<a name=\"SzChiefdomCS-Ntunja\"> </a></td><td>Ntunja</td></tr><tr><td style=\"white-space:nowrap\">Ntuthwakazi<a name=\"SzChiefdomCS-Ntuthwakazi\"> </a></td><td>Ntuthwakazi</td></tr><tr><td style=\"white-space:nowrap\">Nyakatfo<a name=\"SzChiefdomCS-Nyakatfo\"> </a></td><td>Nyakatfo</td></tr><tr><td style=\"white-space:nowrap\">Nyakeni<a name=\"SzChiefdomCS-Nyakeni\"> </a></td><td>Nyakeni</td></tr><tr><td style=\"white-space:nowrap\">Nyatsini<a name=\"SzChiefdomCS-Nyatsini\"> </a></td><td>Nyatsini</td></tr><tr><td style=\"white-space:nowrap\">Nyonyane_Maguga<a name=\"SzChiefdomCS-Nyonyane_Maguga\"> </a></td><td>Nyonyane/ Maguga</td></tr><tr><td style=\"white-space:nowrap\">Nzameya<a name=\"SzChiefdomCS-Nzameya\"> </a></td><td>Nzameya</td></tr><tr><td style=\"white-space:nowrap\">Ondiyaneni<a name=\"SzChiefdomCS-Ondiyaneni\"> </a></td><td>Ondiyaneni</td></tr><tr><td style=\"white-space:nowrap\">Phafeni<a name=\"SzChiefdomCS-Phafeni\"> </a></td><td>Phafeni</td></tr><tr><td style=\"white-space:nowrap\">Phangweni<a name=\"SzChiefdomCS-Phangweni\"> </a></td><td>Phangweni</td></tr><tr><td style=\"white-space:nowrap\">Phobane<a name=\"SzChiefdomCS-Phobane\"> </a></td><td>Phobane</td></tr><tr><td style=\"white-space:nowrap\">Piggs_Peak<a name=\"SzChiefdomCS-Piggs_Peak\"> </a></td><td>Piggs Peak</td></tr><tr><td style=\"white-space:nowrap\">Qomintaba<a name=\"SzChiefdomCS-Qomintaba\"> </a></td><td>Qomintaba</td></tr><tr><td style=\"white-space:nowrap\">Sandlane_Ekuthuleni<a name=\"SzChiefdomCS-Sandlane_Ekuthuleni\"> </a></td><td>Sandlane/Ekuthuleni</td></tr><tr><td style=\"white-space:nowrap\">Sankolweni<a name=\"SzChiefdomCS-Sankolweni\"> </a></td><td>Sankolweni</td></tr><tr><td style=\"white-space:nowrap\">Shewula<a name=\"SzChiefdomCS-Shewula\"> </a></td><td>Shewula</td></tr><tr><td style=\"white-space:nowrap\">Sibuyeni<a name=\"SzChiefdomCS-Sibuyeni\"> </a></td><td>Sibuyeni</td></tr><tr><td style=\"white-space:nowrap\">Sidvwashini<a name=\"SzChiefdomCS-Sidvwashini\"> </a></td><td>Sidvwashini</td></tr><tr><td style=\"white-space:nowrap\">Sidwala<a name=\"SzChiefdomCS-Sidwala\"> </a></td><td>Sidwala</td></tr><tr><td style=\"white-space:nowrap\">Sidwashini<a name=\"SzChiefdomCS-Sidwashini\"> </a></td><td>Sidwashini</td></tr><tr><td style=\"white-space:nowrap\">Sigangeni<a name=\"SzChiefdomCS-Sigangeni\"> </a></td><td>Sigangeni</td></tr><tr><td style=\"white-space:nowrap\">Sigcaweni_East<a name=\"SzChiefdomCS-Sigcaweni_East\"> </a></td><td>Sigcaweni East</td></tr><tr><td style=\"white-space:nowrap\">Sigcaweni_West<a name=\"SzChiefdomCS-Sigcaweni_West\"> </a></td><td>Sigcaweni West</td></tr><tr><td style=\"white-space:nowrap\">Sigcineni<a name=\"SzChiefdomCS-Sigcineni\"> </a></td><td>Sigcineni </td></tr><tr><td style=\"white-space:nowrap\">Sigombeni<a name=\"SzChiefdomCS-Sigombeni\"> </a></td><td>Sigombeni</td></tr><tr><td style=\"white-space:nowrap\">Sikhotseni<a name=\"SzChiefdomCS-Sikhotseni\"> </a></td><td>Sikhotseni</td></tr><tr><td style=\"white-space:nowrap\">Simemeni<a name=\"SzChiefdomCS-Simemeni\"> </a></td><td>Simemeni </td></tr><tr><td style=\"white-space:nowrap\">Simunye<a name=\"SzChiefdomCS-Simunye\"> </a></td><td>Simunye</td></tr><tr><td style=\"white-space:nowrap\">Siphocosini<a name=\"SzChiefdomCS-Siphocosini\"> </a></td><td>Siphocosini</td></tr><tr><td style=\"white-space:nowrap\">Sisingeni<a name=\"SzChiefdomCS-Sisingeni\"> </a></td><td>Sisingeni</td></tr><tr><td style=\"white-space:nowrap\">Sitsatsaweni<a name=\"SzChiefdomCS-Sitsatsaweni\"> </a></td><td>Sitsatsaweni</td></tr><tr><td style=\"white-space:nowrap\">Sitseni<a name=\"SzChiefdomCS-Sitseni\"> </a></td><td>Sitseni</td></tr><tr><td style=\"white-space:nowrap\">Siyendle<a name=\"SzChiefdomCS-Siyendle\"> </a></td><td>Siyendle</td></tr><tr><td style=\"white-space:nowrap\">St_Pauls<a name=\"SzChiefdomCS-St_Pauls\"> </a></td><td>St Pauls</td></tr><tr><td style=\"white-space:nowrap\">Tambankulu<a name=\"SzChiefdomCS-Tambankulu\"> </a></td><td>Tambankulu</td></tr><tr><td style=\"white-space:nowrap\">Tambuti<a name=\"SzChiefdomCS-Tambuti\"> </a></td><td>Tambuti</td></tr><tr><td style=\"white-space:nowrap\">Tfuntini_Buhlebuyeza<a name=\"SzChiefdomCS-Tfuntini_Buhlebuyeza\"> </a></td><td>Tfuntini/Buhlebuyeza    </td></tr><tr><td style=\"white-space:nowrap\">Ticancweni<a name=\"SzChiefdomCS-Ticancweni\"> </a></td><td>Ticancweni</td></tr><tr><td style=\"white-space:nowrap\">Tikhuba<a name=\"SzChiefdomCS-Tikhuba\"> </a></td><td>Tikhuba</td></tr><tr><td style=\"white-space:nowrap\">Timbutini<a name=\"SzChiefdomCS-Timbutini\"> </a></td><td>Timbutini</td></tr><tr><td style=\"white-space:nowrap\">Tsambokhulu<a name=\"SzChiefdomCS-Tsambokhulu\"> </a></td><td>Tsambokhulu</td></tr><tr><td style=\"white-space:nowrap\">Tshaneni<a name=\"SzChiefdomCS-Tshaneni\"> </a></td><td>Tshaneni</td></tr><tr><td style=\"white-space:nowrap\">Unspecified<a name=\"SzChiefdomCS-Unspecified\"> </a></td><td>Unspecified</td></tr><tr><td style=\"white-space:nowrap\">Velezizweni<a name=\"SzChiefdomCS-Velezizweni\"> </a></td><td>Velezizweni</td></tr><tr><td style=\"white-space:nowrap\">Vikizijula<a name=\"SzChiefdomCS-Vikizijula\"> </a></td><td>Vikizijula</td></tr><tr><td style=\"white-space:nowrap\">Vimbizibuko<a name=\"SzChiefdomCS-Vimbizibuko\"> </a></td><td>Vimbizibuko</td></tr><tr><td style=\"white-space:nowrap\">Vusweni<a name=\"SzChiefdomCS-Vusweni\"> </a></td><td>Vusweni</td></tr><tr><td style=\"white-space:nowrap\">Vuvulane<a name=\"SzChiefdomCS-Vuvulane\"> </a></td><td>Vuvulane</td></tr><tr><td style=\"white-space:nowrap\">Zabeni<a name=\"SzChiefdomCS-Zabeni\"> </a></td><td>Zabeni</td></tr><tr><td style=\"white-space:nowrap\">Zakhele<a name=\"SzChiefdomCS-Zakhele\"> </a></td><td>Zakhele</td></tr><tr><td style=\"white-space:nowrap\">Zandondo<a name=\"SzChiefdomCS-Zandondo\"> </a></td><td>Zandondo</td></tr><tr><td style=\"white-space:nowrap\">Zenzile<a name=\"SzChiefdomCS-Zenzile\"> </a></td><td>Zenzile</td></tr><tr><td style=\"white-space:nowrap\">Zikhotheni<a name=\"SzChiefdomCS-Zikhotheni\"> </a></td><td>Zikhotheni </td></tr><tr><td style=\"white-space:nowrap\">Zinyane<a name=\"SzChiefdomCS-Zinyane\"> </a></td><td>Zinyane </td></tr><tr><td style=\"white-space:nowrap\">Zombodze<a name=\"SzChiefdomCS-Zombodze\"> </a></td><td>Zombodze</td></tr><tr><td style=\"white-space:nowrap\">Zondwako<a name=\"SzChiefdomCS-Zondwako\"> </a></td><td>Zondwako</td></tr><tr><td style=\"white-space:nowrap\">Zulwini<a name=\"SzChiefdomCS-Zulwini\"> </a></td><td>Zulwini</td></tr></table></div>"
+  },
+  "url" : "http://192.168.10.200:3447/fhir/CodeSystem/SzChiefdomCS",
+  "version" : "0.1.0",
+  "name" : "SzChiefdomCS",
+  "title" : "Code System: Eswatini Chiefdoms",
+  "status" : "draft",
+  "date" : "2025-07-09T11:11:31+00:00",
+  "publisher" : "Ministry of Health Eswatini",
+  "contact" : [{
+    "name" : "Ministry of Health Eswatini",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://192.168.10.200:3447"
+    },
+    {
+      "system" : "email",
+      "value" : "eswatinihie@moh.gov.sz"
+    }]
+  }],
+  "description" : "Code system for ESwatini Chiefdoms",
+  "content" : "complete",
+  "count" : 320,
+  "concept" : [{
+    "code" : "Bambitje",
+    "display" : "Bambitje"
+  },
+  {
+    "code" : "Benezer",
+    "display" : "Benezer"
+  },
+  {
+    "code" : "Bhadzeni_1",
+    "display" : "Bhadzeni 1"
+  },
+  {
+    "code" : "Bhadzeni_2",
+    "display" : "Bhadzeni 2"
+  },
+  {
+    "code" : "Bhahwini",
+    "display" : "Bhahwini"
+  },
+  {
+    "code" : "Bhanganoma",
+    "display" : "Bhanganoma"
+  },
+  {
+    "code" : "Bhekinkhosi",
+    "display" : "Bhekinkhosi"
+  },
+  {
+    "code" : "Bhudla",
+    "display" : "Bhudla"
+  },
+  {
+    "code" : "Bhunya",
+    "display" : "Bhunya"
+  },
+  {
+    "code" : "Bufaneni",
+    "display" : "Bufaneni"
+  },
+  {
+    "code" : "Bulandzeni",
+    "display" : "Bulandzeni"
+  },
+  {
+    "code" : "Bulekeni",
+    "display" : "Bulekeni"
+  },
+  {
+    "code" : "Bulembu_Luhhumaneni_1",
+    "display" : "Bulembu (Luhhumaneni 1)"
+  },
+  {
+    "code" : "Bulunga",
+    "display" : "Bulunga"
+  },
+  {
+    "code" : "Buseleni",
+    "display" : "Buseleni"
+  },
+  {
+    "code" : "Canter_berry",
+    "display" : "Canter berry"
+  },
+  {
+    "code" : "Crooks_Plantations",
+    "display" : "Crooks Plantations"
+  },
+  {
+    "code" : "Dilini",
+    "display" : "Dilini"
+  },
+  {
+    "code" : "Dinabanye",
+    "display" : "Dinabanye"
+  },
+  {
+    "code" : "Dingizwe",
+    "display" : "Dingizwe"
+  },
+  {
+    "code" : "Dladleni",
+    "display" : "Dladleni"
+  },
+  {
+    "code" : "Dlangeni",
+    "display" : "Dlangeni"
+  },
+  {
+    "code" : "Dlozini",
+    "display" : "Dlozini"
+  },
+  {
+    "code" : "Dumenkhungwini",
+    "display" : "Dumenkhungwini"
+  },
+  {
+    "code" : "Dvokolwako",
+    "display" : "Dvokolwako"
+  },
+  {
+    "code" : "Dvokolwako_Ekuphakameni",
+    "display" : "Dvokolwako / Ekuphakameni"
+  },
+  {
+    "code" : "Dvudvusini",
+    "display" : "Dvudvusini"
+  },
+  {
+    "code" : "Dwaleni",
+    "display" : "Dwaleni"
+  },
+  {
+    "code" : "Dwalile",
+    "display" : "Dwalile"
+  },
+  {
+    "code" : "Ejubukweni",
+    "display" : "Ejubukweni"
+  },
+  {
+    "code" : "Ekukhulumeni_Mandlangempisi",
+    "display" : "Ekukhulumeni/ Mandlangempisi"
+  },
+  {
+    "code" : "ELangeni",
+    "display" : "ELangeni"
+  },
+  {
+    "code" : "Emalibeni",
+    "display" : "Emalibeni   "
+  },
+  {
+    "code" : "Emhlangeni",
+    "display" : "Emhlangeni"
+  },
+  {
+    "code" : "Emvembili",
+    "display" : "Emvembili"
+  },
+  {
+    "code" : "Eni",
+    "display" : "Eni"
+  },
+  {
+    "code" : "Eposini",
+    "display" : "Eposini"
+  },
+  {
+    "code" : "Etjedze",
+    "display" : "Etjedze"
+  },
+  {
+    "code" : "Ezibondeni_Kashiba",
+    "display" : "Ezibondeni/Kashiba"
+  },
+  {
+    "code" : "Ezindwendweni",
+    "display" : "Ezindwendweni"
+  },
+  {
+    "code" : "Ezishineni_Manyeveni",
+    "display" : "Ezishineni/ Manyeveni"
+  },
+  {
+    "code" : "Fontein",
+    "display" : "Fontein"
+  },
+  {
+    "code" : "Gamula",
+    "display" : "Gamula"
+  },
+  {
+    "code" : "Gasa",
+    "display" : "Gasa"
+  },
+  {
+    "code" : "Gebeni",
+    "display" : "Gebeni"
+  },
+  {
+    "code" : "Gucuka",
+    "display" : "Gucuka "
+  },
+  {
+    "code" : "Gundvwini",
+    "display" : "Gundvwini"
+  },
+  {
+    "code" : "Gundvwini_Lesibovu",
+    "display" : "Gundvwini/Lesibovu"
+  },
+  {
+    "code" : "Herefords",
+    "display" : "Herefords"
+  },
+  {
+    "code" : "Hhelehhele",
+    "display" : "Hhelehhele"
+  },
+  {
+    "code" : "Hhohho",
+    "display" : "Hhohho"
+  },
+  {
+    "code" : "Hhohho_Emuva",
+    "display" : "Hhohho Emuva"
+  },
+  {
+    "code" : "Hhuhhuma",
+    "display" : "Hhuhhuma"
+  },
+  {
+    "code" : "Hlane",
+    "display" : "Hlane"
+  },
+  {
+    "code" : "Hlane_Bulunga",
+    "display" : "Hlane/Bulunga"
+  },
+  {
+    "code" : "Hlobane",
+    "display" : "Hlobane"
+  },
+  {
+    "code" : "Hlutse",
+    "display" : "Hlutse"
+  },
+  {
+    "code" : "Illovo_Mayaluka",
+    "display" : "Illovo/Mayaluka"
+  },
+  {
+    "code" : "KaDinga",
+    "display" : "KaDinga"
+  },
+  {
+    "code" : "KaDlovunga_",
+    "display" : "KaDlovunga "
+  },
+  {
+    "code" : "kaGwebu",
+    "display" : "kaGwebu"
+  },
+  {
+    "code" : "kaGwegwe",
+    "display" : "kaGwegwe"
+  },
+  {
+    "code" : "ka-Hhohho",
+    "display" : "ka-Hhohho"
+  },
+  {
+    "code" : "KaKholwane",
+    "display" : "KaKholwane"
+  },
+  {
+    "code" : "kaLanga",
+    "display" : "kaLanga"
+  },
+  {
+    "code" : "kaLiba",
+    "display" : "kaLiba"
+  },
+  {
+    "code" : "kaMbhoke",
+    "display" : "kaMbhoke"
+  },
+  {
+    "code" : "KaMbiko",
+    "display" : "KaMbiko"
+  },
+  {
+    "code" : "KaMhawu",
+    "display" : "KaMhawu"
+  },
+  {
+    "code" : "kaMkhweli",
+    "display" : "kaMkhweli"
+  },
+  {
+    "code" : "KaMshengu",
+    "display" : "KaMshengu"
+  },
+  {
+    "code" : "KaMzizi",
+    "display" : "KaMzizi"
+  },
+  {
+    "code" : "KaNdlovu",
+    "display" : "KaNdlovu"
+  },
+  {
+    "code" : "Kandwandwa",
+    "display" : "Kandwandwa"
+  },
+  {
+    "code" : "Ka-Nkhambule",
+    "display" : "Ka-Nkhambule"
+  },
+  {
+    "code" : "Kaphunga",
+    "display" : "Kaphunga"
+  },
+  {
+    "code" : "kaShoba",
+    "display" : "kaShoba"
+  },
+  {
+    "code" : "Kasiko",
+    "display" : "Kasiko"
+  },
+  {
+    "code" : "kaTsambekwako",
+    "display" : "kaTsambekwako"
+  },
+  {
+    "code" : "kaVuma",
+    "display" : "kaVuma"
+  },
+  {
+    "code" : "KaZulu",
+    "display" : "KaZulu"
+  },
+  {
+    "code" : "Khabonina",
+    "display" : "Khabonina"
+  },
+  {
+    "code" : "Khalangilile",
+    "display" : "Khalangilile"
+  },
+  {
+    "code" : "Khamsile",
+    "display" : "Khamsile"
+  },
+  {
+    "code" : "Khuphuka",
+    "display" : "Khuphuka"
+  },
+  {
+    "code" : "Kudzeni",
+    "display" : "Kudzeni"
+  },
+  {
+    "code" : "Kufinyeni",
+    "display" : "Kufinyeni"
+  },
+  {
+    "code" : "Kupheleni",
+    "display" : "Kupheleni"
+  },
+  {
+    "code" : "Kuphumleni",
+    "display" : "Kuphumleni "
+  },
+  {
+    "code" : "Kuphumuleni",
+    "display" : "Kuphumuleni"
+  },
+  {
+    "code" : "Kutsimuleni",
+    "display" : "Kutsimuleni"
+  },
+  {
+    "code" : "Kuvinjelweni",
+    "display" : "Kuvinjelweni"
+  },
+  {
+    "code" : "Kwaliweni",
+    "display" : "Kwaliweni"
+  },
+  {
+    "code" : "Kwaluseni",
+    "display" : "Kwaluseni"
+  },
+  {
+    "code" : "Kwendzeni",
+    "display" : "Kwendzeni"
+  },
+  {
+    "code" : "Lamgabhi",
+    "display" : "Lamgabhi"
+  },
+  {
+    "code" : "Likima",
+    "display" : "Likima"
+  },
+  {
+    "code" : "Lobamba",
+    "display" : "Lobamba "
+  },
+  {
+    "code" : "Logoba",
+    "display" : "Logoba"
+  },
+  {
+    "code" : "Lomahasha",
+    "display" : "Lomahasha"
+  },
+  {
+    "code" : "Lomfa",
+    "display" : "Lomfa"
+  },
+  {
+    "code" : "Lomshiyo",
+    "display" : "Lomshiyo"
+  },
+  {
+    "code" : "Lozitha",
+    "display" : "Lozitha"
+  },
+  {
+    "code" : "Ludlawini",
+    "display" : "Ludlawini "
+  },
+  {
+    "code" : "Ludvondvolweni",
+    "display" : "Ludvondvolweni"
+  },
+  {
+    "code" : "Ludzibini",
+    "display" : "Ludzibini"
+  },
+  {
+    "code" : "Luhhumaneni_kaNdeva",
+    "display" : "Luhhumaneni/kaNdeva"
+  },
+  {
+    "code" : "Luhlangotsini",
+    "display" : "Luhlangotsini"
+  },
+  {
+    "code" : "Luhlanyeni",
+    "display" : "Luhlanyeni"
+  },
+  {
+    "code" : "Luhleko",
+    "display" : "Luhleko"
+  },
+  {
+    "code" : "Luhlekweni",
+    "display" : "Luhlekweni"
+  },
+  {
+    "code" : "Luhlendlweni",
+    "display" : "Luhlendlweni"
+  },
+  {
+    "code" : "Luhlokohla",
+    "display" : "Luhlokohla"
+  },
+  {
+    "code" : "Lukhetseni",
+    "display" : "Lukhetseni"
+  },
+  {
+    "code" : "Lulakeni",
+    "display" : "Lulakeni"
+  },
+  {
+    "code" : "Lundzi",
+    "display" : "Lundzi"
+  },
+  {
+    "code" : "Lunkuntfu",
+    "display" : "Lunkuntfu"
+  },
+  {
+    "code" : "Lushikishini",
+    "display" : "Lushikishini"
+  },
+  {
+    "code" : "Lushini",
+    "display" : "Lushini"
+  },
+  {
+    "code" : "Lusitini",
+    "display" : "Lusitini"
+  },
+  {
+    "code" : "Luyengo",
+    "display" : "Luyengo"
+  },
+  {
+    "code" : "Luzelweni",
+    "display" : "Luzelweni"
+  },
+  {
+    "code" : "Lwandle",
+    "display" : "Lwandle"
+  },
+  {
+    "code" : "Mabantaneni",
+    "display" : "Mabantaneni"
+  },
+  {
+    "code" : "Mabhukwini",
+    "display" : "Mabhukwini"
+  },
+  {
+    "code" : "Mabonabulawe",
+    "display" : "Mabonabulawe"
+  },
+  {
+    "code" : "Macetjeni",
+    "display" : "Macetjeni"
+  },
+  {
+    "code" : "Macetjeni_Mabondvweni",
+    "display" : "Macetjeni (Mabondvweni)"
+  },
+  {
+    "code" : "Macudvulwini",
+    "display" : "Macudvulwini"
+  },
+  {
+    "code" : "Madlenya",
+    "display" : "Madlenya"
+  },
+  {
+    "code" : "Madlolo",
+    "display" : "Madlolo"
+  },
+  {
+    "code" : "Mafucula",
+    "display" : "Mafucula"
+  },
+  {
+    "code" : "Mafutseni",
+    "display" : "Mafutseni"
+  },
+  {
+    "code" : "Magele",
+    "display" : "Magele"
+  },
+  {
+    "code" : "Mahhashini",
+    "display" : "Mahhashini"
+  },
+  {
+    "code" : "Mahlalini",
+    "display" : "Mahlalini"
+  },
+  {
+    "code" : "Mahlanya",
+    "display" : "Mahlanya"
+  },
+  {
+    "code" : "Makhewu",
+    "display" : "Makhewu"
+  },
+  {
+    "code" : "Makholweni",
+    "display" : "Makholweni"
+  },
+  {
+    "code" : "Makhwelela",
+    "display" : "Makhwelela"
+  },
+  {
+    "code" : "Malanti",
+    "display" : "Malanti"
+  },
+  {
+    "code" : "Malindza",
+    "display" : "Malindza"
+  },
+  {
+    "code" : "Maliyaduma",
+    "display" : "Maliyaduma"
+  },
+  {
+    "code" : "Mambane",
+    "display" : "Mambane"
+  },
+  {
+    "code" : "Mambatfweni",
+    "display" : "Mambatfweni"
+  },
+  {
+    "code" : "Mamisa",
+    "display" : "Mamisa"
+  },
+  {
+    "code" : "Mampondweni",
+    "display" : "Mampondweni"
+  },
+  {
+    "code" : "Mangcongco_Zenukeni",
+    "display" : "Mangcongco/Zenukeni"
+  },
+  {
+    "code" : "Mangwaneni",
+    "display" : "Mangwaneni "
+  },
+  {
+    "code" : "Mangweni",
+    "display" : "Mangweni"
+  },
+  {
+    "code" : "Mantabeni",
+    "display" : "Mantabeni"
+  },
+  {
+    "code" : "Manyandzeni",
+    "display" : "Manyandzeni "
+  },
+  {
+    "code" : "Manyiseni",
+    "display" : "Manyiseni"
+  },
+  {
+    "code" : "Manzana",
+    "display" : "Manzana"
+  },
+  {
+    "code" : "Manzini_Central",
+    "display" : "Manzini Central"
+  },
+  {
+    "code" : "Maphalaleni",
+    "display" : "Maphalaleni"
+  },
+  {
+    "code" : "Maphilingo",
+    "display" : "Maphilingo"
+  },
+  {
+    "code" : "Maphungwane",
+    "display" : "Maphungwane"
+  },
+  {
+    "code" : "Maplotini",
+    "display" : "Maplotini"
+  },
+  {
+    "code" : "Mashobeni",
+    "display" : "Mashobeni"
+  },
+  {
+    "code" : "Mashobeni_North",
+    "display" : "Mashobeni North"
+  },
+  {
+    "code" : "Masibini",
+    "display" : "Masibini"
+  },
+  {
+    "code" : "Masundvwini",
+    "display" : "Masundvwini"
+  },
+  {
+    "code" : "Mathendele",
+    "display" : "Mathendele"
+  },
+  {
+    "code" : "Mavula",
+    "display" : "Mavula"
+  },
+  {
+    "code" : "Mbabala",
+    "display" : "Mbabala"
+  },
+  {
+    "code" : "Mbabane",
+    "display" : "Mbabane"
+  },
+  {
+    "code" : "Mbangave",
+    "display" : "Mbangave"
+  },
+  {
+    "code" : "Mbangweni",
+    "display" : "Mbangweni"
+  },
+  {
+    "code" : "Mbeka",
+    "display" : "Mbeka"
+  },
+  {
+    "code" : "Mbekelweni",
+    "display" : "Mbekelweni"
+  },
+  {
+    "code" : "Mbelebeleni",
+    "display" : "Mbelebeleni"
+  },
+  {
+    "code" : "Mbilaneni",
+    "display" : "Mbilaneni"
+  },
+  {
+    "code" : "Mcengeni",
+    "display" : "Mcengeni"
+  },
+  {
+    "code" : "Mchinsweni",
+    "display" : "Mchinsweni "
+  },
+  {
+    "code" : "Mdumezulu",
+    "display" : "Mdumezulu"
+  },
+  {
+    "code" : "Mdzimba_Lofokati",
+    "display" : "Mdzimba/Lofokati"
+  },
+  {
+    "code" : "Meleti",
+    "display" : "Meleti"
+  },
+  {
+    "code" : "Mfasini",
+    "display" : "Mfasini"
+  },
+  {
+    "code" : "Mfeni",
+    "display" : "Mfeni"
+  },
+  {
+    "code" : "Mgazini",
+    "display" : "Mgazini"
+  },
+  {
+    "code" : "Mgomfelweni",
+    "display" : "Mgomfelweni"
+  },
+  {
+    "code" : "Mgungundlovu",
+    "display" : "Mgungundlovu"
+  },
+  {
+    "code" : "Mhawini",
+    "display" : "Mhawini"
+  },
+  {
+    "code" : "Mhlahlweni",
+    "display" : "Mhlahlweni "
+  },
+  {
+    "code" : "Mhlane",
+    "display" : "Mhlane"
+  },
+  {
+    "code" : "Mhlangatane",
+    "display" : "Mhlangatane"
+  },
+  {
+    "code" : "Mhlume",
+    "display" : "Mhlume"
+  },
+  {
+    "code" : "Mhobodleni",
+    "display" : "Mhobodleni"
+  },
+  {
+    "code" : "Mjingo",
+    "display" : "Mjingo "
+  },
+  {
+    "code" : "Mkhitsini",
+    "display" : "Mkhitsini"
+  },
+  {
+    "code" : "Mkhulamini",
+    "display" : "Mkhulamini"
+  },
+  {
+    "code" : "Mkhuzweni",
+    "display" : "Mkhuzweni"
+  },
+  {
+    "code" : "Mkhweni",
+    "display" : "Mkhweni"
+  },
+  {
+    "code" : "Mlindazwe",
+    "display" : "Mlindazwe"
+  },
+  {
+    "code" : "Mnyenyweni",
+    "display" : "Mnyenyweni"
+  },
+  {
+    "code" : "Moneni",
+    "display" : "Moneni"
+  },
+  {
+    "code" : "Mpangisweni",
+    "display" : "Mpangisweni"
+  },
+  {
+    "code" : "Mphankhomo",
+    "display" : "Mphankhomo"
+  },
+  {
+    "code" : "Mphini",
+    "display" : "Mphini"
+  },
+  {
+    "code" : "Mphofu",
+    "display" : "Mphofu"
+  },
+  {
+    "code" : "Mphumakudze",
+    "display" : "Mphumakudze"
+  },
+  {
+    "code" : "Mpolonjeni",
+    "display" : "Mpolonjeni"
+  },
+  {
+    "code" : "Mshingishingini",
+    "display" : "Mshingishingini"
+  },
+  {
+    "code" : "Msunduza",
+    "display" : "Msunduza"
+  },
+  {
+    "code" : "Mvembili",
+    "display" : "Mvembili"
+  },
+  {
+    "code" : "Mvuma",
+    "display" : "Mvuma"
+  },
+  {
+    "code" : "Mzimnene",
+    "display" : "Mzimnene"
+  },
+  {
+    "code" : "Ncabaneni",
+    "display" : "Ncabaneni"
+  },
+  {
+    "code" : "Nceka",
+    "display" : "Nceka"
+  },
+  {
+    "code" : "Nciniselweni",
+    "display" : "Nciniselweni"
+  },
+  {
+    "code" : "Ndinda",
+    "display" : "Ndinda"
+  },
+  {
+    "code" : "Ndlandlameni",
+    "display" : "Ndlandlameni"
+  },
+  {
+    "code" : "Ndlinilembi",
+    "display" : "Ndlinilembi"
+  },
+  {
+    "code" : "Nduma",
+    "display" : "Nduma"
+  },
+  {
+    "code" : "Ndunayithini",
+    "display" : "Ndunayithini"
+  },
+  {
+    "code" : "Ndushulweni",
+    "display" : "Ndushulweni"
+  },
+  {
+    "code" : "Ndvwabangeni",
+    "display" : "Ndvwabangeni"
+  },
+  {
+    "code" : "Ndzangu",
+    "display" : "Ndzangu"
+  },
+  {
+    "code" : "Ndzeleni",
+    "display" : "Ndzeleni"
+  },
+  {
+    "code" : "Ndzingeni",
+    "display" : "Ndzingeni"
+  },
+  {
+    "code" : "Ngcayini",
+    "display" : "Ngcayini"
+  },
+  {
+    "code" : "Ngcina",
+    "display" : "Ngcina"
+  },
+  {
+    "code" : "Ngcoseni",
+    "display" : "Ngcoseni"
+  },
+  {
+    "code" : "Ngculwini",
+    "display" : "Ngculwini"
+  },
+  {
+    "code" : "Ngevini",
+    "display" : "Ngevini"
+  },
+  {
+    "code" : "Nginamadvolo",
+    "display" : "Nginamadvolo"
+  },
+  {
+    "code" : "Ngobelweni",
+    "display" : "Ngobelweni"
+  },
+  {
+    "code" : "Ngololweni",
+    "display" : "Ngololweni"
+  },
+  {
+    "code" : "Ngonini",
+    "display" : "Ngonini"
+  },
+  {
+    "code" : "Ngwane_Park",
+    "display" : "Ngwane Park"
+  },
+  {
+    "code" : "Ngwenyameni",
+    "display" : "Ngwenyameni"
+  },
+  {
+    "code" : "Nhlalabantfu",
+    "display" : "Nhlalabantfu"
+  },
+  {
+    "code" : "Nhlanguyavuka",
+    "display" : "Nhlanguyavuka"
+  },
+  {
+    "code" : "Nhletjeni",
+    "display" : "Nhletjeni"
+  },
+  {
+    "code" : "Nhlulweni",
+    "display" : "Nhlulweni"
+  },
+  {
+    "code" : "Njabulweni",
+    "display" : "Njabulweni"
+  },
+  {
+    "code" : "Njelu",
+    "display" : "Njelu"
+  },
+  {
+    "code" : "Nkalaneni",
+    "display" : "Nkalaneni"
+  },
+  {
+    "code" : "Nkamanzi",
+    "display" : "Nkamanzi"
+  },
+  {
+    "code" : "Nkhaba",
+    "display" : "Nkhaba"
+  },
+  {
+    "code" : "Nkhanini",
+    "display" : "Nkhanini"
+  },
+  {
+    "code" : "Nkhanini_Lusabeni",
+    "display" : "Nkhanini/Lusabeni"
+  },
+  {
+    "code" : "Nkhungwini",
+    "display" : "Nkhungwini"
+  },
+  {
+    "code" : "Nkiliji",
+    "display" : "Nkiliji"
+  },
+  {
+    "code" : "Nkomonye",
+    "display" : "Nkomonye"
+  },
+  {
+    "code" : "Nkonjwa",
+    "display" : "Nkonjwa"
+  },
+  {
+    "code" : "Nkonka",
+    "display" : "Nkonka"
+  },
+  {
+    "code" : "Nkwalini",
+    "display" : "Nkwalini "
+  },
+  {
+    "code" : "Nkwene",
+    "display" : "Nkwene"
+  },
+  {
+    "code" : "Nokwane",
+    "display" : "Nokwane"
+  },
+  {
+    "code" : "Nsalitje",
+    "display" : "Nsalitje"
+  },
+  {
+    "code" : "Nsangwini",
+    "display" : "Nsangwini"
+  },
+  {
+    "code" : "Nsenga",
+    "display" : "Nsenga"
+  },
+  {
+    "code" : "Nshamanti",
+    "display" : "Nshamanti"
+  },
+  {
+    "code" : "Nsingizini",
+    "display" : "Nsingizini"
+  },
+  {
+    "code" : "Nsingweni",
+    "display" : "Nsingweni"
+  },
+  {
+    "code" : "Nsubane",
+    "display" : "Nsubane"
+  },
+  {
+    "code" : "Nsukazi",
+    "display" : "Nsukazi "
+  },
+  {
+    "code" : "Nswaceni",
+    "display" : "Nswaceni"
+  },
+  {
+    "code" : "Ntandweni_Malindza",
+    "display" : "Ntandweni (Malindza)"
+  },
+  {
+    "code" : "Ntondozi",
+    "display" : "Ntondozi"
+  },
+  {
+    "code" : "Ntsanjeni",
+    "display" : "Ntsanjeni"
+  },
+  {
+    "code" : "Ntunja",
+    "display" : "Ntunja"
+  },
+  {
+    "code" : "Ntuthwakazi",
+    "display" : "Ntuthwakazi"
+  },
+  {
+    "code" : "Nyakatfo",
+    "display" : "Nyakatfo"
+  },
+  {
+    "code" : "Nyakeni",
+    "display" : "Nyakeni"
+  },
+  {
+    "code" : "Nyatsini",
+    "display" : "Nyatsini"
+  },
+  {
+    "code" : "Nyonyane_Maguga",
+    "display" : "Nyonyane/ Maguga"
+  },
+  {
+    "code" : "Nzameya",
+    "display" : "Nzameya"
+  },
+  {
+    "code" : "Ondiyaneni",
+    "display" : "Ondiyaneni"
+  },
+  {
+    "code" : "Phafeni",
+    "display" : "Phafeni"
+  },
+  {
+    "code" : "Phangweni",
+    "display" : "Phangweni"
+  },
+  {
+    "code" : "Phobane",
+    "display" : "Phobane"
+  },
+  {
+    "code" : "Piggs_Peak",
+    "display" : "Piggs Peak"
+  },
+  {
+    "code" : "Qomintaba",
+    "display" : "Qomintaba"
+  },
+  {
+    "code" : "Sandlane_Ekuthuleni",
+    "display" : "Sandlane/Ekuthuleni"
+  },
+  {
+    "code" : "Sankolweni",
+    "display" : "Sankolweni"
+  },
+  {
+    "code" : "Shewula",
+    "display" : "Shewula"
+  },
+  {
+    "code" : "Sibuyeni",
+    "display" : "Sibuyeni"
+  },
+  {
+    "code" : "Sidvwashini",
+    "display" : "Sidvwashini"
+  },
+  {
+    "code" : "Sidwala",
+    "display" : "Sidwala"
+  },
+  {
+    "code" : "Sidwashini",
+    "display" : "Sidwashini"
+  },
+  {
+    "code" : "Sigangeni",
+    "display" : "Sigangeni"
+  },
+  {
+    "code" : "Sigcaweni_East",
+    "display" : "Sigcaweni East"
+  },
+  {
+    "code" : "Sigcaweni_West",
+    "display" : "Sigcaweni West"
+  },
+  {
+    "code" : "Sigcineni",
+    "display" : "Sigcineni "
+  },
+  {
+    "code" : "Sigombeni",
+    "display" : "Sigombeni"
+  },
+  {
+    "code" : "Sikhotseni",
+    "display" : "Sikhotseni"
+  },
+  {
+    "code" : "Simemeni",
+    "display" : "Simemeni "
+  },
+  {
+    "code" : "Simunye",
+    "display" : "Simunye"
+  },
+  {
+    "code" : "Siphocosini",
+    "display" : "Siphocosini"
+  },
+  {
+    "code" : "Sisingeni",
+    "display" : "Sisingeni"
+  },
+  {
+    "code" : "Sitsatsaweni",
+    "display" : "Sitsatsaweni"
+  },
+  {
+    "code" : "Sitseni",
+    "display" : "Sitseni"
+  },
+  {
+    "code" : "Siyendle",
+    "display" : "Siyendle"
+  },
+  {
+    "code" : "St_Pauls",
+    "display" : "St Pauls"
+  },
+  {
+    "code" : "Tambankulu",
+    "display" : "Tambankulu"
+  },
+  {
+    "code" : "Tambuti",
+    "display" : "Tambuti"
+  },
+  {
+    "code" : "Tfuntini_Buhlebuyeza",
+    "display" : "Tfuntini/Buhlebuyeza    "
+  },
+  {
+    "code" : "Ticancweni",
+    "display" : "Ticancweni"
+  },
+  {
+    "code" : "Tikhuba",
+    "display" : "Tikhuba"
+  },
+  {
+    "code" : "Timbutini",
+    "display" : "Timbutini"
+  },
+  {
+    "code" : "Tsambokhulu",
+    "display" : "Tsambokhulu"
+  },
+  {
+    "code" : "Tshaneni",
+    "display" : "Tshaneni"
+  },
+  {
+    "code" : "Unspecified",
+    "display" : "Unspecified"
+  },
+  {
+    "code" : "Velezizweni",
+    "display" : "Velezizweni"
+  },
+  {
+    "code" : "Vikizijula",
+    "display" : "Vikizijula"
+  },
+  {
+    "code" : "Vimbizibuko",
+    "display" : "Vimbizibuko"
+  },
+  {
+    "code" : "Vusweni",
+    "display" : "Vusweni"
+  },
+  {
+    "code" : "Vuvulane",
+    "display" : "Vuvulane"
+  },
+  {
+    "code" : "Zabeni",
+    "display" : "Zabeni"
+  },
+  {
+    "code" : "Zakhele",
+    "display" : "Zakhele"
+  },
+  {
+    "code" : "Zandondo",
+    "display" : "Zandondo"
+  },
+  {
+    "code" : "Zenzile",
+    "display" : "Zenzile"
+  },
+  {
+    "code" : "Zikhotheni",
+    "display" : "Zikhotheni "
+  },
+  {
+    "code" : "Zinyane",
+    "display" : "Zinyane "
+  },
+  {
+    "code" : "Zombodze",
+    "display" : "Zombodze"
+  },
+  {
+    "code" : "Zondwako",
+    "display" : "Zondwako"
+  },
+  {
+    "code" : "Zulwini",
+    "display" : "Zulwini"
+  }]
+}

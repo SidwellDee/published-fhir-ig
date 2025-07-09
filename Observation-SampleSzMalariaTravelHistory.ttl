@@ -1,0 +1,62 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://192.168.10.200:3447/fhir/Observation/SampleSzMalariaTravelHistory> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "SampleSzMalariaTravelHistory"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzClinicalObservation"^^xsd:anyURI ;
+       fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzClinicalObservation>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation SampleSzMalariaTravelHistory</b></p><a name=\"SampleSzMalariaTravelHistory\"> </a><a name=\"hcSampleSzMalariaTravelHistory\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzClinicalObservation.html\">Eswatini Clinical Observation Profile</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 420008001}\">Travel history</span></p><p><b>subject</b>: <a href=\"Patient-SampleSzMalariaPatient.html\">Jacob Samuel Gule  Male, DoB: 1990-01-01 ( Medical Record Number: M002111111-11 (use: usual, ))</a></p><p><b>effective</b>: 2024-11-01 --&gt; 2024-11-15</p><h3>Components</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Value[x]</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://snomed.info/sct 420008001}\">Travel location</span></td><td><span title=\"Codes:{http://snomed.info/sct 24658006}\">France</span></td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:420008001 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "420008001" ] ;
+       fhir:display [ fhir:v "Travel history" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzMalariaPatient> ;
+     fhir:reference [ fhir:v "Patient/SampleSzMalariaPatient" ]
+  ] ; # 
+  fhir:effective [
+     a fhir:Period ;
+     fhir:start [ fhir:v "2024-11-01"^^xsd:date ] ;
+     fhir:end [ fhir:v "2024-11-15"^^xsd:date ]
+  ] ; # 
+  fhir:component ( [
+     fhir:code [
+       fhir:coding ( [
+         a sct:420008001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "420008001" ] ;
+         fhir:display [ fhir:v "Travel location" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:CodeableConcept ;
+       fhir:coding ( [
+         a sct:24658006 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "24658006" ] ;
+         fhir:display [ fhir:v "France" ]
+       ] )
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

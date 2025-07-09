@@ -1,0 +1,35 @@
+{
+  "resourceType" : "Procedure",
+  "id" : "SampleSzIPTProcedure",
+  "meta" : {
+    "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzProcedure"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Procedure SampleSzIPTProcedure</b></p><a name=\"SampleSzIPTProcedure\"> </a><a name=\"hcSampleSzIPTProcedure\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzProcedure.html\">Eswatini Procedure Profile</a></p></div><p><b>status</b>: Completed</p><p><b>category</b>: <span title=\"Codes:{https://terminology.hl7.org/CodeSystem/procedure-category treatment}\">Treatment</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 12345}\">Isoniazid Preventive Therapy</span></p><p><b>subject</b>: <a href=\"Patient-SampleSzPatient.html\">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1\u00a0(use:\u00a0usual,\u00a0))</a></p><p><b>performed</b>: 2024-01-01 --&gt; 2024-06-11</p></div>"
+  },
+  "status" : "completed",
+  "category" : {
+    "coding" : [{
+      "system" : "https://terminology.hl7.org/CodeSystem/procedure-category",
+      "code" : "treatment",
+      "display" : "Treatment"
+    }],
+    "text" : "Treatment"
+  },
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "12345",
+      "display" : "Isoniazid Preventive Therapy"
+    }],
+    "text" : "Isoniazid Preventive Therapy"
+  },
+  "subject" : {
+    "reference" : "Patient/SampleSzPatient"
+  },
+  "performedPeriod" : {
+    "start" : "2024-01-01",
+    "end" : "2024-06-11"
+  }
+}

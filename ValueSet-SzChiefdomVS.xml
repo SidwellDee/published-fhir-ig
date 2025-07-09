@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="SzChiefdomVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet SzChiefdomVS</b></p><a name="SzChiefdomVS"> </a><a name="hcSzChiefdomVS"> </a><ul><li>Include all codes defined in <a href="CodeSystem-SzChiefdomCS.html"><code>http://192.168.10.200:3447/fhir/CodeSystem/SzChiefdomCS</code></a></li></ul></div>
+  </text>
+  <url value="http://192.168.10.200:3447/fhir/ValueSet/SzChiefdomVS"/>
+  <version value="0.1.0"/>
+  <name value="SzChiefdomVS"/>
+  <title value="Value Set: Chiefdoms Value Set"/>
+  <status value="draft"/>
+  <date value="2025-07-09T11:11:31+00:00"/>
+  <publisher value="Ministry of Health Eswatini"/>
+  <contact>
+    <name value="Ministry of Health Eswatini"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://192.168.10.200:3447"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="eswatinihie@moh.gov.sz"/>
+    </telecom>
+  </contact>
+  <description value="Value set for ESwatini chiefdoms"/>
+  <compose>
+    <include>
+      <system value="http://192.168.10.200:3447/fhir/CodeSystem/SzChiefdomCS"/>
+    </include>
+  </compose>
+</ValueSet>

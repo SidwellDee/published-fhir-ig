@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="SampleSzMalariaPatient"/>
+  <meta>
+    <profile value="http://192.168.10.200:3447/fhir/StructureDefinition/SzPatient"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Patient SampleSzMalariaPatient</b></p><a name="SampleSzMalariaPatient"> </a><a name="hcSampleSzMalariaPatient"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-SzPatient.html">Eswatini Patient Profile</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Jacob Samuel Gule  Male, DoB: 1990-01-01 ( Medical Record Number: M002111111-11 (use: usual, ))</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Other Id (see the one above)">Other Id:</td><td colspan="3">Personal ID Number/1999001000000 (use: official, )</td></tr><tr><td style="background-color: #f3f5da" title="The nationality of the patient.">Patient Nationality:</td><td colspan="3"><ul><li>code: <span title="Codes:{urn:iso:std:iso:3166 SWZ}">Eswatini</span></li><li>period: 1981-01-20 --&gt; (ongoing)</li></ul></td></tr><tr><td style="background-color: #f3f5da" title="Base StructureDefinition for code type: A string which has at least one character and no leading or trailing whitespace and where there is no whitespace other than single spaces in the contents"><a href="http://hl7.org/fhir/R4/datatypes.html#code"/></td><td colspan="3"><ul><li><span title="Codes:{http://localhost:3447/fhir/CodeSystem/SzTinkhundlaCS DVOKODVWENI}">Dvokodvweni</span></li><li><span title="Codes:{http://localhost:3447/fhir/CodeSystem/SzChiefdomCS Kwaluseni}">Kwaluseni</span></li></ul></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/patient-nationality">
+    <extension url="code">
+      <valueCodeableConcept>
+        <coding>
+          <system value="urn:iso:std:iso:3166"/>
+          <code value="SWZ"/>
+          <display value="Eswatini"/>
+        </coding>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="period">
+      <valuePeriod>
+        <start value="1981-01-20"/>
+      </valuePeriod>
+    </extension>
+  </extension>
+  <extension url="code">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://localhost:3447/fhir/CodeSystem/SzTinkhundlaCS"/>
+        <code value="DVOKODVWENI"/>
+        <display value="Dvokodvweni"/>
+      </coding>
+      <text value="Dvokodvweni"/>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="code">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://localhost:3447/fhir/CodeSystem/SzChiefdomCS"/>
+        <code value="Kwaluseni"/>
+        <display value="Kwaluseni"/>
+      </coding>
+      <text value="Kwaluseni"/>
+    </valueCodeableConcept>
+  </extension>
+  <identifier>
+    <use value="usual"/>
+    <type>
+      <coding>
+        <system value="http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS"/>
+        <code value="MR"/>
+        <display value="Medical Record Number"/>
+      </coding>
+    </type>
+    <system value="http://mfl.sys/m001"/>
+    <value value="M002111111-11"/>
+  </identifier>
+  <identifier>
+    <use value="official"/>
+    <type>
+      <coding>
+        <system value="http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS"/>
+        <code value="PI"/>
+        <display value="Personal ID Number"/>
+      </coding>
+    </type>
+    <system value="http://homeaffairs.sys"/>
+    <value value="1999001000000"/>
+  </identifier>
+  <name>
+    <family value="Gule"/>
+    <given value="Jacob"/>
+    <given value="Samuel"/>
+  </name>
+  <gender value="male"/>
+  <birthDate value="1990-01-01">
+    <extension url="http://hl7.org/fhir/StructureDefinition/patient-birthTime">
+      <valueDateTime value="2000-01-01T14:35:45-05:00"/>
+    </extension>
+  </birthDate>
+</Patient>

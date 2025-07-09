@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Appointment xmlns="http://hl7.org/fhir">
+  <id value="SampleSzAppointment"/>
+  <meta>
+    <profile value="http://192.168.10.200:3447/fhir/StructureDefinition/SzAppointment"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Appointment SampleSzAppointment</b></p><a name="SampleSzAppointment"> </a><a name="hcSampleSzAppointment"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-SzAppointment.html">Eswatini Appointment Profile</a></p></div><p><b>status</b>: Proposed</p><p><b>serviceCategory</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/service-category 17}">General Practice</span></p><p><b>serviceType</b>: <span title="Codes:{http://localhost:3447/fhir/CodeSystem/SzServicePointCS ART}">Antiretrovial Therapy</span></p><p><b>start</b>: 2024-09-11 10:00:00+0000</p><p><b>end</b>: 2024-09-11 10:00:00+0000</p><p><b>created</b>: 2024-09-01</p><blockquote><p><b>participant</b></p><p><b>actor</b>: <a href="Patient-SampleSzPatient.html">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</a></p><p><b>status</b>: Accepted</p></blockquote><blockquote><p><b>participant</b></p><p><b>actor</b>: <a href="Location-SampleSzLocation.html">Location Mahwalala Red Cross Clinic</a></p><p><b>status</b>: Accepted</p></blockquote></div>
+  </text>
+  <status value="proposed"/>
+  <serviceCategory>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/service-category"/>
+      <code value="17"/>
+      <display value="General Practice"/>
+    </coding>
+  </serviceCategory>
+  <serviceType>
+    <coding>
+      <system value="http://localhost:3447/fhir/CodeSystem/SzServicePointCS"/>
+      <code value="ART"/>
+      <display value="Antiretrovial Therapy"/>
+    </coding>
+  </serviceType>
+  <start value="2024-09-11T10:00:00Z"/>
+  <end value="2024-09-11T10:00:00Z"/>
+  <created value="2024-09-01"/>
+  <participant>
+    <actor>
+      <reference value="Patient/SampleSzPatient"/>
+    </actor>
+    <status value="accepted"/>
+  </participant>
+  <participant>
+    <actor>
+      <reference value="Location/SampleSzLocation"/>
+    </actor>
+    <status value="accepted"/>
+  </participant>
+</Appointment>

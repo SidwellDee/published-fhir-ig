@@ -1,0 +1,71 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://192.168.10.200:3447/fhir/Condition/SampleSzMalariaCondition-001> a fhir:Condition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "SampleSzMalariaCondition-001"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition SampleSzMalariaCondition-001</b></p><a name=\"SampleSzMalariaCondition-001\"> </a><a name=\"hcSampleSzMalariaCondition-001\"> </a><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>verificationStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}\">Confirmed</span></p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category diagnosis}\">Diagnosis</span></p><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/sid/icd-11 1A11.0}, {http://hl7.org/fhir/sid/icd-11 1A11.1}, {http://hl7.org/fhir/sid/icd-11 1A11.2}, {http://hl7.org/fhir/sid/icd-11 1A11.3}\">Plasmodium falciparum malaria</span></p><p><b>subject</b>: <a href=\"Patient-SampleSzMalariaPatient.html\">Jacob Samuel Gule  Male, DoB: 1990-01-01 ( Medical Record Number: M002111111-11 (use: usual, ))</a></p><p><b>onset</b>: 2024-11-24</p><p><b>recordedDate</b>: 2024-11-26</p><p><b>asserter</b>: <a href=\"Practitioner-SampleSzPractitioner.html\">Practitioner Thabile Celiwe Dlamini </a></p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:clinicalStatus [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/condition-clinical"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:verificationStatus [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/condition-ver-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "confirmed" ] ;
+       fhir:display [ fhir:v "Confirmed" ]
+     ] )
+  ] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/condition-category"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "diagnosis" ] ;
+       fhir:display [ fhir:v "Diagnosis" ]
+     ] )
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/sid/icd-11"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "1A11.0" ] ;
+       fhir:display [ fhir:v "Plasmodium falciparum malaria" ]
+     ] [
+       fhir:system [ fhir:v "http://hl7.org/fhir/sid/icd-11"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "1A11.1" ] ;
+       fhir:display [ fhir:v "Plasmodium vivax malaria" ]
+     ] [
+       fhir:system [ fhir:v "http://hl7.org/fhir/sid/icd-11"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "1A11.2" ] ;
+       fhir:display [ fhir:v "Plasmodium malariae malaria" ]
+     ] [
+       fhir:system [ fhir:v "http://hl7.org/fhir/sid/icd-11"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "1A11.3" ] ;
+       fhir:display [ fhir:v "Plasmodium ovale malaria" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzMalariaPatient> ;
+     fhir:reference [ fhir:v "Patient/SampleSzMalariaPatient" ]
+  ] ; # 
+  fhir:onset [
+     a fhir:dateTime ;
+     fhir:v "2024-11-24"^^xsd:date
+  ] ; # 
+  fhir:recordedDate [ fhir:v "2024-11-26"^^xsd:date] ; # 
+  fhir:asserter [
+     fhir:link <http://192.168.10.200:3447/fhir/Practitioner/SampleSzPractitioner> ;
+     fhir:reference [ fhir:v "Practitioner/SampleSzPractitioner" ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

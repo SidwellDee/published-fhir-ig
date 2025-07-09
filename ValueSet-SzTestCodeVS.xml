@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="SzTestCodeVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet SzTestCodeVS</b></p><a name="SzTestCodeVS"> </a><a name="hcSzTestCodeVS"> </a><ul><li>Include all codes defined in <a href="CodeSystem-SzTestCodeCS.html"><code>http://192.168.10.200:3447/fhir/CodeSystem/SzTestCodeCS</code></a></li></ul></div>
+  </text>
+  <url value="http://192.168.10.200:3447/fhir/ValueSet/SzTestCodeVS"/>
+  <version value="0.1.0"/>
+  <name value="SzTestCodeVS"/>
+  <title value="Value Set: Local Test Codes"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-07-09T11:11:31+00:00"/>
+  <publisher value="Ministry of Health Eswatini"/>
+  <contact>
+    <name value="Ministry of Health Eswatini"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://192.168.10.200:3447"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="eswatinihie@moh.gov.sz"/>
+    </telecom>
+  </contact>
+  <description value="Eswatini Local Test Codes"/>
+  <compose>
+    <include>
+      <system value="http://192.168.10.200:3447/fhir/CodeSystem/SzTestCodeCS"/>
+    </include>
+  </compose>
+</ValueSet>

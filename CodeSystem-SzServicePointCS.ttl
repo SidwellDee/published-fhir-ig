@@ -1,0 +1,54 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://192.168.10.200:3447/fhir/CodeSystem/SzServicePointCS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "SzServicePointCS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem SzServicePointCS</b></p><a name=\"SzServicePointCS\"> </a><a name=\"hcSzServicePointCS\"> </a><p>This  code system <code>http://192.168.10.200:3447/fhir/CodeSystem/SzServicePointCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ART<a name=\"SzServicePointCS-ART\"> </a></td><td>Anti Retroviral Therapy</td></tr><tr><td style=\"white-space:nowrap\">HTS<a name=\"SzServicePointCS-HTS\"> </a></td><td>HIV Testing Services</td></tr><tr><td style=\"white-space:nowrap\">ANC<a name=\"SzServicePointCS-ANC\"> </a></td><td>Ante Natal Care</td></tr><tr><td style=\"white-space:nowrap\">PNC<a name=\"SzServicePointCS-PNC\"> </a></td><td>Post Natal Care</td></tr><tr><td style=\"white-space:nowrap\">FP<a name=\"SzServicePointCS-FP\"> </a></td><td>Family Planning</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://192.168.10.200:3447/fhir/CodeSystem/SzServicePointCS"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "SzServicePointCS"] ; # 
+  fhir:title [ fhir:v "Code System: Eswatini Service Points"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2025-07-09T11:11:31+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministry of Health Eswatini"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Ministry of Health Eswatini" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://192.168.10.200:3447" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "eswatinihie@moh.gov.sz" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Code System for Eswatini service points"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "5"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "ART" ] ;
+     fhir:display [ fhir:v "Anti Retroviral Therapy" ]
+  ] [
+     fhir:code [ fhir:v "HTS" ] ;
+     fhir:display [ fhir:v "HIV Testing Services" ]
+  ] [
+     fhir:code [ fhir:v "ANC" ] ;
+     fhir:display [ fhir:v "Ante Natal Care" ]
+  ] [
+     fhir:code [ fhir:v "PNC" ] ;
+     fhir:display [ fhir:v "Post Natal Care" ]
+  ] [
+     fhir:code [ fhir:v "FP" ] ;
+     fhir:display [ fhir:v "Family Planning" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

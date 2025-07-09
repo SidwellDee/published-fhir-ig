@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Encounter xmlns="http://hl7.org/fhir">
+  <id value="SampleSzEncounter"/>
+  <meta>
+    <profile value="http://192.168.10.200:3447/fhir/StructureDefinition/SzEncounter"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Encounter SampleSzEncounter</b></p><a name="SampleSzEncounter"> </a><a name="hcSampleSzEncounter"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-SzEncounter.html">Eswatini Encounter Profile</a></p></div><p><b>status</b>: Finished</p><p><b>class</b>: SzEncounterClassificationCS OPD: Out Patient Department</p><p><b>subject</b>: <a href="Patient-SampleSzPatient.html">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</a></p><h3>Participants</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Individual</b></td></tr><tr><td style="display: none">*</td><td><a href="Practitioner-SampleSzPractitioner.html">Practitioner Thabile Celiwe Dlamini </a></td></tr></table><p><b>reasonCode</b>: <span title="Codes:{http://localhost:3447/fhir/CodeSystem/SzServicePointCS ART}">Antiretrovial Therapy</span></p><h3>Locations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Location</b></td><td><b>Status</b></td></tr><tr><td style="display: none">*</td><td><a href="Location-SampleSzLocation.html">Location Mahwalala Red Cross Clinic</a></td><td>Completed</td></tr></table></div>
+  </text>
+  <status value="finished"/>
+  <class>
+    <system value="http://localhost:3447/fhir/CodeSystem/SzEncounterClassificationCS"/>
+    <code value="OPD"/>
+    <display value="Out Patient Department"/>
+  </class>
+  <subject>
+    <reference value="Patient/SampleSzPatient"/>
+  </subject>
+  <participant>
+    <individual>
+      <reference value="Practitioner/SampleSzPractitioner"/>
+    </individual>
+  </participant>
+  <reasonCode>
+    <coding>
+      <system value="http://localhost:3447/fhir/CodeSystem/SzServicePointCS"/>
+      <code value="ART"/>
+      <display value="Antiretrovial Therapy"/>
+    </coding>
+    <text value="Antiretrovial Therapy"/>
+  </reasonCode>
+  <location>
+    <location>
+      <reference value="Location/SampleSzLocation"/>
+    </location>
+    <status value="completed"/>
+  </location>
+</Encounter>

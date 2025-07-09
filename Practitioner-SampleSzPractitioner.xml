@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="SampleSzPractitioner"/>
+  <meta>
+    <profile value="http://192.168.10.200:3447/fhir/StructureDefinition/SzPractitioner"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Practitioner SampleSzPractitioner</b></p><a name="SampleSzPractitioner"> </a><a name="hcSampleSzPractitioner"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-SzPractitioner.html">Eswatini Practitioner Profile</a></p></div><p><b>identifier</b>: Personal ID Number/9101010000001 (use: official, )</p><p><b>name</b>: Thabile Celiwe Dlamini </p><p><b>telecom</b>: -unknown-(Mobile), ph: 7911 1222</p><p><b>gender</b>: Female</p><p><b>birthDate</b>: 1990-01-01</p></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <type>
+      <coding>
+        <system value="http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS"/>
+        <code value="PI"/>
+        <display value="Personal ID Number"/>
+      </coding>
+    </type>
+    <system value="http://homeaffairs.sys"/>
+    <value value="9101010000001"/>
+  </identifier>
+  <name>
+    <family value="Dlamini"/>
+    <given value="Thabile"/>
+    <given value="Celiwe"/>
+  </name>
+  <telecom>
+    <use value="mobile"/>
+  </telecom>
+  <telecom>
+    <system value="phone"/>
+    <value value="7911 1222"/>
+    <rank value="1"/>
+  </telecom>
+  <gender value="female"/>
+  <birthDate value="1990-01-01"/>
+</Practitioner>

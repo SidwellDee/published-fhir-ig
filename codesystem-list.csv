@@ -1,0 +1,9 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+http://192.168.10.200:3447/fhir/CodeSystem/SzChiefdomCS,0.1.0,draft,,SzChiefdomCS,Code System: Eswatini Chiefdoms,"Code system for ESwatini Chiefdoms",
+http://192.168.10.200:3447/fhir/CodeSystem/SzEncounterClassificationCS,0.1.0,active,,EswatiniEncounterClassification,Code System: Encounter Classification,"Data element that contains the classification of encounters.",
+http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS,0.1.0,draft,,SzPersonIdentificationsCS,Code System: Person Identification Types,"Data element that contains the name and identification number of a specific person for identity and individualization purposes.",
+http://192.168.10.200:3447/fhir/CodeSystem/SzProductCodeCS,0.1.0,draft,,SzProductCodeCS,Code System: Eswatini Product Codes,"Code system for ESwatini Product Codes",
+http://192.168.10.200:3447/fhir/CodeSystem/SzServicePointCS,0.1.0,draft,,SzServicePointCS,Code System: Eswatini Service Points,"Code System for Eswatini service points",
+http://192.168.10.200:3447/fhir/CodeSystem/SzTestCodeCS,0.1.0,active,,EswatiniTestCodes,Code System: Eswatini Local Test Codes,"Data element that contains alternate test codes used by the Laboratory Information System to identify laboratory tests.",
+http://192.168.10.200:3447/fhir/CodeSystem/SzTestParameterCodeCS,0.1.0,draft,,SzTestParameterCodeCS,Code System: Eswatini Local Test Parameter Codes,"",
+http://192.168.10.200:3447/fhir/CodeSystem/SzTinkhundlaCS,0.1.0,active,,EswatiniTinkhundla,Code System: Eswatini Tinkhundla,"Code system for Eswatini Tinkhundla",

@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "SzTestParameterCodeVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet SzTestParameterCodeVS</b></p><a name=\"SzTestParameterCodeVS\"> </a><a name=\"hcSzTestParameterCodeVS\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-SzTestParameterCodeCS.html\"><code>http://192.168.10.200:3447/fhir/CodeSystem/SzTestParameterCodeCS</code></a></li></ul></div>"
+  },
+  "url" : "http://192.168.10.200:3447/fhir/ValueSet/SzTestParameterCodeVS",
+  "version" : "0.1.0",
+  "name" : "SzTestParameterCodeVS",
+  "title" : "Value Set: Eswatini Local Test Parameter Codes",
+  "status" : "draft",
+  "date" : "2025-07-09T11:11:31+00:00",
+  "publisher" : "Ministry of Health Eswatini",
+  "contact" : [{
+    "name" : "Ministry of Health Eswatini",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://192.168.10.200:3447"
+    },
+    {
+      "system" : "email",
+      "value" : "eswatinihie@moh.gov.sz"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://192.168.10.200:3447/fhir/CodeSystem/SzTestParameterCodeCS"
+    }]
+  }
+}

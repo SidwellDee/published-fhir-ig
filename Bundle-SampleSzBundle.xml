@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="SampleSzBundle"/>
+  <type value="transaction"/>
+  <entry>
+    <fullUrl value="http://localhost:3447/fhir/Patient/SampleSzPatient"/>
+    <resource>
+      <Patient>
+        <id value="SampleSzPatient"/>
+        <meta>
+          <profile value="http://192.168.10.200:3447/fhir/StructureDefinition/SzPatient"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Patient_SampleSzPatient"> </a><p class="res-header-id"><b>Generated Narrative: Patient SampleSzPatient</b></p><a name="SampleSzPatient"> </a><a name="hcSampleSzPatient"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-SzPatient.html">Eswatini Patient Profile</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Other Id (see the one above)">Other Id:</td><td colspan="3">Personal ID Number/2001010000001 (use: official, )</td></tr><tr><td style="background-color: #f3f5da" title="Ways to contact the Patient">Contact Detail</td><td colspan="3"><ul><li>ph: 7600 0000</li><li>123 Somhlolo Rd Mbabane 0000 SZ </li></ul></td></tr><tr><td style="background-color: #f3f5da" title="Extention for Eswatini Tinkhundla"><a href="StructureDefinition-SzInkhundlaExtension.html">Extention: Eswatini Inkhundla</a></td><td colspan="3"><span title="Codes:{http://192.168.10.200:3447/fhir/CodeSystem/SzTinkhundlaCS DVOKODVWENI}">Dvokodvweni</span></td></tr><tr><td style="background-color: #f3f5da" title="The nationality of the patient."><a href="http://hl7.org/fhir/extensions/5.2.0/StructureDefinition-patient-nationality.html">Patient Nationality</a></td><td colspan="3"><span title="Codes:{urn:iso:std:iso:3166 SWZ}">Eswatini</span></td></tr><tr><td style="background-color: #f3f5da" title="Extention for Eswatini Chiefdom"><a href="StructureDefinition-SzChiefdomExtension.html">Extention: Eswatini Chiefdom</a></td><td colspan="3"><span title="Codes:{http://192.168.10.200:3447/fhir/CodeSystem/SzChiefdomCS Kwaluseni}">Kwaluseni</span></td></tr></table></div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/patient-nationality">
+          <valueCodeableConcept>
+            <coding>
+              <system value="urn:iso:std:iso:3166"/>
+              <code value="SWZ"/>
+              <display value="Eswatini"/>
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+        <extension url="http://192.168.10.200:3447/fhir/StructureDefinition/SzInkhundlaExtension">
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://192.168.10.200:3447/fhir/CodeSystem/SzTinkhundlaCS"/>
+              <code value="DVOKODVWENI"/>
+              <display value="Dvokodvweni"/>
+            </coding>
+            <text value="Dvokodvweni"/>
+          </valueCodeableConcept>
+        </extension>
+        <extension url="http://192.168.10.200:3447/fhir/StructureDefinition/SzChiefdomExtension">
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://192.168.10.200:3447/fhir/CodeSystem/SzChiefdomCS"/>
+              <code value="Kwaluseni"/>
+              <display value="Kwaluseni"/>
+            </coding>
+            <text value="Kwaluseni"/>
+          </valueCodeableConcept>
+        </extension>
+        <identifier>
+          <use value="usual"/>
+          <type>
+            <coding>
+              <system value="http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS"/>
+              <code value="MR"/>
+              <display value="Medical Record Number"/>
+            </coding>
+          </type>
+          <system value="urn:health:cmis"/>
+          <value value="M001010101-1"/>
+        </identifier>
+        <identifier>
+          <use value="official"/>
+          <type>
+            <coding>
+              <system value="http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS"/>
+              <code value="PI"/>
+              <display value="Personal ID Number"/>
+            </coding>
+          </type>
+          <system value="urn:homeaffairs:population-register"/>
+          <value value="2001010000001"/>
+        </identifier>
+        <name>
+          <family value="Sacolo"/>
+          <given value="Celucolo"/>
+          <given value="Celani"/>
+        </name>
+        <telecom>
+          <system value="phone"/>
+          <value value="7600 0000"/>
+        </telecom>
+        <gender value="male"/>
+        <birthDate value="2000-01-01"/>
+        <address>
+          <line value="123 Somhlolo Rd"/>
+          <city value="Mbabane"/>
+          <postalCode value="0000"/>
+          <country value="SZ"/>
+        </address>
+      </Patient>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Patient/SampleSzPatient"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="http://localhost:3447/fhir/Encounter/SampleSzEncounter"/>
+    <resource>
+      <Encounter>
+        <id value="SampleSzEncounter"/>
+        <meta>
+          <profile value="http://192.168.10.200:3447/fhir/StructureDefinition/SzEncounter"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Encounter_SampleSzEncounter"> </a><p class="res-header-id"><b>Generated Narrative: Encounter SampleSzEncounter</b></p><a name="SampleSzEncounter"> </a><a name="hcSampleSzEncounter"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-SzEncounter.html">Eswatini Encounter Profile</a></p></div><p><b>status</b>: Finished</p><p><b>class</b>: SzEncounterClassificationCS OPD: Out Patient Department</p><p><b>subject</b>: <a href="Patient-SampleSzPatient.html">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</a></p><h3>Participants</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Individual</b></td></tr><tr><td style="display: none">*</td><td><a href="Practitioner-SampleSzPractitioner.html">Practitioner Thabile Celiwe Dlamini </a></td></tr></table><p><b>reasonCode</b>: <span title="Codes:{http://localhost:3447/fhir/CodeSystem/SzServicePointCS ART}">Antiretrovial Therapy</span></p><h3>Locations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Location</b></td><td><b>Status</b></td></tr><tr><td style="display: none">*</td><td><a href="Location-SampleSzLocation.html">Location Mahwalala Red Cross Clinic</a></td><td>Completed</td></tr></table></div>
+        </text>
+        <status value="finished"/>
+        <class>
+          <system value="http://localhost:3447/fhir/CodeSystem/SzEncounterClassificationCS"/>
+          <code value="OPD"/>
+          <display value="Out Patient Department"/>
+        </class>
+        <subject>
+          <reference value="Patient/SampleSzPatient"/>
+        </subject>
+        <participant>
+          <individual>
+            <reference value="Practitioner/SampleSzPractitioner"/>
+          </individual>
+        </participant>
+        <reasonCode>
+          <coding>
+            <system value="http://localhost:3447/fhir/CodeSystem/SzServicePointCS"/>
+            <code value="ART"/>
+            <display value="Antiretrovial Therapy"/>
+          </coding>
+          <text value="Antiretrovial Therapy"/>
+        </reasonCode>
+        <location>
+          <location>
+            <reference value="Location/SampleSzLocation"/>
+          </location>
+          <status value="completed"/>
+        </location>
+      </Encounter>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Encounter/SampleSzEncounter"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="http://localhost:3447/fhir/Observation/SampleSzARTStartDateClinicalObservation"/>
+    <resource>
+      <Observation>
+        <id value="SampleSzARTStartDateClinicalObservation"/>
+        <meta>
+          <profile value="http://192.168.10.200:3447/fhir/StructureDefinition/SzClinicalObservation"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Observation_SampleSzARTStartDateClinicalObservation"> </a><p class="res-header-id"><b>Generated Narrative: Observation SampleSzARTStartDateClinicalObservation</b></p><a name="SampleSzARTStartDateClinicalObservation"> </a><a name="hcSampleSzARTStartDateClinicalObservation"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-SzClinicalObservation.html">Eswatini Clinical Observation Profile</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://loinc.org 47241-5}">Date determined medically eligible and ready to start HIV treatment</span></p><p><b>subject</b>: <a href="Patient-SampleSzPatient.html">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</a></p><p><b>encounter</b>: <a href="Encounter-SampleSzEncounter.html">Encounter: status = finished; class = Out Patient Department (SzEncounterClassificationCS#OPD); reasonCode = Antiretrovial Therapy</a></p><p><b>performer</b>: <a href="Practitioner-SampleSzPractitioner.html">Practitioner Thabile Celiwe Dlamini </a></p><p><b>value</b>: 2024-09-11 10:00:00+0000</p></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="47241-5"/>
+            <display value="Date determined medically eligible and ready to start HIV treatment"/>
+          </coding>
+          <text value="Date determined medically eligible and ready to start HIV treatment"/>
+        </code>
+        <subject>
+          <reference value="Patient/SampleSzPatient"/>
+        </subject>
+        <encounter>
+          <reference value="Encounter/SampleSzEncounter"/>
+        </encounter>
+        <performer>
+          <reference value="Practitioner/SampleSzPractitioner"/>
+        </performer>
+        <valueDateTime value="2024-09-11T10:00:00Z"/>
+      </Observation>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Observation/SampleSzARTStartDateClinicalObservation"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="http://localhost:3447/fhir/Procedure/SampleSzARTStartDateClinicalObservation"/>
+    <resource>
+      <Procedure>
+        <id value="SampleSzIPTProcedure"/>
+        <meta>
+          <profile value="http://192.168.10.200:3447/fhir/StructureDefinition/SzProcedure"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Procedure_SampleSzIPTProcedure"> </a><p class="res-header-id"><b>Generated Narrative: Procedure SampleSzIPTProcedure</b></p><a name="SampleSzIPTProcedure"> </a><a name="hcSampleSzIPTProcedure"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-SzProcedure.html">Eswatini Procedure Profile</a></p></div><p><b>status</b>: Completed</p><p><b>category</b>: <span title="Codes:{https://terminology.hl7.org/CodeSystem/procedure-category treatment}">Treatment</span></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 12345}">Isoniazid Preventive Therapy</span></p><p><b>subject</b>: <a href="Patient-SampleSzPatient.html">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</a></p><p><b>performed</b>: 2024-01-01 --&gt; 2024-06-11</p></div>
+        </text>
+        <status value="completed"/>
+        <category>
+          <coding>
+            <system value="https://terminology.hl7.org/CodeSystem/procedure-category"/>
+            <code value="treatment"/>
+            <display value="Treatment"/>
+          </coding>
+          <text value="Treatment"/>
+        </category>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="12345"/>
+            <display value="Isoniazid Preventive Therapy"/>
+          </coding>
+          <text value="Isoniazid Preventive Therapy"/>
+        </code>
+        <subject>
+          <reference value="Patient/SampleSzPatient"/>
+        </subject>
+        <performedPeriod>
+          <start value="2024-01-01"/>
+          <end value="2024-06-11"/>
+        </performedPeriod>
+      </Procedure>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="Procedure/SampleSzIPTProcedure"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="http://localhost:3447/fhir/DiagnosticReport/SampleSzLabTest"/>
+    <resource>
+      <DiagnosticReport>
+        <id value="SampleSzLabTest"/>
+        <meta>
+          <profile value="http://192.168.10.200:3447/fhir/StructureDefinition/SzLabTest"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="DiagnosticReport_SampleSzLabTest"> </a><p class="res-header-id"><b>Generated Narrative: DiagnosticReport SampleSzLabTest</b></p><a name="SampleSzLabTest"> </a><a name="hcSampleSzLabTest"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-SzLabTest.html">Eswatini Lab Test Profile</a></p></div><h2><span title="Codes:{http://localhost:3447/fhir/CodeSystem/SzTestCodeCS HIVVL}">HIV Viral Load (Plasma)</span> </h2><table class="grid"><tr><td>Subject</td><td>Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</td></tr><tr><td>When For</td><td>2024-09-11 10:00:00+0000</td></tr><tr><td>Reported</td><td>2024-09-11 10:00:00+0000</td></tr><tr><td>Performer</td><td> <a href="Practitioner-SampleSzPractitioner.html">Practitioner Thabile Celiwe Dlamini </a></td></tr></table><p><b>Report Details</b></p></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://localhost:3447/fhir/CodeSystem/SzTestCodeCS"/>
+            <code value="HIVVL"/>
+            <display value="HIV Viral Load (Plasma)"/>
+          </coding>
+          <text value="HIV Viral Load (Plasma)"/>
+        </code>
+        <subject>
+          <reference value="Patient/SampleSzPatient"/>
+        </subject>
+        <encounter>
+          <reference value="Encounter/SampleSzEncounter"/>
+        </encounter>
+        <effectiveDateTime value="2024-09-11T10:00:00Z"/>
+        <issued value="2024-09-11T10:00:00Z"/>
+        <performer>
+          <reference value="Practitioner/SampleSzPractitioner"/>
+        </performer>
+        <specimen>
+          <reference value="Specimen/SampleSzSpecimen"/>
+        </specimen>
+      </DiagnosticReport>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="DiagnosticReport/SampleSzLabTest"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="http://localhost:3447/fhir/MedicationRequest/SampleSzMedicationRequest"/>
+    <resource>
+      <MedicationRequest>
+        <id value="SampleSzMedicationRequest"/>
+        <meta>
+          <profile value="http://192.168.10.200:3447/fhir/StructureDefinition/SzMedicationRequest"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="MedicationRequest_SampleSzMedicationRequest"> </a><p class="res-header-id"><b>Generated Narrative: MedicationRequest SampleSzMedicationRequest</b></p><a name="SampleSzMedicationRequest"> </a><a name="hcSampleSzMedicationRequest"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-SzMedicationRequest.html">Eswatini Medication Request Profile</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>medication</b>: <span title="Codes:{http://localhost:3447/fhir/CodeSystem/SzProductCodeCS 102492}">Paracetamol Tablets 500g (Coloured Green) 100 TABS</span></p><p><b>subject</b>: <a href="Patient-SampleSzPatient.html">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</a></p><p><b>encounter</b>: <a href="Encounter-SampleSzEncounter.html">Encounter: status = finished; class = Out Patient Department (SzEncounterClassificationCS#OPD); reasonCode = Antiretrovial Therapy</a></p><p><b>authoredOn</b>: 2024-09-11 10:00:00+0000</p><p><b>requester</b>: <a href="Practitioner-SampleSzPractitioner.html">Practitioner Thabile Celiwe Dlamini </a></p><blockquote><p><b>dosageInstruction</b></p><p><b>text</b>: Take one tablet by mouth 3 times a day before food</p><p><b>timing</b>: 3 per 1 day</p><h3>DoseAndRates</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Dose[x]</b></td></tr><tr><td style="display: none">*</td><td>1 tablet</td></tr></table></blockquote></div>
+        </text>
+        <status value="active"/>
+        <intent value="order"/>
+        <medicationCodeableConcept>
+          <coding>
+            <system value="http://localhost:3447/fhir/CodeSystem/SzProductCodeCS"/>
+            <code value="102492"/>
+            <display value="Paracetamol Tablets 500g (Coloured Green) 100 TABS"/>
+          </coding>
+          <text value="Paracetamol Tablets 500g (Coloured Green) 100 TABS"/>
+        </medicationCodeableConcept>
+        <subject>
+          <reference value="Patient/SampleSzPatient"/>
+        </subject>
+        <encounter>
+          <reference value="Encounter/SampleSzEncounter"/>
+        </encounter>
+        <authoredOn value="2024-09-11T10:00:00Z"/>
+        <requester>
+          <reference value="Practitioner/SampleSzPractitioner"/>
+        </requester>
+        <dosageInstruction>
+          <text value="Take one tablet by mouth 3 times a day before food"/>
+          <timing>
+            <repeat>
+              <frequency value="3"/>
+              <period value="1"/>
+              <periodUnit value="d"/>
+            </repeat>
+          </timing>
+          <doseAndRate>
+            <doseQuantity>
+              <value value="1"/>
+              <unit value="tablet"/>
+            </doseQuantity>
+          </doseAndRate>
+        </dosageInstruction>
+      </MedicationRequest>
+    </resource>
+    <request>
+      <method value="PUT"/>
+      <url value="MedicationRequest/SampleSzMedicationRequest"/>
+    </request>
+  </entry>
+</Bundle>

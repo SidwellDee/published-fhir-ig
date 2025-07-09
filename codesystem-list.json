@@ -1,0 +1,68 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://192.168.10.200:3447/fhir/CodeSystem/SzChiefdomCS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SzChiefdomCS",
+      "title" : "Code System: Eswatini Chiefdoms",
+      "description" : "Code system for ESwatini Chiefdoms"
+    },
+    {
+      "url" : "http://192.168.10.200:3447/fhir/CodeSystem/SzEncounterClassificationCS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "EswatiniEncounterClassification",
+      "title" : "Code System: Encounter Classification",
+      "description" : "Data element that contains the classification of encounters."
+    },
+    {
+      "url" : "http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SzPersonIdentificationsCS",
+      "title" : "Code System: Person Identification Types",
+      "description" : "Data element that contains the name and identification number of a specific person for identity and individualization purposes."
+    },
+    {
+      "url" : "http://192.168.10.200:3447/fhir/CodeSystem/SzProductCodeCS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SzProductCodeCS",
+      "title" : "Code System: Eswatini Product Codes",
+      "description" : "Code system for ESwatini Product Codes"
+    },
+    {
+      "url" : "http://192.168.10.200:3447/fhir/CodeSystem/SzServicePointCS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SzServicePointCS",
+      "title" : "Code System: Eswatini Service Points",
+      "description" : "Code System for Eswatini service points"
+    },
+    {
+      "url" : "http://192.168.10.200:3447/fhir/CodeSystem/SzTestCodeCS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "EswatiniTestCodes",
+      "title" : "Code System: Eswatini Local Test Codes",
+      "description" : "Data element that contains alternate test codes used by the Laboratory Information System to identify laboratory tests."
+    },
+    {
+      "url" : "http://192.168.10.200:3447/fhir/CodeSystem/SzTestParameterCodeCS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SzTestParameterCodeCS",
+      "title" : "Code System: Eswatini Local Test Parameter Codes",
+      "description" : null
+    },
+    {
+      "url" : "http://192.168.10.200:3447/fhir/CodeSystem/SzTinkhundlaCS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "EswatiniTinkhundla",
+      "title" : "Code System: Eswatini Tinkhundla",
+      "description" : "Code system for Eswatini Tinkhundla"
+    }
+  ]
+}

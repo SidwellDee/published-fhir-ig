@@ -1,0 +1,2253 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://192.168.10.200:3447/fhir/ImplementationGuide/org.fshschool.courses.fsh-seminar-exercise> a fhir:ImplementationGuide ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "org.fshschool.courses.fsh-seminar-exercise"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide org.fshschool.courses.fsh-seminar-exercise</b></p><a name=\"org.fshschool.courses.fsh-seminar-exercise\"> </a><a name=\"hcorg.fshschool.courses.fsh-seminar-exercise\"> </a><h2>EswatiniHIEImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>http://192.168.10.200:3447/fhir/ImplementationGuide/org.fshschool.courses.fsh-seminar-exercise</pre></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://192.168.10.200:3447/fhir/ImplementationGuide/org.fshschool.courses.fsh-seminar-exercise"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "EswatiniHIEImplementationGuide"] ; # 
+  fhir:title [ fhir:v "Eswatini HL7 FHIR Implementation Guide"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2025-07-09T11:11:31+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministry of Health Eswatini"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Ministry of Health Eswatini" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://192.168.10.200:3447" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "eswatinihie@moh.gov.sz" ]
+     ] )
+  ] ) ; # 
+  fhir:packageId [ fhir:v "org.fshschool.courses.fsh-seminar-exercise"] ; # 
+  fhir:license [ fhir:v "CC0-1.0"] ; # 
+  fhir:fhirVersion ( [ fhir:v "4.0.1"] ) ; # 
+  fhir:dependsOn ( [
+     fhir:id [ fhir:v "hl7tx" ] ;
+     fhir:extension ( [
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:markdown ;
+         fhir:v "Automatically added as a dependency - all IGs depend on HL7 Terminology"
+       ]
+     ] ) ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/ImplementationGuide/hl7.terminology"^^xsd:anyURI ;
+       fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
+     ] ;
+     fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
+     fhir:version [ fhir:v "6.5.0" ]
+  ] [
+     fhir:id [ fhir:v "hl7ext" ] ;
+     fhir:extension ( [
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:markdown ;
+         fhir:v "Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"
+       ]
+     ] ) ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:packageId [ fhir:v "hl7.fhir.uv.extensions.r4" ] ;
+     fhir:version [ fhir:v "5.2.0" ]
+  ] [
+     fhir:id [ fhir:v "hl7_fhir_us_core" ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core>
+     ] ;
+     fhir:packageId [ fhir:v "hl7.fhir.us.core" ] ;
+     fhir:version [ fhir:v "7.0.0" ]
+  ] ) ; # 
+  fhir:definition [
+     fhir:extension ( [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "copyrightyear"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "2022+"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "releaselabel"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ci-build"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "autoload-resources"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "path-liquid"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "template/liquid"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "path-liquid"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "input/liquid"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "path-qa"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "temp/qa"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "path-temp"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "temp/pages"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "path-output"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "output"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "path-suppressed-warnings"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "input/ignoreWarnings.txt"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "path-history"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "http://192.168.10.200:3447/fhir/history.html"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "template-html"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "template-page.html"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "template-md"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "template-page-md.html"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "apply-contact"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "apply-context"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "apply-copyright"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "apply-jurisdiction"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "apply-license"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "apply-publisher"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "apply-version"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "apply-wg"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "active-tables"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "fmm-definition"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "http://hl7.org/fhir/versions.html#maturity"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "propagate-status"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "excludelogbinaryformat"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "tabbed-snapshots"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "hl7.fhir.uv.tools.r4#0.5.0"
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "copyrightyear"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "2022+"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "releaselabel"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ci-build"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "autoload-resources"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "path-liquid"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "template/liquid"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "path-liquid"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "input/liquid"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "path-qa"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "temp/qa"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "path-temp"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "temp/pages"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "path-output"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "output"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "path-suppressed-warnings"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "input/ignoreWarnings.txt"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "path-history"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "http://192.168.10.200:3447/fhir/history.html"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "template-html"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "template-page.html"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "template-md"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "template-page-md.html"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "apply-contact"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "apply-context"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "apply-copyright"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "apply-jurisdiction"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "apply-license"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "apply-publisher"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "apply-version"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "apply-wg"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "active-tables"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "fmm-definition"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "http://hl7.org/fhir/versions.html#maturity"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "propagate-status"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "excludelogbinaryformat"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "tabbed-snapshots"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] ) ;
+     fhir:resource ( [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/CodeSystem/SzEncounterClassificationCS> ;
+         fhir:reference [ fhir:v "CodeSystem/SzEncounterClassificationCS" ]
+       ] ;
+       fhir:name [ fhir:v "Code System: Encounter Classification" ] ;
+       fhir:description [ fhir:v "Data element that contains the classification of encounters." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/CodeSystem/SzChiefdomCS> ;
+         fhir:reference [ fhir:v "CodeSystem/SzChiefdomCS" ]
+       ] ;
+       fhir:name [ fhir:v "Code System: Eswatini Chiefdoms" ] ;
+       fhir:description [ fhir:v "Code system for ESwatini Chiefdoms" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/CodeSystem/SzTestCodeCS> ;
+         fhir:reference [ fhir:v "CodeSystem/SzTestCodeCS" ]
+       ] ;
+       fhir:name [ fhir:v "Code System: Eswatini Local Test Codes" ] ;
+       fhir:description [ fhir:v "Data element that contains alternate test codes used by the Laboratory Information System to identify laboratory tests." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/CodeSystem/SzTestParameterCodeCS> ;
+         fhir:reference [ fhir:v "CodeSystem/SzTestParameterCodeCS" ]
+       ] ;
+       fhir:name [ fhir:v "Code System: Eswatini Local Test Parameter Codes" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/CodeSystem/SzProductCodeCS> ;
+         fhir:reference [ fhir:v "CodeSystem/SzProductCodeCS" ]
+       ] ;
+       fhir:name [ fhir:v "Code System: Eswatini Product Codes" ] ;
+       fhir:description [ fhir:v "Code system for ESwatini Product Codes" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/CodeSystem/SzServicePointCS> ;
+         fhir:reference [ fhir:v "CodeSystem/SzServicePointCS" ]
+       ] ;
+       fhir:name [ fhir:v "Code System: Eswatini Service Points" ] ;
+       fhir:description [ fhir:v "Code System for Eswatini service points" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/CodeSystem/SzTinkhundlaCS> ;
+         fhir:reference [ fhir:v "CodeSystem/SzTinkhundlaCS" ]
+       ] ;
+       fhir:name [ fhir:v "Code System: Eswatini Tinkhundla" ] ;
+       fhir:description [ fhir:v "Code system for Eswatini Tinkhundla" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS> ;
+         fhir:reference [ fhir:v "CodeSystem/SzPersonIdentificationsCS" ]
+       ] ;
+       fhir:name [ fhir:v "Code System: Person Identification Types" ] ;
+       fhir:description [ fhir:v "Data element that contains the name and identification number of a specific person for identity and individualization purposes." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzAppointment> ;
+         fhir:reference [ fhir:v "StructureDefinition/SzAppointment" ]
+       ] ;
+       fhir:name [ fhir:v "Eswatini Appointment Profile" ] ;
+       fhir:description [ fhir:v "Definition of Eswatini Appointment Profile" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzClinicalObservation> ;
+         fhir:reference [ fhir:v "StructureDefinition/SzClinicalObservation" ]
+       ] ;
+       fhir:name [ fhir:v "Eswatini Clinical Observation Profile" ] ;
+       fhir:description [ fhir:v "Eswatini Clinical Observation Profile" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzEncounter> ;
+         fhir:reference [ fhir:v "StructureDefinition/SzEncounter" ]
+       ] ;
+       fhir:name [ fhir:v "Eswatini Encounter Profile" ] ;
+       fhir:description [ fhir:v "The Eswatini Encounter Profile inherits from .... This profile sets minimum expectations for the Encounter resource to record basic encounter\ninformation for a patient. It specifies which core elements shall be present and constrains how the elements are used." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzLabResult> ;
+         fhir:reference [ fhir:v "StructureDefinition/SzLabResult" ]
+       ] ;
+       fhir:name [ fhir:v "Eswatini Lab Result Profile" ] ;
+       fhir:description [ fhir:v "Eswatini Lab Result Profile" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzLabTest> ;
+         fhir:reference [ fhir:v "StructureDefinition/SzLabTest" ]
+       ] ;
+       fhir:name [ fhir:v "Eswatini Lab Test Profile" ] ;
+       fhir:description [ fhir:v "Eswatini Lab Test Profile" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzLocation> ;
+         fhir:reference [ fhir:v "StructureDefinition/SzLocation" ]
+       ] ;
+       fhir:name [ fhir:v "Eswatini Location Profile" ] ;
+       fhir:description [ fhir:v "Eswatini Location Profile sets a standard for recording locations where medical care is provided" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzMedication> ;
+         fhir:reference [ fhir:v "StructureDefinition/SzMedication" ]
+       ] ;
+       fhir:name [ fhir:v "Eswatini Medication Profile" ] ;
+       fhir:description [ fhir:v "Definition of Eswatinit Medication Profile" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzMedicationDispense> ;
+         fhir:reference [ fhir:v "StructureDefinition/SzMedicationDispense" ]
+       ] ;
+       fhir:name [ fhir:v "Eswatini Medication Request Profile" ] ;
+       fhir:description [ fhir:v "Definition of Eswatinit Medication Request Profile" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzMedicationRequest> ;
+         fhir:reference [ fhir:v "StructureDefinition/SzMedicationRequest" ]
+       ] ;
+       fhir:name [ fhir:v "Eswatini Medication Request Profile" ] ;
+       fhir:description [ fhir:v "Definition of Eswatinit Medication Request Profile" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzOrganization> ;
+         fhir:reference [ fhir:v "StructureDefinition/SzOrganization" ]
+       ] ;
+       fhir:name [ fhir:v "Eswatini Organization Profile" ] ;
+       fhir:description [ fhir:v "Organization profile" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzPatient> ;
+         fhir:reference [ fhir:v "StructureDefinition/SzPatient" ]
+       ] ;
+       fhir:name [ fhir:v "Eswatini Patient Profile" ] ;
+       fhir:description [ fhir:v "Definition of the FHIR Eswatini Patient resource" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzPractitioner> ;
+         fhir:reference [ fhir:v "StructureDefinition/SzPractitioner" ]
+       ] ;
+       fhir:name [ fhir:v "Eswatini Practitioner Profile" ] ;
+       fhir:description [ fhir:v "Definition of the FHRI Eswatini Practitioner resource" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzProcedure> ;
+         fhir:reference [ fhir:v "StructureDefinition/SzProcedure" ]
+       ] ;
+       fhir:name [ fhir:v "Eswatini Procedure Profile" ] ;
+       fhir:description [ fhir:v "This resource is designed to record details of current and historical procedures performed on a patient.\nThis may include the start and stop dates of treatment like IPT." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzLabSpecimen> ;
+         fhir:reference [ fhir:v "StructureDefinition/SzLabSpecimen" ]
+       ] ;
+       fhir:name [ fhir:v "Eswatini Specimen Profile" ] ;
+       fhir:description [ fhir:v "The Eswatini Specimen Profile is based on the FHIR Specimen resource. This profile sets minimum\nexpectation for Specimen resource to record information about substances associated with a patient or laboratory request being tested.\nThis profile specifies which core elements shall be present and how these elements are used." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns> ;
+         fhir:reference [ fhir:v "StructureDefinition/SzVitalSigns" ]
+       ] ;
+       fhir:name [ fhir:v "Eswatini Vital Signs Profile" ] ;
+       fhir:description [ fhir:v "This profile is based on the base FHIR Vital Signs Profile and defines additional constraints on the Observation resource to represent\nvital signs observations specifically for Eswatini." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzChiefdomExtension> ;
+         fhir:reference [ fhir:v "StructureDefinition/SzChiefdomExtension" ]
+       ] ;
+       fhir:name [ fhir:v "Extention: Eswatini Chiefdom" ] ;
+       fhir:description [ fhir:v "Extention for Eswatini Chiefdom" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzInkhundlaExtension> ;
+         fhir:reference [ fhir:v "StructureDefinition/SzInkhundlaExtension" ]
+       ] ;
+       fhir:name [ fhir:v "Extention: Eswatini Inkhundla" ] ;
+       fhir:description [ fhir:v "Extention for Eswatini Tinkhundla" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzAuthorizerExtension> ;
+         fhir:reference [ fhir:v "StructureDefinition/SzAuthorizerExtension" ]
+       ] ;
+       fhir:name [ fhir:v "Extention: Eswatini Lab Result Authorizer" ] ;
+       fhir:description [ fhir:v "Extention for Eswatini Lab Result Authorizer" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzLocationCodeExtension> ;
+         fhir:reference [ fhir:v "StructureDefinition/SzLocationCodeExtension" ]
+       ] ;
+       fhir:name [ fhir:v "Extention: Eswatini Location Code" ] ;
+       fhir:description [ fhir:v "Extention for Eswatini Location Code" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzTestingLabExtension> ;
+         fhir:reference [ fhir:v "StructureDefinition/SzTestingLabExtension" ]
+       ] ;
+       fhir:name [ fhir:v "Extention: Eswatini Testing Laboratory" ] ;
+       fhir:description [ fhir:v "Extention for Eswatini Testing Laboratory" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "NamingSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/NamingSystem/NamingSystemCbhis> ;
+         fhir:reference [ fhir:v "NamingSystem/NamingSystemCbhis" ]
+       ] ;
+       fhir:name [ fhir:v "NamingSystemCbhis" ] ;
+       fhir:description [ fhir:v "Community Based Health Information System Electronic Medical Record" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "NamingSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/NamingSystem/NamingSystemCivilRegistry> ;
+         fhir:reference [ fhir:v "NamingSystem/NamingSystemCivilRegistry" ]
+       ] ;
+       fhir:name [ fhir:v "NamingSystemCivilRegistry" ] ;
+       fhir:description [ fhir:v "Civil Registry" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "NamingSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/NamingSystem/NamingSystemCmis> ;
+         fhir:reference [ fhir:v "NamingSystem/NamingSystemCmis" ]
+       ] ;
+       fhir:name [ fhir:v "NamingSystemCmis" ] ;
+       fhir:description [ fhir:v "Client Management Information System Electronic Medical Record" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "NamingSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/NamingSystem/NamingSystemMsds> ;
+         fhir:reference [ fhir:v "NamingSystem/NamingSystemMsds" ]
+       ] ;
+       fhir:name [ fhir:v "NamingSystemMsds" ] ;
+       fhir:description [ fhir:v "Malaria Surveilance Data System" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Patient"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzPatient> ;
+         fhir:reference [ fhir:v "Patient/SampleSzPatient" ]
+       ] ;
+       fhir:name [ fhir:v "Sample Eswatini Patient" ] ;
+       fhir:description [ fhir:v "Sample Eswaitni Patient" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzPatient"^^xsd:anyURI ;
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzPatient>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Practitioner"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/Practitioner/SampleSzPharmacyPractitioner> ;
+         fhir:reference [ fhir:v "Practitioner/SampleSzPharmacyPractitioner" ]
+       ] ;
+       fhir:name [ fhir:v "Sample Pharmacy Practitioner" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Pharmacist" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzPractitioner"^^xsd:anyURI ;
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzPractitioner>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Practitioner"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/Practitioner/SampleSzPractitioner> ;
+         fhir:reference [ fhir:v "Practitioner/SampleSzPractitioner" ]
+       ] ;
+       fhir:name [ fhir:v "Sample SzPractitioner" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Practitioner" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzPractitioner"^^xsd:anyURI ;
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzPractitioner>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Appointment"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/Appointment/SampleSzAppointment> ;
+         fhir:reference [ fhir:v "Appointment/SampleSzAppointment" ]
+       ] ;
+       fhir:name [ fhir:v "SampleSzAppointment" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Appointment" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzAppointment"^^xsd:anyURI ;
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzAppointment>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Observation"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/Observation/SampleSzARTStartDateClinicalObservation> ;
+         fhir:reference [ fhir:v "Observation/SampleSzARTStartDateClinicalObservation" ]
+       ] ;
+       fhir:name [ fhir:v "SampleSzARTStartDateClinicalObservation" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Clinical Observation" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzClinicalObservation"^^xsd:anyURI ;
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzClinicalObservation>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Bundle"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/Bundle/SampleSzBundle> ;
+         fhir:reference [ fhir:v "Bundle/SampleSzBundle" ]
+       ] ;
+       fhir:name [ fhir:v "SampleSzBundle" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Bundle" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Bundle"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/Bundle/SampleSzBundle1> ;
+         fhir:reference [ fhir:v "Bundle/SampleSzBundle1" ]
+       ] ;
+       fhir:name [ fhir:v "SampleSzBundle1" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Patient and Encounter bundle" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Encounter"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/Encounter/SampleSzEncounter> ;
+         fhir:reference [ fhir:v "Encounter/SampleSzEncounter" ]
+       ] ;
+       fhir:name [ fhir:v "SampleSzEncounter" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Encounter" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzEncounter"^^xsd:anyURI ;
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzEncounter>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Procedure"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/Procedure/SampleSzIPTProcedure> ;
+         fhir:reference [ fhir:v "Procedure/SampleSzIPTProcedure" ]
+       ] ;
+       fhir:name [ fhir:v "SampleSzIPTProcedure" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Procedure showing how the Eswainit Procedure Profile can be used to record IPT Start and Stop Dates." ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzProcedure"^^xsd:anyURI ;
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzProcedure>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Location"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/Location/SampleSzLabLocation> ;
+         fhir:reference [ fhir:v "Location/SampleSzLabLocation" ]
+       ] ;
+       fhir:name [ fhir:v "SampleSzLabLocation" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Testing Laboratory" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzLocation"^^xsd:anyURI ;
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzLocation>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Observation"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/Observation/SampleSzLabResult1> ;
+         fhir:reference [ fhir:v "Observation/SampleSzLabResult1" ]
+       ] ;
+       fhir:name [ fhir:v "SampleSzLabResult1" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Lab Result" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzLabResult"^^xsd:anyURI ;
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzLabResult>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "DiagnosticReport"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/DiagnosticReport/SampleSzLabTest> ;
+         fhir:reference [ fhir:v "DiagnosticReport/SampleSzLabTest" ]
+       ] ;
+       fhir:name [ fhir:v "SampleSzLabTest" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Lab Test" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzLabTest"^^xsd:anyURI ;
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzLabTest>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Location"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/Location/SampleSzLocation> ;
+         fhir:reference [ fhir:v "Location/SampleSzLocation" ]
+       ] ;
+       fhir:name [ fhir:v "SampleSzLocation" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Location" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzLocation"^^xsd:anyURI ;
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzLocation>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Bundle"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/Bundle/SampleSzMalariaBundle> ;
+         fhir:reference [ fhir:v "Bundle/SampleSzMalariaBundle" ]
+       ] ;
+       fhir:name [ fhir:v "SampleSzMalariaBundle" ] ;
+       fhir:description [ fhir:v "Sample Malaria Bundle" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Condition"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/Condition/SampleSzMalariaCondition-001> ;
+         fhir:reference [ fhir:v "Condition/SampleSzMalariaCondition-001" ]
+       ] ;
+       fhir:name [ fhir:v "SampleSzMalariaCondition-001" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Malaria Condition" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Encounter"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/Encounter/SampleSzMalariaEncounter> ;
+         fhir:reference [ fhir:v "Encounter/SampleSzMalariaEncounter" ]
+       ] ;
+       fhir:name [ fhir:v "SampleSzMalariaEncounter" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Malaria Encounter" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzEncounter"^^xsd:anyURI ;
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzEncounter>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Observation"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/Observation/SampleSzMalariaLabResult> ;
+         fhir:reference [ fhir:v "Observation/SampleSzMalariaLabResult" ]
+       ] ;
+       fhir:name [ fhir:v "SampleSzMalariaLabResult" ] ;
+       fhir:description [ fhir:v "Sample Malaria Lab Result" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzLabResult"^^xsd:anyURI ;
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzLabResult>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "DiagnosticReport"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/DiagnosticReport/SampleSzMalariaLabTest> ;
+         fhir:reference [ fhir:v "DiagnosticReport/SampleSzMalariaLabTest" ]
+       ] ;
+       fhir:name [ fhir:v "SampleSzMalariaLabTest" ] ;
+       fhir:description [ fhir:v "Sample Malaria Lab Test" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzLabTest"^^xsd:anyURI ;
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzLabTest>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "MedicationDispense"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/MedicationDispense/SampleSzMalariaMedicalDispense> ;
+         fhir:reference [ fhir:v "MedicationDispense/SampleSzMalariaMedicalDispense" ]
+       ] ;
+       fhir:name [ fhir:v "SampleSzMalariaMedicalDispense" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Malaria Medication Dispense" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzMedicationDispense"^^xsd:anyURI ;
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzMedicationDispense>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "MedicationRequest"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/MedicationRequest/SampleSzMalariaMedicationRequest> ;
+         fhir:reference [ fhir:v "MedicationRequest/SampleSzMalariaMedicationRequest" ]
+       ] ;
+       fhir:name [ fhir:v "SampleSzMalariaMedicationRequest" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Malaria Medication Request" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzMedicationRequest"^^xsd:anyURI ;
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzMedicationRequest>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Patient"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzMalariaPatient> ;
+         fhir:reference [ fhir:v "Patient/SampleSzMalariaPatient" ]
+       ] ;
+       fhir:name [ fhir:v "SampleSzMalariaPatient" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Malaria Patient" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzPatient"^^xsd:anyURI ;
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzPatient>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Specimen"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/Specimen/SampleSzMalariaSpecimen> ;
+         fhir:reference [ fhir:v "Specimen/SampleSzMalariaSpecimen" ]
+       ] ;
+       fhir:name [ fhir:v "SampleSzMalariaSpecimen" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Malaria Specimen" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzLabSpecimen"^^xsd:anyURI ;
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzLabSpecimen>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Observation"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/Observation/SampleSzMalariaTravelHistory> ;
+         fhir:reference [ fhir:v "Observation/SampleSzMalariaTravelHistory" ]
+       ] ;
+       fhir:name [ fhir:v "SampleSzMalariaTravelHistory" ] ;
+       fhir:description [ fhir:v "Sample Malaria Lab Result" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzClinicalObservation"^^xsd:anyURI ;
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzClinicalObservation>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "MedicationDispense"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/MedicationDispense/SampleSzMedicalDispense> ;
+         fhir:reference [ fhir:v "MedicationDispense/SampleSzMedicalDispense" ]
+       ] ;
+       fhir:name [ fhir:v "SampleSzMedicalDispense" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Medication Request" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzMedicationDispense"^^xsd:anyURI ;
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzMedicationDispense>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Medication"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/Medication/SampleSzMedication> ;
+         fhir:reference [ fhir:v "Medication/SampleSzMedication" ]
+       ] ;
+       fhir:name [ fhir:v "SampleSzMedication" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Medication" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzMedication"^^xsd:anyURI ;
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzMedication>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "MedicationRequest"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/MedicationRequest/SampleSzMedicationRequest> ;
+         fhir:reference [ fhir:v "MedicationRequest/SampleSzMedicationRequest" ]
+       ] ;
+       fhir:name [ fhir:v "SampleSzMedicationRequest" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Medication Request" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzMedicationRequest"^^xsd:anyURI ;
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzMedicationRequest>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Specimen"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/Specimen/SampleSzSpecimen> ;
+         fhir:reference [ fhir:v "Specimen/SampleSzSpecimen" ]
+       ] ;
+       fhir:name [ fhir:v "SampleSzSpecimen" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Specimen" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzLabSpecimen"^^xsd:anyURI ;
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzLabSpecimen>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Observation"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/Observation/SampleVitalsBodyMassIndex> ;
+         fhir:reference [ fhir:v "Observation/SampleVitalsBodyMassIndex" ]
+       ] ;
+       fhir:name [ fhir:v "SampleVitalsBodyMassIndex" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Body Mass Index Vital Sign" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns"^^xsd:anyURI ;
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Observation"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/Observation/SampleVitalsHeight> ;
+         fhir:reference [ fhir:v "Observation/SampleVitalsHeight" ]
+       ] ;
+       fhir:name [ fhir:v "SampleVitalsHeight" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Height Vital Sign" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns"^^xsd:anyURI ;
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Observation"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/Observation/SampleVitalsRespiratoryRate> ;
+         fhir:reference [ fhir:v "Observation/SampleVitalsRespiratoryRate" ]
+       ] ;
+       fhir:name [ fhir:v "SampleVitalsRespiratoryRate" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Respiratory Rate Vital Sign" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns"^^xsd:anyURI ;
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Observation"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/Observation/SampleVitalsTemperature> ;
+         fhir:reference [ fhir:v "Observation/SampleVitalsTemperature" ]
+       ] ;
+       fhir:name [ fhir:v "SampleVitalsTemperature" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Temperature Vital Sign" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns"^^xsd:anyURI ;
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Observation"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/Observation/SampleVitalsWeight> ;
+         fhir:reference [ fhir:v "Observation/SampleVitalsWeight" ]
+       ] ;
+       fhir:name [ fhir:v "SampleVitalsWeight" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Weight Vital Sign" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns"^^xsd:anyURI ;
+         fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/ValueSet/SzChiefdomVS> ;
+         fhir:reference [ fhir:v "ValueSet/SzChiefdomVS" ]
+       ] ;
+       fhir:name [ fhir:v "Value Set: Chiefdoms Value Set" ] ;
+       fhir:description [ fhir:v "Value set for ESwatini chiefdoms" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/ValueSet/SzEncounterClassificationVS> ;
+         fhir:reference [ fhir:v "ValueSet/SzEncounterClassificationVS" ]
+       ] ;
+       fhir:name [ fhir:v "Value Set: Encounter Classification" ] ;
+       fhir:description [ fhir:v "Eswatini Encounter Classification Codes" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/ValueSet/SzTestParameterCodeVS> ;
+         fhir:reference [ fhir:v "ValueSet/SzTestParameterCodeVS" ]
+       ] ;
+       fhir:name [ fhir:v "Value Set: Eswatini Local Test Parameter Codes" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/ValueSet/SzServicePointVS> ;
+         fhir:reference [ fhir:v "ValueSet/SzServicePointVS" ]
+       ] ;
+       fhir:name [ fhir:v "Value set: Eswatini Service Points" ] ;
+       fhir:description [ fhir:v "Value set for Eswatini service points" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/ValueSet/CIE10VS> ;
+         fhir:reference [ fhir:v "ValueSet/CIE10VS" ]
+       ] ;
+       fhir:name [ fhir:v "Value Set: ICD10" ] ;
+       fhir:description [ fhir:v "CIE10 code values" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/ValueSet/SzTestCodeVS> ;
+         fhir:reference [ fhir:v "ValueSet/SzTestCodeVS" ]
+       ] ;
+       fhir:name [ fhir:v "Value Set: Local Test Codes" ] ;
+       fhir:description [ fhir:v "Eswatini Local Test Codes" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/ValueSet/PersonIdentifiersVS> ;
+         fhir:reference [ fhir:v "ValueSet/PersonIdentifiersVS" ]
+       ] ;
+       fhir:name [ fhir:v "Value Set: Person Identifier" ] ;
+       fhir:description [ fhir:v "Eswatini Person Identifiers" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/ValueSet/SzProductCodeVS> ;
+         fhir:reference [ fhir:v "ValueSet/SzProductCodeVS" ]
+       ] ;
+       fhir:name [ fhir:v "Value Set: Product Code Value Set" ] ;
+       fhir:description [ fhir:v "Value set for ESwatini Product Codes" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://192.168.10.200:3447/fhir/ValueSet/SzTinkhundlaVS> ;
+         fhir:reference [ fhir:v "ValueSet/SzTinkhundlaVS" ]
+       ] ;
+       fhir:name [ fhir:v "Value Set: Tinkhundla" ] ;
+       fhir:description [ fhir:v "Value set for Eswatini Tinkhundla" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] ) ;
+     fhir:page [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:url ;
+           fhir:v "toc.html"^^xsd:anyURI
+         ]
+       ] ) ;
+       fhir:name [
+         a fhir:url ;
+         fhir:v "toc.html"^^xsd:anyURI
+       ] ;
+       fhir:title [ fhir:v "Table of Contents" ] ;
+       fhir:generation [ fhir:v "html" ] ;
+       fhir:page ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:url ;
+             fhir:v "index.html"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:name [
+           a fhir:url ;
+           fhir:v "index.html"^^xsd:anyURI
+         ] ;
+         fhir:title [ fhir:v "Home" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] )
+     ] ;
+     fhir:parameter ( [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/capabilities" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/examples" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/extensions" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/models" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/operations" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/profiles" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/resources" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/vocabulary" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/maps" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/testing" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/history" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "fsh-generated/resources" ]
+     ] [
+       fhir:code [ fhir:v "path-pages" ] ;
+       fhir:value [ fhir:v "template/config" ]
+     ] [
+       fhir:code [ fhir:v "path-pages" ] ;
+       fhir:value [ fhir:v "input/images" ]
+     ] [
+       fhir:code [ fhir:v "path-tx-cache" ] ;
+       fhir:value [ fhir:v "input-cache/txcache" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

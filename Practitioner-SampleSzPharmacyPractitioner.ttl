@@ -1,0 +1,49 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://192.168.10.200:3447/fhir/Practitioner/SampleSzPharmacyPractitioner> a fhir:Practitioner ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "SampleSzPharmacyPractitioner"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzPractitioner"^^xsd:anyURI ;
+       fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzPractitioner>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner SampleSzPharmacyPractitioner</b></p><a name=\"SampleSzPharmacyPractitioner\"> </a><a name=\"hcSampleSzPharmacyPractitioner\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzPractitioner.html\">Eswatini Practitioner Profile</a></p></div><p><b>identifier</b>: Personal ID Number/9101010000100 (use: official, )</p><p><b>name</b>: Susan Carol Smith </p><p><b>telecom</b>: -unknown-(Mobile), ph: 7911 0000</p><p><b>gender</b>: Female</p><p><b>birthDate</b>: 1990-01-01</p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "PI" ] ;
+         fhir:display [ fhir:v "Personal ID Number" ]
+       ] )
+     ] ;
+     fhir:system [ fhir:v "urn:homeaffairs:population-register"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "9101010000100" ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:family [ fhir:v "Smith" ] ;
+     fhir:given ( [ fhir:v "Susan" ] [ fhir:v "Carol" ] )
+  ] ) ; # 
+  fhir:telecom ( [
+     fhir:use [ fhir:v "mobile" ]
+  ] [
+     fhir:system [ fhir:v "phone" ] ;
+     fhir:value [ fhir:v "7911 0000" ] ;
+     fhir:rank [ fhir:v "1"^^xsd:positiveInteger ]
+  ] ) ; # 
+  fhir:gender [ fhir:v "female"] ; # 
+  fhir:birthDate [ fhir:v "1990-01-01"^^xsd:date] . # 
+
+# -------------------------------------------------------------------------------------
+
