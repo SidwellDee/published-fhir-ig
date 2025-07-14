@@ -7,7 +7,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://192.168.10.200:3447/fhir/Bundle/SampleSzMalariaBundle> a fhir:Bundle ;
+<http://172.209.216.154:3447/fhir/Bundle/SampleSzMalariaBundle> a fhir:Bundle ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "SampleSzMalariaBundle"] ; # 
   fhir:type [ fhir:v "transaction"] ; # 
@@ -94,8 +94,8 @@
   fhir:id [ fhir:v "SampleSzMalariaPatient"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzPatient"^^xsd:anyURI ;
-       fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzPatient>
+       fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzPatient"^^xsd:anyURI ;
+       fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzPatient>
      ] )
   ] ; # 
   fhir:text [
@@ -187,8 +187,8 @@
   fhir:id [ fhir:v "SampleSzMalariaEncounter"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzEncounter"^^xsd:anyURI ;
-       fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzEncounter>
+       fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzEncounter"^^xsd:anyURI ;
+       fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzEncounter>
      ] )
   ] ; # 
   fhir:text [
@@ -202,12 +202,12 @@
      fhir:display [ fhir:v "Out Patient Department" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzPatient> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Patient/SampleSzPatient> ;
      fhir:reference [ fhir:v "Patient/SampleSzPatient" ]
   ] ; # 
   fhir:participant ( [
      fhir:individual [
-       fhir:link <http://192.168.10.200:3447/fhir/Practitioner/SampleSzPractitioner> ;
+       fhir:link <http://172.209.216.154:3447/fhir/Practitioner/SampleSzPractitioner> ;
        fhir:reference [ fhir:v "Practitioner/SampleSzPractitioner" ]
      ]
   ] ) ; # 
@@ -221,7 +221,7 @@
   ] ) ; # 
   fhir:location ( [
      fhir:location [
-       fhir:link <http://192.168.10.200:3447/fhir/Location/SampleSzLocation> ;
+       fhir:link <http://172.209.216.154:3447/fhir/Location/SampleSzLocation> ;
        fhir:reference [ fhir:v "Location/SampleSzLocation" ]
      ] ;
      fhir:status [ fhir:v "completed" ]
@@ -231,8 +231,8 @@
   fhir:id [ fhir:v "SampleVitalsWeight"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns"^^xsd:anyURI ;
-       fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns>
+       fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzVitalSigns"^^xsd:anyURI ;
+       fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzVitalSigns>
      ] )
   ] ; # 
   fhir:text [
@@ -255,7 +255,7 @@
      fhir:text [ fhir:v "Body weight" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzPatient> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Patient/SampleSzPatient> ;
      fhir:reference [ fhir:v "Patient/SampleSzPatient" ]
   ] ; # 
   fhir:effective [
@@ -272,8 +272,8 @@
   fhir:id [ fhir:v "SampleVitalsHeight"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns"^^xsd:anyURI ;
-       fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns>
+       fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzVitalSigns"^^xsd:anyURI ;
+       fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzVitalSigns>
      ] )
   ] ; # 
   fhir:text [
@@ -296,7 +296,7 @@
      fhir:text [ fhir:v "Body height" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzPatient> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Patient/SampleSzPatient> ;
      fhir:reference [ fhir:v "Patient/SampleSzPatient" ]
   ] ; # 
   fhir:effective [
@@ -313,8 +313,8 @@
   fhir:id [ fhir:v "SampleVitalsTemperature"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns"^^xsd:anyURI ;
-       fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns>
+       fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzVitalSigns"^^xsd:anyURI ;
+       fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzVitalSigns>
      ] )
   ] ; # 
   fhir:text [
@@ -337,7 +337,7 @@
      fhir:text [ fhir:v "Temperature" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzPatient> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Patient/SampleSzPatient> ;
      fhir:reference [ fhir:v "Patient/SampleSzPatient" ]
   ] ; # 
   fhir:effective [
@@ -354,8 +354,8 @@
   fhir:id [ fhir:v "SampleVitalsRespiratoryRate"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns"^^xsd:anyURI ;
-       fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns>
+       fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzVitalSigns"^^xsd:anyURI ;
+       fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzVitalSigns>
      ] )
   ] ; # 
   fhir:text [
@@ -378,7 +378,7 @@
      fhir:text [ fhir:v "Respiratory rate" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzPatient> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Patient/SampleSzPatient> ;
      fhir:reference [ fhir:v "Patient/SampleSzPatient" ]
   ] ; # 
   fhir:effective [
@@ -395,8 +395,8 @@
   fhir:id [ fhir:v "SampleVitalsBodyMassIndex"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns"^^xsd:anyURI ;
-       fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns>
+       fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzVitalSigns"^^xsd:anyURI ;
+       fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzVitalSigns>
      ] )
   ] ; # 
   fhir:text [
@@ -419,7 +419,7 @@
      fhir:text [ fhir:v "Body mass index" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzPatient> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Patient/SampleSzPatient> ;
      fhir:reference [ fhir:v "Patient/SampleSzPatient" ]
   ] ; # 
   fhir:effective [
@@ -436,8 +436,8 @@
   fhir:id [ fhir:v "SampleSzMalariaLabTest"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzLabTest"^^xsd:anyURI ;
-       fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzLabTest>
+       fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzLabTest"^^xsd:anyURI ;
+       fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzLabTest>
      ] )
   ] ; # 
   fhir:text [
@@ -454,11 +454,11 @@
      fhir:text [ fhir:v "Malaria Smear" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzMalariaPatient> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Patient/SampleSzMalariaPatient> ;
      fhir:reference [ fhir:v "Patient/SampleSzMalariaPatient" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://192.168.10.200:3447/fhir/Encounter/SampleSzMalariaEncounter> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Encounter/SampleSzMalariaEncounter> ;
      fhir:reference [ fhir:v "Encounter/SampleSzMalariaEncounter" ]
   ] ; # 
   fhir:effective [
@@ -467,11 +467,11 @@
   ] ; # 
   fhir:issued [ fhir:v "2024-11-26T10:00:00Z"^^xsd:dateTime] ; # 
   fhir:performer ( [
-     fhir:link <http://192.168.10.200:3447/fhir/Practitioner/SampleSzPractitioner> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Practitioner/SampleSzPractitioner> ;
      fhir:reference [ fhir:v "Practitioner/SampleSzPractitioner" ]
   ] ) ; # 
   fhir:specimen ( [
-     fhir:link <http://192.168.10.200:3447/fhir/Specimen/SampleSzMalariaSpecimen> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Specimen/SampleSzMalariaSpecimen> ;
      fhir:reference [ fhir:v "Specimen/SampleSzMalariaSpecimen" ]
   ] ) . # 
 
@@ -522,7 +522,7 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzMalariaPatient> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Patient/SampleSzMalariaPatient> ;
      fhir:reference [ fhir:v "Patient/SampleSzMalariaPatient" ]
   ] ; # 
   fhir:onset [
@@ -531,7 +531,7 @@
   ] ; # 
   fhir:recordedDate [ fhir:v "2024-11-26"^^xsd:date] ; # 
   fhir:asserter [
-     fhir:link <http://192.168.10.200:3447/fhir/Practitioner/SampleSzPractitioner> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Practitioner/SampleSzPractitioner> ;
      fhir:reference [ fhir:v "Practitioner/SampleSzPractitioner" ]
   ] . # 
 
@@ -539,8 +539,8 @@
   fhir:id [ fhir:v "SampleSzMalariaMedicationRequest"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzMedicationRequest"^^xsd:anyURI ;
-       fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzMedicationRequest>
+       fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzMedicationRequest"^^xsd:anyURI ;
+       fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzMedicationRequest>
      ] )
   ] ; # 
   fhir:text [
@@ -559,16 +559,16 @@
      fhir:text [ fhir:v "Paracetamol Tablets 500g (Coloured Green) 100 TABS" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzMalariaPatient> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Patient/SampleSzMalariaPatient> ;
      fhir:reference [ fhir:v "Patient/SampleSzMalariaPatient" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://192.168.10.200:3447/fhir/Encounter/SampleSzMalariaEncounter> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Encounter/SampleSzMalariaEncounter> ;
      fhir:reference [ fhir:v "Encounter/SampleSzMalariaEncounter" ]
   ] ; # 
   fhir:authoredOn [ fhir:v "2024-11-25T10:00:00Z"^^xsd:dateTime] ; # 
   fhir:requester [
-     fhir:link <http://192.168.10.200:3447/fhir/Practitioner/SampleSzPractitioner> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Practitioner/SampleSzPractitioner> ;
      fhir:reference [ fhir:v "Practitioner/SampleSzPractitioner" ]
   ] ; # 
   fhir:dosageInstruction ( [
@@ -593,8 +593,8 @@
   fhir:id [ fhir:v "SampleSzMalariaTravelHistory"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzClinicalObservation"^^xsd:anyURI ;
-       fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzClinicalObservation>
+       fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzClinicalObservation"^^xsd:anyURI ;
+       fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzClinicalObservation>
      ] )
   ] ; # 
   fhir:text [
@@ -611,7 +611,7 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzMalariaPatient> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Patient/SampleSzMalariaPatient> ;
      fhir:reference [ fhir:v "Patient/SampleSzMalariaPatient" ]
   ] ; # 
   fhir:effective [

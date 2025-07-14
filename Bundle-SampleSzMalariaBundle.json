@@ -8,7 +8,7 @@
       "resourceType" : "Patient",
       "id" : "SampleSzMalariaPatient",
       "meta" : {
-        "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzPatient"]
+        "profile" : ["http://172.209.216.154:3447/fhir/StructureDefinition/SzPatient"]
       },
       "text" : {
         "status" : "generated",
@@ -104,7 +104,7 @@
       "resourceType" : "Encounter",
       "id" : "SampleSzMalariaEncounter",
       "meta" : {
-        "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzEncounter"]
+        "profile" : ["http://172.209.216.154:3447/fhir/StructureDefinition/SzEncounter"]
       },
       "text" : {
         "status" : "generated",
@@ -150,7 +150,7 @@
       "resourceType" : "Observation",
       "id" : "SampleVitalsWeight",
       "meta" : {
-        "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns"]
+        "profile" : ["http://172.209.216.154:3447/fhir/StructureDefinition/SzVitalSigns"]
       },
       "text" : {
         "status" : "generated",
@@ -191,7 +191,7 @@
       "resourceType" : "Observation",
       "id" : "SampleVitalsHeight",
       "meta" : {
-        "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns"]
+        "profile" : ["http://172.209.216.154:3447/fhir/StructureDefinition/SzVitalSigns"]
       },
       "text" : {
         "status" : "generated",
@@ -232,7 +232,7 @@
       "resourceType" : "Observation",
       "id" : "SampleVitalsTemperature",
       "meta" : {
-        "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns"]
+        "profile" : ["http://172.209.216.154:3447/fhir/StructureDefinition/SzVitalSigns"]
       },
       "text" : {
         "status" : "generated",
@@ -273,7 +273,7 @@
       "resourceType" : "Observation",
       "id" : "SampleVitalsRespiratoryRate",
       "meta" : {
-        "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns"]
+        "profile" : ["http://172.209.216.154:3447/fhir/StructureDefinition/SzVitalSigns"]
       },
       "text" : {
         "status" : "generated",
@@ -314,7 +314,7 @@
       "resourceType" : "Observation",
       "id" : "SampleVitalsBodyMassIndex",
       "meta" : {
-        "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns"]
+        "profile" : ["http://172.209.216.154:3447/fhir/StructureDefinition/SzVitalSigns"]
       },
       "text" : {
         "status" : "generated",
@@ -355,7 +355,7 @@
       "resourceType" : "DiagnosticReport",
       "id" : "SampleSzMalariaLabTest",
       "meta" : {
-        "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzLabTest"]
+        "profile" : ["http://172.209.216.154:3447/fhir/StructureDefinition/SzLabTest"]
       },
       "text" : {
         "status" : "generated",
@@ -462,7 +462,7 @@
       "resourceType" : "MedicationRequest",
       "id" : "SampleSzMalariaMedicationRequest",
       "meta" : {
-        "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzMedicationRequest"]
+        "profile" : ["http://172.209.216.154:3447/fhir/StructureDefinition/SzMedicationRequest"]
       },
       "text" : {
         "status" : "generated",
@@ -516,7 +516,7 @@
       "resourceType" : "Observation",
       "id" : "SampleSzMalariaTravelHistory",
       "meta" : {
-        "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzClinicalObservation"]
+        "profile" : ["http://172.209.216.154:3447/fhir/StructureDefinition/SzClinicalObservation"]
       },
       "text" : {
         "status" : "generated",

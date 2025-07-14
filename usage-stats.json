@@ -1,38 +1,38 @@
 {
-  "package": "org.fshschool.courses.fsh-seminar-exercise",
+  "package": "hl7.fhir.sd.hie",
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
   "extensions": [
     {
-      "url": "http://192.168.10.200:3447/fhir/StructureDefinition/SzAuthorizerExtension",
+      "url": "http://172.209.216.154:3447/fhir/StructureDefinition/SzAuthorizerExtension",
       "title": "Extention: Eswatini Lab Result Authorizer",
       "types": [
         "Reference"
       ]
     },
     {
-      "url": "http://192.168.10.200:3447/fhir/StructureDefinition/SzChiefdomExtension",
+      "url": "http://172.209.216.154:3447/fhir/StructureDefinition/SzChiefdomExtension",
       "title": "Extention: Eswatini Chiefdom",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "http://192.168.10.200:3447/fhir/StructureDefinition/SzInkhundlaExtension",
+      "url": "http://172.209.216.154:3447/fhir/StructureDefinition/SzInkhundlaExtension",
       "title": "Extention: Eswatini Inkhundla",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "http://192.168.10.200:3447/fhir/StructureDefinition/SzLocationCodeExtension",
+      "url": "http://172.209.216.154:3447/fhir/StructureDefinition/SzLocationCodeExtension",
       "title": "Extention: Eswatini Location Code",
       "types": [
         "string"
       ]
     },
     {
-      "url": "http://192.168.10.200:3447/fhir/StructureDefinition/SzTestingLabExtension",
+      "url": "http://172.209.216.154:3447/fhir/StructureDefinition/SzTestingLabExtension",
       "title": "Extention: Eswatini Testing Laboratory",
       "types": [
         "Reference"
@@ -42,79 +42,79 @@
   "profiles": {
     "Appointment": [
       {
-        "url": "http://192.168.10.200:3447/fhir/StructureDefinition/SzAppointment",
+        "url": "http://172.209.216.154:3447/fhir/StructureDefinition/SzAppointment",
         "title": "Eswatini Appointment Profile"
       }
     ],
     "Observation": [
       {
-        "url": "http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns",
+        "url": "http://172.209.216.154:3447/fhir/StructureDefinition/SzVitalSigns",
         "title": "Eswatini Vital Signs Profile"
       }
     ],
     "Encounter": [
       {
-        "url": "http://192.168.10.200:3447/fhir/StructureDefinition/SzEncounter",
+        "url": "http://172.209.216.154:3447/fhir/StructureDefinition/SzEncounter",
         "title": "Eswatini Encounter Profile"
       }
     ],
     "Specimen": [
       {
-        "url": "http://192.168.10.200:3447/fhir/StructureDefinition/SzLabSpecimen",
+        "url": "http://172.209.216.154:3447/fhir/StructureDefinition/SzLabSpecimen",
         "title": "Eswatini Specimen Profile"
       }
     ],
     "DiagnosticReport": [
       {
-        "url": "http://192.168.10.200:3447/fhir/StructureDefinition/SzLabTest",
+        "url": "http://172.209.216.154:3447/fhir/StructureDefinition/SzLabTest",
         "title": "Eswatini Lab Test Profile"
       }
     ],
     "Location": [
       {
-        "url": "http://192.168.10.200:3447/fhir/StructureDefinition/SzLocation",
+        "url": "http://172.209.216.154:3447/fhir/StructureDefinition/SzLocation",
         "title": "Eswatini Location Profile"
       }
     ],
     "Medication": [
       {
-        "url": "http://192.168.10.200:3447/fhir/StructureDefinition/SzMedication",
+        "url": "http://172.209.216.154:3447/fhir/StructureDefinition/SzMedication",
         "title": "Eswatini Medication Profile"
       }
     ],
     "MedicationDispense": [
       {
-        "url": "http://192.168.10.200:3447/fhir/StructureDefinition/SzMedicationDispense",
+        "url": "http://172.209.216.154:3447/fhir/StructureDefinition/SzMedicationDispense",
         "title": "Eswatini Medication Request Profile"
       }
     ],
     "MedicationRequest": [
       {
-        "url": "http://192.168.10.200:3447/fhir/StructureDefinition/SzMedicationRequest",
+        "url": "http://172.209.216.154:3447/fhir/StructureDefinition/SzMedicationRequest",
         "title": "Eswatini Medication Request Profile"
       }
     ],
     "Organization": [
       {
-        "url": "http://192.168.10.200:3447/fhir/StructureDefinition/SzOrganization",
+        "url": "http://172.209.216.154:3447/fhir/StructureDefinition/SzOrganization",
         "title": "Eswatini Organization Profile"
       }
     ],
     "Patient": [
       {
-        "url": "http://192.168.10.200:3447/fhir/StructureDefinition/SzPatient",
+        "url": "http://172.209.216.154:3447/fhir/StructureDefinition/SzPatient",
         "title": "Eswatini Patient Profile"
       }
     ],
     "Practitioner": [
       {
-        "url": "http://192.168.10.200:3447/fhir/StructureDefinition/SzPractitioner",
+        "url": "http://172.209.216.154:3447/fhir/StructureDefinition/SzPractitioner",
         "title": "Eswatini Practitioner Profile"
       }
     ],
     "Procedure": [
       {
-        "url": "http://192.168.10.200:3447/fhir/StructureDefinition/SzProcedure",
+        "url": "http://172.209.216.154:3447/fhir/StructureDefinition/SzProcedure",
         "title": "Eswatini Procedure Profile"
       }
     ]
@@ -124,7 +124,19 @@
       "Bundle.entry.resource",
       "Patient"
     ],
-    "http://192.168.10.200:3447/fhir/StructureDefinition/SzAuthorizerExtension": [
+    "http://172.209.216.154:3447/fhir/StructureDefinition/SzAuthorizerExtension": [
+      "Observation"
+    ],
+    "http://172.209.216.154:3447/fhir/StructureDefinition/SzChiefdomExtension": [
+      "Patient"
+    ],
+    "http://172.209.216.154:3447/fhir/StructureDefinition/SzInkhundlaExtension": [
+      "Patient"
+    ],
+    "http://172.209.216.154:3447/fhir/StructureDefinition/SzLocationCodeExtension": [
+      "Location"
+    ],
+    "http://172.209.216.154:3447/fhir/StructureDefinition/SzTestingLabExtension": [
       "Observation"
     ],
     "http://192.168.10.200:3447/fhir/StructureDefinition/SzChiefdomExtension": [
@@ -134,12 +146,6 @@
     "http://192.168.10.200:3447/fhir/StructureDefinition/SzInkhundlaExtension": [
       "Bundle.entry.resource",
       "Patient"
-    ],
-    "http://192.168.10.200:3447/fhir/StructureDefinition/SzLocationCodeExtension": [
-      "Location"
-    ],
-    "http://192.168.10.200:3447/fhir/StructureDefinition/SzTestingLabExtension": [
-      "Observation"
     ],
     "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url": [
       "NamingSystem"

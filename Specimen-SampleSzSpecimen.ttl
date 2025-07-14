@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://192.168.10.200:3447/fhir/Specimen/SampleSzSpecimen> a fhir:Specimen ;
+<http://172.209.216.154:3447/fhir/Specimen/SampleSzSpecimen> a fhir:Specimen ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "SampleSzSpecimen"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzLabSpecimen"^^xsd:anyURI ;
-       fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzLabSpecimen>
+       fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzLabSpecimen"^^xsd:anyURI ;
+       fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzLabSpecimen>
      ] )
   ] ; # 
   fhir:text [
@@ -29,12 +29,12 @@
      fhir:text [ fhir:v "Blood" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzPatient> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Patient/SampleSzPatient> ;
      fhir:reference [ fhir:v "Patient/SampleSzPatient" ]
   ] ; # 
   fhir:collection [
      fhir:collector [
-       fhir:link <http://192.168.10.200:3447/fhir/Practitioner/SampleSzPractitioner> ;
+       fhir:link <http://172.209.216.154:3447/fhir/Practitioner/SampleSzPractitioner> ;
        fhir:reference [ fhir:v "Practitioner/SampleSzPractitioner" ]
      ] ;
      fhir:collected [

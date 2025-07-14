@@ -3,20 +3,20 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="SzServicePointVS"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet SzServicePointVS</b></p><a name="SzServicePointVS"> </a><a name="hcSzServicePointVS"> </a><ul><li>Include these codes as defined in <a href="CodeSystem-SzServicePointCS.html"><code>http://192.168.10.200:3447/fhir/CodeSystem/SzServicePointCS</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-SzServicePointCS.html#SzServicePointCS-ART">ART</a></td><td>Anti Retroviral Therapy</td></tr><tr><td><a href="CodeSystem-SzServicePointCS.html#SzServicePointCS-HTS">HTS</a></td><td>HIV Testing Services</td></tr><tr><td><a href="CodeSystem-SzServicePointCS.html#SzServicePointCS-ANC">ANC</a></td><td>Ante Natal Care</td></tr><tr><td><a href="CodeSystem-SzServicePointCS.html#SzServicePointCS-PNC">PNC</a></td><td>Post Natal Care</td></tr><tr><td><a href="CodeSystem-SzServicePointCS.html#SzServicePointCS-FP">FP</a></td><td>Family Planning</td></tr></table></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet SzServicePointVS</b></p><a name="SzServicePointVS"> </a><a name="hcSzServicePointVS"> </a><ul><li>Include these codes as defined in <a href="CodeSystem-SzServicePointCS.html"><code>http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-SzServicePointCS.html#SzServicePointCS-ART">ART</a></td><td>Anti Retroviral Therapy</td></tr><tr><td><a href="CodeSystem-SzServicePointCS.html#SzServicePointCS-HTS">HTS</a></td><td>HIV Testing Services</td></tr><tr><td><a href="CodeSystem-SzServicePointCS.html#SzServicePointCS-ANC">ANC</a></td><td>Ante Natal Care</td></tr><tr><td><a href="CodeSystem-SzServicePointCS.html#SzServicePointCS-PNC">PNC</a></td><td>Post Natal Care</td></tr><tr><td><a href="CodeSystem-SzServicePointCS.html#SzServicePointCS-FP">FP</a></td><td>Family Planning</td></tr></table></li></ul></div>
   </text>
-  <url value="http://192.168.10.200:3447/fhir/ValueSet/SzServicePointVS"/>
+  <url value="http://172.209.216.154:3447/fhir/ValueSet/SzServicePointVS"/>
   <version value="0.1.0"/>
   <name value="SzServicePointVS"/>
   <title value="Value set: Eswatini Service Points"/>
   <status value="draft"/>
-  <date value="2025-07-09T11:11:31+00:00"/>
+  <date value="2025-07-14T08:08:58+00:00"/>
   <publisher value="Ministry of Health Eswatini"/>
   <contact>
     <name value="Ministry of Health Eswatini"/>
     <telecom>
       <system value="url"/>
-      <value value="https://192.168.10.200:3447"/>
+      <value value="https://172.209.216.154:3447"/>
     </telecom>
     <telecom>
       <system value="email"/>
@@ -26,7 +26,7 @@
   <description value="Value set for Eswatini service points"/>
   <compose>
     <include>
-      <system value="http://192.168.10.200:3447/fhir/CodeSystem/SzServicePointCS"/>
+      <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS"/>
       <concept>
         <code value="ART"/>
         <display value="Anti Retroviral Therapy"/>

@@ -3,20 +3,20 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="PersonIdentifiersVS"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet PersonIdentifiersVS</b></p><a name="PersonIdentifiersVS"> </a><a name="hcPersonIdentifiersVS"> </a><ul><li>Include all codes defined in <a href="CodeSystem-SzPersonIdentificationsCS.html"><code>http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet PersonIdentifiersVS</b></p><a name="PersonIdentifiersVS"> </a><a name="hcPersonIdentifiersVS"> </a><ul><li>Include all codes defined in <a href="CodeSystem-SzPersonIdentificationsCS.html"><code>http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS</code></a></li></ul></div>
   </text>
-  <url value="http://192.168.10.200:3447/fhir/ValueSet/PersonIdentifiersVS"/>
+  <url value="http://172.209.216.154:3447/fhir/ValueSet/PersonIdentifiersVS"/>
   <version value="0.1.0"/>
   <name value="PersonIdentifiersVS"/>
   <title value="Value Set: Person Identifier"/>
   <status value="draft"/>
-  <date value="2025-07-09T11:11:31+00:00"/>
+  <date value="2025-07-14T08:08:58+00:00"/>
   <publisher value="Ministry of Health Eswatini"/>
   <contact>
     <name value="Ministry of Health Eswatini"/>
     <telecom>
       <system value="url"/>
-      <value value="https://192.168.10.200:3447"/>
+      <value value="https://172.209.216.154:3447"/>
     </telecom>
     <telecom>
       <system value="email"/>
@@ -26,7 +26,7 @@
   <description value="Eswatini Person Identifiers"/>
   <compose>
     <include>
-      <system value="http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS"/>
+      <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS"/>
     </include>
   </compose>
 </ValueSet>

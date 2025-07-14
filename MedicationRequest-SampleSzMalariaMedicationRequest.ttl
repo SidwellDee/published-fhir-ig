@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://192.168.10.200:3447/fhir/MedicationRequest/SampleSzMalariaMedicationRequest> a fhir:MedicationRequest ;
+<http://172.209.216.154:3447/fhir/MedicationRequest/SampleSzMalariaMedicationRequest> a fhir:MedicationRequest ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "SampleSzMalariaMedicationRequest"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzMedicationRequest"^^xsd:anyURI ;
-       fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzMedicationRequest>
+       fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzMedicationRequest"^^xsd:anyURI ;
+       fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzMedicationRequest>
      ] )
   ] ; # 
   fhir:text [
@@ -31,16 +31,16 @@
      fhir:text [ fhir:v "Paracetamol Tablets 500g (Coloured Green) 100 TABS" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzMalariaPatient> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Patient/SampleSzMalariaPatient> ;
      fhir:reference [ fhir:v "Patient/SampleSzMalariaPatient" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://192.168.10.200:3447/fhir/Encounter/SampleSzMalariaEncounter> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Encounter/SampleSzMalariaEncounter> ;
      fhir:reference [ fhir:v "Encounter/SampleSzMalariaEncounter" ]
   ] ; # 
   fhir:authoredOn [ fhir:v "2024-11-25T10:00:00Z"^^xsd:dateTime] ; # 
   fhir:requester [
-     fhir:link <http://192.168.10.200:3447/fhir/Practitioner/SampleSzPractitioner> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Practitioner/SampleSzPractitioner> ;
      fhir:reference [ fhir:v "Practitioner/SampleSzPractitioner" ]
   ] ; # 
   fhir:dosageInstruction ( [

@@ -2,294 +2,294 @@
   {
     "id" : "SzChiefdomCS",
     "type" : "CodeSystem",
-    "url" : "http://192.168.10.200:3447/fhir/CodeSystem/SzChiefdomCS",
+    "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS",
     "version" : "0.1.0",
     "name" : "SzChiefdomCS"
   },
   {
     "id" : "SzEncounterClassificationCS",
     "type" : "CodeSystem",
-    "url" : "http://192.168.10.200:3447/fhir/CodeSystem/SzEncounterClassificationCS",
+    "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterClassificationCS",
     "version" : "0.1.0",
     "name" : "EswatiniEncounterClassification"
   },
   {
     "id" : "SzPersonIdentificationsCS",
     "type" : "CodeSystem",
-    "url" : "http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS",
+    "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS",
     "version" : "0.1.0",
     "name" : "SzPersonIdentificationsCS"
   },
   {
     "id" : "SzProductCodeCS",
     "type" : "CodeSystem",
-    "url" : "http://192.168.10.200:3447/fhir/CodeSystem/SzProductCodeCS",
+    "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzProductCodeCS",
     "version" : "0.1.0",
     "name" : "SzProductCodeCS"
   },
   {
     "id" : "SzServicePointCS",
     "type" : "CodeSystem",
-    "url" : "http://192.168.10.200:3447/fhir/CodeSystem/SzServicePointCS",
+    "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS",
     "version" : "0.1.0",
     "name" : "SzServicePointCS"
   },
   {
     "id" : "SzTestCodeCS",
     "type" : "CodeSystem",
-    "url" : "http://192.168.10.200:3447/fhir/CodeSystem/SzTestCodeCS",
+    "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzTestCodeCS",
     "version" : "0.1.0",
     "name" : "EswatiniTestCodes"
   },
   {
     "id" : "SzTestParameterCodeCS",
     "type" : "CodeSystem",
-    "url" : "http://192.168.10.200:3447/fhir/CodeSystem/SzTestParameterCodeCS",
+    "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzTestParameterCodeCS",
     "version" : "0.1.0",
     "name" : "SzTestParameterCodeCS"
   },
   {
     "id" : "SzTinkhundlaCS",
     "type" : "CodeSystem",
-    "url" : "http://192.168.10.200:3447/fhir/CodeSystem/SzTinkhundlaCS",
+    "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS",
     "version" : "0.1.0",
     "name" : "EswatiniTinkhundla"
   },
   {
-    "id" : "org.fshschool.courses.fsh-seminar-exercise",
+    "id" : "hl7.fhir.sd.hie",
     "type" : "ImplementationGuide",
-    "url" : "http://192.168.10.200:3447/fhir/ImplementationGuide/org.fshschool.courses.fsh-seminar-exercise",
+    "url" : "http://172.209.216.154:3447/fhir/ImplementationGuide/hl7.fhir.sd.hie",
     "version" : "0.1.0",
     "name" : "EswatiniHIEImplementationGuide"
   },
   {
     "id" : "NamingSystemCbhis",
     "type" : "NamingSystem",
-    "url" : "http://192.168.10.200:3447/fhir/NamingSystem/NamingSystemCbhis",
+    "url" : "http://172.209.216.154:3447/fhir/NamingSystem/NamingSystemCbhis",
     "version" : "0.1.0",
     "name" : "Community Based Health Information System"
   },
   {
     "id" : "NamingSystemCivilRegistry",
     "type" : "NamingSystem",
-    "url" : "http://192.168.10.200:3447/fhir/NamingSystem/NamingSystemCivilRegistry",
+    "url" : "http://172.209.216.154:3447/fhir/NamingSystem/NamingSystemCivilRegistry",
     "version" : "0.1.0",
     "name" : "Civil Registry"
   },
   {
     "id" : "NamingSystemCmis",
     "type" : "NamingSystem",
-    "url" : "http://192.168.10.200:3447/fhir/NamingSystem/NamingSystemCmis",
+    "url" : "http://172.209.216.154:3447/fhir/NamingSystem/NamingSystemCmis",
     "version" : "0.1.0",
     "name" : "Client Management Information System"
   },
   {
     "id" : "NamingSystemMsds",
     "type" : "NamingSystem",
-    "url" : "http://192.168.10.200:3447/fhir/NamingSystem/NamingSystemMsds",
+    "url" : "http://172.209.216.154:3447/fhir/NamingSystem/NamingSystemMsds",
     "version" : "0.1.0",
     "name" : "Malaria Surveilance Data System"
   },
   {
     "id" : "SzAppointment",
     "type" : "StructureDefinition",
-    "url" : "http://192.168.10.200:3447/fhir/StructureDefinition/SzAppointment",
+    "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzAppointment",
     "version" : "0.1.0",
     "name" : "EswatiniAppointment"
   },
   {
     "id" : "SzAuthorizerExtension",
     "type" : "StructureDefinition",
-    "url" : "http://192.168.10.200:3447/fhir/StructureDefinition/SzAuthorizerExtension",
+    "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzAuthorizerExtension",
     "version" : "0.1.0",
     "name" : "SzAuthorizerExtension"
   },
   {
     "id" : "SzChiefdomExtension",
     "type" : "StructureDefinition",
-    "url" : "http://192.168.10.200:3447/fhir/StructureDefinition/SzChiefdomExtension",
+    "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzChiefdomExtension",
     "version" : "0.1.0",
     "name" : "SzChiefdomExtension"
   },
   {
     "id" : "SzClinicalObservation",
     "type" : "StructureDefinition",
-    "url" : "http://192.168.10.200:3447/fhir/StructureDefinition/SzClinicalObservation",
+    "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzClinicalObservation",
     "version" : "0.1.0",
     "name" : "EswatiniClinicalObservation"
   },
   {
     "id" : "SzEncounter",
     "type" : "StructureDefinition",
-    "url" : "http://192.168.10.200:3447/fhir/StructureDefinition/SzEncounter",
+    "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzEncounter",
     "version" : "0.1.0",
     "name" : "EswatiniEncounter"
   },
   {
     "id" : "SzInkhundlaExtension",
     "type" : "StructureDefinition",
-    "url" : "http://192.168.10.200:3447/fhir/StructureDefinition/SzInkhundlaExtension",
+    "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzInkhundlaExtension",
     "version" : "0.1.0",
     "name" : "SzInkhundlaExtension"
   },
   {
     "id" : "SzLabResult",
     "type" : "StructureDefinition",
-    "url" : "http://192.168.10.200:3447/fhir/StructureDefinition/SzLabResult",
+    "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzLabResult",
     "version" : "0.1.0",
     "name" : "SzLabResult"
   },
   {
     "id" : "SzLabSpecimen",
     "type" : "StructureDefinition",
-    "url" : "http://192.168.10.200:3447/fhir/StructureDefinition/SzLabSpecimen",
+    "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzLabSpecimen",
     "version" : "0.1.0",
     "name" : "EswatiniSpecimenProfile"
   },
   {
     "id" : "SzLabTest",
     "type" : "StructureDefinition",
-    "url" : "http://192.168.10.200:3447/fhir/StructureDefinition/SzLabTest",
+    "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzLabTest",
     "version" : "0.1.0",
     "name" : "EswatiniLabTest"
   },
   {
     "id" : "SzLocation",
     "type" : "StructureDefinition",
-    "url" : "http://192.168.10.200:3447/fhir/StructureDefinition/SzLocation",
+    "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzLocation",
     "version" : "0.1.0",
     "name" : "EswatiniLocation"
   },
   {
     "id" : "SzLocationCodeExtension",
     "type" : "StructureDefinition",
-    "url" : "http://192.168.10.200:3447/fhir/StructureDefinition/SzLocationCodeExtension",
+    "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzLocationCodeExtension",
     "version" : "0.1.0",
     "name" : "SzLocationCodeExtension"
   },
   {
     "id" : "SzMedication",
     "type" : "StructureDefinition",
-    "url" : "http://192.168.10.200:3447/fhir/StructureDefinition/SzMedication",
+    "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzMedication",
     "version" : "0.1.0",
     "name" : "EswatiniMedication"
   },
   {
     "id" : "SzMedicationDispense",
     "type" : "StructureDefinition",
-    "url" : "http://192.168.10.200:3447/fhir/StructureDefinition/SzMedicationDispense",
+    "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzMedicationDispense",
     "version" : "0.1.0",
     "name" : "EswatiniMedicationRequest"
   },
   {
     "id" : "SzMedicationRequest",
     "type" : "StructureDefinition",
-    "url" : "http://192.168.10.200:3447/fhir/StructureDefinition/SzMedicationRequest",
+    "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzMedicationRequest",
     "version" : "0.1.0",
     "name" : "EswatiniMedicationRequest"
   },
   {
     "id" : "SzOrganization",
     "type" : "StructureDefinition",
-    "url" : "http://192.168.10.200:3447/fhir/StructureDefinition/SzOrganization",
+    "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzOrganization",
     "version" : "0.1.0",
     "name" : "EswatiniOrganization"
   },
   {
     "id" : "SzPatient",
     "type" : "StructureDefinition",
-    "url" : "http://192.168.10.200:3447/fhir/StructureDefinition/SzPatient",
+    "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzPatient",
     "version" : "0.1.0",
     "name" : "EswatiniPatient"
   },
   {
     "id" : "SzPractitioner",
     "type" : "StructureDefinition",
-    "url" : "http://192.168.10.200:3447/fhir/StructureDefinition/SzPractitioner",
+    "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzPractitioner",
     "version" : "0.1.0",
     "name" : "EswatiniPractitioner"
   },
   {
     "id" : "SzProcedure",
     "type" : "StructureDefinition",
-    "url" : "http://192.168.10.200:3447/fhir/StructureDefinition/SzProcedure",
+    "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzProcedure",
     "version" : "0.1.0",
     "name" : "SzProcedure"
   },
   {
     "id" : "SzTestingLabExtension",
     "type" : "StructureDefinition",
-    "url" : "http://192.168.10.200:3447/fhir/StructureDefinition/SzTestingLabExtension",
+    "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzTestingLabExtension",
     "version" : "0.1.0",
     "name" : "SzTestingLabExtension"
   },
   {
     "id" : "SzVitalSigns",
     "type" : "StructureDefinition",
-    "url" : "http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns",
+    "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzVitalSigns",
     "version" : "0.1.0",
     "name" : "EswatiniVitalSigns"
   },
   {
     "id" : "CIE10VS",
     "type" : "ValueSet",
-    "url" : "http://192.168.10.200:3447/fhir/ValueSet/CIE10VS",
+    "url" : "http://172.209.216.154:3447/fhir/ValueSet/CIE10VS",
     "version" : "0.1.0",
     "name" : "CIE10VS"
   },
   {
     "id" : "PersonIdentifiersVS",
     "type" : "ValueSet",
-    "url" : "http://192.168.10.200:3447/fhir/ValueSet/PersonIdentifiersVS",
+    "url" : "http://172.209.216.154:3447/fhir/ValueSet/PersonIdentifiersVS",
     "version" : "0.1.0",
     "name" : "PersonIdentifiersVS"
   },
   {
     "id" : "SzChiefdomVS",
     "type" : "ValueSet",
-    "url" : "http://192.168.10.200:3447/fhir/ValueSet/SzChiefdomVS",
+    "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzChiefdomVS",
     "version" : "0.1.0",
     "name" : "SzChiefdomVS"
   },
   {
     "id" : "SzEncounterClassificationVS",
     "type" : "ValueSet",
-    "url" : "http://192.168.10.200:3447/fhir/ValueSet/SzEncounterClassificationVS",
+    "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzEncounterClassificationVS",
     "version" : "0.1.0",
     "name" : "EswatiniEncounterClassification"
   },
   {
     "id" : "SzProductCodeVS",
     "type" : "ValueSet",
-    "url" : "http://192.168.10.200:3447/fhir/ValueSet/SzProductCodeVS",
+    "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzProductCodeVS",
     "version" : "0.1.0",
     "name" : "SzProductCodeVS"
   },
   {
     "id" : "SzServicePointVS",
     "type" : "ValueSet",
-    "url" : "http://192.168.10.200:3447/fhir/ValueSet/SzServicePointVS",
+    "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzServicePointVS",
     "version" : "0.1.0",
     "name" : "SzServicePointVS"
   },
   {
     "id" : "SzTestCodeVS",
     "type" : "ValueSet",
-    "url" : "http://192.168.10.200:3447/fhir/ValueSet/SzTestCodeVS",
+    "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzTestCodeVS",
     "version" : "0.1.0",
     "name" : "SzTestCodeVS"
   },
   {
     "id" : "SzTestParameterCodeVS",
     "type" : "ValueSet",
-    "url" : "http://192.168.10.200:3447/fhir/ValueSet/SzTestParameterCodeVS",
+    "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzTestParameterCodeVS",
     "version" : "0.1.0",
     "name" : "SzTestParameterCodeVS"
   },
   {
     "id" : "SzTinkhundlaVS",
     "type" : "ValueSet",
-    "url" : "http://192.168.10.200:3447/fhir/ValueSet/SzTinkhundlaVS",
+    "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzTinkhundlaVS",
     "version" : "0.1.0",
     "name" : "SzTinkhundlaVS"
   }

@@ -7,13 +7,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://192.168.10.200:3447/fhir/Observation/SampleSzARTStartDateClinicalObservation> a fhir:Observation ;
+<http://172.209.216.154:3447/fhir/Observation/SampleSzARTStartDateClinicalObservation> a fhir:Observation ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "SampleSzARTStartDateClinicalObservation"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzClinicalObservation"^^xsd:anyURI ;
-       fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzClinicalObservation>
+       fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzClinicalObservation"^^xsd:anyURI ;
+       fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzClinicalObservation>
      ] )
   ] ; # 
   fhir:text [
@@ -31,15 +31,15 @@
      fhir:text [ fhir:v "Date determined medically eligible and ready to start HIV treatment" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzPatient> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Patient/SampleSzPatient> ;
      fhir:reference [ fhir:v "Patient/SampleSzPatient" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://192.168.10.200:3447/fhir/Encounter/SampleSzEncounter> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Encounter/SampleSzEncounter> ;
      fhir:reference [ fhir:v "Encounter/SampleSzEncounter" ]
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://192.168.10.200:3447/fhir/Practitioner/SampleSzPractitioner> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Practitioner/SampleSzPractitioner> ;
      fhir:reference [ fhir:v "Practitioner/SampleSzPractitioner" ]
   ] ) ; # 
   fhir:value [

@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://192.168.10.200:3447/fhir/Condition/SampleSzMalariaCondition-001> a fhir:Condition ;
+<http://172.209.216.154:3447/fhir/Condition/SampleSzMalariaCondition-001> a fhir:Condition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "SampleSzMalariaCondition-001"] ; # 
   fhir:text [
@@ -54,7 +54,7 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzMalariaPatient> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Patient/SampleSzMalariaPatient> ;
      fhir:reference [ fhir:v "Patient/SampleSzMalariaPatient" ]
   ] ; # 
   fhir:onset [
@@ -63,7 +63,7 @@
   ] ; # 
   fhir:recordedDate [ fhir:v "2024-11-26"^^xsd:date] ; # 
   fhir:asserter [
-     fhir:link <http://192.168.10.200:3447/fhir/Practitioner/SampleSzPractitioner> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Practitioner/SampleSzPractitioner> ;
      fhir:reference [ fhir:v "Practitioner/SampleSzPractitioner" ]
   ] . # 
 

@@ -2,7 +2,7 @@
   "resourceType" : "Location",
   "id" : "SampleSzLabLocation",
   "meta" : {
-    "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzLocation"]
+    "profile" : ["http://172.209.216.154:3447/fhir/StructureDefinition/SzLocation"]
   },
   "text" : {
     "status" : "generated",

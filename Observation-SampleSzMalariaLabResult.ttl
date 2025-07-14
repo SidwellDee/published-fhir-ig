@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://192.168.10.200:3447/fhir/Observation/SampleSzMalariaLabResult> a fhir:Observation ;
+<http://172.209.216.154:3447/fhir/Observation/SampleSzMalariaLabResult> a fhir:Observation ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "SampleSzMalariaLabResult"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzLabResult"^^xsd:anyURI ;
-       fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzLabResult>
+       fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzLabResult"^^xsd:anyURI ;
+       fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzLabResult>
      ] )
   ] ; # 
   fhir:text [
@@ -20,17 +20,17 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation SampleSzMalariaLabResult</b></p><a name=\"SampleSzMalariaLabResult\"> </a><a name=\"hcSampleSzMalariaLabResult\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzLabResult.html\">Eswatini Lab Result Profile</a></p></div><p><b>Extention: Eswatini Lab Result Authorizer</b>: <a href=\"Practitioner-SampleSzPractitioner.html\">Practitioner Thabile Celiwe Dlamini </a></p><p><b>Extention: Eswatini Testing Laboratory</b>: <a href=\"Location-SampleSzLabLocation.html\">Location Mbabane Central Laboratory</a></p><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://localhost:3447/fhir/CodeSystem/SzTestParameterCodeCS PAN}\">PAN Antigen</span></p><p><b>subject</b>: <a href=\"Patient-SampleSzMalariaPatient.html\">Jacob Samuel Gule  Male, DoB: 1990-01-01 ( Medical Record Number: M002111111-11 (use: usual, ))</a></p><p><b>encounter</b>: <a href=\"Encounter-SampleSzMalariaEncounter.html\">Encounter: status = finished; class = Out Patient Department (SzEncounterClassificationCS#OPD); reasonCode = Antiretrovial Therapy</a></p><p><b>performer</b>: <a href=\"Practitioner-SampleSzPractitioner.html\">Practitioner Thabile Celiwe Dlamini </a></p><p><b>value</b>: </p><p><b>interpretation</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation POS}\">Positive</span></p><p><b>specimen</b>: <a href=\"Specimen-SampleSzMalariaSpecimen.html\">Specimen: status = available; type = Blood</a></p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
-     fhir:url [ fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzAuthorizerExtension"^^xsd:anyURI ] ;
+     fhir:url [ fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzAuthorizerExtension"^^xsd:anyURI ] ;
      fhir:value [
        a fhir:Reference ;
-       fhir:link <http://192.168.10.200:3447/fhir/Practitioner/SampleSzPractitioner> ;
+       fhir:link <http://172.209.216.154:3447/fhir/Practitioner/SampleSzPractitioner> ;
        fhir:reference [ fhir:v "Practitioner/SampleSzPractitioner" ]
      ]
   ] [
-     fhir:url [ fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzTestingLabExtension"^^xsd:anyURI ] ;
+     fhir:url [ fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzTestingLabExtension"^^xsd:anyURI ] ;
      fhir:value [
        a fhir:Reference ;
-       fhir:link <http://192.168.10.200:3447/fhir/Location/SampleSzLabLocation> ;
+       fhir:link <http://172.209.216.154:3447/fhir/Location/SampleSzLabLocation> ;
        fhir:reference [ fhir:v "Location/SampleSzLabLocation" ]
      ]
   ] ) ; # 
@@ -44,15 +44,15 @@
      fhir:text [ fhir:v "PAN Antigen" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzMalariaPatient> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Patient/SampleSzMalariaPatient> ;
      fhir:reference [ fhir:v "Patient/SampleSzMalariaPatient" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://192.168.10.200:3447/fhir/Encounter/SampleSzMalariaEncounter> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Encounter/SampleSzMalariaEncounter> ;
      fhir:reference [ fhir:v "Encounter/SampleSzMalariaEncounter" ]
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://192.168.10.200:3447/fhir/Practitioner/SampleSzPractitioner> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Practitioner/SampleSzPractitioner> ;
      fhir:reference [ fhir:v "Practitioner/SampleSzPractitioner" ]
   ] ) ; # 
   fhir:value [
@@ -68,7 +68,7 @@
      fhir:text [ fhir:v "Positive" ]
   ] ) ; # 
   fhir:specimen [
-     fhir:link <http://192.168.10.200:3447/fhir/Specimen/SampleSzMalariaSpecimen> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Specimen/SampleSzMalariaSpecimen> ;
      fhir:reference [ fhir:v "Specimen/SampleSzMalariaSpecimen" ]
   ] . # 
 

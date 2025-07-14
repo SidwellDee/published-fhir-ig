@@ -2,7 +2,7 @@
   "resourceType" : "Medication",
   "id" : "SampleSzMedication",
   "meta" : {
-    "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzMedication"]
+    "profile" : ["http://172.209.216.154:3447/fhir/StructureDefinition/SzMedication"]
   },
   "text" : {
     "status" : "generated",

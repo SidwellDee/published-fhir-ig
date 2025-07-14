@@ -7,13 +7,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://192.168.10.200:3447/fhir/Procedure/SampleSzIPTProcedure> a fhir:Procedure ;
+<http://172.209.216.154:3447/fhir/Procedure/SampleSzIPTProcedure> a fhir:Procedure ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "SampleSzIPTProcedure"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzProcedure"^^xsd:anyURI ;
-       fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzProcedure>
+       fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzProcedure"^^xsd:anyURI ;
+       fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzProcedure>
      ] )
   ] ; # 
   fhir:text [
@@ -39,7 +39,7 @@
      fhir:text [ fhir:v "Isoniazid Preventive Therapy" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzPatient> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Patient/SampleSzPatient> ;
      fhir:reference [ fhir:v "Patient/SampleSzPatient" ]
   ] ; # 
   fhir:performed [

@@ -7,13 +7,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://192.168.10.200:3447/fhir/Observation/SampleSzMalariaTravelHistory> a fhir:Observation ;
+<http://172.209.216.154:3447/fhir/Observation/SampleSzMalariaTravelHistory> a fhir:Observation ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "SampleSzMalariaTravelHistory"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzClinicalObservation"^^xsd:anyURI ;
-       fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzClinicalObservation>
+       fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzClinicalObservation"^^xsd:anyURI ;
+       fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzClinicalObservation>
      ] )
   ] ; # 
   fhir:text [
@@ -30,7 +30,7 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzMalariaPatient> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Patient/SampleSzMalariaPatient> ;
      fhir:reference [ fhir:v "Patient/SampleSzMalariaPatient" ]
   ] ; # 
   fhir:effective [

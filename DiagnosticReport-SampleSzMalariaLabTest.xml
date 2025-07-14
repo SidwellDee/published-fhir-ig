@@ -3,7 +3,7 @@
 <DiagnosticReport xmlns="http://hl7.org/fhir">
   <id value="SampleSzMalariaLabTest"/>
   <meta>
-    <profile value="http://192.168.10.200:3447/fhir/StructureDefinition/SzLabTest"/>
+    <profile value="http://172.209.216.154:3447/fhir/StructureDefinition/SzLabTest"/>
   </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: DiagnosticReport SampleSzMalariaLabTest</b></p><a name="SampleSzMalariaLabTest"> </a><a name="hcSampleSzMalariaLabTest"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-SzLabTest.html">Eswatini Lab Test Profile</a></p></div><h2><span title="Codes:{http://localhost:3447/fhir/CodeSystem/SzTestCodeCS MALS}">Malaria Smear</span> </h2><table class="grid"><tr><td>Subject</td><td>Jacob Samuel Gule  Male, DoB: 1990-01-01 ( Medical Record Number: M002111111-11 (use: usual, ))</td></tr><tr><td>When For</td><td>2024-11-26 10:00:00+0000</td></tr><tr><td>Reported</td><td>2024-11-26 10:00:00+0000</td></tr><tr><td>Performer</td><td> <a href="Practitioner-SampleSzPractitioner.html">Practitioner Thabile Celiwe Dlamini </a></td></tr></table><p><b>Report Details</b></p></div>

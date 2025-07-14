@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://192.168.10.200:3447/fhir/Practitioner/SampleSzPractitioner> a fhir:Practitioner ;
+<http://172.209.216.154:3447/fhir/Practitioner/SampleSzPractitioner> a fhir:Practitioner ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "SampleSzPractitioner"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzPractitioner"^^xsd:anyURI ;
-       fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzPractitioner>
+       fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzPractitioner"^^xsd:anyURI ;
+       fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzPractitioner>
      ] )
   ] ; # 
   fhir:text [

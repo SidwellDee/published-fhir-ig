@@ -3,20 +3,20 @@
   "id" : "SzServicePointCS",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem SzServicePointCS</b></p><a name=\"SzServicePointCS\"> </a><a name=\"hcSzServicePointCS\"> </a><p>This  code system <code>http://192.168.10.200:3447/fhir/CodeSystem/SzServicePointCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ART<a name=\"SzServicePointCS-ART\"> </a></td><td>Anti Retroviral Therapy</td></tr><tr><td style=\"white-space:nowrap\">HTS<a name=\"SzServicePointCS-HTS\"> </a></td><td>HIV Testing Services</td></tr><tr><td style=\"white-space:nowrap\">ANC<a name=\"SzServicePointCS-ANC\"> </a></td><td>Ante Natal Care</td></tr><tr><td style=\"white-space:nowrap\">PNC<a name=\"SzServicePointCS-PNC\"> </a></td><td>Post Natal Care</td></tr><tr><td style=\"white-space:nowrap\">FP<a name=\"SzServicePointCS-FP\"> </a></td><td>Family Planning</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem SzServicePointCS</b></p><a name=\"SzServicePointCS\"> </a><a name=\"hcSzServicePointCS\"> </a><p>This  code system <code>http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ART<a name=\"SzServicePointCS-ART\"> </a></td><td>Anti Retroviral Therapy</td></tr><tr><td style=\"white-space:nowrap\">HTS<a name=\"SzServicePointCS-HTS\"> </a></td><td>HIV Testing Services</td></tr><tr><td style=\"white-space:nowrap\">ANC<a name=\"SzServicePointCS-ANC\"> </a></td><td>Ante Natal Care</td></tr><tr><td style=\"white-space:nowrap\">PNC<a name=\"SzServicePointCS-PNC\"> </a></td><td>Post Natal Care</td></tr><tr><td style=\"white-space:nowrap\">FP<a name=\"SzServicePointCS-FP\"> </a></td><td>Family Planning</td></tr></table></div>"
   },
-  "url" : "http://192.168.10.200:3447/fhir/CodeSystem/SzServicePointCS",
+  "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS",
   "version" : "0.1.0",
   "name" : "SzServicePointCS",
   "title" : "Code System: Eswatini Service Points",
   "status" : "draft",
-  "date" : "2025-07-09T11:11:31+00:00",
+  "date" : "2025-07-14T08:08:58+00:00",
   "publisher" : "Ministry of Health Eswatini",
   "contact" : [{
     "name" : "Ministry of Health Eswatini",
     "telecom" : [{
       "system" : "url",
-      "value" : "https://192.168.10.200:3447"
+      "value" : "https://172.209.216.154:3447"
     },
     {
       "system" : "email",

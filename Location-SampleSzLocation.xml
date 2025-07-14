@@ -3,12 +3,12 @@
 <Location xmlns="http://hl7.org/fhir">
   <id value="SampleSzLocation"/>
   <meta>
-    <profile value="http://192.168.10.200:3447/fhir/StructureDefinition/SzLocation"/>
+    <profile value="http://172.209.216.154:3447/fhir/StructureDefinition/SzLocation"/>
   </meta>
   <text>
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Location SampleSzLocation</b></p><a name="SampleSzLocation"> </a><a name="hcSampleSzLocation"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-SzLocation.html">Eswatini Location Profile</a></p></div><p><b>Extention: Eswatini Location Code</b>: H014</p><p><b>status</b>: Active</p><p><b>name</b>: Mahwalala Red Cross Clinic</p><p><b>type</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleCode OF}">Outpatient Facility</span></p><p><b>telecom</b>: ph: 2404 0000</p></div>
   </text>
-  <extension url="http://192.168.10.200:3447/fhir/StructureDefinition/SzLocationCodeExtension">
+  <extension url="http://172.209.216.154:3447/fhir/StructureDefinition/SzLocationCodeExtension">
     <valueString value="H014"/>
   </extension>
   <status value="active"/>

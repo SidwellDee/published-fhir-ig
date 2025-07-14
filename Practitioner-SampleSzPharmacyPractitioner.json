@@ -2,7 +2,7 @@
   "resourceType" : "Practitioner",
   "id" : "SampleSzPharmacyPractitioner",
   "meta" : {
-    "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzPractitioner"]
+    "profile" : ["http://172.209.216.154:3447/fhir/StructureDefinition/SzPractitioner"]
   },
   "text" : {
     "status" : "generated",

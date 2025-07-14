@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://192.168.10.200:3447/fhir/DiagnosticReport/SampleSzLabTest> a fhir:DiagnosticReport ;
+<http://172.209.216.154:3447/fhir/DiagnosticReport/SampleSzLabTest> a fhir:DiagnosticReport ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "SampleSzLabTest"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzLabTest"^^xsd:anyURI ;
-       fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzLabTest>
+       fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzLabTest"^^xsd:anyURI ;
+       fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzLabTest>
      ] )
   ] ; # 
   fhir:text [
@@ -29,11 +29,11 @@
      fhir:text [ fhir:v "HIV Viral Load (Plasma)" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzPatient> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Patient/SampleSzPatient> ;
      fhir:reference [ fhir:v "Patient/SampleSzPatient" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://192.168.10.200:3447/fhir/Encounter/SampleSzEncounter> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Encounter/SampleSzEncounter> ;
      fhir:reference [ fhir:v "Encounter/SampleSzEncounter" ]
   ] ; # 
   fhir:effective [
@@ -42,11 +42,11 @@
   ] ; # 
   fhir:issued [ fhir:v "2024-09-11T10:00:00Z"^^xsd:dateTime] ; # 
   fhir:performer ( [
-     fhir:link <http://192.168.10.200:3447/fhir/Practitioner/SampleSzPractitioner> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Practitioner/SampleSzPractitioner> ;
      fhir:reference [ fhir:v "Practitioner/SampleSzPractitioner" ]
   ] ) ; # 
   fhir:specimen ( [
-     fhir:link <http://192.168.10.200:3447/fhir/Specimen/SampleSzSpecimen> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Specimen/SampleSzSpecimen> ;
      fhir:reference [ fhir:v "Specimen/SampleSzSpecimen" ]
   ] ) . # 
 

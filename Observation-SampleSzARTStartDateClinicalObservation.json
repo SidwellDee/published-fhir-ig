@@ -2,7 +2,7 @@
   "resourceType" : "Observation",
   "id" : "SampleSzARTStartDateClinicalObservation",
   "meta" : {
-    "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzClinicalObservation"]
+    "profile" : ["http://172.209.216.154:3447/fhir/StructureDefinition/SzClinicalObservation"]
   },
   "text" : {
     "status" : "generated",

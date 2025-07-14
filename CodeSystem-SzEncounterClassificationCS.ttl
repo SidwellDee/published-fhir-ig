@@ -6,26 +6,26 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://192.168.10.200:3447/fhir/CodeSystem/SzEncounterClassificationCS> a fhir:CodeSystem ;
+<http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterClassificationCS> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "SzEncounterClassificationCS"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem SzEncounterClassificationCS</b></p><a name=\"SzEncounterClassificationCS\"> </a><a name=\"hcSzEncounterClassificationCS\"> </a><p>This  code system <code>http://192.168.10.200:3447/fhir/CodeSystem/SzEncounterClassificationCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">OPD<a name=\"SzEncounterClassificationCS-OPD\"> </a></td><td>Out Patient Department</td></tr><tr><td style=\"white-space:nowrap\">IPD<a name=\"SzEncounterClassificationCS-IPD\"> </a></td><td>In Patient Department</td></tr><tr><td style=\"white-space:nowrap\">EMG<a name=\"SzEncounterClassificationCS-EMG\"> </a></td><td>Emergency</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem SzEncounterClassificationCS</b></p><a name=\"SzEncounterClassificationCS\"> </a><a name=\"hcSzEncounterClassificationCS\"> </a><p>This  code system <code>http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterClassificationCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">OPD<a name=\"SzEncounterClassificationCS-OPD\"> </a></td><td>Out Patient Department</td></tr><tr><td style=\"white-space:nowrap\">IPD<a name=\"SzEncounterClassificationCS-IPD\"> </a></td><td>In Patient Department</td></tr><tr><td style=\"white-space:nowrap\">EMG<a name=\"SzEncounterClassificationCS-EMG\"> </a></td><td>Emergency</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
-  fhir:url [ fhir:v "http://192.168.10.200:3447/fhir/CodeSystem/SzEncounterClassificationCS"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterClassificationCS"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "EswatiniEncounterClassification"] ; # 
   fhir:title [ fhir:v "Code System: Encounter Classification"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-07-09T11:11:31+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-07-14T08:08:58+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministry of Health Eswatini"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ministry of Health Eswatini" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "https://192.168.10.200:3447" ]
+       fhir:value [ fhir:v "https://172.209.216.154:3447" ]
      ] [
        fhir:system [ fhir:v "email" ] ;
        fhir:value [ fhir:v "eswatinihie@moh.gov.sz" ]

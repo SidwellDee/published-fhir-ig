@@ -2,7 +2,7 @@
   "resourceType" : "MedicationRequest",
   "id" : "SampleSzMalariaMedicationRequest",
   "meta" : {
-    "profile" : ["http://192.168.10.200:3447/fhir/StructureDefinition/SzMedicationRequest"]
+    "profile" : ["http://172.209.216.154:3447/fhir/StructureDefinition/SzMedicationRequest"]
   },
   "text" : {
     "status" : "generated",

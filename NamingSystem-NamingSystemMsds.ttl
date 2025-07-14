@@ -6,18 +6,18 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://192.168.10.200:3447/fhir/NamingSystem/NamingSystemMsds> a fhir:NamingSystem ;
+<http://172.209.216.154:3447/fhir/NamingSystem/NamingSystemMsds> a fhir:NamingSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "NamingSystemMsds"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: NamingSystem NamingSystemMsds</b></p><a name=\"NamingSystemMsds\"> </a><a name=\"hcNamingSystemMsds\"> </a><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>http://192.168.10.200:3447/fhir/NamingSystem/NamingSystemMsds</td></tr><tr><td>Version</td><td>0.1.0</td></tr><tr><td>Name</td><td>Malaria Surveilance Data System</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Malaria Surveilance Data System</p>\n</div></td></tr><tr><td>Publisher</td><td>Ministry of Health Eswatini</td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>urn:health:msds</td><td>true</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: NamingSystem NamingSystemMsds</b></p><a name=\"NamingSystemMsds\"> </a><a name=\"hcNamingSystemMsds\"> </a><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>http://172.209.216.154:3447/fhir/NamingSystem/NamingSystemMsds</td></tr><tr><td>Version</td><td>0.1.0</td></tr><tr><td>Name</td><td>Malaria Surveilance Data System</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Malaria Surveilance Data System</p>\n</div></td></tr><tr><td>Publisher</td><td>Ministry of Health Eswatini</td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>urn:health:msds</td><td>true</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url"^^xsd:anyURI ] ;
      fhir:value [
        a fhir:uri ;
-       fhir:v "http://192.168.10.200:3447/fhir/NamingSystem/NamingSystemMsds"^^xsd:anyURI
+       fhir:v "http://172.209.216.154:3447/fhir/NamingSystem/NamingSystemMsds"^^xsd:anyURI
      ]
   ] [
      fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version"^^xsd:anyURI ] ;
@@ -35,7 +35,7 @@
      fhir:name [ fhir:v "Ministry of Health Eswatini" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "https://192.168.10.200:3447" ]
+       fhir:value [ fhir:v "https://172.209.216.154:3447" ]
      ] [
        fhir:system [ fhir:v "email" ] ;
        fhir:value [ fhir:v "eswatinihie@moh.gov.sz" ]

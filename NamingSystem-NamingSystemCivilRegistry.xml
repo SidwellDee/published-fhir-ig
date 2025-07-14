@@ -3,11 +3,11 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
   <id value="NamingSystemCivilRegistry"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: NamingSystem NamingSystemCivilRegistry</b></p><a name="NamingSystemCivilRegistry"> </a><a name="hcNamingSystemCivilRegistry"> </a><h3>Summary</h3><table class="grid"><tr><td>Defining URL</td><td>http://192.168.10.200:3447/fhir/NamingSystem/NamingSystemCivilRegistry</td></tr><tr><td>Version</td><td>0.1.0</td></tr><tr><td>Name</td><td>Civil Registry</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Civil Registry</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: NamingSystem NamingSystemCivilRegistry</b></p><a name="NamingSystemCivilRegistry"> </a><a name="hcNamingSystemCivilRegistry"> </a><h3>Summary</h3><table class="grid"><tr><td>Defining URL</td><td>http://172.209.216.154:3447/fhir/NamingSystem/NamingSystemCivilRegistry</td></tr><tr><td>Version</td><td>0.1.0</td></tr><tr><td>Name</td><td>Civil Registry</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Civil Registry</p>
 </div></td></tr><tr><td>Publisher</td><td>Ministry of Health Eswatini</td></tr></table><h3>Identifiers</h3><table class="grid"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>urn:homeaffairs:population-register</td><td>true</td></tr></table></div>
   </text>
   <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url">
-    <valueUri value="http://192.168.10.200:3447/fhir/NamingSystem/NamingSystemCivilRegistry"/>
+    <valueUri value="http://172.209.216.154:3447/fhir/NamingSystem/NamingSystemCivilRegistry"/>
   </extension>
   <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version">
     <valueString value="0.1.0"/>
@@ -21,7 +21,7 @@
     <name value="Ministry of Health Eswatini"/>
     <telecom>
       <system value="url"/>
-      <value value="https://192.168.10.200:3447"/>
+      <value value="https://172.209.216.154:3447"/>
     </telecom>
     <telecom>
       <system value="email"/>

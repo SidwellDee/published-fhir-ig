@@ -3,20 +3,20 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="SzPersonIdentificationsCS"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem SzPersonIdentificationsCS</b></p><a name="SzPersonIdentificationsCS"> </a><a name="hcSzPersonIdentificationsCS"> </a><p>This  code system <code>http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">PI<a name="SzPersonIdentificationsCS-PI"> </a></td><td>Personal ID Number</td></tr><tr><td style="white-space:nowrap">PA<a name="SzPersonIdentificationsCS-PA"> </a></td><td>Passport Number</td></tr><tr><td style="white-space:nowrap">TP<a name="SzPersonIdentificationsCS-TP"> </a></td><td>Temporary Permit</td></tr><tr><td style="white-space:nowrap">FD<a name="SzPersonIdentificationsCS-FD"> </a></td><td>Foreign Document</td></tr><tr><td style="white-space:nowrap">MH<a name="SzPersonIdentificationsCS-MH"> </a></td><td>Ministry of Health Workder ID</td></tr><tr><td style="white-space:nowrap">MR<a name="SzPersonIdentificationsCS-MR"> </a></td><td>Medical Record Number</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem SzPersonIdentificationsCS</b></p><a name="SzPersonIdentificationsCS"> </a><a name="hcSzPersonIdentificationsCS"> </a><p>This  code system <code>http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">PI<a name="SzPersonIdentificationsCS-PI"> </a></td><td>Personal ID Number</td></tr><tr><td style="white-space:nowrap">PA<a name="SzPersonIdentificationsCS-PA"> </a></td><td>Passport Number</td></tr><tr><td style="white-space:nowrap">TP<a name="SzPersonIdentificationsCS-TP"> </a></td><td>Temporary Permit</td></tr><tr><td style="white-space:nowrap">FD<a name="SzPersonIdentificationsCS-FD"> </a></td><td>Foreign Document</td></tr><tr><td style="white-space:nowrap">MH<a name="SzPersonIdentificationsCS-MH"> </a></td><td>Ministry of Health Workder ID</td></tr><tr><td style="white-space:nowrap">MR<a name="SzPersonIdentificationsCS-MR"> </a></td><td>Medical Record Number</td></tr></table></div>
   </text>
-  <url value="http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS"/>
+  <url value="http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS"/>
   <version value="0.1.0"/>
   <name value="SzPersonIdentificationsCS"/>
   <title value="Code System: Person Identification Types"/>
   <status value="draft"/>
-  <date value="2025-07-09T11:11:31+00:00"/>
+  <date value="2025-07-14T08:08:58+00:00"/>
   <publisher value="Ministry of Health Eswatini"/>
   <contact>
     <name value="Ministry of Health Eswatini"/>
     <telecom>
       <system value="url"/>
-      <value value="https://192.168.10.200:3447"/>
+      <value value="https://172.209.216.154:3447"/>
     </telecom>
     <telecom>
       <system value="email"/>

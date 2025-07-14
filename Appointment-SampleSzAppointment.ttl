@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://192.168.10.200:3447/fhir/Appointment/SampleSzAppointment> a fhir:Appointment ;
+<http://172.209.216.154:3447/fhir/Appointment/SampleSzAppointment> a fhir:Appointment ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "SampleSzAppointment"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzAppointment"^^xsd:anyURI ;
-       fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzAppointment>
+       fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzAppointment"^^xsd:anyURI ;
+       fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzAppointment>
      ] )
   ] ; # 
   fhir:text [
@@ -39,13 +39,13 @@
   fhir:created [ fhir:v "2024-09-01"^^xsd:date] ; # 
   fhir:participant ( [
      fhir:actor [
-       fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzPatient> ;
+       fhir:link <http://172.209.216.154:3447/fhir/Patient/SampleSzPatient> ;
        fhir:reference [ fhir:v "Patient/SampleSzPatient" ]
      ] ;
      fhir:status [ fhir:v "accepted" ]
   ] [
      fhir:actor [
-       fhir:link <http://192.168.10.200:3447/fhir/Location/SampleSzLocation> ;
+       fhir:link <http://172.209.216.154:3447/fhir/Location/SampleSzLocation> ;
        fhir:reference [ fhir:v "Location/SampleSzLocation" ]
      ] ;
      fhir:status [ fhir:v "accepted" ]

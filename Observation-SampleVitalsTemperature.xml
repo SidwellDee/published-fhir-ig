@@ -3,7 +3,7 @@
 <Observation xmlns="http://hl7.org/fhir">
   <id value="SampleVitalsTemperature"/>
   <meta>
-    <profile value="http://192.168.10.200:3447/fhir/StructureDefinition/SzVitalSigns"/>
+    <profile value="http://172.209.216.154:3447/fhir/StructureDefinition/SzVitalSigns"/>
   </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation SampleVitalsTemperature</b></p><a name="SampleVitalsTemperature"> </a><a name="hcSampleVitalsTemperature"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-SzVitalSigns.html">Eswatini Vital Signs Profile</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}">Vital Signs</span></p><p><b>code</b>: <span title="Codes:{http://hl7.org/fhir/ValueSet/observation-vitalsignresult 8310-5}">Temperature</span></p><p><b>subject</b>: <a href="Patient-SampleSzPatient.html">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</a></p><p><b>effective</b>: 2024-11-25</p><p><b>value</b>: 37.5 °C</p></div>

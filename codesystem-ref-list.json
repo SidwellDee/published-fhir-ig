@@ -1,7 +1,7 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://192.168.10.200:3447/fhir/CodeSystem/SzChiefdomCS",
+      "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "SzChiefdomCS",
@@ -12,7 +12,7 @@
       "ValueSet-SzChiefdomVS.html" : "Value Set: Chiefdoms Value Set"
     },
     {
-      "url" : "http://192.168.10.200:3447/fhir/CodeSystem/SzEncounterClassificationCS",
+      "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterClassificationCS",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "EswatiniEncounterClassification",
@@ -23,7 +23,7 @@
       "ValueSet-SzEncounterClassificationVS.html" : "Value Set: Encounter Classification"
     },
     {
-      "url" : "http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS",
+      "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "SzPersonIdentificationsCS",
@@ -34,7 +34,7 @@
       "ValueSet-PersonIdentifiersVS.html" : "Value Set: Person Identifier"
     },
     {
-      "url" : "http://192.168.10.200:3447/fhir/CodeSystem/SzProductCodeCS",
+      "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzProductCodeCS",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "SzProductCodeCS",
@@ -45,7 +45,7 @@
       "ValueSet-SzProductCodeVS.html" : "Value Set: Product Code Value Set"
     },
     {
-      "url" : "http://192.168.10.200:3447/fhir/CodeSystem/SzServicePointCS",
+      "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "SzServicePointCS",
@@ -56,7 +56,7 @@
       "ValueSet-SzServicePointVS.html" : "Value set: Eswatini Service Points"
     },
     {
-      "url" : "http://192.168.10.200:3447/fhir/CodeSystem/SzTestCodeCS",
+      "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzTestCodeCS",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "EswatiniTestCodes",
@@ -67,7 +67,7 @@
       "ValueSet-SzTestCodeVS.html" : "Value Set: Local Test Codes"
     },
     {
-      "url" : "http://192.168.10.200:3447/fhir/CodeSystem/SzTestParameterCodeCS",
+      "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzTestParameterCodeCS",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "SzTestParameterCodeCS",
@@ -78,7 +78,7 @@
       "ValueSet-SzTestParameterCodeVS.html" : "Value Set: Eswatini Local Test Parameter Codes"
     },
     {
-      "url" : "http://192.168.10.200:3447/fhir/CodeSystem/SzTinkhundlaCS",
+      "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS",
       "version" : "0.1.0",
       "status" : "active",
       "name" : "EswatiniTinkhundla",

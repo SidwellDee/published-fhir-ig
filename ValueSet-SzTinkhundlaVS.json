@@ -3,20 +3,20 @@
   "id" : "SzTinkhundlaVS",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet SzTinkhundlaVS</b></p><a name=\"SzTinkhundlaVS\"> </a><a name=\"hcSzTinkhundlaVS\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-SzTinkhundlaCS.html\"><code>http://192.168.10.200:3447/fhir/CodeSystem/SzTinkhundlaCS</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet SzTinkhundlaVS</b></p><a name=\"SzTinkhundlaVS\"> </a><a name=\"hcSzTinkhundlaVS\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-SzTinkhundlaCS.html\"><code>http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS</code></a></li></ul></div>"
   },
-  "url" : "http://192.168.10.200:3447/fhir/ValueSet/SzTinkhundlaVS",
+  "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzTinkhundlaVS",
   "version" : "0.1.0",
   "name" : "SzTinkhundlaVS",
   "title" : "Value Set: Tinkhundla",
   "status" : "draft",
-  "date" : "2025-07-09T11:11:31+00:00",
+  "date" : "2025-07-14T08:08:58+00:00",
   "publisher" : "Ministry of Health Eswatini",
   "contact" : [{
     "name" : "Ministry of Health Eswatini",
     "telecom" : [{
       "system" : "url",
-      "value" : "https://192.168.10.200:3447"
+      "value" : "https://172.209.216.154:3447"
     },
     {
       "system" : "email",
@@ -26,7 +26,7 @@
   "description" : "Value set for Eswatini Tinkhundla",
   "compose" : {
     "include" : [{
-      "system" : "http://192.168.10.200:3447/fhir/CodeSystem/SzTinkhundlaCS"
+      "system" : "http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS"
     }]
   }
 }

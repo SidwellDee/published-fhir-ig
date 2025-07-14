@@ -7,13 +7,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://192.168.10.200:3447/fhir/Medication/SampleSzMedication> a fhir:Medication ;
+<http://172.209.216.154:3447/fhir/Medication/SampleSzMedication> a fhir:Medication ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "SampleSzMedication"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzMedication"^^xsd:anyURI ;
-       fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzMedication>
+       fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzMedication"^^xsd:anyURI ;
+       fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzMedication>
      ] )
   ] ; # 
   fhir:text [

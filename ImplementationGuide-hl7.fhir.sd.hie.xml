@@ -1,0 +1,1332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="hl7.fhir.sd.hie"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide hl7.fhir.sd.hie</b></p><a name="hl7.fhir.sd.hie"> </a><a name="hchl7.fhir.sd.hie"> </a><h2>EswatiniHIEImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>http://172.209.216.154:3447/fhir/ImplementationGuide/hl7.fhir.sd.hie</pre></div>
+  </text>
+  <url value="http://172.209.216.154:3447/fhir/ImplementationGuide/hl7.fhir.sd.hie"/>
+  <version value="0.1.0"/>
+  <name value="EswatiniHIEImplementationGuide"/>
+  <title value="Eswatini HL7 FHIR Implementation Guide"/>
+  <status value="draft"/>
+  <date value="2025-07-14T08:08:58+00:00"/>
+  <publisher value="Ministry of Health Eswatini"/>
+  <contact>
+    <name value="Ministry of Health Eswatini"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://172.209.216.154:3447"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="eswatinihie@moh.gov.sz"/>
+    </telecom>
+  </contact>
+  <packageId value="hl7.fhir.sd.hie"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="4.0.1"/>
+  <dependsOn id="hl7tx">
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
+      <valueMarkdown value="Automatically added as a dependency - all IGs depend on HL7 Terminology"/>
+    </extension>
+    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
+    <packageId value="hl7.terminology.r4"/>
+    <version value="6.5.0"/>
+  </dependsOn>
+  <dependsOn id="hl7ext">
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
+      <valueMarkdown value="Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"/>
+    </extension>
+    <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <packageId value="hl7.fhir.uv.extensions.r4"/>
+    <version value="5.2.0"/>
+  </dependsOn>
+  <dependsOn id="hl7_fhir_us_core">
+    <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"/>
+    <packageId value="hl7.fhir.us.core"/>
+    <version value="7.0.0"/>
+  </dependsOn>
+  <definition>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="copyrightyear"/>
+      </extension>
+      <extension url="value">
+        <valueString value="2022+"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="releaselabel"/>
+      </extension>
+      <extension url="value">
+        <valueString value="ci-build"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="autoload-resources"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-qa"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/qa"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-temp"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/pages"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-output"/>
+      </extension>
+      <extension url="value">
+        <valueString value="output"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-suppressed-warnings"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/ignoreWarnings.txt"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-history"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://172.209.216.154:3447/fhir/history.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="template-html"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="template-md"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page-md.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-contact"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-context"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-copyright"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-jurisdiction"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-license"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-publisher"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-wg"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="active-tables"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="fmm-definition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/fhir/versions.html#maturity"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="propagate-status"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="excludelogbinaryformat"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="tabbed-snapshots"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
+      <valueCode value="hl7.fhir.uv.tools.r4#0.5.0"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="copyrightyear"/>
+      </extension>
+      <extension url="value">
+        <valueString value="2022+"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="releaselabel"/>
+      </extension>
+      <extension url="value">
+        <valueString value="ci-build"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="autoload-resources"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-qa"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/qa"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-temp"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/pages"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-output"/>
+      </extension>
+      <extension url="value">
+        <valueString value="output"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-suppressed-warnings"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/ignoreWarnings.txt"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-history"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://172.209.216.154:3447/fhir/history.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="template-html"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="template-md"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page-md.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-contact"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-context"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-copyright"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-jurisdiction"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-license"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-publisher"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-wg"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="active-tables"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="fmm-definition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/fhir/versions.html#maturity"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="propagate-status"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="excludelogbinaryformat"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="tabbed-snapshots"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/SzEncounterClassificationCS"/>
+      </reference>
+      <name value="Code System: Encounter Classification"/>
+      <description value="Data element that contains the classification of encounters."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/SzChiefdomCS"/>
+      </reference>
+      <name value="Code System: Eswatini Chiefdoms"/>
+      <description value="Code system for ESwatini Chiefdoms"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/SzTestCodeCS"/>
+      </reference>
+      <name value="Code System: Eswatini Local Test Codes"/>
+      <description value="Data element that contains alternate test codes used by the Laboratory Information System to identify laboratory tests."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/SzTestParameterCodeCS"/>
+      </reference>
+      <name value="Code System: Eswatini Local Test Parameter Codes"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/SzProductCodeCS"/>
+      </reference>
+      <name value="Code System: Eswatini Product Codes"/>
+      <description value="Code system for ESwatini Product Codes"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/SzServicePointCS"/>
+      </reference>
+      <name value="Code System: Eswatini Service Points"/>
+      <description value="Code System for Eswatini service points"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/SzTinkhundlaCS"/>
+      </reference>
+      <name value="Code System: Eswatini Tinkhundla"/>
+      <description value="Code system for Eswatini Tinkhundla"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/SzPersonIdentificationsCS"/>
+      </reference>
+      <name value="Code System: Person Identification Types"/>
+      <description value="Data element that contains the name and identification number of a specific person for identity and individualization purposes."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SzAppointment"/>
+      </reference>
+      <name value="Eswatini Appointment Profile"/>
+      <description value="Definition of Eswatini Appointment Profile"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SzClinicalObservation"/>
+      </reference>
+      <name value="Eswatini Clinical Observation Profile"/>
+      <description value="Eswatini Clinical Observation Profile"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SzEncounter"/>
+      </reference>
+      <name value="Eswatini Encounter Profile"/>
+      <description value="The Eswatini Encounter Profile inherits from .... This profile sets minimum expectations for the Encounter resource to record basic encounter&#xA;information for a patient. It specifies which core elements shall be present and constrains how the elements are used."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SzLabResult"/>
+      </reference>
+      <name value="Eswatini Lab Result Profile"/>
+      <description value="Eswatini Lab Result Profile"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SzLabTest"/>
+      </reference>
+      <name value="Eswatini Lab Test Profile"/>
+      <description value="Eswatini Lab Test Profile"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SzLocation"/>
+      </reference>
+      <name value="Eswatini Location Profile"/>
+      <description value="Eswatini Location Profile sets a standard for recording locations where medical care is provided"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SzMedication"/>
+      </reference>
+      <name value="Eswatini Medication Profile"/>
+      <description value="Definition of Eswatinit Medication Profile"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SzMedicationDispense"/>
+      </reference>
+      <name value="Eswatini Medication Request Profile"/>
+      <description value="Definition of Eswatinit Medication Request Profile"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SzMedicationRequest"/>
+      </reference>
+      <name value="Eswatini Medication Request Profile"/>
+      <description value="Definition of Eswatinit Medication Request Profile"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SzOrganization"/>
+      </reference>
+      <name value="Eswatini Organization Profile"/>
+      <description value="Organization profile"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SzPatient"/>
+      </reference>
+      <name value="Eswatini Patient Profile"/>
+      <description value="Definition of the FHIR Eswatini Patient resource"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SzPractitioner"/>
+      </reference>
+      <name value="Eswatini Practitioner Profile"/>
+      <description value="Definition of the FHRI Eswatini Practitioner resource"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SzProcedure"/>
+      </reference>
+      <name value="Eswatini Procedure Profile"/>
+      <description value="This resource is designed to record details of current and historical procedures performed on a patient.&#xA;This may include the start and stop dates of treatment like IPT."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SzLabSpecimen"/>
+      </reference>
+      <name value="Eswatini Specimen Profile"/>
+      <description value="The Eswatini Specimen Profile is based on the FHIR Specimen resource. This profile sets minimum&#xA;expectation for Specimen resource to record information about substances associated with a patient or laboratory request being tested.&#xA;This profile specifies which core elements shall be present and how these elements are used."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SzVitalSigns"/>
+      </reference>
+      <name value="Eswatini Vital Signs Profile"/>
+      <description value="This profile is based on the base FHIR Vital Signs Profile and defines additional constraints on the Observation resource to represent&#xA;vital signs observations specifically for Eswatini."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SzChiefdomExtension"/>
+      </reference>
+      <name value="Extention: Eswatini Chiefdom"/>
+      <description value="Extention for Eswatini Chiefdom"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SzInkhundlaExtension"/>
+      </reference>
+      <name value="Extention: Eswatini Inkhundla"/>
+      <description value="Extention for Eswatini Tinkhundla"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SzAuthorizerExtension"/>
+      </reference>
+      <name value="Extention: Eswatini Lab Result Authorizer"/>
+      <description value="Extention for Eswatini Lab Result Authorizer"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SzLocationCodeExtension"/>
+      </reference>
+      <name value="Extention: Eswatini Location Code"/>
+      <description value="Extention for Eswatini Location Code"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SzTestingLabExtension"/>
+      </reference>
+      <name value="Extention: Eswatini Testing Laboratory"/>
+      <description value="Extention for Eswatini Testing Laboratory"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/NamingSystemCbhis"/>
+      </reference>
+      <name value="NamingSystemCbhis"/>
+      <description value="Community Based Health Information System Electronic Medical Record"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/NamingSystemCivilRegistry"/>
+      </reference>
+      <name value="NamingSystemCivilRegistry"/>
+      <description value="Civil Registry"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/NamingSystemCmis"/>
+      </reference>
+      <name value="NamingSystemCmis"/>
+      <description value="Client Management Information System Electronic Medical Record"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/NamingSystemMsds"/>
+      </reference>
+      <name value="NamingSystemMsds"/>
+      <description value="Malaria Surveilance Data System"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/SampleSzPatient"/>
+      </reference>
+      <name value="Sample Eswatini Patient"/>
+      <description value="Sample Eswaitni Patient"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzPatient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/SampleSzPharmacyPractitioner"/>
+      </reference>
+      <name value="Sample Pharmacy Practitioner"/>
+      <description value="Sample Eswatini Pharmacist"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzPractitioner"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/SampleSzPractitioner"/>
+      </reference>
+      <name value="Sample SzPractitioner"/>
+      <description value="Sample Eswatini Practitioner"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzPractitioner"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Appointment"/>
+      </extension>
+      <reference>
+        <reference value="Appointment/SampleSzAppointment"/>
+      </reference>
+      <name value="SampleSzAppointment"/>
+      <description value="Sample Eswatini Appointment"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzAppointment"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SampleSzARTStartDateClinicalObservation"/>
+      </reference>
+      <name value="SampleSzARTStartDateClinicalObservation"/>
+      <description value="Sample Eswatini Clinical Observation"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzClinicalObservation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/SampleSzBundle"/>
+      </reference>
+      <name value="SampleSzBundle"/>
+      <description value="Sample Eswatini Bundle"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/SampleSzBundle1"/>
+      </reference>
+      <name value="SampleSzBundle1"/>
+      <description value="Sample Eswatini Patient and Encounter bundle"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/SampleSzEncounter"/>
+      </reference>
+      <name value="SampleSzEncounter"/>
+      <description value="Sample Eswatini Encounter"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzEncounter"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Procedure"/>
+      </extension>
+      <reference>
+        <reference value="Procedure/SampleSzIPTProcedure"/>
+      </reference>
+      <name value="SampleSzIPTProcedure"/>
+      <description value="Sample Eswatini Procedure showing how the Eswainit Procedure Profile can be used to record IPT Start and Stop Dates."/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzProcedure"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/SampleSzLabLocation"/>
+      </reference>
+      <name value="SampleSzLabLocation"/>
+      <description value="Sample Eswatini Testing Laboratory"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzLocation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SampleSzLabResult1"/>
+      </reference>
+      <name value="SampleSzLabResult1"/>
+      <description value="Sample Eswatini Lab Result"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzLabResult"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DiagnosticReport"/>
+      </extension>
+      <reference>
+        <reference value="DiagnosticReport/SampleSzLabTest"/>
+      </reference>
+      <name value="SampleSzLabTest"/>
+      <description value="Sample Eswatini Lab Test"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzLabTest"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/SampleSzLocation"/>
+      </reference>
+      <name value="SampleSzLocation"/>
+      <description value="Sample Eswatini Location"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzLocation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/SampleSzMalariaBundle"/>
+      </reference>
+      <name value="SampleSzMalariaBundle"/>
+      <description value="Sample Malaria Bundle"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/SampleSzMalariaCondition-001"/>
+      </reference>
+      <name value="SampleSzMalariaCondition-001"/>
+      <description value="Sample Eswatini Malaria Condition"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/SampleSzMalariaEncounter"/>
+      </reference>
+      <name value="SampleSzMalariaEncounter"/>
+      <description value="Sample Eswatini Malaria Encounter"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzEncounter"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SampleSzMalariaLabResult"/>
+      </reference>
+      <name value="SampleSzMalariaLabResult"/>
+      <description value="Sample Malaria Lab Result"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzLabResult"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DiagnosticReport"/>
+      </extension>
+      <reference>
+        <reference value="DiagnosticReport/SampleSzMalariaLabTest"/>
+      </reference>
+      <name value="SampleSzMalariaLabTest"/>
+      <description value="Sample Malaria Lab Test"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzLabTest"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationDispense"/>
+      </extension>
+      <reference>
+        <reference value="MedicationDispense/SampleSzMalariaMedicalDispense"/>
+      </reference>
+      <name value="SampleSzMalariaMedicalDispense"/>
+      <description value="Sample Eswatini Malaria Medication Dispense"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzMedicationDispense"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationRequest"/>
+      </extension>
+      <reference>
+        <reference value="MedicationRequest/SampleSzMalariaMedicationRequest"/>
+      </reference>
+      <name value="SampleSzMalariaMedicationRequest"/>
+      <description value="Sample Eswatini Malaria Medication Request"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzMedicationRequest"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/SampleSzMalariaPatient"/>
+      </reference>
+      <name value="SampleSzMalariaPatient"/>
+      <description value="Sample Eswatini Malaria Patient"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzPatient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Specimen"/>
+      </extension>
+      <reference>
+        <reference value="Specimen/SampleSzMalariaSpecimen"/>
+      </reference>
+      <name value="SampleSzMalariaSpecimen"/>
+      <description value="Sample Eswatini Malaria Specimen"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzLabSpecimen"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SampleSzMalariaTravelHistory"/>
+      </reference>
+      <name value="SampleSzMalariaTravelHistory"/>
+      <description value="Sample Malaria Lab Result"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzClinicalObservation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationDispense"/>
+      </extension>
+      <reference>
+        <reference value="MedicationDispense/SampleSzMedicalDispense"/>
+      </reference>
+      <name value="SampleSzMedicalDispense"/>
+      <description value="Sample Eswatini Medication Request"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzMedicationDispense"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Medication"/>
+      </extension>
+      <reference>
+        <reference value="Medication/SampleSzMedication"/>
+      </reference>
+      <name value="SampleSzMedication"/>
+      <description value="Sample Eswatini Medication"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzMedication"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationRequest"/>
+      </extension>
+      <reference>
+        <reference value="MedicationRequest/SampleSzMedicationRequest"/>
+      </reference>
+      <name value="SampleSzMedicationRequest"/>
+      <description value="Sample Eswatini Medication Request"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzMedicationRequest"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Specimen"/>
+      </extension>
+      <reference>
+        <reference value="Specimen/SampleSzSpecimen"/>
+      </reference>
+      <name value="SampleSzSpecimen"/>
+      <description value="Sample Eswatini Specimen"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzLabSpecimen"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SampleVitalsBodyMassIndex"/>
+      </reference>
+      <name value="SampleVitalsBodyMassIndex"/>
+      <description value="Sample Eswatini Body Mass Index Vital Sign"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzVitalSigns"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SampleVitalsHeight"/>
+      </reference>
+      <name value="SampleVitalsHeight"/>
+      <description value="Sample Eswatini Height Vital Sign"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzVitalSigns"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SampleVitalsRespiratoryRate"/>
+      </reference>
+      <name value="SampleVitalsRespiratoryRate"/>
+      <description value="Sample Eswatini Respiratory Rate Vital Sign"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzVitalSigns"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SampleVitalsTemperature"/>
+      </reference>
+      <name value="SampleVitalsTemperature"/>
+      <description value="Sample Eswatini Temperature Vital Sign"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzVitalSigns"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SampleVitalsWeight"/>
+      </reference>
+      <name value="SampleVitalsWeight"/>
+      <description value="Sample Eswatini Weight Vital Sign"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzVitalSigns"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/SzChiefdomVS"/>
+      </reference>
+      <name value="Value Set: Chiefdoms Value Set"/>
+      <description value="Value set for ESwatini chiefdoms"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/SzEncounterClassificationVS"/>
+      </reference>
+      <name value="Value Set: Encounter Classification"/>
+      <description value="Eswatini Encounter Classification Codes"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/SzTestParameterCodeVS"/>
+      </reference>
+      <name value="Value Set: Eswatini Local Test Parameter Codes"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/SzServicePointVS"/>
+      </reference>
+      <name value="Value set: Eswatini Service Points"/>
+      <description value="Value set for Eswatini service points"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/CIE10VS"/>
+      </reference>
+      <name value="Value Set: ICD10"/>
+      <description value="CIE10 code values"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/SzTestCodeVS"/>
+      </reference>
+      <name value="Value Set: Local Test Codes"/>
+      <description value="Eswatini Local Test Codes"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/PersonIdentifiersVS"/>
+      </reference>
+      <name value="Value Set: Person Identifier"/>
+      <description value="Eswatini Person Identifiers"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/SzProductCodeVS"/>
+      </reference>
+      <name value="Value Set: Product Code Value Set"/>
+      <description value="Value set for ESwatini Product Codes"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/SzTinkhundlaVS"/>
+      </reference>
+      <name value="Value Set: Tinkhundla"/>
+      <description value="Value set for Eswatini Tinkhundla"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <page>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+        <valueUrl value="toc.html"/>
+      </extension>
+      <nameUrl value="toc.html"/>
+      <title value="Table of Contents"/>
+      <generation value="html"/>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="index.html"/>
+        </extension>
+        <nameUrl value="index.html"/>
+        <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+    </page>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/capabilities"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/examples"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/extensions"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/models"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/operations"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/profiles"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/vocabulary"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/maps"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/testing"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/history"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="fsh-generated/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="template/config"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="input/images"/>
+    </parameter>
+    <parameter>
+      <code value="path-tx-cache"/>
+      <value value="input-cache/txcache"/>
+    </parameter>
+  </definition>
+</ImplementationGuide>

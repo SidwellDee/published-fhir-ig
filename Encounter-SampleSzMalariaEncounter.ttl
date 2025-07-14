@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://192.168.10.200:3447/fhir/Encounter/SampleSzMalariaEncounter> a fhir:Encounter ;
+<http://172.209.216.154:3447/fhir/Encounter/SampleSzMalariaEncounter> a fhir:Encounter ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "SampleSzMalariaEncounter"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzEncounter"^^xsd:anyURI ;
-       fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzEncounter>
+       fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzEncounter"^^xsd:anyURI ;
+       fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzEncounter>
      ] )
   ] ; # 
   fhir:text [
@@ -26,12 +26,12 @@
      fhir:display [ fhir:v "Out Patient Department" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzPatient> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Patient/SampleSzPatient> ;
      fhir:reference [ fhir:v "Patient/SampleSzPatient" ]
   ] ; # 
   fhir:participant ( [
      fhir:individual [
-       fhir:link <http://192.168.10.200:3447/fhir/Practitioner/SampleSzPractitioner> ;
+       fhir:link <http://172.209.216.154:3447/fhir/Practitioner/SampleSzPractitioner> ;
        fhir:reference [ fhir:v "Practitioner/SampleSzPractitioner" ]
      ]
   ] ) ; # 
@@ -45,7 +45,7 @@
   ] ) ; # 
   fhir:location ( [
      fhir:location [
-       fhir:link <http://192.168.10.200:3447/fhir/Location/SampleSzLocation> ;
+       fhir:link <http://172.209.216.154:3447/fhir/Location/SampleSzLocation> ;
        fhir:reference [ fhir:v "Location/SampleSzLocation" ]
      ] ;
      fhir:status [ fhir:v "completed" ]

@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://192.168.10.200:3447/fhir/MedicationDispense/SampleSzMalariaMedicalDispense> a fhir:MedicationDispense ;
+<http://172.209.216.154:3447/fhir/MedicationDispense/SampleSzMalariaMedicalDispense> a fhir:MedicationDispense ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "SampleSzMalariaMedicalDispense"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://192.168.10.200:3447/fhir/StructureDefinition/SzMedicationDispense"^^xsd:anyURI ;
-       fhir:link <http://192.168.10.200:3447/fhir/StructureDefinition/SzMedicationDispense>
+       fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzMedicationDispense"^^xsd:anyURI ;
+       fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzMedicationDispense>
      ] )
   ] ; # 
   fhir:text [
@@ -30,21 +30,21 @@
      fhir:text [ fhir:v "Paracetamol Tablets 500g (Coloured Green) 100 TABS" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://192.168.10.200:3447/fhir/Patient/SampleSzMalariaPatient> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Patient/SampleSzMalariaPatient> ;
      fhir:reference [ fhir:v "Patient/SampleSzMalariaPatient" ]
   ] ; # 
   fhir:performer ( [
      fhir:actor [
-       fhir:link <http://192.168.10.200:3447/fhir/Practitioner/SampleSzPharmacyPractitioner> ;
+       fhir:link <http://172.209.216.154:3447/fhir/Practitioner/SampleSzPharmacyPractitioner> ;
        fhir:reference [ fhir:v "Practitioner/SampleSzPharmacyPractitioner" ]
      ]
   ] ) ; # 
   fhir:location [
-     fhir:link <http://192.168.10.200:3447/fhir/Location/SampleSzLocation> ;
+     fhir:link <http://172.209.216.154:3447/fhir/Location/SampleSzLocation> ;
      fhir:reference [ fhir:v "Location/SampleSzLocation" ]
   ] ; # 
   fhir:authorizingPrescription ( [
-     fhir:link <http://192.168.10.200:3447/fhir/MedicationRequest/SampleSzMalariaMedicationRequest> ;
+     fhir:link <http://172.209.216.154:3447/fhir/MedicationRequest/SampleSzMalariaMedicationRequest> ;
      fhir:reference [ fhir:v "MedicationRequest/SampleSzMalariaMedicationRequest" ]
   ] ) ; # 
   fhir:quantity [

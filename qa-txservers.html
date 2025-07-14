@@ -12,7 +12,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for EswatiniHIEImplementationGuide</h1>
- <p>Generated Wed Jul 09 11:19:15 UTC 2025, FHIR version 4.0.1 for org.fshschool.courses.fsh-seminar-exercise#0.1.0 (canonical = <a href="http://192.168.10.200:3447/fhir">http://192.168.10.200:3447/fhir</a> (<a href="http://192.168.10.200:3447/fhir/history.html">history</a>))</p>
+ <p>Generated Mon Jul 14 08:19:44 UTC 2025, FHIR version 4.0.1 for hl7.fhir.sd.hie#0.1.0 (canonical = <a href="http://172.209.216.154:3447/fhir">http://172.209.216.154:3447/fhir</a> (<a href="http://172.209.216.154:3447/fhir/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -60,6 +60,55 @@
     <td>null</td>
     <td>http://localhost:3447/fhir/CodeSystem/SzServicePointCS</td>
     <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://192.168.10.200:3447/fhir/CodeSystem/SzTinkhundlaCS</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://192.168.10.200:3447/fhir/CodeSystem/SzTinkhundlaCS</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://192.168.10.200:3447/fhir/CodeSystem/SzChiefdomCS</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://192.168.10.200:3447/fhir/CodeSystem/SzChiefdomCS</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://172.209.216.154:3447/fhir/ValueSet/SzEncounterClassificationVS|0.1.0</td>
+    <td>[http://localhost:3447/fhir/CodeSystem/SzEncounterClassificationCS, http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterClassificationCS]</td>
+    <td>[auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
@@ -159,10 +208,17 @@
     <td>http://localhost:3447/fhir/CodeSystem/SzTestParameterCodeCS</td>
     <td>auth = , candidates=</td>
   </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>http://172.209.216.154:3447/fhir/ValueSet/CIE10VS|0.1.0</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4</td>
+  </tr>
 </table>
 <h2>Primary Server: https://tx.fhir.org/r4</h2>
 <a href="https://tx.fhir.org/r4"></a>
-<p>Use Count: 7. Code Systems used: </p>
+<p>Use Count: 11. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -179,6 +235,32 @@
     </th>
   </tr>
   <tr>
+    <td>http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterClassificationCS</td>
+    <td>0</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-SzEncounterClassificationCS.html">Code System: Encounter Classification</a>
+    </td>
+  </tr>
+  <tr>
+    <td>http://192.168.10.200:3447/fhir/CodeSystem/SzChiefdomCS</td>
+    <td>0</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS</td>
+    <td>0</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>http://192.168.10.200:3447/fhir/CodeSystem/SzTinkhundlaCS</td>
+    <td>0</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
     <td>http://hl7.org/fhir/ValueSet/observation-vitalsignresult</td>
     <td>0</td>
     <td>1</td>
@@ -192,6 +274,12 @@
   </tr>
   <tr>
     <td>http://localhost:3447/fhir/CodeSystem/SzChiefdomCS</td>
+    <td>0</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>http://localhost:3447/fhir/CodeSystem/SzEncounterClassificationCS</td>
     <td>0</td>
     <td>1</td>
     <td></td>
@@ -223,7 +311,7 @@
 </table>
 <h2>Server: https://tx.fhir.org/r4</h2>
 <a href="https://tx.fhir.org/r4"></a>
-<p>Use Count: 2. Code Systems used: </p>
+<p>Use Count: 3. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -238,6 +326,14 @@
     <th>
       <b>Details</b>
     </th>
+  </tr>
+  <tr>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>1</td>
+    <td>0</td>
+    <td>
+      <a href="http://terminology.hl7.org/5.5.0/CodeSystem-icd10.html">ICD-10</a>
+    </td>
   </tr>
   <tr>
     <td>http://localhost:3447/fhir/CodeSystem/SzProductCodeCS</td>

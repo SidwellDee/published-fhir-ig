@@ -79,10 +79,10 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "MedicationDispense.performer.function","MedicationDispense.performer.function","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Who performed the dispense and what they did","Distinguishes the type of performer in the dispense.  For example, date enterer, packager, final checker.","","Allows disambiguation of the types of involvement of different performers.","","","","","","","",,"example","A code describing the role an individual played in dispensing a medication.","http://hl7.org/fhir/ValueSet/medicationdispense-performer-function","",,,,"MedicationDispense.performer.function",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","participation[typeCode=PRF].functionCode"
-"MedicationDispense.performer.actor","MedicationDispense.performer.actor","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://192.168.10.200:3447/fhir/StructureDefinition/SzPractitioner]]}
+"MedicationDispense.performer.actor","MedicationDispense.performer.actor","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://172.209.216.154:3447/fhir/StructureDefinition/SzPractitioner]]}
 ","Individual who was performing","The device, practitioner, etc. who performed the action.  It should be assumed that the actor is the dispenser of the medication.","","","","","","","","","",,,,,"",,,,"MedicationDispense.performer.actor",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.performer.actor",".role"
-"MedicationDispense.location","MedicationDispense.location","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://192.168.10.200:3447/fhir/StructureDefinition/SzLocation]]}
+"MedicationDispense.location","MedicationDispense.location","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://172.209.216.154:3447/fhir/StructureDefinition/SzLocation]]}
 ","Where the dispense occurred","The principal physical location where the dispense was performed.","","","","","","","","","",,,,,"",,,,"MedicationDispense.location",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".participation[typeCode=LOC].role"
 "MedicationDispense.authorizingPrescription","MedicationDispense.authorizingPrescription","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/MedicationRequest]]}

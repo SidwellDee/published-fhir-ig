@@ -5,7 +5,7 @@
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet CIE10VS</b></p><a name="CIE10VS"> </a><a name="hcCIE10VS"> </a><ul><li>Include all codes defined in <a href="http://terminology.hl7.org/5.5.0/CodeSystem-icd10.html"><code>http://hl7.org/fhir/sid/icd-10</code></a></li></ul></div>
   </text>
-  <url value="http://192.168.10.200:3447/fhir/ValueSet/CIE10VS"/>
+  <url value="http://172.209.216.154:3447/fhir/ValueSet/CIE10VS"/>
   <version value="0.1.0"/>
   <name value="CIE10VS"/>
   <title value="Value Set: ICD10"/>
@@ -17,7 +17,7 @@
     <name value="Ministry of Health Eswatini"/>
     <telecom>
       <system value="url"/>
-      <value value="https://192.168.10.200:3447"/>
+      <value value="https://172.209.216.154:3447"/>
     </telecom>
     <telecom>
       <system value="email"/>

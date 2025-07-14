@@ -12,8 +12,8 @@
   <sch:pattern>
     <sch:title>f:Patient</sch:title>
     <sch:rule context="f:Patient">
-      <sch:assert test="count(f:extension[@url = 'http://192.168.10.200:3447/fhir/StructureDefinition/SzInkhundlaExtension']) &lt;= 1">extension with URL = 'http://192.168.10.200:3447/fhir/StructureDefinition/SzInkhundlaExtension': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://192.168.10.200:3447/fhir/StructureDefinition/SzChiefdomExtension']) &lt;= 1">extension with URL = 'http://192.168.10.200:3447/fhir/StructureDefinition/SzChiefdomExtension': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://172.209.216.154:3447/fhir/StructureDefinition/SzInkhundlaExtension']) &lt;= 1">extension with URL = 'http://172.209.216.154:3447/fhir/StructureDefinition/SzInkhundlaExtension': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://172.209.216.154:3447/fhir/StructureDefinition/SzChiefdomExtension']) &lt;= 1">extension with URL = 'http://172.209.216.154:3447/fhir/StructureDefinition/SzChiefdomExtension': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:identifier) &gt;= 1">identifier: minimum cardinality of 'identifier' is 1</sch:assert>
       <sch:assert test="count(f:name) &gt;= 1">name: minimum cardinality of 'name' is 1</sch:assert>
       <sch:assert test="count(f:name) &lt;= 1">name: maximum cardinality of 'name' is 1</sch:assert>
