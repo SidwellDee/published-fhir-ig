@@ -17,7 +17,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient SampleSzMalariaPatient</b></p><a name=\"SampleSzMalariaPatient\"> </a><a name=\"hcSampleSzMalariaPatient\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzPatient.html\">Eswatini Patient Profile</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Jacob Samuel Gule  Male, DoB: 1990-01-01 ( Medical Record Number: M002111111-11 (use: usual, ))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Other Id (see the one above)\">Other Id:</td><td colspan=\"3\">Personal ID Number/1999001000000 (use: official, )</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The nationality of the patient.\">Patient Nationality:</td><td colspan=\"3\"><ul><li>code: <span title=\"Codes:{urn:iso:std:iso:3166 SWZ}\">Eswatini</span></li><li>period: 1981-01-20 --&gt; (ongoing)</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Base StructureDefinition for code type: A string which has at least one character and no leading or trailing whitespace and where there is no whitespace other than single spaces in the contents\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\"/></td><td colspan=\"3\"><ul><li><span title=\"Codes:{http://localhost:3447/fhir/CodeSystem/SzTinkhundlaCS DVOKODVWENI}\">Dvokodvweni</span></li><li><span title=\"Codes:{http://localhost:3447/fhir/CodeSystem/SzChiefdomCS Kwaluseni}\">Kwaluseni</span></li></ul></td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient SampleSzMalariaPatient</b></p><a name=\"SampleSzMalariaPatient\"> </a><a name=\"hcSampleSzMalariaPatient\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzPatient.html\">Eswatini Patient Profile</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Jacob Samuel Gule  Male, DoB: 1990-01-01 ( Medical Record Number: M002111111-11 (use: usual, ))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Other Id (see the one above)\">Other Id:</td><td colspan=\"3\">Personal ID Number/1999001000000 (use: official, )</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The nationality of the patient.\">Patient Nationality:</td><td colspan=\"3\"><ul><li>code: <span title=\"Codes:{urn:iso:std:iso:3166 SWZ}\">Eswatini</span></li><li>period: 1981-01-20 --&gt; (ongoing)</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Base StructureDefinition for code type: A string which has at least one character and no leading or trailing whitespace and where there is no whitespace other than single spaces in the contents\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\"/></td><td colspan=\"3\"><ul><li><span title=\"Codes:{http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS DVOKODVWENI}\">Dvokodvweni</span></li><li><span title=\"Codes:{http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS Kwaluseni}\">Kwaluseni</span></li></ul></td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:extension ( [
@@ -43,7 +43,7 @@
      fhir:value [
        a fhir:CodeableConcept ;
        fhir:coding ( [
-         fhir:system [ fhir:v "http://localhost:3447/fhir/CodeSystem/SzTinkhundlaCS"^^xsd:anyURI ] ;
+         fhir:system [ fhir:v "http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "DVOKODVWENI" ] ;
          fhir:display [ fhir:v "Dvokodvweni" ]
        ] ) ;
@@ -54,7 +54,7 @@
      fhir:value [
        a fhir:CodeableConcept ;
        fhir:coding ( [
-         fhir:system [ fhir:v "http://localhost:3447/fhir/CodeSystem/SzChiefdomCS"^^xsd:anyURI ] ;
+         fhir:system [ fhir:v "http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "Kwaluseni" ] ;
          fhir:display [ fhir:v "Kwaluseni" ]
        ] ) ;
@@ -65,7 +65,7 @@
      fhir:use [ fhir:v "usual" ] ;
      fhir:type [
        fhir:coding ( [
-         fhir:system [ fhir:v "http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS"^^xsd:anyURI ] ;
+         fhir:system [ fhir:v "http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "MR" ] ;
          fhir:display [ fhir:v "Medical Record Number" ]
        ] )
@@ -76,7 +76,7 @@
      fhir:use [ fhir:v "official" ] ;
      fhir:type [
        fhir:coding ( [
-         fhir:system [ fhir:v "http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS"^^xsd:anyURI ] ;
+         fhir:system [ fhir:v "http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "PI" ] ;
          fhir:display [ fhir:v "Personal ID Number" ]
        ] )

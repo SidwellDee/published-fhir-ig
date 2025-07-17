@@ -128,9 +128,11 @@
       "Observation"
     ],
     "http://172.209.216.154:3447/fhir/StructureDefinition/SzChiefdomExtension": [
+      "Bundle.entry.resource",
       "Patient"
     ],
     "http://172.209.216.154:3447/fhir/StructureDefinition/SzInkhundlaExtension": [
+      "Bundle.entry.resource",
       "Patient"
     ],
     "http://172.209.216.154:3447/fhir/StructureDefinition/SzLocationCodeExtension": [
@@ -138,14 +140,6 @@
     ],
     "http://172.209.216.154:3447/fhir/StructureDefinition/SzTestingLabExtension": [
       "Observation"
-    ],
-    "http://192.168.10.200:3447/fhir/StructureDefinition/SzChiefdomExtension": [
-      "Bundle.entry.resource",
-      "Patient"
-    ],
-    "http://192.168.10.200:3447/fhir/StructureDefinition/SzInkhundlaExtension": [
-      "Bundle.entry.resource",
-      "Patient"
     ],
     "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url": [
       "NamingSystem"

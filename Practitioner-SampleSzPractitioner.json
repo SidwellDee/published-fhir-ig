@@ -12,7 +12,7 @@
     "use" : "official",
     "type" : {
       "coding" : [{
-        "system" : "http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS",
+        "system" : "http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS",
         "code" : "PI",
         "display" : "Personal ID Number"
       }]

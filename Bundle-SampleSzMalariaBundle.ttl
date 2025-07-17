@@ -12,85 +12,85 @@
   fhir:id [ fhir:v "SampleSzMalariaBundle"] ; # 
   fhir:type [ fhir:v "transaction"] ; # 
   fhir:entry ( [
-     fhir:fullUrl [ fhir:v "http://localhost:3447/fhir/Patient/SampleSzMalariaPatient"^^xsd:anyURI ] ;
-     fhir:resource ( <http://localhost:3447/fhir/Patient/SampleSzMalariaPatient> ) ;
+     fhir:fullUrl [ fhir:v "http://172.209.216.154:3447/fhir/Patient/SampleSzMalariaPatient"^^xsd:anyURI ] ;
+     fhir:resource ( <http://172.209.216.154:3447/fhir/Patient/SampleSzMalariaPatient> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
        fhir:url [ fhir:v "Patient/SampleSzMalariaPatient"^^xsd:anyURI ]
      ]
   ] [
-     fhir:fullUrl [ fhir:v "http://localhost:3447/fhir/Encounter/SampleSzMalariaEncounter"^^xsd:anyURI ] ;
-     fhir:resource ( <http://localhost:3447/fhir/Encounter/SampleSzMalariaEncounter> ) ;
+     fhir:fullUrl [ fhir:v "http://172.209.216.154:3447/fhir/Encounter/SampleSzMalariaEncounter"^^xsd:anyURI ] ;
+     fhir:resource ( <http://172.209.216.154:3447/fhir/Encounter/SampleSzMalariaEncounter> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
        fhir:url [ fhir:v "Encounter/SampleSzMalariaEncounter"^^xsd:anyURI ]
      ]
   ] [
-     fhir:fullUrl [ fhir:v "http://localhost:3447/fhir/Observation/SampleVitalsWeight"^^xsd:anyURI ] ;
-     fhir:resource ( <http://localhost:3447/fhir/Observation/SampleVitalsWeight> ) ;
+     fhir:fullUrl [ fhir:v "http://172.209.216.154:3447/fhir/Observation/SampleVitalsWeight"^^xsd:anyURI ] ;
+     fhir:resource ( <http://172.209.216.154:3447/fhir/Observation/SampleVitalsWeight> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
        fhir:url [ fhir:v "Observation/SampleVitalsWeight"^^xsd:anyURI ]
      ]
   ] [
-     fhir:fullUrl [ fhir:v "http://localhost:3447/fhir/Observation/SampleVitalsHeight"^^xsd:anyURI ] ;
-     fhir:resource ( <http://localhost:3447/fhir/Observation/SampleVitalsHeight> ) ;
+     fhir:fullUrl [ fhir:v "http://172.209.216.154:3447/fhir/Observation/SampleVitalsHeight"^^xsd:anyURI ] ;
+     fhir:resource ( <http://172.209.216.154:3447/fhir/Observation/SampleVitalsHeight> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
        fhir:url [ fhir:v "Observation/SampleVitalsHeight"^^xsd:anyURI ]
      ]
   ] [
-     fhir:fullUrl [ fhir:v "http://localhost:3447/fhir/Observation/SampleVitalsTemperature"^^xsd:anyURI ] ;
-     fhir:resource ( <http://localhost:3447/fhir/Observation/SampleVitalsTemperature> ) ;
+     fhir:fullUrl [ fhir:v "http://172.209.216.154:3447/fhir/Observation/SampleVitalsTemperature"^^xsd:anyURI ] ;
+     fhir:resource ( <http://172.209.216.154:3447/fhir/Observation/SampleVitalsTemperature> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
        fhir:url [ fhir:v "Observation/SampleVitalsTemperature"^^xsd:anyURI ]
      ]
   ] [
-     fhir:fullUrl [ fhir:v "http://localhost:3447/fhir/Observation/SampleVitalsRespiratoryRate"^^xsd:anyURI ] ;
-     fhir:resource ( <http://localhost:3447/fhir/Observation/SampleVitalsRespiratoryRate> ) ;
+     fhir:fullUrl [ fhir:v "http://172.209.216.154:3447/fhir/Observation/SampleVitalsRespiratoryRate"^^xsd:anyURI ] ;
+     fhir:resource ( <http://172.209.216.154:3447/fhir/Observation/SampleVitalsRespiratoryRate> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
        fhir:url [ fhir:v "Observation/SampleVitalsRespiratoryRate"^^xsd:anyURI ]
      ]
   ] [
-     fhir:fullUrl [ fhir:v "http://localhost:3447/fhir/Observation/SampleVitalsBodyMassIndex"^^xsd:anyURI ] ;
-     fhir:resource ( <http://localhost:3447/fhir/Observation/SampleVitalsBodyMassIndex> ) ;
+     fhir:fullUrl [ fhir:v "http://172.209.216.154:3447/fhir/Observation/SampleVitalsBodyMassIndex"^^xsd:anyURI ] ;
+     fhir:resource ( <http://172.209.216.154:3447/fhir/Observation/SampleVitalsBodyMassIndex> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
        fhir:url [ fhir:v "Observation/SampleVitalsBodyMassIndex"^^xsd:anyURI ]
      ]
   ] [
-     fhir:fullUrl [ fhir:v "http://localhost:3447/fhir/DiagnosticReport/SampleSzMalariaLabTest"^^xsd:anyURI ] ;
-     fhir:resource ( <http://localhost:3447/fhir/DiagnosticReport/SampleSzMalariaLabTest> ) ;
+     fhir:fullUrl [ fhir:v "http://172.209.216.154:3447/fhir/DiagnosticReport/SampleSzMalariaLabTest"^^xsd:anyURI ] ;
+     fhir:resource ( <http://172.209.216.154:3447/fhir/DiagnosticReport/SampleSzMalariaLabTest> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
        fhir:url [ fhir:v "DiagnosticReport/SampleSzMalariaLabTest"^^xsd:anyURI ]
      ]
   ] [
-     fhir:fullUrl [ fhir:v "http://localhost:3447/fhir/Condition/SampleSzMalariaCondition-001"^^xsd:anyURI ] ;
-     fhir:resource ( <http://localhost:3447/fhir/Condition/SampleSzMalariaCondition-001> ) ;
+     fhir:fullUrl [ fhir:v "http://172.209.216.154:3447/fhir/Condition/SampleSzMalariaCondition-001"^^xsd:anyURI ] ;
+     fhir:resource ( <http://172.209.216.154:3447/fhir/Condition/SampleSzMalariaCondition-001> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
        fhir:url [ fhir:v "Condition/SampleSzMalariaCondition-001"^^xsd:anyURI ]
      ]
   ] [
-     fhir:fullUrl [ fhir:v "http://localhost:3447/fhir/MedicationRequest/SampleSzMalariaMedicationRequest"^^xsd:anyURI ] ;
-     fhir:resource ( <http://localhost:3447/fhir/MedicationRequest/SampleSzMalariaMedicationRequest> ) ;
+     fhir:fullUrl [ fhir:v "http://172.209.216.154:3447/fhir/MedicationRequest/SampleSzMalariaMedicationRequest"^^xsd:anyURI ] ;
+     fhir:resource ( <http://172.209.216.154:3447/fhir/MedicationRequest/SampleSzMalariaMedicationRequest> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
        fhir:url [ fhir:v "MedicationRequest/SampleSzMalariaMedicationRequest"^^xsd:anyURI ]
      ]
   ] [
-     fhir:fullUrl [ fhir:v "http://localhost:3447/fhir/Observation/SampleSzMalariaTravelHistory"^^xsd:anyURI ] ;
-     fhir:resource ( <http://localhost:3447/fhir/Observation/SampleSzMalariaTravelHistory> ) ;
+     fhir:fullUrl [ fhir:v "http://172.209.216.154:3447/fhir/Observation/SampleSzMalariaTravelHistory"^^xsd:anyURI ] ;
+     fhir:resource ( <http://172.209.216.154:3447/fhir/Observation/SampleSzMalariaTravelHistory> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
        fhir:url [ fhir:v "Observation/SampleSzMalariaTravelHistory"^^xsd:anyURI ]
      ]
   ] ) . # 
 
-<http://localhost:3447/fhir/Patient/SampleSzMalariaPatient> a fhir:Patient ;
+<http://172.209.216.154:3447/fhir/Patient/SampleSzMalariaPatient> a fhir:Patient ;
   fhir:id [ fhir:v "SampleSzMalariaPatient"] ; # 
   fhir:meta [
      fhir:profile ( [
@@ -100,7 +100,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Patient_SampleSzMalariaPatient\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Patient SampleSzMalariaPatient</b></p><a name=\"SampleSzMalariaPatient\"> </a><a name=\"hcSampleSzMalariaPatient\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzPatient.html\">Eswatini Patient Profile</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Jacob Samuel Gule  Male, DoB: 1990-01-01 ( Medical Record Number: M002111111-11 (use: usual, ))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Other Id (see the one above)\">Other Id:</td><td colspan=\"3\">Personal ID Number/1999001000000 (use: official, )</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The nationality of the patient.\">Patient Nationality:</td><td colspan=\"3\"><ul><li>code: <span title=\"Codes:{urn:iso:std:iso:3166 SWZ}\">Eswatini</span></li><li>period: 1981-01-20 --&gt; (ongoing)</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Base StructureDefinition for code type: A string which has at least one character and no leading or trailing whitespace and where there is no whitespace other than single spaces in the contents\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\"/></td><td colspan=\"3\"><ul><li><span title=\"Codes:{http://localhost:3447/fhir/CodeSystem/SzTinkhundlaCS DVOKODVWENI}\">Dvokodvweni</span></li><li><span title=\"Codes:{http://localhost:3447/fhir/CodeSystem/SzChiefdomCS Kwaluseni}\">Kwaluseni</span></li></ul></td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Patient_SampleSzMalariaPatient\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Patient SampleSzMalariaPatient</b></p><a name=\"SampleSzMalariaPatient\"> </a><a name=\"hcSampleSzMalariaPatient\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzPatient.html\">Eswatini Patient Profile</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Jacob Samuel Gule  Male, DoB: 1990-01-01 ( Medical Record Number: M002111111-11 (use: usual, ))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Other Id (see the one above)\">Other Id:</td><td colspan=\"3\">Personal ID Number/1999001000000 (use: official, )</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The nationality of the patient.\">Patient Nationality:</td><td colspan=\"3\"><ul><li>code: <span title=\"Codes:{urn:iso:std:iso:3166 SWZ}\">Eswatini</span></li><li>period: 1981-01-20 --&gt; (ongoing)</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Base StructureDefinition for code type: A string which has at least one character and no leading or trailing whitespace and where there is no whitespace other than single spaces in the contents\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\"/></td><td colspan=\"3\"><ul><li><span title=\"Codes:{http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS DVOKODVWENI}\">Dvokodvweni</span></li><li><span title=\"Codes:{http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS Kwaluseni}\">Kwaluseni</span></li></ul></td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:extension ( [
@@ -126,7 +126,7 @@
      fhir:value [
        a fhir:CodeableConcept ;
        fhir:coding ( [
-         fhir:system [ fhir:v "http://localhost:3447/fhir/CodeSystem/SzTinkhundlaCS"^^xsd:anyURI ] ;
+         fhir:system [ fhir:v "http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "DVOKODVWENI" ] ;
          fhir:display [ fhir:v "Dvokodvweni" ]
        ] ) ;
@@ -137,7 +137,7 @@
      fhir:value [
        a fhir:CodeableConcept ;
        fhir:coding ( [
-         fhir:system [ fhir:v "http://localhost:3447/fhir/CodeSystem/SzChiefdomCS"^^xsd:anyURI ] ;
+         fhir:system [ fhir:v "http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "Kwaluseni" ] ;
          fhir:display [ fhir:v "Kwaluseni" ]
        ] ) ;
@@ -148,7 +148,7 @@
      fhir:use [ fhir:v "usual" ] ;
      fhir:type [
        fhir:coding ( [
-         fhir:system [ fhir:v "http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS"^^xsd:anyURI ] ;
+         fhir:system [ fhir:v "http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "MR" ] ;
          fhir:display [ fhir:v "Medical Record Number" ]
        ] )
@@ -159,7 +159,7 @@
      fhir:use [ fhir:v "official" ] ;
      fhir:type [
        fhir:coding ( [
-         fhir:system [ fhir:v "http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS"^^xsd:anyURI ] ;
+         fhir:system [ fhir:v "http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "PI" ] ;
          fhir:display [ fhir:v "Personal ID Number" ]
        ] )
@@ -183,7 +183,7 @@
      ] )
   ] . # 
 
-<http://localhost:3447/fhir/Encounter/SampleSzMalariaEncounter> a fhir:Encounter ;
+<http://172.209.216.154:3447/fhir/Encounter/SampleSzMalariaEncounter> a fhir:Encounter ;
   fhir:id [ fhir:v "SampleSzMalariaEncounter"] ; # 
   fhir:meta [
      fhir:profile ( [
@@ -193,11 +193,11 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Encounter_SampleSzMalariaEncounter\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Encounter SampleSzMalariaEncounter</b></p><a name=\"SampleSzMalariaEncounter\"> </a><a name=\"hcSampleSzMalariaEncounter\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzEncounter.html\">Eswatini Encounter Profile</a></p></div><p><b>status</b>: Finished</p><p><b>class</b>: SzEncounterClassificationCS OPD: Out Patient Department</p><p><b>subject</b>: <a href=\"Patient-SampleSzPatient.html\">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</a></p><h3>Participants</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Individual</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Practitioner-SampleSzPractitioner.html\">Practitioner Thabile Celiwe Dlamini </a></td></tr></table><p><b>reasonCode</b>: <span title=\"Codes:{http://localhost:3447/fhir/CodeSystem/SzServicePointCS ART}\">Antiretrovial Therapy</span></p><h3>Locations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Location</b></td><td><b>Status</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Location-SampleSzLocation.html\">Location Mahwalala Red Cross Clinic</a></td><td>Completed</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Encounter_SampleSzMalariaEncounter\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Encounter SampleSzMalariaEncounter</b></p><a name=\"SampleSzMalariaEncounter\"> </a><a name=\"hcSampleSzMalariaEncounter\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzEncounter.html\">Eswatini Encounter Profile</a></p></div><p><b>status</b>: Finished</p><p><b>class</b>: <a href=\"CodeSystem-SzEncounterClassificationCS.html#SzEncounterClassificationCS-OPD\">Code System: Encounter Classification OPD</a>: Out Patient Department</p><p><b>subject</b>: <a href=\"Patient-SampleSzPatient.html\">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</a></p><h3>Participants</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Individual</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Practitioner-SampleSzPractitioner.html\">Practitioner Thabile Celiwe Dlamini </a></td></tr></table><p><b>reasonCode</b>: <span title=\"Codes:{http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS ART}\">Antiretrovial Therapy</span></p><h3>Locations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Location</b></td><td><b>Status</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Location-SampleSzLocation.html\">Location Mahwalala Red Cross Clinic</a></td><td>Completed</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "finished"] ; # 
   fhir:class [
-     fhir:system [ fhir:v "http://localhost:3447/fhir/CodeSystem/SzEncounterClassificationCS"^^xsd:anyURI ] ;
+     fhir:system [ fhir:v "http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterClassificationCS"^^xsd:anyURI ] ;
      fhir:code [ fhir:v "OPD" ] ;
      fhir:display [ fhir:v "Out Patient Department" ]
   ] ; # 
@@ -213,7 +213,7 @@
   ] ) ; # 
   fhir:reasonCode ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "http://localhost:3447/fhir/CodeSystem/SzServicePointCS"^^xsd:anyURI ] ;
+       fhir:system [ fhir:v "http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "ART" ] ;
        fhir:display [ fhir:v "Antiretrovial Therapy" ]
      ] ) ;
@@ -227,7 +227,7 @@
      fhir:status [ fhir:v "completed" ]
   ] ) . # 
 
-<http://localhost:3447/fhir/Observation/SampleVitalsWeight> a fhir:Observation ;
+<http://172.209.216.154:3447/fhir/Observation/SampleVitalsWeight> a fhir:Observation ;
   fhir:id [ fhir:v "SampleVitalsWeight"] ; # 
   fhir:meta [
      fhir:profile ( [
@@ -268,7 +268,7 @@
      fhir:unit [ fhir:v "kg" ]
   ] . # 
 
-<http://localhost:3447/fhir/Observation/SampleVitalsHeight> a fhir:Observation ;
+<http://172.209.216.154:3447/fhir/Observation/SampleVitalsHeight> a fhir:Observation ;
   fhir:id [ fhir:v "SampleVitalsHeight"] ; # 
   fhir:meta [
      fhir:profile ( [
@@ -309,7 +309,7 @@
      fhir:unit [ fhir:v "cm" ]
   ] . # 
 
-<http://localhost:3447/fhir/Observation/SampleVitalsTemperature> a fhir:Observation ;
+<http://172.209.216.154:3447/fhir/Observation/SampleVitalsTemperature> a fhir:Observation ;
   fhir:id [ fhir:v "SampleVitalsTemperature"] ; # 
   fhir:meta [
      fhir:profile ( [
@@ -350,7 +350,7 @@
      fhir:unit [ fhir:v "°C" ]
   ] . # 
 
-<http://localhost:3447/fhir/Observation/SampleVitalsRespiratoryRate> a fhir:Observation ;
+<http://172.209.216.154:3447/fhir/Observation/SampleVitalsRespiratoryRate> a fhir:Observation ;
   fhir:id [ fhir:v "SampleVitalsRespiratoryRate"] ; # 
   fhir:meta [
      fhir:profile ( [
@@ -391,7 +391,7 @@
      fhir:unit [ fhir:v "bpm" ]
   ] . # 
 
-<http://localhost:3447/fhir/Observation/SampleVitalsBodyMassIndex> a fhir:Observation ;
+<http://172.209.216.154:3447/fhir/Observation/SampleVitalsBodyMassIndex> a fhir:Observation ;
   fhir:id [ fhir:v "SampleVitalsBodyMassIndex"] ; # 
   fhir:meta [
      fhir:profile ( [
@@ -432,7 +432,7 @@
      fhir:unit [ fhir:v "kg/m²" ]
   ] . # 
 
-<http://localhost:3447/fhir/DiagnosticReport/SampleSzMalariaLabTest> a fhir:DiagnosticReport ;
+<http://172.209.216.154:3447/fhir/DiagnosticReport/SampleSzMalariaLabTest> a fhir:DiagnosticReport ;
   fhir:id [ fhir:v "SampleSzMalariaLabTest"] ; # 
   fhir:meta [
      fhir:profile ( [
@@ -442,12 +442,12 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"DiagnosticReport_SampleSzMalariaLabTest\"> </a><p class=\"res-header-id\"><b>Generated Narrative: DiagnosticReport SampleSzMalariaLabTest</b></p><a name=\"SampleSzMalariaLabTest\"> </a><a name=\"hcSampleSzMalariaLabTest\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzLabTest.html\">Eswatini Lab Test Profile</a></p></div><h2><span title=\"Codes:{http://localhost:3447/fhir/CodeSystem/SzTestCodeCS MALS}\">Malaria Smear</span> </h2><table class=\"grid\"><tr><td>Subject</td><td>Jacob Samuel Gule  Male, DoB: 1990-01-01 ( Medical Record Number: M002111111-11 (use: usual, ))</td></tr><tr><td>When For</td><td>2024-11-26 10:00:00+0000</td></tr><tr><td>Reported</td><td>2024-11-26 10:00:00+0000</td></tr><tr><td>Performer</td><td> <a href=\"Practitioner-SampleSzPractitioner.html\">Practitioner Thabile Celiwe Dlamini </a></td></tr></table><p><b>Report Details</b></p></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"DiagnosticReport_SampleSzMalariaLabTest\"> </a><p class=\"res-header-id\"><b>Generated Narrative: DiagnosticReport SampleSzMalariaLabTest</b></p><a name=\"SampleSzMalariaLabTest\"> </a><a name=\"hcSampleSzMalariaLabTest\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzLabTest.html\">Eswatini Lab Test Profile</a></p></div><h2><span title=\"Codes:{http://172.209.216.154:3447/fhir/CodeSystem/SzTestCodeCS MALS}\">Malaria Smear</span> </h2><table class=\"grid\"><tr><td>Subject</td><td>Jacob Samuel Gule  Male, DoB: 1990-01-01 ( Medical Record Number: M002111111-11 (use: usual, ))</td></tr><tr><td>When For</td><td>2024-11-26 10:00:00+0000</td></tr><tr><td>Reported</td><td>2024-11-26 10:00:00+0000</td></tr><tr><td>Performer</td><td> <a href=\"Practitioner-SampleSzPractitioner.html\">Practitioner Thabile Celiwe Dlamini </a></td></tr></table><p><b>Report Details</b></p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:code [
      fhir:coding ( [
-       fhir:system [ fhir:v "http://localhost:3447/fhir/CodeSystem/SzTestCodeCS"^^xsd:anyURI ] ;
+       fhir:system [ fhir:v "http://172.209.216.154:3447/fhir/CodeSystem/SzTestCodeCS"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "MALS" ] ;
        fhir:display [ fhir:v "Malaria Smear" ]
      ] ) ;
@@ -475,7 +475,7 @@
      fhir:reference [ fhir:v "Specimen/SampleSzMalariaSpecimen" ]
   ] ) . # 
 
-<http://localhost:3447/fhir/Condition/SampleSzMalariaCondition-001> a fhir:Condition ;
+<http://172.209.216.154:3447/fhir/Condition/SampleSzMalariaCondition-001> a fhir:Condition ;
   fhir:id [ fhir:v "SampleSzMalariaCondition-001"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
@@ -535,7 +535,7 @@
      fhir:reference [ fhir:v "Practitioner/SampleSzPractitioner" ]
   ] . # 
 
-<http://localhost:3447/fhir/MedicationRequest/SampleSzMalariaMedicationRequest> a fhir:MedicationRequest ;
+<http://172.209.216.154:3447/fhir/MedicationRequest/SampleSzMalariaMedicationRequest> a fhir:MedicationRequest ;
   fhir:id [ fhir:v "SampleSzMalariaMedicationRequest"] ; # 
   fhir:meta [
      fhir:profile ( [
@@ -545,14 +545,14 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicationRequest_SampleSzMalariaMedicationRequest\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MedicationRequest SampleSzMalariaMedicationRequest</b></p><a name=\"SampleSzMalariaMedicationRequest\"> </a><a name=\"hcSampleSzMalariaMedicationRequest\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzMedicationRequest.html\">Eswatini Medication Request Profile</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>medication</b>: <span title=\"Codes:{http://localhost:3447/fhir/CodeSystem/SzProductCodeCS 102492}\">Paracetamol Tablets 500g (Coloured Green) 100 TABS</span></p><p><b>subject</b>: <a href=\"Patient-SampleSzMalariaPatient.html\">Jacob Samuel Gule  Male, DoB: 1990-01-01 ( Medical Record Number: M002111111-11 (use: usual, ))</a></p><p><b>encounter</b>: <a href=\"Encounter-SampleSzMalariaEncounter.html\">Encounter: status = finished; class = Out Patient Department (SzEncounterClassificationCS#OPD); reasonCode = Antiretrovial Therapy</a></p><p><b>authoredOn</b>: 2024-11-25 10:00:00+0000</p><p><b>requester</b>: <a href=\"Practitioner-SampleSzPractitioner.html\">Practitioner Thabile Celiwe Dlamini </a></p><blockquote><p><b>dosageInstruction</b></p><p><b>text</b>: Take one tablet by mouth 3 times a day before food</p><p><b>timing</b>: 3 per 1 day</p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>1 tablet</td></tr></table></blockquote></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicationRequest_SampleSzMalariaMedicationRequest\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MedicationRequest SampleSzMalariaMedicationRequest</b></p><a name=\"SampleSzMalariaMedicationRequest\"> </a><a name=\"hcSampleSzMalariaMedicationRequest\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzMedicationRequest.html\">Eswatini Medication Request Profile</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>medication</b>: <span title=\"Codes:{http://172.209.216.154:3447/fhir/CodeSystem/SzProductCodeCS 102492}\">Paracetamol Tablets 500g (Coloured Green) 100 TABS</span></p><p><b>subject</b>: <a href=\"Patient-SampleSzMalariaPatient.html\">Jacob Samuel Gule  Male, DoB: 1990-01-01 ( Medical Record Number: M002111111-11 (use: usual, ))</a></p><p><b>encounter</b>: <a href=\"Encounter-SampleSzMalariaEncounter.html\">Encounter: status = finished; class = Out Patient Department (Code System: Encounter Classification#OPD); reasonCode = Antiretrovial Therapy</a></p><p><b>authoredOn</b>: 2024-11-25 10:00:00+0000</p><p><b>requester</b>: <a href=\"Practitioner-SampleSzPractitioner.html\">Practitioner Thabile Celiwe Dlamini </a></p><blockquote><p><b>dosageInstruction</b></p><p><b>text</b>: Take one tablet by mouth 3 times a day before food</p><p><b>timing</b>: 3 per 1 day</p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>1 tablet</td></tr></table></blockquote></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:intent [ fhir:v "order"] ; # 
   fhir:medication [
      a fhir:CodeableConcept ;
      fhir:coding ( [
-       fhir:system [ fhir:v "http://localhost:3447/fhir/CodeSystem/SzProductCodeCS"^^xsd:anyURI ] ;
+       fhir:system [ fhir:v "http://172.209.216.154:3447/fhir/CodeSystem/SzProductCodeCS"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "102492" ] ;
        fhir:display [ fhir:v "Paracetamol Tablets 500g (Coloured Green) 100 TABS" ]
      ] ) ;
@@ -589,7 +589,7 @@
      ] )
   ] ) . # 
 
-<http://localhost:3447/fhir/Observation/SampleSzMalariaTravelHistory> a fhir:Observation ;
+<http://172.209.216.154:3447/fhir/Observation/SampleSzMalariaTravelHistory> a fhir:Observation ;
   fhir:id [ fhir:v "SampleSzMalariaTravelHistory"] ; # 
   fhir:meta [
      fhir:profile ( [

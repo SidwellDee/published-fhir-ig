@@ -23,7 +23,7 @@
      fhir:use [ fhir:v "official" ] ;
      fhir:type [
        fhir:coding ( [
-         fhir:system [ fhir:v "http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS"^^xsd:anyURI ] ;
+         fhir:system [ fhir:v "http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "PI" ] ;
          fhir:display [ fhir:v "Personal ID Number" ]
        ] )

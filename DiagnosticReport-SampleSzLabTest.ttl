@@ -17,12 +17,12 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: DiagnosticReport SampleSzLabTest</b></p><a name=\"SampleSzLabTest\"> </a><a name=\"hcSampleSzLabTest\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzLabTest.html\">Eswatini Lab Test Profile</a></p></div><h2><span title=\"Codes:{http://localhost:3447/fhir/CodeSystem/SzTestCodeCS HIVVL}\">HIV Viral Load (Plasma)</span> </h2><table class=\"grid\"><tr><td>Subject</td><td>Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</td></tr><tr><td>When For</td><td>2024-09-11 10:00:00+0000</td></tr><tr><td>Reported</td><td>2024-09-11 10:00:00+0000</td></tr><tr><td>Performer</td><td> <a href=\"Practitioner-SampleSzPractitioner.html\">Practitioner Thabile Celiwe Dlamini </a></td></tr></table><p><b>Report Details</b></p></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: DiagnosticReport SampleSzLabTest</b></p><a name=\"SampleSzLabTest\"> </a><a name=\"hcSampleSzLabTest\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzLabTest.html\">Eswatini Lab Test Profile</a></p></div><h2><span title=\"Codes:{http://172.209.216.154:3447/fhir/CodeSystem/SzTestCodeCS HIVVL}\">HIV Viral Load (Plasma)</span> </h2><table class=\"grid\"><tr><td>Subject</td><td>Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</td></tr><tr><td>When For</td><td>2024-09-11 10:00:00+0000</td></tr><tr><td>Reported</td><td>2024-09-11 10:00:00+0000</td></tr><tr><td>Performer</td><td> <a href=\"Practitioner-SampleSzPractitioner.html\">Practitioner Thabile Celiwe Dlamini </a></td></tr></table><p><b>Report Details</b></p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:code [
      fhir:coding ( [
-       fhir:system [ fhir:v "http://localhost:3447/fhir/CodeSystem/SzTestCodeCS"^^xsd:anyURI ] ;
+       fhir:system [ fhir:v "http://172.209.216.154:3447/fhir/CodeSystem/SzTestCodeCS"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "HIVVL" ] ;
        fhir:display [ fhir:v "HIV Viral Load (Plasma)" ]
      ] ) ;

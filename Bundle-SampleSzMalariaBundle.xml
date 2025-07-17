@@ -4,7 +4,7 @@
   <id value="SampleSzMalariaBundle"/>
   <type value="transaction"/>
   <entry>
-    <fullUrl value="http://localhost:3447/fhir/Patient/SampleSzMalariaPatient"/>
+    <fullUrl value="http://172.209.216.154:3447/fhir/Patient/SampleSzMalariaPatient"/>
     <resource>
       <Patient>
         <id value="SampleSzMalariaPatient"/>
@@ -12,7 +12,7 @@
           <profile value="http://172.209.216.154:3447/fhir/StructureDefinition/SzPatient"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Patient_SampleSzMalariaPatient"> </a><p class="res-header-id"><b>Generated Narrative: Patient SampleSzMalariaPatient</b></p><a name="SampleSzMalariaPatient"> </a><a name="hcSampleSzMalariaPatient"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-SzPatient.html">Eswatini Patient Profile</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Jacob Samuel Gule  Male, DoB: 1990-01-01 ( Medical Record Number: M002111111-11 (use: usual, ))</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Other Id (see the one above)">Other Id:</td><td colspan="3">Personal ID Number/1999001000000 (use: official, )</td></tr><tr><td style="background-color: #f3f5da" title="The nationality of the patient.">Patient Nationality:</td><td colspan="3"><ul><li>code: <span title="Codes:{urn:iso:std:iso:3166 SWZ}">Eswatini</span></li><li>period: 1981-01-20 --&gt; (ongoing)</li></ul></td></tr><tr><td style="background-color: #f3f5da" title="Base StructureDefinition for code type: A string which has at least one character and no leading or trailing whitespace and where there is no whitespace other than single spaces in the contents"><a href="http://hl7.org/fhir/R4/datatypes.html#code"/></td><td colspan="3"><ul><li><span title="Codes:{http://localhost:3447/fhir/CodeSystem/SzTinkhundlaCS DVOKODVWENI}">Dvokodvweni</span></li><li><span title="Codes:{http://localhost:3447/fhir/CodeSystem/SzChiefdomCS Kwaluseni}">Kwaluseni</span></li></ul></td></tr></table></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Patient_SampleSzMalariaPatient"> </a><p class="res-header-id"><b>Generated Narrative: Patient SampleSzMalariaPatient</b></p><a name="SampleSzMalariaPatient"> </a><a name="hcSampleSzMalariaPatient"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-SzPatient.html">Eswatini Patient Profile</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Jacob Samuel Gule  Male, DoB: 1990-01-01 ( Medical Record Number: M002111111-11 (use: usual, ))</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Other Id (see the one above)">Other Id:</td><td colspan="3">Personal ID Number/1999001000000 (use: official, )</td></tr><tr><td style="background-color: #f3f5da" title="The nationality of the patient.">Patient Nationality:</td><td colspan="3"><ul><li>code: <span title="Codes:{urn:iso:std:iso:3166 SWZ}">Eswatini</span></li><li>period: 1981-01-20 --&gt; (ongoing)</li></ul></td></tr><tr><td style="background-color: #f3f5da" title="Base StructureDefinition for code type: A string which has at least one character and no leading or trailing whitespace and where there is no whitespace other than single spaces in the contents"><a href="http://hl7.org/fhir/R4/datatypes.html#code"/></td><td colspan="3"><ul><li><span title="Codes:{http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS DVOKODVWENI}">Dvokodvweni</span></li><li><span title="Codes:{http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS Kwaluseni}">Kwaluseni</span></li></ul></td></tr></table></div>
         </text>
         <extension url="http://hl7.org/fhir/StructureDefinition/patient-nationality">
           <extension url="code">
@@ -33,7 +33,7 @@
         <extension url="code">
           <valueCodeableConcept>
             <coding>
-              <system value="http://localhost:3447/fhir/CodeSystem/SzTinkhundlaCS"/>
+              <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS"/>
               <code value="DVOKODVWENI"/>
               <display value="Dvokodvweni"/>
             </coding>
@@ -43,7 +43,7 @@
         <extension url="code">
           <valueCodeableConcept>
             <coding>
-              <system value="http://localhost:3447/fhir/CodeSystem/SzChiefdomCS"/>
+              <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS"/>
               <code value="Kwaluseni"/>
               <display value="Kwaluseni"/>
             </coding>
@@ -54,7 +54,7 @@
           <use value="usual"/>
           <type>
             <coding>
-              <system value="http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS"/>
+              <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS"/>
               <code value="MR"/>
               <display value="Medical Record Number"/>
             </coding>
@@ -66,7 +66,7 @@
           <use value="official"/>
           <type>
             <coding>
-              <system value="http://192.168.10.200:3447/fhir/CodeSystem/SzPersonIdentificationsCS"/>
+              <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS"/>
               <code value="PI"/>
               <display value="Personal ID Number"/>
             </coding>
@@ -93,7 +93,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://localhost:3447/fhir/Encounter/SampleSzMalariaEncounter"/>
+    <fullUrl value="http://172.209.216.154:3447/fhir/Encounter/SampleSzMalariaEncounter"/>
     <resource>
       <Encounter>
         <id value="SampleSzMalariaEncounter"/>
@@ -101,11 +101,11 @@
           <profile value="http://172.209.216.154:3447/fhir/StructureDefinition/SzEncounter"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Encounter_SampleSzMalariaEncounter"> </a><p class="res-header-id"><b>Generated Narrative: Encounter SampleSzMalariaEncounter</b></p><a name="SampleSzMalariaEncounter"> </a><a name="hcSampleSzMalariaEncounter"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-SzEncounter.html">Eswatini Encounter Profile</a></p></div><p><b>status</b>: Finished</p><p><b>class</b>: SzEncounterClassificationCS OPD: Out Patient Department</p><p><b>subject</b>: <a href="Patient-SampleSzPatient.html">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</a></p><h3>Participants</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Individual</b></td></tr><tr><td style="display: none">*</td><td><a href="Practitioner-SampleSzPractitioner.html">Practitioner Thabile Celiwe Dlamini </a></td></tr></table><p><b>reasonCode</b>: <span title="Codes:{http://localhost:3447/fhir/CodeSystem/SzServicePointCS ART}">Antiretrovial Therapy</span></p><h3>Locations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Location</b></td><td><b>Status</b></td></tr><tr><td style="display: none">*</td><td><a href="Location-SampleSzLocation.html">Location Mahwalala Red Cross Clinic</a></td><td>Completed</td></tr></table></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Encounter_SampleSzMalariaEncounter"> </a><p class="res-header-id"><b>Generated Narrative: Encounter SampleSzMalariaEncounter</b></p><a name="SampleSzMalariaEncounter"> </a><a name="hcSampleSzMalariaEncounter"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-SzEncounter.html">Eswatini Encounter Profile</a></p></div><p><b>status</b>: Finished</p><p><b>class</b>: <a href="CodeSystem-SzEncounterClassificationCS.html#SzEncounterClassificationCS-OPD">Code System: Encounter Classification OPD</a>: Out Patient Department</p><p><b>subject</b>: <a href="Patient-SampleSzPatient.html">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</a></p><h3>Participants</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Individual</b></td></tr><tr><td style="display: none">*</td><td><a href="Practitioner-SampleSzPractitioner.html">Practitioner Thabile Celiwe Dlamini </a></td></tr></table><p><b>reasonCode</b>: <span title="Codes:{http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS ART}">Antiretrovial Therapy</span></p><h3>Locations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Location</b></td><td><b>Status</b></td></tr><tr><td style="display: none">*</td><td><a href="Location-SampleSzLocation.html">Location Mahwalala Red Cross Clinic</a></td><td>Completed</td></tr></table></div>
         </text>
         <status value="finished"/>
         <class>
-          <system value="http://localhost:3447/fhir/CodeSystem/SzEncounterClassificationCS"/>
+          <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterClassificationCS"/>
           <code value="OPD"/>
           <display value="Out Patient Department"/>
         </class>
@@ -119,7 +119,7 @@
         </participant>
         <reasonCode>
           <coding>
-            <system value="http://localhost:3447/fhir/CodeSystem/SzServicePointCS"/>
+            <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS"/>
             <code value="ART"/>
             <display value="Antiretrovial Therapy"/>
           </coding>
@@ -139,7 +139,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://localhost:3447/fhir/Observation/SampleVitalsWeight"/>
+    <fullUrl value="http://172.209.216.154:3447/fhir/Observation/SampleVitalsWeight"/>
     <resource>
       <Observation>
         <id value="SampleVitalsWeight"/>
@@ -180,7 +180,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://localhost:3447/fhir/Observation/SampleVitalsHeight"/>
+    <fullUrl value="http://172.209.216.154:3447/fhir/Observation/SampleVitalsHeight"/>
     <resource>
       <Observation>
         <id value="SampleVitalsHeight"/>
@@ -221,7 +221,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://localhost:3447/fhir/Observation/SampleVitalsTemperature"/>
+    <fullUrl value="http://172.209.216.154:3447/fhir/Observation/SampleVitalsTemperature"/>
     <resource>
       <Observation>
         <id value="SampleVitalsTemperature"/>
@@ -262,7 +262,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://localhost:3447/fhir/Observation/SampleVitalsRespiratoryRate"/>
+    <fullUrl value="http://172.209.216.154:3447/fhir/Observation/SampleVitalsRespiratoryRate"/>
     <resource>
       <Observation>
         <id value="SampleVitalsRespiratoryRate"/>
@@ -303,7 +303,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://localhost:3447/fhir/Observation/SampleVitalsBodyMassIndex"/>
+    <fullUrl value="http://172.209.216.154:3447/fhir/Observation/SampleVitalsBodyMassIndex"/>
     <resource>
       <Observation>
         <id value="SampleVitalsBodyMassIndex"/>
@@ -344,7 +344,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://localhost:3447/fhir/DiagnosticReport/SampleSzMalariaLabTest"/>
+    <fullUrl value="http://172.209.216.154:3447/fhir/DiagnosticReport/SampleSzMalariaLabTest"/>
     <resource>
       <DiagnosticReport>
         <id value="SampleSzMalariaLabTest"/>
@@ -352,12 +352,12 @@
           <profile value="http://172.209.216.154:3447/fhir/StructureDefinition/SzLabTest"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="DiagnosticReport_SampleSzMalariaLabTest"> </a><p class="res-header-id"><b>Generated Narrative: DiagnosticReport SampleSzMalariaLabTest</b></p><a name="SampleSzMalariaLabTest"> </a><a name="hcSampleSzMalariaLabTest"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-SzLabTest.html">Eswatini Lab Test Profile</a></p></div><h2><span title="Codes:{http://localhost:3447/fhir/CodeSystem/SzTestCodeCS MALS}">Malaria Smear</span> </h2><table class="grid"><tr><td>Subject</td><td>Jacob Samuel Gule  Male, DoB: 1990-01-01 ( Medical Record Number: M002111111-11 (use: usual, ))</td></tr><tr><td>When For</td><td>2024-11-26 10:00:00+0000</td></tr><tr><td>Reported</td><td>2024-11-26 10:00:00+0000</td></tr><tr><td>Performer</td><td> <a href="Practitioner-SampleSzPractitioner.html">Practitioner Thabile Celiwe Dlamini </a></td></tr></table><p><b>Report Details</b></p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="DiagnosticReport_SampleSzMalariaLabTest"> </a><p class="res-header-id"><b>Generated Narrative: DiagnosticReport SampleSzMalariaLabTest</b></p><a name="SampleSzMalariaLabTest"> </a><a name="hcSampleSzMalariaLabTest"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-SzLabTest.html">Eswatini Lab Test Profile</a></p></div><h2><span title="Codes:{http://172.209.216.154:3447/fhir/CodeSystem/SzTestCodeCS MALS}">Malaria Smear</span> </h2><table class="grid"><tr><td>Subject</td><td>Jacob Samuel Gule  Male, DoB: 1990-01-01 ( Medical Record Number: M002111111-11 (use: usual, ))</td></tr><tr><td>When For</td><td>2024-11-26 10:00:00+0000</td></tr><tr><td>Reported</td><td>2024-11-26 10:00:00+0000</td></tr><tr><td>Performer</td><td> <a href="Practitioner-SampleSzPractitioner.html">Practitioner Thabile Celiwe Dlamini </a></td></tr></table><p><b>Report Details</b></p></div>
         </text>
         <status value="final"/>
         <code>
           <coding>
-            <system value="http://localhost:3447/fhir/CodeSystem/SzTestCodeCS"/>
+            <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzTestCodeCS"/>
             <code value="MALS"/>
             <display value="Malaria Smear"/>
           </coding>
@@ -385,7 +385,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://localhost:3447/fhir/Condition/SampleSzMalariaCondition-001"/>
+    <fullUrl value="http://172.209.216.154:3447/fhir/Condition/SampleSzMalariaCondition-001"/>
     <resource>
       <Condition>
         <id value="SampleSzMalariaCondition-001"/>
@@ -451,7 +451,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://localhost:3447/fhir/MedicationRequest/SampleSzMalariaMedicationRequest"/>
+    <fullUrl value="http://172.209.216.154:3447/fhir/MedicationRequest/SampleSzMalariaMedicationRequest"/>
     <resource>
       <MedicationRequest>
         <id value="SampleSzMalariaMedicationRequest"/>
@@ -459,13 +459,13 @@
           <profile value="http://172.209.216.154:3447/fhir/StructureDefinition/SzMedicationRequest"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="MedicationRequest_SampleSzMalariaMedicationRequest"> </a><p class="res-header-id"><b>Generated Narrative: MedicationRequest SampleSzMalariaMedicationRequest</b></p><a name="SampleSzMalariaMedicationRequest"> </a><a name="hcSampleSzMalariaMedicationRequest"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-SzMedicationRequest.html">Eswatini Medication Request Profile</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>medication</b>: <span title="Codes:{http://localhost:3447/fhir/CodeSystem/SzProductCodeCS 102492}">Paracetamol Tablets 500g (Coloured Green) 100 TABS</span></p><p><b>subject</b>: <a href="Patient-SampleSzMalariaPatient.html">Jacob Samuel Gule  Male, DoB: 1990-01-01 ( Medical Record Number: M002111111-11 (use: usual, ))</a></p><p><b>encounter</b>: <a href="Encounter-SampleSzMalariaEncounter.html">Encounter: status = finished; class = Out Patient Department (SzEncounterClassificationCS#OPD); reasonCode = Antiretrovial Therapy</a></p><p><b>authoredOn</b>: 2024-11-25 10:00:00+0000</p><p><b>requester</b>: <a href="Practitioner-SampleSzPractitioner.html">Practitioner Thabile Celiwe Dlamini </a></p><blockquote><p><b>dosageInstruction</b></p><p><b>text</b>: Take one tablet by mouth 3 times a day before food</p><p><b>timing</b>: 3 per 1 day</p><h3>DoseAndRates</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Dose[x]</b></td></tr><tr><td style="display: none">*</td><td>1 tablet</td></tr></table></blockquote></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="MedicationRequest_SampleSzMalariaMedicationRequest"> </a><p class="res-header-id"><b>Generated Narrative: MedicationRequest SampleSzMalariaMedicationRequest</b></p><a name="SampleSzMalariaMedicationRequest"> </a><a name="hcSampleSzMalariaMedicationRequest"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-SzMedicationRequest.html">Eswatini Medication Request Profile</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>medication</b>: <span title="Codes:{http://172.209.216.154:3447/fhir/CodeSystem/SzProductCodeCS 102492}">Paracetamol Tablets 500g (Coloured Green) 100 TABS</span></p><p><b>subject</b>: <a href="Patient-SampleSzMalariaPatient.html">Jacob Samuel Gule  Male, DoB: 1990-01-01 ( Medical Record Number: M002111111-11 (use: usual, ))</a></p><p><b>encounter</b>: <a href="Encounter-SampleSzMalariaEncounter.html">Encounter: status = finished; class = Out Patient Department (Code System: Encounter Classification#OPD); reasonCode = Antiretrovial Therapy</a></p><p><b>authoredOn</b>: 2024-11-25 10:00:00+0000</p><p><b>requester</b>: <a href="Practitioner-SampleSzPractitioner.html">Practitioner Thabile Celiwe Dlamini </a></p><blockquote><p><b>dosageInstruction</b></p><p><b>text</b>: Take one tablet by mouth 3 times a day before food</p><p><b>timing</b>: 3 per 1 day</p><h3>DoseAndRates</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Dose[x]</b></td></tr><tr><td style="display: none">*</td><td>1 tablet</td></tr></table></blockquote></div>
         </text>
         <status value="active"/>
         <intent value="order"/>
         <medicationCodeableConcept>
           <coding>
-            <system value="http://localhost:3447/fhir/CodeSystem/SzProductCodeCS"/>
+            <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzProductCodeCS"/>
             <code value="102492"/>
             <display value="Paracetamol Tablets 500g (Coloured Green) 100 TABS"/>
           </coding>
@@ -505,7 +505,7 @@
     </request>
   </entry>
   <entry>
-    <fullUrl value="http://localhost:3447/fhir/Observation/SampleSzMalariaTravelHistory"/>
+    <fullUrl value="http://172.209.216.154:3447/fhir/Observation/SampleSzMalariaTravelHistory"/>
     <resource>
       <Observation>
         <id value="SampleSzMalariaTravelHistory"/>
