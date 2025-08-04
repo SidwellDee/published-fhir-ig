@@ -1,0 +1,34 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "SzServiceRequestCategoryCS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem SzServiceRequestCategoryCS</b></p><a name=\"SzServiceRequestCategoryCS\"> </a><a name=\"hcSzServiceRequestCategoryCS\"> </a><p>This  code system <code>http://172.209.216.154:3447/fhir/CodeSystem/SzServiceRequestCategoryCS</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"SzServiceRequestCategoryCS-1\"> </a></td><td>Referral</td></tr></table></div>"
+  },
+  "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzServiceRequestCategoryCS",
+  "version" : "0.1.0",
+  "name" : "EswatiniServiceRequestCategory",
+  "title" : "Code System: Eswatini Service Request Category",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-08-01T12:25:19+00:00",
+  "publisher" : "Ministry of Health Eswatini",
+  "contact" : [{
+    "name" : "Ministry of Health Eswatini",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://172.209.216.154:3447"
+    },
+    {
+      "system" : "email",
+      "value" : "eswatinihie@moh.gov.sz"
+    }]
+  }],
+  "description" : "Data element that contains codes for service request categories",
+  "content" : "complete",
+  "count" : 1,
+  "concept" : [{
+    "code" : "1",
+    "display" : "Referral"
+  }]
+}

@@ -1,0 +1,50 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "SzReferralTypeCS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem SzReferralTypeCS</b></p><a name=\"SzReferralTypeCS\"> </a><a name=\"hcSzReferralTypeCS\"> </a><p>This  code system <code>http://172.209.216.154:3447/fhir/CodeSystem/SzReferralTypeCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"SzReferralTypeCS-1\"> </a></td><td>Facility to Facility</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"SzReferralTypeCS-2\"> </a></td><td>Facility to Community</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"SzReferralTypeCS-3\"> </a></td><td>Community to Facility</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"SzReferralTypeCS-4\"> </a></td><td>School to Facility</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"SzReferralTypeCS-5\"> </a></td><td>Cross-border</td></tr></table></div>"
+  },
+  "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzReferralTypeCS",
+  "version" : "0.1.0",
+  "name" : "EswatiniReferralType",
+  "title" : "Code System: Eswatini Referral Type",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-08-01T12:25:19+00:00",
+  "publisher" : "Ministry of Health Eswatini",
+  "contact" : [{
+    "name" : "Ministry of Health Eswatini",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://172.209.216.154:3447"
+    },
+    {
+      "system" : "email",
+      "value" : "eswatinihie@moh.gov.sz"
+    }]
+  }],
+  "description" : "Data element that contains codes for referral types",
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "1",
+    "display" : "Facility to Facility"
+  },
+  {
+    "code" : "2",
+    "display" : "Facility to Community"
+  },
+  {
+    "code" : "3",
+    "display" : "Community to Facility"
+  },
+  {
+    "code" : "4",
+    "display" : "School to Facility"
+  },
+  {
+    "code" : "5",
+    "display" : "Cross-border"
+  }]
+}

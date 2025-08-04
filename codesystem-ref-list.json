@@ -23,6 +23,17 @@
       "ValueSet-SzEncounterClassificationVS.html" : "Value Set: Encounter Classification"
     },
     {
+      "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterReasonCS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SzEncounterReasonCS",
+      "title" : "Code System: Eswatini Encounter Reason Codes",
+      "description" : "Code System for Eswatini Encounter Reason Codes",
+      "uses" : {
+      },
+      "ValueSet-SzEncounterReasonVS.html" : "Value set: Eswatini Encounter Reason Codes"
+    },
+    {
       "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS",
       "version" : "0.1.0",
       "status" : "draft",
@@ -45,15 +56,48 @@
       "ValueSet-SzProductCodeVS.html" : "Value Set: Product Code Value Set"
     },
     {
-      "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS",
+      "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzReasonsForReferralCS",
       "version" : "0.1.0",
-      "status" : "draft",
-      "name" : "SzServicePointCS",
-      "title" : "Code System: Eswatini Service Points",
-      "description" : "Code System for Eswatini service points",
+      "status" : "active",
+      "name" : "EswatiniReasonsForReferrals",
+      "title" : "Code System: Eswatini Reasons for Referral",
+      "description" : "Data element that contains codes for reasons for referral",
       "uses" : {
       },
-      "ValueSet-SzServicePointVS.html" : "Value set: Eswatini Service Points"
+      "ValueSet-SzReaonsForReferralVS.html" : "Value Set: Reasons for Referral"
+    },
+    {
+      "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzReferralIntentCS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "EswatiniServiceReferralIntent",
+      "title" : "Code System: Eswatini Referral Intent",
+      "description" : "Data element that contains codes for referral intent",
+      "uses" : {
+      },
+      "ValueSet-SzReferralIntentVS.html" : "Value Set: Referral Intent"
+    },
+    {
+      "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzReferralTypeCS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "EswatiniReferralType",
+      "title" : "Code System: Eswatini Referral Type",
+      "description" : "Data element that contains codes for referral types",
+      "uses" : {
+      },
+      "ValueSet-SzReferralTypeVS.html" : "Value Set: Referral Type"
+    },
+    {
+      "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzServiceRequestCategoryCS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "EswatiniServiceRequestCategory",
+      "title" : "Code System: Eswatini Service Request Category",
+      "description" : "Data element that contains codes for service request categories",
+      "uses" : {
+      },
+      "ValueSet-SzServiceRequestCategoryVS.html" : "Value Set: Service Request"
     },
     {
       "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzTestCodeCS",
@@ -72,7 +116,7 @@
       "status" : "draft",
       "name" : "SzTestParameterCodeCS",
       "title" : "Code System: Eswatini Local Test Parameter Codes",
-      "description" : null,
+      "description" : "",
       "uses" : {
       },
       "ValueSet-SzTestParameterCodeVS.html" : "Value Set: Eswatini Local Test Parameter Codes"
@@ -87,6 +131,18 @@
       "uses" : {
       },
       "ValueSet-SzTinkhundlaVS.html" : "Value Set: Tinkhundla"
+    },
+    {
+      "url" : "http://hl7.org/fhir/request-intent",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "RequestIntent",
+      "title" : "RequestIntent",
+      "description" : "Codes indicating the degree of authority/intentionality associated with a request.",
+      "oids" : ["2.16.840.1.113883.4.642.4.114"],
+      "uses" : {
+      },
+      "ValueSet-SzReferralIntentVS.html" : "Value Set: Referral Intent"
     },
     {
       "url" : "http://hl7.org/fhir/sid/icd-10",
@@ -111,6 +167,18 @@
       "uses" : {
       },
       "http://hl7.org/fhir/R4/valueset-observation-vitalsignresult.html" : "Vital Signs"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "version" : "9.0.0",
+      "status" : "active",
+      "name" : "ActCode",
+      "title" : "ActCode",
+      "description" : "A code specifying the particular kind of Act that the Act-instance represents within its class.\r\n\r\n*Constraints:* The kind of Act (e.g. physical examination, serum potassium, inpatient encounter, charge financial transaction, etc.) is specified with a code from one of several, typically external, coding systems. The coding system will depend on the class of Act, such as LOINC for observations, etc.\r\n\r\nConceptually, the Act.code must be a specialization of the Act.classCode. This is why the structure of ActClass domain should be reflected in the superstructure of the ActCode domain and then individual codes or externally referenced vocabularies subordinated under these domains that reflect the ActClass structure.\r\n\r\nAct.classCode and Act.code are not modifiers of each other but the Act.code concept should really imply the Act.classCode concept. For a negative example, it is not appropriate to use an Act.code \"potassium\" together with and Act.classCode for \"laboratory observation\" to somehow mean \"potassium laboratory observation\" and then use the same Act.code for \"potassium\" together with Act.classCode for \"medication\" to mean \"substitution of potassium\". This mutually modifying use of Act.code and Act.classCode is not permitted.",
+      "oids" : ["2.16.840.1.113883.5.4"],
+      "uses" : {
+      },
+      "ValueSet-SzEncounterClassificationVS.html" : "Value Set: Encounter Classification"
     }
   ]
 }

@@ -1,0 +1,57 @@
+{
+  "resourceType" : "ServiceRequest",
+  "id" : "SampleSzReferral",
+  "meta" : {
+    "profile" : ["http://172.209.216.154:3447/fhir/StructureDefinition/SzReferral"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ServiceRequest SampleSzReferral</b></p><a name=\"SampleSzReferral\"> </a><a name=\"hcSampleSzReferral\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzReferral.html\">Eswatini Referral Profile</a></p></div><p><b>Extention: Eswatini Referral Recipient</b>: <a href=\"Organization-SampleSzOrganization1.html\">Organization Mbabane Government Hospital</a></p><p><b>identifier</b>: SampleSzReferralId</p><p><b>status</b>: Active</p><p><b>intent</b>: Plan</p><p><b>category</b>: <span title=\"Codes:{http://172.209.216.154:3447/fhir/CodeSystem/SzServiceRequestCategoryCS 1}\">Referral</span></p><p><b>code</b>: <span title=\"Codes:{http://172.209.216.154:3447/fhir/CodeSystem/SzReferralTypeCS 1}\">Facility to Facility</span></p><p><b>subject</b>: <a href=\"Patient-SampleSzPatient.html\">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1\u00a0(use:\u00a0usual,\u00a0))</a></p><p><b>encounter</b>: <a href=\"Encounter-SampleSzEncounter.html\">Encounter: status = finished; class = Out Patient Department (Code System: Encounter Classification#OPD); period = 2023-10-01 10:00:00+0000 --&gt; (ongoing); reasonCode = Antiretrovial Therapy</a></p><p><b>occurrence</b>: 2025-09-11 10:00:00+0000</p><p><b>authoredOn</b>: 2025-07-28 10:00:00+0000</p><p><b>requester</b>: <a href=\"Organization-SampleSzOrganization.html\">Organization Mbabane Public Health Unit</a></p><p><b>reasonCode</b>: <span title=\"Codes:{http://172.209.216.154:3447/fhir/CodeSystem/SzReasonsForReferralCS 12}\">HIV Care Services</span></p></div>"
+  },
+  "extension" : [{
+    "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzReferralRecipientExtension",
+    "valueReference" : {
+      "reference" : "Organization/SampleSzOrganization1"
+    }
+  }],
+  "identifier" : [{
+    "value" : "SampleSzReferralId"
+  }],
+  "status" : "active",
+  "intent" : "plan",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://172.209.216.154:3447/fhir/CodeSystem/SzServiceRequestCategoryCS",
+      "code" : "1",
+      "display" : "Referral"
+    }],
+    "text" : "Referral"
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://172.209.216.154:3447/fhir/CodeSystem/SzReferralTypeCS",
+      "code" : "1",
+      "display" : "Facility to Facility"
+    }],
+    "text" : "Facility to Facility"
+  },
+  "subject" : {
+    "reference" : "Patient/SampleSzPatient"
+  },
+  "encounter" : {
+    "reference" : "Encounter/SampleSzEncounter"
+  },
+  "occurrenceDateTime" : "2025-09-11T10:00:00Z",
+  "authoredOn" : "2025-07-28T10:00:00Z",
+  "requester" : {
+    "reference" : "Organization/SampleSzOrganization"
+  },
+  "reasonCode" : [{
+    "coding" : [{
+      "system" : "http://172.209.216.154:3447/fhir/CodeSystem/SzReasonsForReferralCS",
+      "code" : "12",
+      "display" : "HIV Care Services"
+    }],
+    "text" : "HIV Care Services"
+  }]
+}

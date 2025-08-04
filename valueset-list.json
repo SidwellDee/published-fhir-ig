@@ -37,7 +37,19 @@
       "title" : "Value Set: Encounter Classification",
       "description" : "Eswatini Encounter Classification Codes",
       "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ActCode",
         "http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterClassificationCS"
+      ]
+    },
+    {
+      "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzEncounterReasonVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SzEncounterReasonVS",
+      "title" : "Value set: Eswatini Encounter Reason Codes",
+      "description" : "Value set for Eswatini Encounter Reason Codes",
+      "systems" : [
+        "http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterReasonCS"
       ]
     },
     {
@@ -52,14 +64,48 @@
       ]
     },
     {
-      "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzServicePointVS",
+      "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzReaonsForReferralVS",
       "version" : "0.1.0",
-      "status" : "draft",
-      "name" : "SzServicePointVS",
-      "title" : "Value set: Eswatini Service Points",
-      "description" : "Value set for Eswatini service points",
+      "status" : "active",
+      "name" : "SzReaonsForReferralVS",
+      "title" : "Value Set: Reasons for Referral",
+      "description" : "Eswatini Reasons for Referral",
       "systems" : [
-        "http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS"
+        "http://172.209.216.154:3447/fhir/CodeSystem/SzReasonsForReferralCS"
+      ]
+    },
+    {
+      "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzReferralIntentVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "SzReferralIntentVS",
+      "title" : "Value Set: Referral Intent",
+      "description" : "Eswatini Referral Intent",
+      "systems" : [
+        "http://172.209.216.154:3447/fhir/CodeSystem/SzReferralIntentCS",
+        "http://hl7.org/fhir/request-intent"
+      ]
+    },
+    {
+      "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzReferralTypeVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "SzReferralTypeVS",
+      "title" : "Value Set: Referral Type",
+      "description" : "Eswatini Referral Types",
+      "systems" : [
+        "http://172.209.216.154:3447/fhir/CodeSystem/SzReferralTypeCS"
+      ]
+    },
+    {
+      "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzServiceRequestCategoryVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "SzServiceRequestCategoryVS",
+      "title" : "Value Set: Service Request",
+      "description" : "Eswatini Service Request",
+      "systems" : [
+        "http://172.209.216.154:3447/fhir/CodeSystem/SzServiceRequestCategoryCS"
       ]
     },
     {
@@ -77,7 +123,7 @@
       "status" : "draft",
       "name" : "SzTestParameterCodeVS",
       "title" : "Value Set: Eswatini Local Test Parameter Codes",
-      "description" : null,
+      "description" : "",
       "systems" : [
         "http://172.209.216.154:3447/fhir/CodeSystem/SzTestParameterCodeCS"
       ]

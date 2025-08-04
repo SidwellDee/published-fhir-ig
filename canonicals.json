@@ -14,6 +14,13 @@
     "name" : "EswatiniEncounterClassification"
   },
   {
+    "id" : "SzEncounterReasonCS",
+    "type" : "CodeSystem",
+    "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterReasonCS",
+    "version" : "0.1.0",
+    "name" : "SzEncounterReasonCS"
+  },
+  {
     "id" : "SzPersonIdentificationsCS",
     "type" : "CodeSystem",
     "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS",
@@ -28,11 +35,32 @@
     "name" : "SzProductCodeCS"
   },
   {
-    "id" : "SzServicePointCS",
+    "id" : "SzReasonsForReferralCS",
     "type" : "CodeSystem",
-    "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS",
+    "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzReasonsForReferralCS",
     "version" : "0.1.0",
-    "name" : "SzServicePointCS"
+    "name" : "EswatiniReasonsForReferrals"
+  },
+  {
+    "id" : "SzReferralIntentCS",
+    "type" : "CodeSystem",
+    "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzReferralIntentCS",
+    "version" : "0.1.0",
+    "name" : "EswatiniServiceReferralIntent"
+  },
+  {
+    "id" : "SzReferralTypeCS",
+    "type" : "CodeSystem",
+    "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzReferralTypeCS",
+    "version" : "0.1.0",
+    "name" : "EswatiniReferralType"
+  },
+  {
+    "id" : "SzServiceRequestCategoryCS",
+    "type" : "CodeSystem",
+    "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzServiceRequestCategoryCS",
+    "version" : "0.1.0",
+    "name" : "EswatiniServiceRequestCategory"
   },
   {
     "id" : "SzTestCodeCS",
@@ -217,6 +245,20 @@
     "name" : "SzProcedure"
   },
   {
+    "id" : "SzReferral",
+    "type" : "StructureDefinition",
+    "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzReferral",
+    "version" : "0.1.0",
+    "name" : "SzReferral"
+  },
+  {
+    "id" : "SzReferralRecipientExtension",
+    "type" : "StructureDefinition",
+    "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzReferralRecipientExtension",
+    "version" : "0.1.0",
+    "name" : "SzReferralRecipientExtension"
+  },
+  {
     "id" : "SzTestingLabExtension",
     "type" : "StructureDefinition",
     "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzTestingLabExtension",
@@ -259,6 +301,13 @@
     "name" : "EswatiniEncounterClassification"
   },
   {
+    "id" : "SzEncounterReasonVS",
+    "type" : "ValueSet",
+    "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzEncounterReasonVS",
+    "version" : "0.1.0",
+    "name" : "SzEncounterReasonVS"
+  },
+  {
     "id" : "SzProductCodeVS",
     "type" : "ValueSet",
     "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzProductCodeVS",
@@ -266,11 +315,32 @@
     "name" : "SzProductCodeVS"
   },
   {
-    "id" : "SzServicePointVS",
+    "id" : "SzReaonsForReferralVS",
     "type" : "ValueSet",
-    "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzServicePointVS",
+    "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzReaonsForReferralVS",
     "version" : "0.1.0",
-    "name" : "SzServicePointVS"
+    "name" : "SzReaonsForReferralVS"
+  },
+  {
+    "id" : "SzReferralIntentVS",
+    "type" : "ValueSet",
+    "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzReferralIntentVS",
+    "version" : "0.1.0",
+    "name" : "SzReferralIntentVS"
+  },
+  {
+    "id" : "SzReferralTypeVS",
+    "type" : "ValueSet",
+    "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzReferralTypeVS",
+    "version" : "0.1.0",
+    "name" : "SzReferralTypeVS"
+  },
+  {
+    "id" : "SzServiceRequestCategoryVS",
+    "type" : "ValueSet",
+    "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzServiceRequestCategoryVS",
+    "version" : "0.1.0",
+    "name" : "SzServiceRequestCategoryVS"
   },
   {
     "id" : "SzTestCodeVS",

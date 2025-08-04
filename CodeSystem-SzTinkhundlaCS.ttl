@@ -19,7 +19,7 @@
   fhir:title [ fhir:v "Code System: Eswatini Tinkhundla"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-07-16T14:06:30+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-08-01T12:25:19+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministry of Health Eswatini"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ministry of Health Eswatini" ] ;

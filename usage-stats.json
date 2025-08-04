@@ -32,6 +32,63 @@
       ]
     },
     {
+      "url": "http://172.209.216.154:3447/fhir/StructureDefinition/SzReferralRecipientExtension",
+      "title": "Extention: Eswatini Referral Recipient",
+      "types": [
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta",
+        "Reference"
+      ]
+    },
+    {
       "url": "http://172.209.216.154:3447/fhir/StructureDefinition/SzTestingLabExtension",
       "title": "Extention: Eswatini Testing Laboratory",
       "types": [
@@ -117,13 +174,15 @@
         "url": "http://172.209.216.154:3447/fhir/StructureDefinition/SzProcedure",
         "title": "Eswatini Procedure Profile"
       }
+    ],
+    "ServiceRequest": [
+      {
+        "url": "http://172.209.216.154:3447/fhir/StructureDefinition/SzReferral",
+        "title": "Eswatini Referral Profile"
+      }
     ]
   },
   "usage": {
-    "code": [
-      "Bundle.entry.resource",
-      "Patient"
-    ],
     "http://172.209.216.154:3447/fhir/StructureDefinition/SzAuthorizerExtension": [
       "Observation"
     ],
@@ -137,6 +196,9 @@
     ],
     "http://172.209.216.154:3447/fhir/StructureDefinition/SzLocationCodeExtension": [
       "Location"
+    ],
+    "http://172.209.216.154:3447/fhir/StructureDefinition/SzReferralRecipientExtension": [
+      "ServiceRequest"
     ],
     "http://172.209.216.154:3447/fhir/StructureDefinition/SzTestingLabExtension": [
       "Observation"

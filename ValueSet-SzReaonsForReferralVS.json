@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "SzReaonsForReferralVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet SzReaonsForReferralVS</b></p><a name=\"SzReaonsForReferralVS\"> </a><a name=\"hcSzReaonsForReferralVS\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-SzReasonsForReferralCS.html\"><code>http://172.209.216.154:3447/fhir/CodeSystem/SzReasonsForReferralCS</code></a></li></ul></div>"
+  },
+  "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzReaonsForReferralVS",
+  "version" : "0.1.0",
+  "name" : "SzReaonsForReferralVS",
+  "title" : "Value Set: Reasons for Referral",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-08-01T12:25:19+00:00",
+  "publisher" : "Ministry of Health Eswatini",
+  "contact" : [{
+    "name" : "Ministry of Health Eswatini",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://172.209.216.154:3447"
+    },
+    {
+      "system" : "email",
+      "value" : "eswatinihie@moh.gov.sz"
+    }]
+  }],
+  "description" : "Eswatini Reasons for Referral",
+  "compose" : {
+    "include" : [{
+      "system" : "http://172.209.216.154:3447/fhir/CodeSystem/SzReasonsForReferralCS"
+    }]
+  }
+}

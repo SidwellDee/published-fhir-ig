@@ -1,0 +1,78 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://172.209.216.154:3447/fhir/ServiceRequest/SampleSzReferral> a fhir:ServiceRequest ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "SampleSzReferral"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzReferral"^^xsd:anyURI ;
+       fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzReferral>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ServiceRequest SampleSzReferral</b></p><a name=\"SampleSzReferral\"> </a><a name=\"hcSampleSzReferral\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzReferral.html\">Eswatini Referral Profile</a></p></div><p><b>Extention: Eswatini Referral Recipient</b>: <a href=\"Organization-SampleSzOrganization1.html\">Organization Mbabane Government Hospital</a></p><p><b>identifier</b>: SampleSzReferralId</p><p><b>status</b>: Active</p><p><b>intent</b>: Plan</p><p><b>category</b>: <span title=\"Codes:{http://172.209.216.154:3447/fhir/CodeSystem/SzServiceRequestCategoryCS 1}\">Referral</span></p><p><b>code</b>: <span title=\"Codes:{http://172.209.216.154:3447/fhir/CodeSystem/SzReferralTypeCS 1}\">Facility to Facility</span></p><p><b>subject</b>: <a href=\"Patient-SampleSzPatient.html\">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</a></p><p><b>encounter</b>: <a href=\"Encounter-SampleSzEncounter.html\">Encounter: status = finished; class = Out Patient Department (Code System: Encounter Classification#OPD); period = 2023-10-01 10:00:00+0000 --&gt; (ongoing); reasonCode = Antiretrovial Therapy</a></p><p><b>occurrence</b>: 2025-09-11 10:00:00+0000</p><p><b>authoredOn</b>: 2025-07-28 10:00:00+0000</p><p><b>requester</b>: <a href=\"Organization-SampleSzOrganization.html\">Organization Mbabane Public Health Unit</a></p><p><b>reasonCode</b>: <span title=\"Codes:{http://172.209.216.154:3447/fhir/CodeSystem/SzReasonsForReferralCS 12}\">HIV Care Services</span></p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzReferralRecipientExtension"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Reference ;
+       fhir:link <http://172.209.216.154:3447/fhir/Organization/SampleSzOrganization1> ;
+       fhir:reference [ fhir:v "Organization/SampleSzOrganization1" ]
+     ]
+  ] ) ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "SampleSzReferralId" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:intent [ fhir:v "plan"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://172.209.216.154:3447/fhir/CodeSystem/SzServiceRequestCategoryCS"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "1" ] ;
+       fhir:display [ fhir:v "Referral" ]
+     ] ) ;
+     fhir:text [ fhir:v "Referral" ]
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://172.209.216.154:3447/fhir/CodeSystem/SzReferralTypeCS"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "1" ] ;
+       fhir:display [ fhir:v "Facility to Facility" ]
+     ] ) ;
+     fhir:text [ fhir:v "Facility to Facility" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://172.209.216.154:3447/fhir/Patient/SampleSzPatient> ;
+     fhir:reference [ fhir:v "Patient/SampleSzPatient" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:link <http://172.209.216.154:3447/fhir/Encounter/SampleSzEncounter> ;
+     fhir:reference [ fhir:v "Encounter/SampleSzEncounter" ]
+  ] ; # 
+  fhir:occurrence [
+     a fhir:dateTime ;
+     fhir:v "2025-09-11T10:00:00Z"^^xsd:dateTime
+  ] ; # 
+  fhir:authoredOn [ fhir:v "2025-07-28T10:00:00Z"^^xsd:dateTime] ; # 
+  fhir:requester [
+     fhir:link <http://172.209.216.154:3447/fhir/Organization/SampleSzOrganization> ;
+     fhir:reference [ fhir:v "Organization/SampleSzOrganization" ]
+  ] ; # 
+  fhir:reasonCode ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://172.209.216.154:3447/fhir/CodeSystem/SzReasonsForReferralCS"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "12" ] ;
+       fhir:display [ fhir:v "HIV Care Services" ]
+     ] ) ;
+     fhir:text [ fhir:v "HIV Care Services" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

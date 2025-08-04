@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "SzEncounterClassificationVS"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet SzEncounterClassificationVS</b></p><a name=\"SzEncounterClassificationVS\"> </a><a name=\"hcSzEncounterClassificationVS\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-SzEncounterClassificationCS.html\"><code>http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterClassificationCS</code></a></li></ul></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet SzEncounterClassificationVS</b></p><a name=\"SzEncounterClassificationVS\"> </a><a name=\"hcSzEncounterClassificationVS\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-v3-ActCode.html\"><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></a></li><li>Include all codes defined in <a href=\"CodeSystem-SzEncounterClassificationCS.html\"><code>http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterClassificationCS</code></a></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "http://172.209.216.154:3447/fhir/ValueSet/SzEncounterClassificationVS"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
@@ -19,7 +19,7 @@
   fhir:title [ fhir:v "Value Set: Encounter Classification"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-07-16T14:06:30+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-08-01T12:25:19+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministry of Health Eswatini"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ministry of Health Eswatini" ] ;
@@ -34,6 +34,8 @@
   fhir:description [ fhir:v "Eswatini Encounter Classification Codes"] ; # 
   fhir:compose [
      fhir:include ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ]
+     ] [
        fhir:system [ fhir:v "http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterClassificationCS"^^xsd:anyURI ]
      ] )
   ] . # 

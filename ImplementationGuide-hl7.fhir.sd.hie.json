@@ -10,7 +10,7 @@
   "name" : "EswatiniHIEImplementationGuide",
   "title" : "Eswatini HL7 FHIR Implementation Guide",
   "status" : "draft",
-  "date" : "2025-07-16T14:06:30+00:00",
+  "date" : "2025-08-01T12:25:19+00:00",
   "publisher" : "Ministry of Health Eswatini",
   "contact" : [{
     "name" : "Ministry of Health Eswatini",
@@ -44,7 +44,7 @@
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "5.2.0"
+    "version" : "5.3.0-ballot"
   },
   {
     "id" : "hl7_fhir_us_core",
@@ -330,7 +330,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools.r4#0.5.0"
+      "valueCode" : "hl7.fhir.uv.tools.r4#0.7.1"
     },
     {
       "extension" : [{
@@ -637,6 +637,18 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/SzEncounterReasonCS"
+      },
+      "name" : "Code System: Eswatini Encounter Reason Codes",
+      "description" : "Code System for Eswatini Encounter Reason Codes",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/SzTestCodeCS"
       },
       "name" : "Code System: Eswatini Local Test Codes",
@@ -672,10 +684,46 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/SzServicePointCS"
+        "reference" : "CodeSystem/SzReasonsForReferralCS"
       },
-      "name" : "Code System: Eswatini Service Points",
-      "description" : "Code System for Eswatini service points",
+      "name" : "Code System: Eswatini Reasons for Referral",
+      "description" : "Data element that contains codes for reasons for referral",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/SzReferralIntentCS"
+      },
+      "name" : "Code System: Eswatini Referral Intent",
+      "description" : "Data element that contains codes for referral intent",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/SzReferralTypeCS"
+      },
+      "name" : "Code System: Eswatini Referral Type",
+      "description" : "Data element that contains codes for referral types",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/SzServiceRequestCategoryCS"
+      },
+      "name" : "Code System: Eswatini Service Request Category",
+      "description" : "Data element that contains codes for service request categories",
       "exampleBoolean" : false
     },
     {
@@ -864,6 +912,18 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/SzReferral"
+      },
+      "name" : "Eswatini Referral Profile",
+      "description" : "This resource is designed to record patient referral information.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/SzLabSpecimen"
       },
       "name" : "Eswatini Specimen Profile",
@@ -928,6 +988,18 @@
       },
       "name" : "Extention: Eswatini Location Code",
       "description" : "Extention for Eswatini Location Code",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/SzReferralRecipientExtension"
+      },
+      "name" : "Extention: Eswatini Referral Recipient",
+      "description" : "Extention for Eswatini Referral Recipient",
       "exampleBoolean" : false
     },
     {
@@ -1305,6 +1377,42 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/SampleSzOrganization"
+      },
+      "name" : "SampleSzOrganization",
+      "description" : "Sample Eswatini Organization",
+      "exampleCanonical" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzOrganization"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/SampleSzOrganization1"
+      },
+      "name" : "SampleSzOrganization1",
+      "description" : "An example of an Organization",
+      "exampleCanonical" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzOrganization"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ServiceRequest"
+      }],
+      "reference" : {
+        "reference" : "ServiceRequest/SampleSzReferral"
+      },
+      "name" : "SampleSzReferral",
+      "description" : "Sample Eswatini Referral Example",
+      "exampleCanonical" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzReferral"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Specimen"
       }],
       "reference" : {
@@ -1404,9 +1512,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/SzTestParameterCodeVS"
+        "reference" : "ValueSet/SzEncounterReasonVS"
       },
-      "name" : "Value Set: Eswatini Local Test Parameter Codes",
+      "name" : "Value set: Eswatini Encounter Reason Codes",
+      "description" : "Value set for Eswatini Encounter Reason Codes",
       "exampleBoolean" : false
     },
     {
@@ -1415,10 +1524,9 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/SzServicePointVS"
+        "reference" : "ValueSet/SzTestParameterCodeVS"
       },
-      "name" : "Value set: Eswatini Service Points",
-      "description" : "Value set for Eswatini service points",
+      "name" : "Value Set: Eswatini Local Test Parameter Codes",
       "exampleBoolean" : false
     },
     {
@@ -1467,6 +1575,54 @@
       },
       "name" : "Value Set: Product Code Value Set",
       "description" : "Value set for ESwatini Product Codes",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/SzReaonsForReferralVS"
+      },
+      "name" : "Value Set: Reasons for Referral",
+      "description" : "Eswatini Reasons for Referral",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/SzReferralIntentVS"
+      },
+      "name" : "Value Set: Referral Intent",
+      "description" : "Eswatini Referral Intent",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/SzReferralTypeVS"
+      },
+      "name" : "Value Set: Referral Type",
+      "description" : "Eswatini Referral Types",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/SzServiceRequestCategoryVS"
+      },
+      "name" : "Value Set: Service Request",
+      "description" : "Eswatini Service Request",
       "exampleBoolean" : false
     },
     {

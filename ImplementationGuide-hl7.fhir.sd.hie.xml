@@ -10,7 +10,7 @@
   <name value="EswatiniHIEImplementationGuide"/>
   <title value="Eswatini HL7 FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2025-07-16T14:06:30+00:00"/>
+  <date value="2025-08-01T12:25:19+00:00"/>
   <publisher value="Ministry of Health Eswatini"/>
   <contact>
     <name value="Ministry of Health Eswatini"/>
@@ -40,7 +40,7 @@
     </extension>
     <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
     <packageId value="hl7.fhir.uv.extensions.r4"/>
-    <version value="5.2.0"/>
+    <version value="5.3.0-ballot"/>
   </dependsOn>
   <dependsOn id="hl7_fhir_us_core">
     <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"/>
@@ -249,7 +249,7 @@
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools.r4#0.5.0"/>
+      <valueCode value="hl7.fhir.uv.tools.r4#0.7.1"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -478,6 +478,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/SzEncounterReasonCS"/>
+      </reference>
+      <name value="Code System: Eswatini Encounter Reason Codes"/>
+      <description value="Code System for Eswatini Encounter Reason Codes"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/SzTestCodeCS"/>
       </reference>
       <name value="Code System: Eswatini Local Test Codes"/>
@@ -510,10 +521,43 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/SzServicePointCS"/>
+        <reference value="CodeSystem/SzReasonsForReferralCS"/>
       </reference>
-      <name value="Code System: Eswatini Service Points"/>
-      <description value="Code System for Eswatini service points"/>
+      <name value="Code System: Eswatini Reasons for Referral"/>
+      <description value="Data element that contains codes for reasons for referral"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/SzReferralIntentCS"/>
+      </reference>
+      <name value="Code System: Eswatini Referral Intent"/>
+      <description value="Data element that contains codes for referral intent"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/SzReferralTypeCS"/>
+      </reference>
+      <name value="Code System: Eswatini Referral Type"/>
+      <description value="Data element that contains codes for referral types"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/SzServiceRequestCategoryCS"/>
+      </reference>
+      <name value="Code System: Eswatini Service Request Category"/>
+      <description value="Data element that contains codes for service request categories"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -686,6 +730,17 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/SzReferral"/>
+      </reference>
+      <name value="Eswatini Referral Profile"/>
+      <description value="This resource is designed to record patient referral information."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/SzLabSpecimen"/>
       </reference>
       <name value="Eswatini Specimen Profile"/>
@@ -745,6 +800,17 @@
       </reference>
       <name value="Extention: Eswatini Location Code"/>
       <description value="Extention for Eswatini Location Code"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SzReferralRecipientExtension"/>
+      </reference>
+      <name value="Extention: Eswatini Referral Recipient"/>
+      <description value="Extention for Eswatini Referral Recipient"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1090,6 +1156,39 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/SampleSzOrganization"/>
+      </reference>
+      <name value="SampleSzOrganization"/>
+      <description value="Sample Eswatini Organization"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzOrganization"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/SampleSzOrganization1"/>
+      </reference>
+      <name value="SampleSzOrganization1"/>
+      <description value="An example of an Organization"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzOrganization"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ServiceRequest"/>
+      </extension>
+      <reference>
+        <reference value="ServiceRequest/SampleSzReferral"/>
+      </reference>
+      <name value="SampleSzReferral"/>
+      <description value="Sample Eswatini Referral Example"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzReferral"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Specimen"/>
       </extension>
       <reference>
@@ -1181,9 +1280,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/SzTestParameterCodeVS"/>
+        <reference value="ValueSet/SzEncounterReasonVS"/>
       </reference>
-      <name value="Value Set: Eswatini Local Test Parameter Codes"/>
+      <name value="Value set: Eswatini Encounter Reason Codes"/>
+      <description value="Value set for Eswatini Encounter Reason Codes"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1191,10 +1291,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/SzServicePointVS"/>
+        <reference value="ValueSet/SzTestParameterCodeVS"/>
       </reference>
-      <name value="Value set: Eswatini Service Points"/>
-      <description value="Value set for Eswatini service points"/>
+      <name value="Value Set: Eswatini Local Test Parameter Codes"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1239,6 +1338,50 @@
       </reference>
       <name value="Value Set: Product Code Value Set"/>
       <description value="Value set for ESwatini Product Codes"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/SzReaonsForReferralVS"/>
+      </reference>
+      <name value="Value Set: Reasons for Referral"/>
+      <description value="Eswatini Reasons for Referral"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/SzReferralIntentVS"/>
+      </reference>
+      <name value="Value Set: Referral Intent"/>
+      <description value="Eswatini Referral Intent"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/SzReferralTypeVS"/>
+      </reference>
+      <name value="Value Set: Referral Type"/>
+      <description value="Eswatini Referral Types"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/SzServiceRequestCategoryVS"/>
+      </reference>
+      <name value="Value Set: Service Request"/>
+      <description value="Eswatini Service Request"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

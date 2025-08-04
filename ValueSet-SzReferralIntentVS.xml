@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="SzReferralIntentVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet SzReferralIntentVS</b></p><a name="SzReferralIntentVS"> </a><a name="hcSzReferralIntentVS"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="http://hl7.org/fhir/R4/codesystem-request-intent.html"><code>http://hl7.org/fhir/request-intent</code></a></li><li>Include all codes defined in <a href="CodeSystem-SzReferralIntentCS.html"><code>http://172.209.216.154:3447/fhir/CodeSystem/SzReferralIntentCS</code></a></li></ul></div>
+  </text>
+  <url value="http://172.209.216.154:3447/fhir/ValueSet/SzReferralIntentVS"/>
+  <version value="0.1.0"/>
+  <name value="SzReferralIntentVS"/>
+  <title value="Value Set: Referral Intent"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-08-01T12:25:19+00:00"/>
+  <publisher value="Ministry of Health Eswatini"/>
+  <contact>
+    <name value="Ministry of Health Eswatini"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://172.209.216.154:3447"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="eswatinihie@moh.gov.sz"/>
+    </telecom>
+  </contact>
+  <description value="Eswatini Referral Intent"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/request-intent"/>
+    </include>
+    <include>
+      <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzReferralIntentCS"/>
+    </include>
+  </compose>
+</ValueSet>

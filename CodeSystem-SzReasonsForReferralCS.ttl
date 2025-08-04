@@ -1,0 +1,115 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://172.209.216.154:3447/fhir/CodeSystem/SzReasonsForReferralCS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "SzReasonsForReferralCS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem SzReasonsForReferralCS</b></p><a name=\"SzReasonsForReferralCS\"> </a><a name=\"hcSzReasonsForReferralCS\"> </a><p>This  code system <code>http://172.209.216.154:3447/fhir/CodeSystem/SzReasonsForReferralCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"SzReasonsForReferralCS-1\"> </a></td><td>Care and Treatment Services (excluding ART)</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"SzReasonsForReferralCS-2\"> </a></td><td>Nutritional Support</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"SzReasonsForReferralCS-3\"> </a></td><td>Home Based Care</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"SzReasonsForReferralCS-4\"> </a></td><td>TB Services</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"SzReasonsForReferralCS-5\"> </a></td><td>STI Screening and/or Treatment</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"SzReasonsForReferralCS-6\"> </a></td><td>Medical Male Circumcision</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"SzReasonsForReferralCS-7\"> </a></td><td>Psychological and/or Social Support Groups</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"SzReasonsForReferralCS-8\"> </a></td><td>Repeat Testing for Inconclusive Results</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"SzReasonsForReferralCS-9\"> </a></td><td>PMTCT Services</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"SzReasonsForReferralCS-10\"> </a></td><td>Family Planning Services</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"SzReasonsForReferralCS-11\"> </a></td><td>DNA PCR</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"SzReasonsForReferralCS-12\"> </a></td><td>HIV Care Services</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"SzReasonsForReferralCS-13\"> </a></td><td>ART Services</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"SzReasonsForReferralCS-14\"> </a></td><td>Lab testing</td></tr><tr><td style=\"white-space:nowrap\">1013<a name=\"SzReasonsForReferralCS-1013\"> </a></td><td>Skin</td></tr><tr><td style=\"white-space:nowrap\">1014<a name=\"SzReasonsForReferralCS-1014\"> </a></td><td>Dental</td></tr><tr><td style=\"white-space:nowrap\">1015<a name=\"SzReasonsForReferralCS-1015\"> </a></td><td>Transfer out</td></tr><tr><td style=\"white-space:nowrap\">1016<a name=\"SzReasonsForReferralCS-1016\"> </a></td><td>ART initiation</td></tr><tr><td style=\"white-space:nowrap\">1017<a name=\"SzReasonsForReferralCS-1017\"> </a></td><td>Prevention service</td></tr><tr><td style=\"white-space:nowrap\">1018<a name=\"SzReasonsForReferralCS-1018\"> </a></td><td>PrEP Services</td></tr><tr><td style=\"white-space:nowrap\">1019<a name=\"SzReasonsForReferralCS-1019\"> </a></td><td>Presumptive COVID-19 Client</td></tr><tr><td style=\"white-space:nowrap\">1020<a name=\"SzReasonsForReferralCS-1020\"> </a></td><td>Lumbar puncture</td></tr><tr><td style=\"white-space:nowrap\">1021<a name=\"SzReasonsForReferralCS-1021\"> </a></td><td>PEP</td></tr><tr><td style=\"white-space:nowrap\">1022<a name=\"SzReasonsForReferralCS-1022\"> </a></td><td>PrEP</td></tr><tr><td style=\"white-space:nowrap\">2013<a name=\"SzReasonsForReferralCS-2013\"> </a></td><td>Suspected Congenital Syphilis</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://172.209.216.154:3447/fhir/CodeSystem/SzReasonsForReferralCS"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "EswatiniReasonsForReferrals"] ; # 
+  fhir:title [ fhir:v "Code System: Eswatini Reasons for Referral"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-08-01T12:25:19+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministry of Health Eswatini"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Ministry of Health Eswatini" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://172.209.216.154:3447" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "eswatinihie@moh.gov.sz" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Data element that contains codes for reasons for referral"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "25"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "Care and Treatment Services (excluding ART)" ]
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "Nutritional Support" ]
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "Home Based Care" ]
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "TB Services" ]
+  ] [
+     fhir:code [ fhir:v "5" ] ;
+     fhir:display [ fhir:v "STI Screening and/or Treatment" ]
+  ] [
+     fhir:code [ fhir:v "6" ] ;
+     fhir:display [ fhir:v "Medical Male Circumcision" ]
+  ] [
+     fhir:code [ fhir:v "7" ] ;
+     fhir:display [ fhir:v "Psychological and/or Social Support Groups" ]
+  ] [
+     fhir:code [ fhir:v "8" ] ;
+     fhir:display [ fhir:v "Repeat Testing for Inconclusive Results" ]
+  ] [
+     fhir:code [ fhir:v "9" ] ;
+     fhir:display [ fhir:v "PMTCT Services" ]
+  ] [
+     fhir:code [ fhir:v "10" ] ;
+     fhir:display [ fhir:v "Family Planning Services" ]
+  ] [
+     fhir:code [ fhir:v "11" ] ;
+     fhir:display [ fhir:v "DNA PCR" ]
+  ] [
+     fhir:code [ fhir:v "12" ] ;
+     fhir:display [ fhir:v "HIV Care Services" ]
+  ] [
+     fhir:code [ fhir:v "13" ] ;
+     fhir:display [ fhir:v "ART Services" ]
+  ] [
+     fhir:code [ fhir:v "14" ] ;
+     fhir:display [ fhir:v "Lab testing" ]
+  ] [
+     fhir:code [ fhir:v "1013" ] ;
+     fhir:display [ fhir:v "Skin" ]
+  ] [
+     fhir:code [ fhir:v "1014" ] ;
+     fhir:display [ fhir:v "Dental" ]
+  ] [
+     fhir:code [ fhir:v "1015" ] ;
+     fhir:display [ fhir:v "Transfer out" ]
+  ] [
+     fhir:code [ fhir:v "1016" ] ;
+     fhir:display [ fhir:v "ART initiation" ]
+  ] [
+     fhir:code [ fhir:v "1017" ] ;
+     fhir:display [ fhir:v "Prevention service" ]
+  ] [
+     fhir:code [ fhir:v "1018" ] ;
+     fhir:display [ fhir:v "PrEP Services" ]
+  ] [
+     fhir:code [ fhir:v "1019" ] ;
+     fhir:display [ fhir:v "Presumptive COVID-19 Client" ]
+  ] [
+     fhir:code [ fhir:v "1020" ] ;
+     fhir:display [ fhir:v "Lumbar puncture" ]
+  ] [
+     fhir:code [ fhir:v "1021" ] ;
+     fhir:display [ fhir:v "PEP" ]
+  ] [
+     fhir:code [ fhir:v "1022" ] ;
+     fhir:display [ fhir:v "PrEP" ]
+  ] [
+     fhir:code [ fhir:v "2013" ] ;
+     fhir:display [ fhir:v "Suspected Congenital Syphilis" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -26,7 +26,8 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Patient.extension:nationality","Patient.extension","nationality","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/patient-nationality]]} {[]}
-","Nationality.","Patient's nationality according to ID document","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Nationality.","Patient's nationality according to ID document","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Patient.extension:inkhundla","Patient.extension","inkhundla","","",0,1,"Y","","","Extension {[CanonicalType[http://172.209.216.154:3447/fhir/StructureDefinition/SzInkhundlaExtension]]} {[]}
 ","Extention: Eswatini Inkhundla","Extention for Eswatini Tinkhundla","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
@@ -162,7 +163,8 @@ middle name","",1,*,"","","Y","string {[]} {[]}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Patient.birthDate.extension:birthTime","Patient.birthDate.extension","birthTime","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/patient-birthTime]]} {[]}
-","Time of day of birth","The time of day that the Patient/Person/RelatedPerson/Practitioner was born. This includes the date to ensure that the timezone information can be communicated effectively.","The patient prefix on the extension was retained to ensure backward compatibility with existing data (the content itself is provided to assist in sharing data across patient resources effectively)","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Time of day of birth","The time of day that the Patient/Person/RelatedPerson/Practitioner was born. This includes the date to ensure that the timezone information can be communicated effectively.","The patient prefix on the extension was retained to ensure backward compatibility with existing data (the content itself is provided to assist in sharing data across patient resources effectively)","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Patient.birthDate.value","Patient.birthDate.value","","","",0,1,"","","","date {[]} {[]}
 ","Primitive value for date","The actual value","","","","","","","","","",,,,,"",,,,"date.value",0,1,"",""

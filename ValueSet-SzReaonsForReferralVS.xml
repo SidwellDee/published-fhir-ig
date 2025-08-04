@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="SzReaonsForReferralVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet SzReaonsForReferralVS</b></p><a name="SzReaonsForReferralVS"> </a><a name="hcSzReaonsForReferralVS"> </a><ul><li>Include all codes defined in <a href="CodeSystem-SzReasonsForReferralCS.html"><code>http://172.209.216.154:3447/fhir/CodeSystem/SzReasonsForReferralCS</code></a></li></ul></div>
+  </text>
+  <url value="http://172.209.216.154:3447/fhir/ValueSet/SzReaonsForReferralVS"/>
+  <version value="0.1.0"/>
+  <name value="SzReaonsForReferralVS"/>
+  <title value="Value Set: Reasons for Referral"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-08-01T12:25:19+00:00"/>
+  <publisher value="Ministry of Health Eswatini"/>
+  <contact>
+    <name value="Ministry of Health Eswatini"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://172.209.216.154:3447"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="eswatinihie@moh.gov.sz"/>
+    </telecom>
+  </contact>
+  <description value="Eswatini Reasons for Referral"/>
+  <compose>
+    <include>
+      <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzReasonsForReferralCS"/>
+    </include>
+  </compose>
+</ValueSet>

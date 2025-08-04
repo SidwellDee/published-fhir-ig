@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="SzEncounterReasonCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem SzEncounterReasonCS</b></p><a name="SzEncounterReasonCS"> </a><a name="hcSzEncounterReasonCS"> </a><p>This  code system <code>http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterReasonCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">ART<a name="SzEncounterReasonCS-ART"> </a></td><td>Anti Retroviral Therapy</td></tr><tr><td style="white-space:nowrap">HTS<a name="SzEncounterReasonCS-HTS"> </a></td><td>HIV Testing Services</td></tr><tr><td style="white-space:nowrap">ANC<a name="SzEncounterReasonCS-ANC"> </a></td><td>Ante Natal Care</td></tr><tr><td style="white-space:nowrap">PNC<a name="SzEncounterReasonCS-PNC"> </a></td><td>Post Natal Care</td></tr><tr><td style="white-space:nowrap">FP<a name="SzEncounterReasonCS-FP"> </a></td><td>Family Planning</td></tr><tr><td style="white-space:nowrap">ACI<a name="SzEncounterReasonCS-ACI"> </a></td><td>Active Case Investigation</td></tr><tr><td style="white-space:nowrap">RCD<a name="SzEncounterReasonCS-RCD"> </a></td><td>Reactive Case Detection</td></tr><tr><td style="white-space:nowrap">P<a name="SzEncounterReasonCS-P"> </a></td><td>Proactive</td></tr></table></div>
+  </text>
+  <url value="http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterReasonCS"/>
+  <version value="0.1.0"/>
+  <name value="SzEncounterReasonCS"/>
+  <title value="Code System: Eswatini Encounter Reason Codes"/>
+  <status value="draft"/>
+  <date value="2025-08-01T12:25:19+00:00"/>
+  <publisher value="Ministry of Health Eswatini"/>
+  <contact>
+    <name value="Ministry of Health Eswatini"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://172.209.216.154:3447"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="eswatinihie@moh.gov.sz"/>
+    </telecom>
+  </contact>
+  <description value="Code System for Eswatini Encounter Reason Codes"/>
+  <content value="complete"/>
+  <count value="8"/>
+  <concept>
+    <code value="ART"/>
+    <display value="Anti Retroviral Therapy"/>
+  </concept>
+  <concept>
+    <code value="HTS"/>
+    <display value="HIV Testing Services"/>
+  </concept>
+  <concept>
+    <code value="ANC"/>
+    <display value="Ante Natal Care"/>
+  </concept>
+  <concept>
+    <code value="PNC"/>
+    <display value="Post Natal Care"/>
+  </concept>
+  <concept>
+    <code value="FP"/>
+    <display value="Family Planning"/>
+  </concept>
+  <concept>
+    <code value="ACI"/>
+    <display value="Active Case Investigation"/>
+  </concept>
+  <concept>
+    <code value="RCD"/>
+    <display value="Reactive Case Detection"/>
+  </concept>
+  <concept>
+    <code value="P"/>
+    <display value="Proactive"/>
+  </concept>
+</CodeSystem>

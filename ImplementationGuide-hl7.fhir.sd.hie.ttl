@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "EswatiniHIEImplementationGuide"] ; # 
   fhir:title [ fhir:v "Eswatini HL7 FHIR Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-07-16T14:06:30+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-08-01T12:25:19+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministry of Health Eswatini"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ministry of Health Eswatini" ] ;
@@ -62,7 +62,7 @@
        fhir:link <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
      ] ;
      fhir:packageId [ fhir:v "hl7.fhir.uv.extensions.r4" ] ;
-     fhir:version [ fhir:v "5.2.0" ]
+     fhir:version [ fhir:v "5.3.0-ballot" ]
   ] [
      fhir:id [ fhir:v "hl7_fhir_us_core" ] ;
      fhir:uri [
@@ -452,7 +452,7 @@
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
        fhir:value [
          a fhir:code ;
-         fhir:v "hl7.fhir.uv.tools.r4#0.5.0"
+         fhir:v "hl7.fhir.uv.tools.r4#0.7.1"
        ]
      ] [
        fhir:extension ( [
@@ -875,6 +875,24 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterReasonCS> ;
+         fhir:reference [ fhir:v "CodeSystem/SzEncounterReasonCS" ]
+       ] ;
+       fhir:name [ fhir:v "Code System: Eswatini Encounter Reason Codes" ] ;
+       fhir:description [ fhir:v "Code System for Eswatini Encounter Reason Codes" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://172.209.216.154:3447/fhir/CodeSystem/SzTestCodeCS> ;
          fhir:reference [ fhir:v "CodeSystem/SzTestCodeCS" ]
        ] ;
@@ -928,11 +946,65 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS> ;
-         fhir:reference [ fhir:v "CodeSystem/SzServicePointCS" ]
+         fhir:link <http://172.209.216.154:3447/fhir/CodeSystem/SzReasonsForReferralCS> ;
+         fhir:reference [ fhir:v "CodeSystem/SzReasonsForReferralCS" ]
        ] ;
-       fhir:name [ fhir:v "Code System: Eswatini Service Points" ] ;
-       fhir:description [ fhir:v "Code System for Eswatini service points" ] ;
+       fhir:name [ fhir:v "Code System: Eswatini Reasons for Referral" ] ;
+       fhir:description [ fhir:v "Data element that contains codes for reasons for referral" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://172.209.216.154:3447/fhir/CodeSystem/SzReferralIntentCS> ;
+         fhir:reference [ fhir:v "CodeSystem/SzReferralIntentCS" ]
+       ] ;
+       fhir:name [ fhir:v "Code System: Eswatini Referral Intent" ] ;
+       fhir:description [ fhir:v "Data element that contains codes for referral intent" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://172.209.216.154:3447/fhir/CodeSystem/SzReferralTypeCS> ;
+         fhir:reference [ fhir:v "CodeSystem/SzReferralTypeCS" ]
+       ] ;
+       fhir:name [ fhir:v "Code System: Eswatini Referral Type" ] ;
+       fhir:description [ fhir:v "Data element that contains codes for referral types" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://172.209.216.154:3447/fhir/CodeSystem/SzServiceRequestCategoryCS> ;
+         fhir:reference [ fhir:v "CodeSystem/SzServiceRequestCategoryCS" ]
+       ] ;
+       fhir:name [ fhir:v "Code System: Eswatini Service Request Category" ] ;
+       fhir:description [ fhir:v "Data element that contains codes for service request categories" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -1216,6 +1288,24 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzReferral> ;
+         fhir:reference [ fhir:v "StructureDefinition/SzReferral" ]
+       ] ;
+       fhir:name [ fhir:v "Eswatini Referral Profile" ] ;
+       fhir:description [ fhir:v "This resource is designed to record patient referral information." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzLabSpecimen> ;
          fhir:reference [ fhir:v "StructureDefinition/SzLabSpecimen" ]
        ] ;
@@ -1311,6 +1401,24 @@
        ] ;
        fhir:name [ fhir:v "Extention: Eswatini Location Code" ] ;
        fhir:description [ fhir:v "Extention for Eswatini Location Code" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzReferralRecipientExtension> ;
+         fhir:reference [ fhir:v "StructureDefinition/SzReferralRecipientExtension" ]
+       ] ;
+       fhir:name [ fhir:v "Extention: Eswatini Referral Recipient" ] ;
+       fhir:description [ fhir:v "Extention for Eswatini Referral Recipient" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -1900,6 +2008,63 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "Organization"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://172.209.216.154:3447/fhir/Organization/SampleSzOrganization> ;
+         fhir:reference [ fhir:v "Organization/SampleSzOrganization" ]
+       ] ;
+       fhir:name [ fhir:v "SampleSzOrganization" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Organization" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzOrganization"^^xsd:anyURI ;
+         fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzOrganization>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Organization"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://172.209.216.154:3447/fhir/Organization/SampleSzOrganization1> ;
+         fhir:reference [ fhir:v "Organization/SampleSzOrganization1" ]
+       ] ;
+       fhir:name [ fhir:v "SampleSzOrganization1" ] ;
+       fhir:description [ fhir:v "An example of an Organization" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzOrganization"^^xsd:anyURI ;
+         fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzOrganization>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ServiceRequest"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://172.209.216.154:3447/fhir/ServiceRequest/SampleSzReferral> ;
+         fhir:reference [ fhir:v "ServiceRequest/SampleSzReferral" ]
+       ] ;
+       fhir:name [ fhir:v "SampleSzReferral" ] ;
+       fhir:description [ fhir:v "Sample Eswatini Referral Example" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzReferral"^^xsd:anyURI ;
+         fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzReferral>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "Specimen"
          ]
        ] ) ;
@@ -2054,10 +2219,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://172.209.216.154:3447/fhir/ValueSet/SzTestParameterCodeVS> ;
-         fhir:reference [ fhir:v "ValueSet/SzTestParameterCodeVS" ]
+         fhir:link <http://172.209.216.154:3447/fhir/ValueSet/SzEncounterReasonVS> ;
+         fhir:reference [ fhir:v "ValueSet/SzEncounterReasonVS" ]
        ] ;
-       fhir:name [ fhir:v "Value Set: Eswatini Local Test Parameter Codes" ] ;
+       fhir:name [ fhir:v "Value set: Eswatini Encounter Reason Codes" ] ;
+       fhir:description [ fhir:v "Value set for Eswatini Encounter Reason Codes" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -2071,11 +2237,10 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://172.209.216.154:3447/fhir/ValueSet/SzServicePointVS> ;
-         fhir:reference [ fhir:v "ValueSet/SzServicePointVS" ]
+         fhir:link <http://172.209.216.154:3447/fhir/ValueSet/SzTestParameterCodeVS> ;
+         fhir:reference [ fhir:v "ValueSet/SzTestParameterCodeVS" ]
        ] ;
-       fhir:name [ fhir:v "Value set: Eswatini Service Points" ] ;
-       fhir:description [ fhir:v "Value set for Eswatini service points" ] ;
+       fhir:name [ fhir:v "Value Set: Eswatini Local Test Parameter Codes" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -2148,6 +2313,78 @@
        ] ;
        fhir:name [ fhir:v "Value Set: Product Code Value Set" ] ;
        fhir:description [ fhir:v "Value set for ESwatini Product Codes" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://172.209.216.154:3447/fhir/ValueSet/SzReaonsForReferralVS> ;
+         fhir:reference [ fhir:v "ValueSet/SzReaonsForReferralVS" ]
+       ] ;
+       fhir:name [ fhir:v "Value Set: Reasons for Referral" ] ;
+       fhir:description [ fhir:v "Eswatini Reasons for Referral" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://172.209.216.154:3447/fhir/ValueSet/SzReferralIntentVS> ;
+         fhir:reference [ fhir:v "ValueSet/SzReferralIntentVS" ]
+       ] ;
+       fhir:name [ fhir:v "Value Set: Referral Intent" ] ;
+       fhir:description [ fhir:v "Eswatini Referral Intent" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://172.209.216.154:3447/fhir/ValueSet/SzReferralTypeVS> ;
+         fhir:reference [ fhir:v "ValueSet/SzReferralTypeVS" ]
+       ] ;
+       fhir:name [ fhir:v "Value Set: Referral Type" ] ;
+       fhir:description [ fhir:v "Eswatini Referral Types" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://172.209.216.154:3447/fhir/ValueSet/SzServiceRequestCategoryVS> ;
+         fhir:reference [ fhir:v "ValueSet/SzServiceRequestCategoryVS" ]
+       ] ;
+       fhir:name [ fhir:v "Value Set: Service Request" ] ;
+       fhir:description [ fhir:v "Eswatini Service Request" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

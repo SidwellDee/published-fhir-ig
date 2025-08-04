@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="SzReasonsForReferralCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem SzReasonsForReferralCS</b></p><a name="SzReasonsForReferralCS"> </a><a name="hcSzReasonsForReferralCS"> </a><p>This  code system <code>http://172.209.216.154:3447/fhir/CodeSystem/SzReasonsForReferralCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="SzReasonsForReferralCS-1"> </a></td><td>Care and Treatment Services (excluding ART)</td></tr><tr><td style="white-space:nowrap">2<a name="SzReasonsForReferralCS-2"> </a></td><td>Nutritional Support</td></tr><tr><td style="white-space:nowrap">3<a name="SzReasonsForReferralCS-3"> </a></td><td>Home Based Care</td></tr><tr><td style="white-space:nowrap">4<a name="SzReasonsForReferralCS-4"> </a></td><td>TB Services</td></tr><tr><td style="white-space:nowrap">5<a name="SzReasonsForReferralCS-5"> </a></td><td>STI Screening and/or Treatment</td></tr><tr><td style="white-space:nowrap">6<a name="SzReasonsForReferralCS-6"> </a></td><td>Medical Male Circumcision</td></tr><tr><td style="white-space:nowrap">7<a name="SzReasonsForReferralCS-7"> </a></td><td>Psychological and/or Social Support Groups</td></tr><tr><td style="white-space:nowrap">8<a name="SzReasonsForReferralCS-8"> </a></td><td>Repeat Testing for Inconclusive Results</td></tr><tr><td style="white-space:nowrap">9<a name="SzReasonsForReferralCS-9"> </a></td><td>PMTCT Services</td></tr><tr><td style="white-space:nowrap">10<a name="SzReasonsForReferralCS-10"> </a></td><td>Family Planning Services</td></tr><tr><td style="white-space:nowrap">11<a name="SzReasonsForReferralCS-11"> </a></td><td>DNA PCR</td></tr><tr><td style="white-space:nowrap">12<a name="SzReasonsForReferralCS-12"> </a></td><td>HIV Care Services</td></tr><tr><td style="white-space:nowrap">13<a name="SzReasonsForReferralCS-13"> </a></td><td>ART Services</td></tr><tr><td style="white-space:nowrap">14<a name="SzReasonsForReferralCS-14"> </a></td><td>Lab testing</td></tr><tr><td style="white-space:nowrap">1013<a name="SzReasonsForReferralCS-1013"> </a></td><td>Skin</td></tr><tr><td style="white-space:nowrap">1014<a name="SzReasonsForReferralCS-1014"> </a></td><td>Dental</td></tr><tr><td style="white-space:nowrap">1015<a name="SzReasonsForReferralCS-1015"> </a></td><td>Transfer out</td></tr><tr><td style="white-space:nowrap">1016<a name="SzReasonsForReferralCS-1016"> </a></td><td>ART initiation</td></tr><tr><td style="white-space:nowrap">1017<a name="SzReasonsForReferralCS-1017"> </a></td><td>Prevention service</td></tr><tr><td style="white-space:nowrap">1018<a name="SzReasonsForReferralCS-1018"> </a></td><td>PrEP Services</td></tr><tr><td style="white-space:nowrap">1019<a name="SzReasonsForReferralCS-1019"> </a></td><td>Presumptive COVID-19 Client</td></tr><tr><td style="white-space:nowrap">1020<a name="SzReasonsForReferralCS-1020"> </a></td><td>Lumbar puncture</td></tr><tr><td style="white-space:nowrap">1021<a name="SzReasonsForReferralCS-1021"> </a></td><td>PEP</td></tr><tr><td style="white-space:nowrap">1022<a name="SzReasonsForReferralCS-1022"> </a></td><td>PrEP</td></tr><tr><td style="white-space:nowrap">2013<a name="SzReasonsForReferralCS-2013"> </a></td><td>Suspected Congenital Syphilis</td></tr></table></div>
+  </text>
+  <url value="http://172.209.216.154:3447/fhir/CodeSystem/SzReasonsForReferralCS"/>
+  <version value="0.1.0"/>
+  <name value="EswatiniReasonsForReferrals"/>
+  <title value="Code System: Eswatini Reasons for Referral"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-08-01T12:25:19+00:00"/>
+  <publisher value="Ministry of Health Eswatini"/>
+  <contact>
+    <name value="Ministry of Health Eswatini"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://172.209.216.154:3447"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="eswatinihie@moh.gov.sz"/>
+    </telecom>
+  </contact>
+  <description value="Data element that contains codes for reasons for referral"/>
+  <content value="complete"/>
+  <count value="25"/>
+  <concept>
+    <code value="1"/>
+    <display value="Care and Treatment Services (excluding ART)"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Nutritional Support"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Home Based Care"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="TB Services"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="STI Screening and/or Treatment"/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="Medical Male Circumcision"/>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <display value="Psychological and/or Social Support Groups"/>
+  </concept>
+  <concept>
+    <code value="8"/>
+    <display value="Repeat Testing for Inconclusive Results"/>
+  </concept>
+  <concept>
+    <code value="9"/>
+    <display value="PMTCT Services"/>
+  </concept>
+  <concept>
+    <code value="10"/>
+    <display value="Family Planning Services"/>
+  </concept>
+  <concept>
+    <code value="11"/>
+    <display value="DNA PCR"/>
+  </concept>
+  <concept>
+    <code value="12"/>
+    <display value="HIV Care Services"/>
+  </concept>
+  <concept>
+    <code value="13"/>
+    <display value="ART Services"/>
+  </concept>
+  <concept>
+    <code value="14"/>
+    <display value="Lab testing"/>
+  </concept>
+  <concept>
+    <code value="1013"/>
+    <display value="Skin"/>
+  </concept>
+  <concept>
+    <code value="1014"/>
+    <display value="Dental"/>
+  </concept>
+  <concept>
+    <code value="1015"/>
+    <display value="Transfer out"/>
+  </concept>
+  <concept>
+    <code value="1016"/>
+    <display value="ART initiation"/>
+  </concept>
+  <concept>
+    <code value="1017"/>
+    <display value="Prevention service"/>
+  </concept>
+  <concept>
+    <code value="1018"/>
+    <display value="PrEP Services"/>
+  </concept>
+  <concept>
+    <code value="1019"/>
+    <display value="Presumptive COVID-19 Client"/>
+  </concept>
+  <concept>
+    <code value="1020"/>
+    <display value="Lumbar puncture"/>
+  </concept>
+  <concept>
+    <code value="1021"/>
+    <display value="PEP"/>
+  </concept>
+  <concept>
+    <code value="1022"/>
+    <display value="PrEP"/>
+  </concept>
+  <concept>
+    <code value="2013"/>
+    <display value="Suspected Congenital Syphilis"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,32 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "SzEncounterReasonVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet SzEncounterReasonVS</b></p><a name=\"SzEncounterReasonVS\"> </a><a name=\"hcSzEncounterReasonVS\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-SzEncounterReasonCS.html\"><code>http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterReasonCS</code></a></li></ul></div>"
+  },
+  "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzEncounterReasonVS",
+  "version" : "0.1.0",
+  "name" : "SzEncounterReasonVS",
+  "title" : "Value set: Eswatini Encounter Reason Codes",
+  "status" : "draft",
+  "date" : "2025-08-01T12:25:19+00:00",
+  "publisher" : "Ministry of Health Eswatini",
+  "contact" : [{
+    "name" : "Ministry of Health Eswatini",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://172.209.216.154:3447"
+    },
+    {
+      "system" : "email",
+      "value" : "eswatinihie@moh.gov.sz"
+    }]
+  }],
+  "description" : "Value set for Eswatini Encounter Reason Codes",
+  "compose" : {
+    "include" : [{
+      "system" : "http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterReasonCS"
+    }]
+  }
+}
