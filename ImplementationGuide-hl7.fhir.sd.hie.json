@@ -10,7 +10,7 @@
   "name" : "EswatiniHIEImplementationGuide",
   "title" : "Eswatini HL7 FHIR Implementation Guide",
   "status" : "draft",
-  "date" : "2025-08-01T12:25:19+00:00",
+  "date" : "2025-09-08T12:30:01+00:00",
   "publisher" : "Ministry of Health Eswatini",
   "contact" : [{
     "name" : "Ministry of Health Eswatini",
@@ -44,7 +44,7 @@
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "5.3.0-ballot"
+    "version" : "5.3.0-ballot-tc1"
   },
   {
     "id" : "hl7_fhir_us_core",
@@ -637,18 +637,6 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/SzEncounterReasonCS"
-      },
-      "name" : "Code System: Eswatini Encounter Reason Codes",
-      "description" : "Code System for Eswatini Encounter Reason Codes",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
         "reference" : "CodeSystem/SzTestCodeCS"
       },
       "name" : "Code System: Eswatini Local Test Codes",
@@ -744,6 +732,18 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/SzFacilityServicePointCS"
+      },
+      "name" : "Code System: Facility Service Points",
+      "description" : "Code System for Facility Service Points",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/SzPersonIdentificationsCS"
       },
       "name" : "Code System: Person Identification Types",
@@ -780,10 +780,34 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/SzCondition"
+      },
+      "name" : "Eswatini Condition Profile",
+      "description" : "Eswatini Condition Profile",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/SzEncounter"
       },
       "name" : "Eswatini Encounter Profile",
       "description" : "The Eswatini Encounter Profile inherits from .... This profile sets minimum expectations for the Encounter resource to record basic encounter\ninformation for a patient. It specifies which core elements shall be present and constrains how the elements are used.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/SzEpisodeOfCare"
+      },
+      "name" : "Eswatini Episode of Care",
+      "description" : "Eswatini Episode of Care",
       "exampleBoolean" : false
     },
     {
@@ -828,10 +852,10 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/SzMedication"
+        "reference" : "StructureDefinition/SzMedicationDispense"
       },
-      "name" : "Eswatini Medication Profile",
-      "description" : "Definition of Eswatinit Medication Profile",
+      "name" : "Eswatini Medication Dispense Profile",
+      "description" : "Definition of Eswatinit Medication Dispense Profile",
       "exampleBoolean" : false
     },
     {
@@ -840,10 +864,10 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/SzMedicationDispense"
+        "reference" : "StructureDefinition/SzMedication"
       },
-      "name" : "Eswatini Medication Request Profile",
-      "description" : "Definition of Eswatinit Medication Request Profile",
+      "name" : "Eswatini Medication Profile",
+      "description" : "Definition of Eswatinit Medication Profile",
       "exampleBoolean" : false
     },
     {
@@ -1485,6 +1509,30 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/SzConditionExample"
+      },
+      "name" : "SzConditionExample",
+      "description" : "An example of Eswatini Condition",
+      "exampleCanonical" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzCondition"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "EpisodeOfCare"
+      }],
+      "reference" : {
+        "reference" : "EpisodeOfCare/SzEpisodeOfCareExample"
+      },
+      "name" : "SzEpisodeOfCareExample",
+      "description" : "An example of Eswatini Episode of Care",
+      "exampleCanonical" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzEpisodeOfCare"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -1512,10 +1560,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/SzEncounterReasonVS"
+        "reference" : "ValueSet/SzFacilityServicePointVS"
       },
-      "name" : "Value set: Eswatini Encounter Reason Codes",
-      "description" : "Value set for Eswatini Encounter Reason Codes",
+      "name" : "Value set: Eswatini Facility Service Points",
+      "description" : "Value set for Facility Service Points",
       "exampleBoolean" : false
     },
     {

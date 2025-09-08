@@ -14,11 +14,11 @@
     "name" : "EswatiniEncounterClassification"
   },
   {
-    "id" : "SzEncounterReasonCS",
+    "id" : "SzFacilityServicePointCS",
     "type" : "CodeSystem",
-    "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterReasonCS",
+    "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzFacilityServicePointCS",
     "version" : "0.1.0",
-    "name" : "SzEncounterReasonCS"
+    "name" : "SzFacilityServicePointCS"
   },
   {
     "id" : "SzPersonIdentificationsCS",
@@ -147,9 +147,23 @@
     "name" : "EswatiniClinicalObservation"
   },
   {
+    "id" : "SzCondition",
+    "type" : "StructureDefinition",
+    "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzCondition",
+    "version" : "0.1.0",
+    "name" : "SzCondition"
+  },
+  {
     "id" : "SzEncounter",
     "type" : "StructureDefinition",
     "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzEncounter",
+    "version" : "0.1.0",
+    "name" : "EswatiniEncounter"
+  },
+  {
+    "id" : "SzEpisodeOfCare",
+    "type" : "StructureDefinition",
+    "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzEpisodeOfCare",
     "version" : "0.1.0",
     "name" : "EswatiniEncounter"
   },
@@ -207,7 +221,7 @@
     "type" : "StructureDefinition",
     "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzMedicationDispense",
     "version" : "0.1.0",
-    "name" : "EswatiniMedicationRequest"
+    "name" : "EswatiniMedicationDispense"
   },
   {
     "id" : "SzMedicationRequest",
@@ -301,11 +315,11 @@
     "name" : "EswatiniEncounterClassification"
   },
   {
-    "id" : "SzEncounterReasonVS",
+    "id" : "SzFacilityServicePointVS",
     "type" : "ValueSet",
-    "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzEncounterReasonVS",
+    "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzFacilityServicePointVS",
     "version" : "0.1.0",
-    "name" : "SzEncounterReasonVS"
+    "name" : "SzFacilityServicePointVS"
   },
   {
     "id" : "SzProductCodeVS",

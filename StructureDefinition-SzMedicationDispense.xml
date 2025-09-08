@@ -14,10 +14,10 @@
   </text>
   <url value="http://172.209.216.154:3447/fhir/StructureDefinition/SzMedicationDispense"/>
   <version value="0.1.0"/>
-  <name value="EswatiniMedicationRequest"/>
-  <title value="Eswatini Medication Request Profile"/>
+  <name value="EswatiniMedicationDispense"/>
+  <title value="Eswatini Medication Dispense Profile"/>
   <status value="active"/>
-  <date value="2025-08-01T12:25:19+00:00"/>
+  <date value="2025-09-08T12:30:01+00:00"/>
   <publisher value="Ministry of Health Eswatini"/>
   <contact>
     <name value="Ministry of Health Eswatini"/>
@@ -30,7 +30,7 @@
       <value value="eswatinihie@moh.gov.sz"/>
     </telecom>
   </contact>
-  <description value="Definition of Eswatinit Medication Request Profile"/>
+  <description value="Definition of Eswatinit Medication Dispense Profile"/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="workflow"/>

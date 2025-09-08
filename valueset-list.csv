@@ -3,7 +3,7 @@ http://172.209.216.154:3447/fhir/ValueSet/CIE10VS,0.1.0,active,,CIE10VS,Value Se
 http://172.209.216.154:3447/fhir/ValueSet/PersonIdentifiersVS,0.1.0,draft,,PersonIdentifiersVS,Value Set: Person Identifier,"Eswatini Person Identifiers",,"Internal"
 http://172.209.216.154:3447/fhir/ValueSet/SzChiefdomVS,0.1.0,draft,,SzChiefdomVS,Value Set: Chiefdoms Value Set,"Value set for ESwatini chiefdoms",,"Internal"
 http://172.209.216.154:3447/fhir/ValueSet/SzEncounterClassificationVS,0.1.0,active,,EswatiniEncounterClassification,Value Set: Encounter Classification,"Eswatini Encounter Classification Codes",,"THO (V3),Internal"
-http://172.209.216.154:3447/fhir/ValueSet/SzEncounterReasonVS,0.1.0,draft,,SzEncounterReasonVS,Value set: Eswatini Encounter Reason Codes,"Value set for Eswatini Encounter Reason Codes",,"Internal"
+http://172.209.216.154:3447/fhir/ValueSet/SzFacilityServicePointVS,0.1.0,draft,,SzFacilityServicePointVS,Value set: Eswatini Facility Service Points,"Value set for Facility Service Points",,"Internal"
 http://172.209.216.154:3447/fhir/ValueSet/SzProductCodeVS,0.1.0,draft,,SzProductCodeVS,Value Set: Product Code Value Set,"Value set for ESwatini Product Codes",,"Internal"
 http://172.209.216.154:3447/fhir/ValueSet/SzReaonsForReferralVS,0.1.0,active,,SzReaonsForReferralVS,Value Set: Reasons for Referral,"Eswatini Reasons for Referral",,"Internal"
 http://172.209.216.154:3447/fhir/ValueSet/SzReferralIntentVS,0.1.0,active,,SzReferralIntentVS,Value Set: Referral Intent,"Eswatini Referral Intent",,"Internal,hl7.fhir.r4.core"

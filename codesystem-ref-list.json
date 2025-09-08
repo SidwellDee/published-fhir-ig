@@ -23,15 +23,15 @@
       "ValueSet-SzEncounterClassificationVS.html" : "Value Set: Encounter Classification"
     },
     {
-      "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterReasonCS",
+      "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzFacilityServicePointCS",
       "version" : "0.1.0",
       "status" : "draft",
-      "name" : "SzEncounterReasonCS",
-      "title" : "Code System: Eswatini Encounter Reason Codes",
-      "description" : "Code System for Eswatini Encounter Reason Codes",
+      "name" : "SzFacilityServicePointCS",
+      "title" : "Code System: Facility Service Points",
+      "description" : "Code System for Facility Service Points",
       "uses" : {
       },
-      "ValueSet-SzEncounterReasonVS.html" : "Value set: Eswatini Encounter Reason Codes"
+      "ValueSet-SzFacilityServicePointVS.html" : "Value set: Eswatini Facility Service Points"
     },
     {
       "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS",

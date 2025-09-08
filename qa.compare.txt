@@ -1,17 +1,17 @@
 EswatiniHIEImplementationGuide : Validation Results
 =========================================
 
-err = 109, warn = 151, info = 75
+err = 121, warn = 152, info = 68
 $--
 Generated $--. FHIR version $-- for hl7.fhir.sd.hie#$-- (canonical = http://172.209.216.154:3447/fhir)
  Build Errors : 1 / 7 / 0
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Appointment-SampleSzAppointment : 0 / 1 / 2
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Bundle-SampleSzBundle : 16 / 4 / 35
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Bundle-SampleSzBundle1 : 10 / 1 / 9
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Bundle-SampleSzMalariaBundle : 27 / 24 / 39
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzChiefdomCS : 0 / 21 / 2
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Bundle-SampleSzBundle : 18 / 3 / 34
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Bundle-SampleSzBundle1 : 12 / 0 / 8
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Bundle-SampleSzMalariaBundle : 27 / 23 / 34
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzChiefdomCS : 0 / 24 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzEncounterClassificationCS : 0 / 2 / 2
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzEncounterReasonCS : 0 / 3 / 2
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzFacilityServicePointCS : 0 / 3 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzPersonIdentificationsCS : 0 / 3 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzProductCodeCS : 0 / 3 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzReasonsForReferralCS : 0 / 2 / 2
@@ -22,10 +22,12 @@ Generated $--. FHIR version $-- for hl7.fhir.sd.hie#$-- (canonical = http://172.
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzTestParameterCodeCS : 0 / 4 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzTinkhundlaCS : 0 / 2 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Condition-SampleSzMalariaCondition-001 : 5 / 4 / 1
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Condition-SzConditionExample : 0 / 1 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/DiagnosticReport-SampleSzLabTest : 0 / 0 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/DiagnosticReport-SampleSzMalariaLabTest : 2 / 0 / 1
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Encounter-SampleSzEncounter : 1 / 1 / 1
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Encounter-SampleSzMalariaEncounter : 1 / 1 / 1
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Encounter-SampleSzEncounter : 0 / 0 / 1
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Encounter-SampleSzMalariaEncounter : 0 / 0 / 1
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/EpisodeOfCare-SzEpisodeOfCareExample : 0 / 1 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ImplementationGuide-hl7.fhir.sd.hie : 0 / 2 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Location-SampleSzLabLocation : 0 / 0 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Location-SampleSzLocation : 0 / 0 / 1
@@ -49,8 +51,8 @@ Generated $--. FHIR version $-- for hl7.fhir.sd.hie#$-- (canonical = http://172.
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Observation-SampleVitalsWeight : 1 / 2 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Organization-SampleSzOrganization : 0 / 0 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Organization-SampleSzOrganization1 : 0 / 0 / 2
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Patient-SampleSzMalariaPatient : 3 / 2 / 4
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Patient-SampleSzPatient : 3 / 0 / 4
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Patient-SampleSzMalariaPatient : 7 / 2 / 4
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Patient-SampleSzPatient : 7 / 0 / 4
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Practitioner-SampleSzPharmacyPractitioner : 0 / 0 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Practitioner-SampleSzPractitioner : 0 / 1 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Procedure-SampleSzIPTProcedure : 1 / 1 / 1
@@ -61,13 +63,15 @@ Generated $--. FHIR version $-- for hl7.fhir.sd.hie#$-- (canonical = http://172.
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzAuthorizerExtension : 1 / 1 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzChiefdomExtension : 1 / 1 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzClinicalObservation : 1 / 0 / 1
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzCondition : 1 / 0 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzEncounter : 1 / 0 / 1
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzEpisodeOfCare : 1 / 0 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzInkhundlaExtension : 1 / 1 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzLabResult : 1 / 0 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzLabSpecimen : 5 / 0 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzLabTest : 1 / 0 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzLocation : 1 / 0 / 1
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzLocationCodeExtension : 1 / 1 / 1
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzLocationCodeExtension : 1 / 2 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzMedication : 1 / 0 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzMedicationDispense : 1 / 0 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzMedicationRequest : 1 / 0 / 1
@@ -83,7 +87,7 @@ Generated $--. FHIR version $-- for hl7.fhir.sd.hie#$-- (canonical = http://172.
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-PersonIdentifiersVS : 0 / 2 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzChiefdomVS : 0 / 2 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzEncounterClassificationVS : 0 / 1 / 2
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzEncounterReasonVS : 0 / 2 / 1
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzFacilityServicePointVS : 0 / 2 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzProductCodeVS : 0 / 2 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzReaonsForReferralVS : 0 / 1 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzReferralIntentVS : 0 / 1 / 1
@@ -107,18 +111,18 @@ INFORMATION: Appointment/SampleSzAppointment: Appointment.serviceCategory[0]: Re
 WARNING: Appointment/SampleSzAppointment: Appointment.serviceType[0].coding[0].system: A definition for CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS' could not be found, so the code cannot be validated
 == fsh-generated/resources/Bundle-SampleSzBundle.json ==
 ERROR: Bundle/SampleSzBundle: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[0]: The Extension 'http://hl7.org/fhir/StructureDefinition/patient-nationality' definition allows for the types [] but found type CodeableConcept
-ERROR: Bundle/SampleSzBundle: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[0]: Extension.value[x]: max allowed = 0, but found 1 (from http://hl7.org/fhir/StructureDefinition/patient-nationality|5.3.0-ballot)
+ERROR: Bundle/SampleSzBundle: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[0]: Extension.value[x]: max allowed = 0, but found 1 (from http://hl7.org/fhir/StructureDefinition/patient-nationality|5.3.0-ballot-tc1)
 ERROR: Bundle/SampleSzBundle: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[0].value.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Eswatini' for urn:iso:std:iso:3166#SWZ. Valid display is 'Swaziland' (for the language(s) 'en-US')
+ERROR: Bundle/SampleSzBundle: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[1].value.ofType(CodeableConcept).coding[0].code: Unknown code 'DVOKODVWENI' in the CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS' version '0.1.0'
+ERROR: Bundle/SampleSzBundle: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[1].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Value Set: Tinkhundla' (http://172.209.216.154:3447/fhir/ValueSet/SzTinkhundlaVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS#DVOKODVWENI)
+ERROR: Bundle/SampleSzBundle: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[2].value.ofType(CodeableConcept).coding[0].code: Unknown code 'Kwaluseni' in the CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS' version '0.1.0'
+ERROR: Bundle/SampleSzBundle: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[2].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Value Set: Chiefdoms Value Set' (http://172.209.216.154:3447/fhir/ValueSet/SzChiefdomVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS#Kwaluseni)
 INFORMATION: Bundle/SampleSzBundle: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[2].value.ofType(CodeableConcept): Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS|0.1.0
 INFORMATION: Bundle/SampleSzBundle: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.identifier[0].type: Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS|0.1.0
 INFORMATION: Bundle/SampleSzBundle: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.identifier[1].type: Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS|0.1.0
 INFORMATION: Bundle/SampleSzBundle: Bundle.entry[1].resource/*Encounter/SampleSzEncounter*/.subject: Details for Patient/SampleSzPatient matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1
-ERROR: Bundle/SampleSzBundle: Bundle.entry[1].resource/*Encounter/SampleSzEncounter*/.reasonCode[0].coding[0].display: Wrong Display Name 'Antiretrovial Therapy' for http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS#ART. Valid display is 'Anti Retroviral Therapy' (for the language(s) 'en-US')
-INFORMATION: Bundle/SampleSzBundle: Bundle.entry[1].resource/*Encounter/SampleSzEncounter*/.reasonCode[0]: None of the codings provided are in the value set 'Encounter Reason Codes' (http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1), and a coding is recommended to come from this value set (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS#ART)
 ERROR: Bundle/SampleSzBundle: Bundle.entry[1].resource/*Encounter/SampleSzEncounter*/.subject: Unable to find a profile match for Patient/SampleSzPatient among choices: http://172.209.216.154:3447/fhir/StructureDefinition/SzPatient
 INFORMATION: Bundle/SampleSzBundle: Bundle.entry[1].resource/*Encounter/SampleSzEncounter*/.subject: Details for Patient/SampleSzPatient matching against profile http://172.209.216.154:3447/fhir/StructureDefinition/SzPatient|0.1.0
-WARNING: Bundle/SampleSzBundle: Bundle.entry[1].resource/*Encounter/SampleSzEncounter*/.reasonCode[0].coding[0]: A definition for CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS' could not be found, so the code cannot be validated
-ERROR: Bundle/SampleSzBundle: Bundle.entry[1].resource/*Encounter/SampleSzEncounter*/.reasonCode[0]: None of the codings provided are in the value set 'Value set: Eswatini Encounter Reason Codes' (http://172.209.216.154:3447/fhir/ValueSet/SzEncounterReasonVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS#ART)
 WARNING: Bundle/SampleSzBundle: Bundle.entry[2].resource/*Observation/SampleSzARTStartDateClinicalObservation*/: Best Practice Recommendation: In general, all observations should have an effective[x] ()
 INFORMATION: Bundle/SampleSzBundle: Bundle.entry[2].resource/*Observation/SampleSzARTStartDateClinicalObservation*/.subject: Details for Patient/SampleSzPatient matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1
 INFORMATION: Bundle/SampleSzBundle: Bundle.entry[2].resource/*Observation/SampleSzARTStartDateClinicalObservation*/.encounter: Details for Encounter/SampleSzEncounter matching against profile http://hl7.org/fhir/StructureDefinition/Encounter|4.0.1
@@ -150,33 +154,33 @@ WARNING: Bundle/SampleSzBundle: Bundle.entry[2].resource: Best Practice Recommen
 ERROR: Bundle/SampleSzBundle: Bundle.entry[0]: The fullUrl 'http://172.209.216.154:3447/fhir/Observation/SampleSzARTStartDateClinicalObservation' looks like a RESTful server URL, so it must end with the correct type and id (/Procedure/SampleSzIPTProcedure)
 == fsh-generated/resources/Bundle-SampleSzBundle1.json ==
 ERROR: Bundle/SampleSzBundle1: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[0]: The Extension 'http://hl7.org/fhir/StructureDefinition/patient-nationality' definition allows for the types [] but found type CodeableConcept
-ERROR: Bundle/SampleSzBundle1: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[0]: Extension.value[x]: max allowed = 0, but found 1 (from http://hl7.org/fhir/StructureDefinition/patient-nationality|5.3.0-ballot)
+ERROR: Bundle/SampleSzBundle1: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[0]: Extension.value[x]: max allowed = 0, but found 1 (from http://hl7.org/fhir/StructureDefinition/patient-nationality|5.3.0-ballot-tc1)
 ERROR: Bundle/SampleSzBundle1: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[0].value.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Eswatini' for urn:iso:std:iso:3166#SWZ. Valid display is 'Swaziland' (for the language(s) 'en-US')
+ERROR: Bundle/SampleSzBundle1: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[1].value.ofType(CodeableConcept).coding[0].code: Unknown code 'DVOKODVWENI' in the CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS' version '0.1.0'
+ERROR: Bundle/SampleSzBundle1: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[1].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Value Set: Tinkhundla' (http://172.209.216.154:3447/fhir/ValueSet/SzTinkhundlaVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS#DVOKODVWENI)
+ERROR: Bundle/SampleSzBundle1: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[2].value.ofType(CodeableConcept).coding[0].code: Unknown code 'Kwaluseni' in the CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS' version '0.1.0'
+ERROR: Bundle/SampleSzBundle1: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[2].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Value Set: Chiefdoms Value Set' (http://172.209.216.154:3447/fhir/ValueSet/SzChiefdomVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS#Kwaluseni)
 INFORMATION: Bundle/SampleSzBundle1: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[2].value.ofType(CodeableConcept): Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS|0.1.0
 INFORMATION: Bundle/SampleSzBundle1: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.identifier[0].type: Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS|0.1.0
 INFORMATION: Bundle/SampleSzBundle1: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.identifier[1].type: Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS|0.1.0
 ERROR: Bundle/SampleSzBundle1: Bundle.entry[1]: Bundle entry missing fullUrl
 ERROR: Bundle/SampleSzBundle1: Bundle.entry[1].resource/*Encounter/SampleSzEncounter*/.subject: Relative Reference appears inside Bundle whose entry is missing a fullUrl
 ERROR: Bundle/SampleSzBundle1: Bundle.entry[1].resource/*Encounter/SampleSzEncounter*/.participant[0].individual: Relative Reference appears inside Bundle whose entry is missing a fullUrl
-ERROR: Bundle/SampleSzBundle1: Bundle.entry[1].resource/*Encounter/SampleSzEncounter*/.reasonCode[0].coding[0].display: Wrong Display Name 'Antiretrovial Therapy' for http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS#ART. Valid display is 'Anti Retroviral Therapy' (for the language(s) 'en-US')
-INFORMATION: Bundle/SampleSzBundle1: Bundle.entry[1].resource/*Encounter/SampleSzEncounter*/.reasonCode[0]: None of the codings provided are in the value set 'Encounter Reason Codes' (http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1), and a coding is recommended to come from this value set (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS#ART)
 ERROR: Bundle/SampleSzBundle1: Bundle.entry[1].resource/*Encounter/SampleSzEncounter*/.location[0].location: Relative Reference appears inside Bundle whose entry is missing a fullUrl
-WARNING: Bundle/SampleSzBundle1: Bundle.entry[1].resource/*Encounter/SampleSzEncounter*/.reasonCode[0].coding[0]: A definition for CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS' could not be found, so the code cannot be validated
-ERROR: Bundle/SampleSzBundle1: Bundle.entry[1].resource/*Encounter/SampleSzEncounter*/.reasonCode[0]: None of the codings provided are in the value set 'Value set: Eswatini Encounter Reason Codes' (http://172.209.216.154:3447/fhir/ValueSet/SzEncounterReasonVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS#ART)
 ERROR: Bundle/SampleSzBundle1: Bundle.entry[0]: The fullUrl 'http://172.209.216.154:3447/fhir/Encounter/SampleSzEncounter1' looks like a RESTful server URL, so it must end with the correct type and id (/Patient/SampleSzPatient)
 == fsh-generated/resources/Bundle-SampleSzMalariaBundle.json ==
 ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/.extension[0]: The Extension 'http://hl7.org/fhir/StructureDefinition/patient-nationality' definition allows for the types [] but found type CodeableConcept
-ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/.extension[0]: Extension.value[x]: max allowed = 0, but found 1 (from http://hl7.org/fhir/StructureDefinition/patient-nationality|5.3.0-ballot)
+ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/.extension[0]: Extension.value[x]: max allowed = 0, but found 1 (from http://hl7.org/fhir/StructureDefinition/patient-nationality|5.3.0-ballot-tc1)
 ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/.extension[0].value.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Eswatini' for urn:iso:std:iso:3166#SWZ. Valid display is 'Swaziland' (for the language(s) 'en-US')
+ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/.extension[1].value.ofType(CodeableConcept).coding[0].code: Unknown code 'DVOKODVWENI' in the CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS' version '0.1.0'
+ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/.extension[1].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Value Set: Tinkhundla' (http://172.209.216.154:3447/fhir/ValueSet/SzTinkhundlaVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS#DVOKODVWENI)
+ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/.extension[2].value.ofType(CodeableConcept).coding[0].code: Unknown code 'Kwaluseni' in the CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS' version '0.1.0'
+ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/.extension[2].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Value Set: Chiefdoms Value Set' (http://172.209.216.154:3447/fhir/ValueSet/SzChiefdomVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS#Kwaluseni)
 INFORMATION: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/.extension[2].value.ofType(CodeableConcept): Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS|0.1.0
 INFORMATION: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/.identifier[0].type: Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS|0.1.0
 WARNING: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/.identifier[0].system: No definition could be found for URL value 'http://mfl.sys/m001'
 INFORMATION: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/.identifier[1].type: Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS|0.1.0
 WARNING: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/.identifier[1].system: No definition could be found for URL value 'http://homeaffairs.sys'
-ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[1].resource/*Encounter/SampleSzMalariaEncounter*/.reasonCode[0].coding[0].display: Wrong Display Name 'Antiretrovial Therapy' for http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS#ART. Valid display is 'Anti Retroviral Therapy' (for the language(s) 'en-US')
-INFORMATION: Bundle/SampleSzMalariaBundle: Bundle.entry[1].resource/*Encounter/SampleSzMalariaEncounter*/.reasonCode[0]: None of the codings provided are in the value set 'Encounter Reason Codes' (http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1), and a coding is recommended to come from this value set (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS#ART)
-WARNING: Bundle/SampleSzMalariaBundle: Bundle.entry[1].resource/*Encounter/SampleSzMalariaEncounter*/.reasonCode[0].coding[0]: A definition for CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS' could not be found, so the code cannot be validated
-ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[1].resource/*Encounter/SampleSzMalariaEncounter*/.reasonCode[0]: None of the codings provided are in the value set 'Value set: Eswatini Encounter Reason Codes' (http://172.209.216.154:3447/fhir/ValueSet/SzEncounterReasonVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS#ART)
 WARNING: Bundle/SampleSzMalariaBundle: Bundle.entry[2].resource/*Observation/SampleVitalsWeight*/: Best Practice Recommendation: In general, all observations should have a performer
 ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[2].resource/*Observation/SampleVitalsWeight*/.code.coding[0].system: The Coding references a value set, not a code system ('http://hl7.org/fhir/ValueSet/observation-vitalsignresult')
 WARNING: Bundle/SampleSzMalariaBundle: Bundle.entry[2].resource/*Observation/SampleVitalsWeight*/.code.coding[0]: A definition for CodeSystem 'http://hl7.org/fhir/ValueSet/observation-vitalsignresult' could not be found, so the code cannot be validated
@@ -196,12 +200,9 @@ ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[6].resource/*Observation/Sampl
 ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[7].resource/*DiagnosticReport/SampleSzMalariaLabTest*/.code.coding[0].display: Wrong Display Name 'Malaria Smear' for http://172.209.216.154:3447/fhir/CodeSystem/SzTestCodeCS#MALS. Valid display is 'Malaria Smear: Parasitemia' (for the language(s) 'en-US')
 INFORMATION: Bundle/SampleSzMalariaBundle: Bundle.entry[7].resource/*DiagnosticReport/SampleSzMalariaLabTest*/.code: None of the codings provided are in the value set 'LOINC Diagnostic Report Codes' (http://hl7.org/fhir/ValueSet/report-codes|4.0.1), and a coding is recommended to come from this value set (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzTestCodeCS#MALS)
 INFORMATION: Bundle/SampleSzMalariaBundle: Bundle.entry[7].resource/*DiagnosticReport/SampleSzMalariaLabTest*/.subject: Details for Patient/SampleSzMalariaPatient matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1
-INFORMATION: Bundle/SampleSzMalariaBundle: Bundle.entry[7].resource/*DiagnosticReport/SampleSzMalariaLabTest*/.encounter: Details for Encounter/SampleSzMalariaEncounter matching against profile http://hl7.org/fhir/StructureDefinition/Encounter|4.0.1
 ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[7].resource/*DiagnosticReport/SampleSzMalariaLabTest*/.code: None of the codings provided are in the value set 'Value Set: Local Test Codes' (http://172.209.216.154:3447/fhir/ValueSet/SzTestCodeVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzTestCodeCS#MALS)
 ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[7].resource/*DiagnosticReport/SampleSzMalariaLabTest*/.subject: Unable to find a profile match for Patient/SampleSzMalariaPatient among choices: http://172.209.216.154:3447/fhir/StructureDefinition/SzPatient
 INFORMATION: Bundle/SampleSzMalariaBundle: Bundle.entry[7].resource/*DiagnosticReport/SampleSzMalariaLabTest*/.subject: Details for Patient/SampleSzMalariaPatient matching against profile http://172.209.216.154:3447/fhir/StructureDefinition/SzPatient|0.1.0
-ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[7].resource/*DiagnosticReport/SampleSzMalariaLabTest*/.encounter: Unable to find a profile match for Encounter/SampleSzMalariaEncounter among choices: http://172.209.216.154:3447/fhir/StructureDefinition/SzEncounter
-INFORMATION: Bundle/SampleSzMalariaBundle: Bundle.entry[7].resource/*DiagnosticReport/SampleSzMalariaLabTest*/.encounter: Details for Encounter/SampleSzMalariaEncounter matching against profile http://172.209.216.154:3447/fhir/StructureDefinition/SzEncounter|0.1.0
 ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[8].resource/*Condition/SampleSzMalariaCondition-001*/.category[0].coding[0].code: Unknown code 'diagnosis' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/condition-category' version '1.0.0'
 WARNING: Bundle/SampleSzMalariaBundle: Bundle.entry[8].resource/*Condition/SampleSzMalariaCondition-001*/.code.coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/sid/icd-11' could not be found, so the code cannot be validated
 WARNING: Bundle/SampleSzMalariaBundle: Bundle.entry[8].resource/*Condition/SampleSzMalariaCondition-001*/.code.coding[1]: A definition for CodeSystem 'http://hl7.org/fhir/sid/icd-11' could not be found, so the code cannot be validated
@@ -214,11 +215,8 @@ ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[8].resource/*Condition/SampleS
 INFORMATION: Bundle/SampleSzMalariaBundle: Bundle.entry[8].resource/*Condition/SampleSzMalariaCondition-001*/.subject: Details for Patient/SampleSzMalariaPatient matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1
 INFORMATION: Bundle/SampleSzMalariaBundle: Bundle.entry[9].resource/*MedicationRequest/SampleSzMalariaMedicationRequest*/.medication.ofType(CodeableConcept): Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzProductCodeCS|0.1.0
 INFORMATION: Bundle/SampleSzMalariaBundle: Bundle.entry[9].resource/*MedicationRequest/SampleSzMalariaMedicationRequest*/.subject: Details for Patient/SampleSzMalariaPatient matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1
-INFORMATION: Bundle/SampleSzMalariaBundle: Bundle.entry[9].resource/*MedicationRequest/SampleSzMalariaMedicationRequest*/.encounter: Details for Encounter/SampleSzMalariaEncounter matching against profile http://hl7.org/fhir/StructureDefinition/Encounter|4.0.1
 ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[9].resource/*MedicationRequest/SampleSzMalariaMedicationRequest*/.subject: Unable to find a profile match for Patient/SampleSzMalariaPatient among choices: http://172.209.216.154:3447/fhir/StructureDefinition/SzPatient
 INFORMATION: Bundle/SampleSzMalariaBundle: Bundle.entry[9].resource/*MedicationRequest/SampleSzMalariaMedicationRequest*/.subject: Details for Patient/SampleSzMalariaPatient matching against profile http://172.209.216.154:3447/fhir/StructureDefinition/SzPatient|0.1.0
-ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[9].resource/*MedicationRequest/SampleSzMalariaMedicationRequest*/.encounter: Unable to find a profile match for Encounter/SampleSzMalariaEncounter among choices: http://172.209.216.154:3447/fhir/StructureDefinition/SzEncounter
-INFORMATION: Bundle/SampleSzMalariaBundle: Bundle.entry[9].resource/*MedicationRequest/SampleSzMalariaMedicationRequest*/.encounter: Details for Encounter/SampleSzMalariaEncounter matching against profile http://172.209.216.154:3447/fhir/StructureDefinition/SzEncounter|0.1.0
 WARNING: Bundle/SampleSzMalariaBundle: Bundle.entry[10].resource/*Observation/SampleSzMalariaTravelHistory*/: Best Practice Recommendation: In general, all observations should have a performer
 ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[10].resource/*Observation/SampleSzMalariaTravelHistory*/.code.coding[0].display: Wrong Display Name 'Travel history' for http://snomed.info/sct#420008001. There are no valid display names found for language(s) 'en-US'. Default display is 'Travel (event)'
 INFORMATION: Bundle/SampleSzMalariaBundle: Bundle.entry[10].resource/*Observation/SampleSzMalariaTravelHistory*/.subject: Details for Patient/SampleSzMalariaPatient matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1
@@ -234,24 +232,27 @@ WARNING: Bundle/SampleSzMalariaBundle: Bundle.entry[5].resource: Best Practice R
 WARNING: Bundle/SampleSzMalariaBundle: Bundle.entry[6].resource: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Bundle/SampleSzMalariaBundle: Bundle.entry[10].resource: Best Practice Recommendation: In general, all observations should have a performer
 == fsh-generated/resources/CodeSystem-SzChiefdomCS.json ==
-WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[32].display: value should not start or finish with whitespace 'Emalibeni   '
-WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[45].display: value should not start or finish with whitespace 'Gucuka '
-WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[59].display: value should not start or finish with whitespace 'KaDlovunga '
-WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[88].display: value should not start or finish with whitespace 'Kuphumleni '
-WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[97].display: value should not start or finish with whitespace 'Lobamba '
-WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[103].display: value should not start or finish with whitespace 'Ludlawini '
-WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[148].display: value should not start or finish with whitespace 'Mangwaneni '
-WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[151].display: value should not start or finish with whitespace 'Manyandzeni '
-WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[174].display: value should not start or finish with whitespace 'Mchinsweni '
-WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[184].display: value should not start or finish with whitespace 'Mhlahlweni '
-WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[189].display: value should not start or finish with whitespace 'Mjingo '
-WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[248].display: value should not start or finish with whitespace 'Nkwalini '
-WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[258].display: value should not start or finish with whitespace 'Nsukazi '
-WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[286].display: value should not start or finish with whitespace 'Sigcineni '
-WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[289].display: value should not start or finish with whitespace 'Simemeni '
-WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[299].display: value should not start or finish with whitespace 'Tfuntini/Buhlebuyeza    '
-WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[315].display: value should not start or finish with whitespace 'Zikhotheni '
-WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[316].display: value should not start or finish with whitespace 'Zinyane '
+WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[1].display: value should not start or finish with whitespace 'Lamgabhi '
+WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[7].display: value should not start or finish with whitespace 'Lobamba '
+WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[11].display: value should not start or finish with whitespace 'Gucuka '
+WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[12].display: value should not start or finish with whitespace 'Tfuntini/Buhlebuyeza    '
+WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[33].display: value should not start or finish with whitespace 'Nkwalini '
+WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[34].display: value should not start or finish with whitespace 'Mangwaneni '
+WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[38].display: value should not start or finish with whitespace 'Zinyane '
+WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[39].display: value should not start or finish with whitespace 'Emalibeni   '
+WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[45].display: value should not start or finish with whitespace 'Ludlawini '
+WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[171].display: value should not start or finish with whitespace 'Sigcineni '
+WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[184].display: value should not start or finish with whitespace 'Mjingo '
+WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[239].display: value should not start or finish with whitespace 'Mhlahlweni '
+WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[242].display: value should not start or finish with whitespace 'Nsukazi '
+WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[269].display: value should not start or finish with whitespace 'KaDlovunga '
+WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[273].display: value should not start or finish with whitespace 'Simemeni '
+WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[307].display: value should not start or finish with whitespace 'Manyandzeni '
+WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[308].display: value should not start or finish with whitespace 'Mchinsweni '
+WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[309].display: value should not start or finish with whitespace 'Zikhotheni '
+WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[320].display: value should not start or finish with whitespace 'Kuphumleni '
+WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[332].display: value should not start or finish with whitespace 'Ngwenyameni '
+WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[333].display: value should not start or finish with whitespace 'Zombodze '
 INFORMATION: CodeSystem/SzChiefdomCS: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/SzChiefdomCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
 WARNING: CodeSystem/SzChiefdomCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
@@ -260,10 +261,10 @@ WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction t
 INFORMATION: CodeSystem/SzEncounterClassificationCS: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/SzEncounterClassificationCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
-== fsh-generated/resources/CodeSystem-SzEncounterReasonCS.json ==
-INFORMATION: CodeSystem/SzEncounterReasonCS: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-WARNING: CodeSystem/SzEncounterReasonCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
-WARNING: CodeSystem/SzEncounterReasonCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-SzFacilityServicePointCS.json ==
+INFORMATION: CodeSystem/SzFacilityServicePointCS: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/SzFacilityServicePointCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/SzFacilityServicePointCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/CodeSystem-SzPersonIdentificationsCS.json ==
 INFORMATION: CodeSystem/SzPersonIdentificationsCS: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
@@ -317,16 +318,16 @@ ERROR: Condition/SampleSzMalariaCondition-001: Condition.code.coding[0].system: 
 ERROR: Condition/SampleSzMalariaCondition-001: Condition.code.coding[1].system: No definition could be found for URL value 'http://hl7.org/fhir/sid/icd-11'
 ERROR: Condition/SampleSzMalariaCondition-001: Condition.code.coding[2].system: No definition could be found for URL value 'http://hl7.org/fhir/sid/icd-11'
 ERROR: Condition/SampleSzMalariaCondition-001: Condition.code.coding[3].system: No definition could be found for URL value 'http://hl7.org/fhir/sid/icd-11'
+== fsh-generated/resources/Condition-SzConditionExample.json ==
+WARNING: Condition/SzConditionExample: Condition.code.coding[0].system: A definition for CodeSystem 'http://id.who.int/icd/release/11/2025-01/mms/119724091' could not be found, so the code cannot be validated
 == fsh-generated/resources/DiagnosticReport-SampleSzLabTest.json ==
 == fsh-generated/resources/DiagnosticReport-SampleSzMalariaLabTest.json ==
 ERROR: DiagnosticReport/SampleSzMalariaLabTest: DiagnosticReport.code.coding[0].display: Wrong Display Name 'Malaria Smear' for http://172.209.216.154:3447/fhir/CodeSystem/SzTestCodeCS#MALS. Valid display is 'Malaria Smear: Parasitemia' (for the language(s) 'en-US')
 ERROR: DiagnosticReport/SampleSzMalariaLabTest: DiagnosticReport.code: None of the codings provided are in the value set 'Value Set: Local Test Codes' (http://172.209.216.154:3447/fhir/ValueSet/SzTestCodeVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzTestCodeCS#MALS)
 == fsh-generated/resources/Encounter-SampleSzEncounter.json ==
-WARNING: Encounter/SampleSzEncounter: Encounter.reasonCode[0].coding[0]: A definition for CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS' could not be found, so the code cannot be validated
-ERROR: Encounter/SampleSzEncounter: Encounter.reasonCode[0]: None of the codings provided are in the value set 'Value set: Eswatini Encounter Reason Codes' (http://172.209.216.154:3447/fhir/ValueSet/SzEncounterReasonVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS#ART)
 == fsh-generated/resources/Encounter-SampleSzMalariaEncounter.json ==
-WARNING: Encounter/SampleSzMalariaEncounter: Encounter.reasonCode[0].coding[0]: A definition for CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS' could not be found, so the code cannot be validated
-ERROR: Encounter/SampleSzMalariaEncounter: Encounter.reasonCode[0]: None of the codings provided are in the value set 'Value set: Eswatini Encounter Reason Codes' (http://172.209.216.154:3447/fhir/ValueSet/SzEncounterReasonVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS#ART)
+== fsh-generated/resources/EpisodeOfCare-SzEpisodeOfCareExample.json ==
+WARNING: EpisodeOfCare/SzEpisodeOfCareExample: EpisodeOfCare.type[0].coding[0]: A definition for CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS' could not be found, so the code cannot be validated
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.sd.hie.json ==
 WARNING: ImplementationGuide/hl7.fhir.sd.hie: ImplementationGuide.dependsOn[2]: The ImplementationGuide uses package hl7.fhir.us.core#7.0.0 released on 2024-05-08, but the most recent appropriate version is 8.0.0. This reference is getting old and the more recent version should be considered
 WARNING: ImplementationGuide.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
@@ -392,8 +393,12 @@ INFORMATION: Organization/SampleSzOrganization: Organization.type[0]: Reference 
 INFORMATION: Organization/SampleSzOrganization1: Organization.type[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/organization-type|2.0.0
 == fsh-generated/resources/Patient-SampleSzMalariaPatient.json ==
 ERROR: Patient/SampleSzMalariaPatient: Patient.extension[0]: The Extension 'http://hl7.org/fhir/StructureDefinition/patient-nationality' definition allows for the types [] but found type CodeableConcept
-ERROR: Patient/SampleSzMalariaPatient: Patient.extension[0]: Extension.value[x]: max allowed = 0, but found 1 (from http://hl7.org/fhir/StructureDefinition/patient-nationality|5.3.0-ballot)
+ERROR: Patient/SampleSzMalariaPatient: Patient.extension[0]: Extension.value[x]: max allowed = 0, but found 1 (from http://hl7.org/fhir/StructureDefinition/patient-nationality|5.3.0-ballot-tc1)
 ERROR: Patient/SampleSzMalariaPatient: Patient.extension[0].value.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Eswatini' for urn:iso:std:iso:3166#SWZ. Valid display is 'Swaziland' (for the language(s) 'en-US')
+ERROR: Patient/SampleSzMalariaPatient: Patient.extension[1].value.ofType(CodeableConcept).coding[0].code: Unknown code 'DVOKODVWENI' in the CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS' version '0.1.0'
+ERROR: Patient/SampleSzMalariaPatient: Patient.extension[1].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Value Set: Tinkhundla' (http://172.209.216.154:3447/fhir/ValueSet/SzTinkhundlaVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS#DVOKODVWENI)
+ERROR: Patient/SampleSzMalariaPatient: Patient.extension[2].value.ofType(CodeableConcept).coding[0].code: Unknown code 'Kwaluseni' in the CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS' version '0.1.0'
+ERROR: Patient/SampleSzMalariaPatient: Patient.extension[2].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Value Set: Chiefdoms Value Set' (http://172.209.216.154:3447/fhir/ValueSet/SzChiefdomVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS#Kwaluseni)
 INFORMATION: Patient/SampleSzMalariaPatient: Patient.extension[2].value.ofType(CodeableConcept): Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS|0.1.0
 INFORMATION: Patient/SampleSzMalariaPatient: Patient.identifier[0].type: Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS|0.1.0
 WARNING: Patient/SampleSzMalariaPatient: Patient.identifier[0].system: No definition could be found for URL value 'http://mfl.sys/m001'
@@ -401,8 +406,12 @@ INFORMATION: Patient/SampleSzMalariaPatient: Patient.identifier[1].type: Referen
 WARNING: Patient/SampleSzMalariaPatient: Patient.identifier[1].system: No definition could be found for URL value 'http://homeaffairs.sys'
 == fsh-generated/resources/Patient-SampleSzPatient.json ==
 ERROR: Patient/SampleSzPatient: Patient.extension[0]: The Extension 'http://hl7.org/fhir/StructureDefinition/patient-nationality' definition allows for the types [] but found type CodeableConcept
-ERROR: Patient/SampleSzPatient: Patient.extension[0]: Extension.value[x]: max allowed = 0, but found 1 (from http://hl7.org/fhir/StructureDefinition/patient-nationality|5.3.0-ballot)
+ERROR: Patient/SampleSzPatient: Patient.extension[0]: Extension.value[x]: max allowed = 0, but found 1 (from http://hl7.org/fhir/StructureDefinition/patient-nationality|5.3.0-ballot-tc1)
 ERROR: Patient/SampleSzPatient: Patient.extension[0].value.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Eswatini' for urn:iso:std:iso:3166#SWZ. Valid display is 'Swaziland' (for the language(s) 'en-US')
+ERROR: Patient/SampleSzPatient: Patient.extension[1].value.ofType(CodeableConcept).coding[0].code: Unknown code 'DVOKODVWENI' in the CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS' version '0.1.0'
+ERROR: Patient/SampleSzPatient: Patient.extension[1].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Value Set: Tinkhundla' (http://172.209.216.154:3447/fhir/ValueSet/SzTinkhundlaVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS#DVOKODVWENI)
+ERROR: Patient/SampleSzPatient: Patient.extension[2].value.ofType(CodeableConcept).coding[0].code: Unknown code 'Kwaluseni' in the CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS' version '0.1.0'
+ERROR: Patient/SampleSzPatient: Patient.extension[2].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Value Set: Chiefdoms Value Set' (http://172.209.216.154:3447/fhir/ValueSet/SzChiefdomVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS#Kwaluseni)
 INFORMATION: Patient/SampleSzPatient: Patient.extension[2].value.ofType(CodeableConcept): Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS|0.1.0
 INFORMATION: Patient/SampleSzPatient: Patient.identifier[0].type: Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS|0.1.0
 INFORMATION: Patient/SampleSzPatient: Patient.identifier[1].type: Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS|0.1.0
@@ -422,7 +431,7 @@ ERROR: Specimen/SampleSzMalariaSpecimen: Specimen.type.coding[0].display: Wrong 
 ERROR: Specimen/SampleSzSpecimen: Specimen.type: Found a reference to a CodeSystem 'http://terminology.hl7.org/CodeSystem/v2-0487' where a ValueSet belongs
 ERROR: Specimen/SampleSzSpecimen: Specimen.type.coding[0].display: Wrong Display Name 'Blood' for http://terminology.hl7.org/CodeSystem/v2-0487#BLD. Valid display is 'Whole blood' (for the language(s) 'en-US')
 == fsh-generated/resources/StructureDefinition-SzAppointment.json ==
-INFORMATION: StructureDefinition/SzAppointment: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0-ballot is deprecated with the note Use additionalBinding extension or element instead
+INFORMATION: StructureDefinition/SzAppointment: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0-ballot-tc1 is deprecated with the note Use additionalBinding extension or element instead
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/StructureDefinition-SzAuthorizerExtension.json ==
 WARNING: StructureDefinition/SzAuthorizerExtension: StructureDefinition.context[0]: Review the extension type for SzAuthorizerExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
@@ -432,7 +441,11 @@ WARNING: StructureDefinition/SzChiefdomExtension: StructureDefinition.context[0]
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/StructureDefinition-SzClinicalObservation.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
+== fsh-generated/resources/StructureDefinition-SzCondition.json ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/StructureDefinition-SzEncounter.json ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
+== fsh-generated/resources/StructureDefinition-SzEpisodeOfCare.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/StructureDefinition-SzInkhundlaExtension.json ==
 WARNING: StructureDefinition/SzInkhundlaExtension: StructureDefinition.context[0]: Review the extension type for SzInkhundlaExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
@@ -452,6 +465,7 @@ ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdict
 == fsh-generated/resources/StructureDefinition-SzLocationCodeExtension.json ==
 WARNING: StructureDefinition/SzLocationCodeExtension: StructureDefinition.context[0]: Review the extension type for SzLocationCodeExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
+WARNING: StructureDefinition.where(url = 'http://172.209.216.154:3447/fhir/StructureDefinition/SzLocationCodeExtension'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-SzMedication.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/StructureDefinition-SzMedicationDispense.json ==
@@ -462,11 +476,11 @@ ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdict
 == fsh-generated/resources/StructureDefinition-SzOrganization.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/StructureDefinition-SzPatient.json ==
-WARNING: StructureDefinition/SzPatient: StructureDefinition.snapshot.element[8].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-nationality'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.3.0-ballot', found versions: 4.0.1, 5.1.0, 5.3.0-ballot. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-nationality' to 'http://hl7.org/fhir/StructureDefinition/patient-nationality|5.3.0-ballot'
-WARNING: StructureDefinition/SzPatient: StructureDefinition.snapshot.element[48].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-birthTime'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.3.0-ballot', found versions: 4.0.1, 5.1.0, 5.3.0-ballot. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-birthTime' to 'http://hl7.org/fhir/StructureDefinition/patient-birthTime|5.3.0-ballot'
-INFORMATION: StructureDefinition/SzPatient: StructureDefinition.snapshot.element[49].type[0].extension[1]: The extension http://hl7.org/fhir/StructureDefinition/regex|5.3.0-ballot is deprecated with the note This was deprecated in favor of using a constraint on the element using FHIRPath, since constraints allow for the provision of a human readable message associated with the regex
-WARNING: StructureDefinition/SzPatient: StructureDefinition.differential.element[1].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-nationality'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.3.0-ballot', found versions: 4.0.1, 5.1.0, 5.3.0-ballot. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-nationality' to 'http://hl7.org/fhir/StructureDefinition/patient-nationality|5.3.0-ballot'
-WARNING: StructureDefinition/SzPatient: StructureDefinition.differential.element[14].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-birthTime'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.3.0-ballot', found versions: 4.0.1, 5.1.0, 5.3.0-ballot. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-birthTime' to 'http://hl7.org/fhir/StructureDefinition/patient-birthTime|5.3.0-ballot'
+WARNING: StructureDefinition/SzPatient: StructureDefinition.snapshot.element[8].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-nationality'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.3.0-ballot-tc1', found versions: 4.0.1, 5.1.0, 5.3.0-ballot-tc1. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-nationality' to 'http://hl7.org/fhir/StructureDefinition/patient-nationality|5.3.0-ballot-tc1'
+WARNING: StructureDefinition/SzPatient: StructureDefinition.snapshot.element[48].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-birthTime'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.3.0-ballot-tc1', found versions: 4.0.1, 5.1.0, 5.3.0-ballot-tc1. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-birthTime' to 'http://hl7.org/fhir/StructureDefinition/patient-birthTime|5.3.0-ballot-tc1'
+INFORMATION: StructureDefinition/SzPatient: StructureDefinition.snapshot.element[49].type[0].extension[1]: The extension http://hl7.org/fhir/StructureDefinition/regex|5.3.0-ballot-tc1 is deprecated with the note This was deprecated in favor of using a constraint on the element using FHIRPath, since constraints allow for the provision of a human readable message associated with the regex
+WARNING: StructureDefinition/SzPatient: StructureDefinition.differential.element[1].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-nationality'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.3.0-ballot-tc1', found versions: 4.0.1, 5.1.0, 5.3.0-ballot-tc1. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-nationality' to 'http://hl7.org/fhir/StructureDefinition/patient-nationality|5.3.0-ballot-tc1'
+WARNING: StructureDefinition/SzPatient: StructureDefinition.differential.element[14].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-birthTime'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.3.0-ballot-tc1', found versions: 4.0.1, 5.1.0, 5.3.0-ballot-tc1. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-birthTime' to 'http://hl7.org/fhir/StructureDefinition/patient-birthTime|5.3.0-ballot-tc1'
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/StructureDefinition-SzPractitioner.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
@@ -493,8 +507,8 @@ WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to 
 == fsh-generated/resources/ValueSet-SzEncounterClassificationVS.json ==
 WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 INFORMATION: ValueSet.where(id = 'SzEncounterClassificationVS'): The value set expansion is too large, and only a subset has been displayed
-== fsh-generated/resources/ValueSet-SzEncounterReasonVS.json ==
-WARNING: ValueSet/SzEncounterReasonVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-SzFacilityServicePointVS.json ==
+WARNING: ValueSet/SzFacilityServicePointVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/ValueSet-SzProductCodeVS.json ==
 WARNING: ValueSet/SzProductCodeVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

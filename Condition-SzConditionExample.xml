@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="SzConditionExample"/>
+  <meta>
+    <profile value="http://172.209.216.154:3447/fhir/StructureDefinition/SzCondition"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Condition SzConditionExample</b></p><a name="SzConditionExample"> </a><a name="hcSzConditionExample"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-SzCondition.html">Eswatini Condition Profile</a></p></div><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/condition-category encounter-diagnosis}">Encounter Diagnosis</span></p><p><b>code</b>: <span title="Codes:{http://id.who.int/icd/release/11/2025-01/mms/119724091 5A11}">Type 2 diabetes mellitus</span></p><p><b>subject</b>: <a href="Patient-SampleSzPatient.html">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</a></p><p><b>encounter</b>: <a href="Encounter-SampleSzEncounter.html">Encounter: status = finished; class = Out Patient Department (Code System: Encounter Classification#OPD); period = 2023-10-01 10:00:00+0000 --&gt; (ongoing)</a></p><p><b>onset</b>: 2025-09-05</p><p><b>recordedDate</b>: 2025-09-05</p><p><b>recorder</b>: <a href="Practitioner-SampleSzPractitioner.html">Practitioner Thabile Celiwe Dlamini </a></p></div>
+  </text>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-category"/>
+      <code value="encounter-diagnosis"/>
+      <display value="Encounter Diagnosis"/>
+    </coding>
+    <text value="Encounter Diagnosis"/>
+  </category>
+  <code>
+    <coding>
+      <system value="http://id.who.int/icd/release/11/2025-01/mms/119724091"/>
+      <code value="5A11"/>
+      <display value="Type 2 diabetes mellitus"/>
+    </coding>
+    <text value="Type 2 diabetes mellitus"/>
+  </code>
+  <subject>
+    <reference value="Patient/SampleSzPatient"/>
+  </subject>
+  <encounter>
+    <reference value="Encounter/SampleSzEncounter"/>
+  </encounter>
+  <onsetDateTime value="2025-09-05"/>
+  <recordedDate value="2025-09-05"/>
+  <recorder>
+    <reference value="Practitioner/SampleSzPractitioner"/>
+  </recorder>
+</Condition>

@@ -14,6 +14,8 @@
     <sch:rule context="f:Observation">
       <sch:assert test="count(f:extension[@url = 'http://172.209.216.154:3447/fhir/StructureDefinition/SzAuthorizerExtension']) &lt;= 1">extension with URL = 'http://172.209.216.154:3447/fhir/StructureDefinition/SzAuthorizerExtension': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://172.209.216.154:3447/fhir/StructureDefinition/SzTestingLabExtension']) &lt;= 1">extension with URL = 'http://172.209.216.154:3447/fhir/StructureDefinition/SzTestingLabExtension': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:category) &gt;= 1">category: minimum cardinality of 'category' is 1</sch:assert>
+      <sch:assert test="count(f:category) &lt;= 1">category: maximum cardinality of 'category' is 1</sch:assert>
       <sch:assert test="count(f:value[x]) &gt;= 1">value[x]: minimum cardinality of 'value[x]' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>

@@ -51,18 +51,15 @@
       "StructureDefinition-SzEncounter.html" : "Eswatini Encounter Profile"
     },
     {
-      "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzEncounterReasonVS",
+      "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzFacilityServicePointVS",
       "version" : "0.1.0",
       "status" : "draft",
-      "name" : "SzEncounterReasonVS",
-      "title" : "Value set: Eswatini Encounter Reason Codes",
-      "description" : "Value set for Eswatini Encounter Reason Codes",
+      "name" : "SzFacilityServicePointVS",
+      "title" : "Value set: Eswatini Facility Service Points",
+      "description" : "Value set for Facility Service Points",
       "systems" : [
-        "http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterReasonCS"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-SzEncounter.html" : "Eswatini Encounter Profile"
+        "http://172.209.216.154:3447/fhir/CodeSystem/SzFacilityServicePointCS"
+      ]
     },
     {
       "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzProductCodeVS",

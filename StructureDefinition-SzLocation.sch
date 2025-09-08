@@ -12,7 +12,6 @@
   <sch:pattern>
     <sch:title>f:Location</sch:title>
     <sch:rule context="f:Location">
-      <sch:assert test="count(f:extension[@url = 'http://172.209.216.154:3447/fhir/StructureDefinition/SzLocationCodeExtension']) &lt;= 1">extension with URL = 'http://172.209.216.154:3447/fhir/StructureDefinition/SzLocationCodeExtension': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:name) &gt;= 1">name: minimum cardinality of 'name' is 1</sch:assert>
       <sch:assert test="count(f:type) &gt;= 1">type: minimum cardinality of 'type' is 1</sch:assert>
       <sch:assert test="count(f:type) &lt;= 1">type: maximum cardinality of 'type' is 1</sch:assert>

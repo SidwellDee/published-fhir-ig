@@ -109,10 +109,22 @@
         "title": "Eswatini Vital Signs Profile"
       }
     ],
+    "Condition": [
+      {
+        "url": "http://172.209.216.154:3447/fhir/StructureDefinition/SzCondition",
+        "title": "Eswatini Condition Profile"
+      }
+    ],
     "Encounter": [
       {
         "url": "http://172.209.216.154:3447/fhir/StructureDefinition/SzEncounter",
         "title": "Eswatini Encounter Profile"
+      }
+    ],
+    "EpisodeOfCare": [
+      {
+        "url": "http://172.209.216.154:3447/fhir/StructureDefinition/SzEpisodeOfCare",
+        "title": "Eswatini Episode of Care"
       }
     ],
     "Specimen": [
@@ -142,7 +154,7 @@
     "MedicationDispense": [
       {
         "url": "http://172.209.216.154:3447/fhir/StructureDefinition/SzMedicationDispense",
-        "title": "Eswatini Medication Request Profile"
+        "title": "Eswatini Medication Dispense Profile"
       }
     ],
     "MedicationRequest": [
@@ -193,9 +205,6 @@
     "http://172.209.216.154:3447/fhir/StructureDefinition/SzInkhundlaExtension": [
       "Bundle.entry.resource",
       "Patient"
-    ],
-    "http://172.209.216.154:3447/fhir/StructureDefinition/SzLocationCodeExtension": [
-      "Location"
     ],
     "http://172.209.216.154:3447/fhir/StructureDefinition/SzReferralRecipientExtension": [
       "ServiceRequest"

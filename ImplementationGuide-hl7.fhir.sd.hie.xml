@@ -10,7 +10,7 @@
   <name value="EswatiniHIEImplementationGuide"/>
   <title value="Eswatini HL7 FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2025-08-01T12:25:19+00:00"/>
+  <date value="2025-09-08T12:30:01+00:00"/>
   <publisher value="Ministry of Health Eswatini"/>
   <contact>
     <name value="Ministry of Health Eswatini"/>
@@ -40,7 +40,7 @@
     </extension>
     <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
     <packageId value="hl7.fhir.uv.extensions.r4"/>
-    <version value="5.3.0-ballot"/>
+    <version value="5.3.0-ballot-tc1"/>
   </dependsOn>
   <dependsOn id="hl7_fhir_us_core">
     <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"/>
@@ -478,17 +478,6 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/SzEncounterReasonCS"/>
-      </reference>
-      <name value="Code System: Eswatini Encounter Reason Codes"/>
-      <description value="Code System for Eswatini Encounter Reason Codes"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
         <reference value="CodeSystem/SzTestCodeCS"/>
       </reference>
       <name value="Code System: Eswatini Local Test Codes"/>
@@ -576,6 +565,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/SzFacilityServicePointCS"/>
+      </reference>
+      <name value="Code System: Facility Service Points"/>
+      <description value="Code System for Facility Service Points"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/SzPersonIdentificationsCS"/>
       </reference>
       <name value="Code System: Person Identification Types"/>
@@ -609,10 +609,32 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/SzCondition"/>
+      </reference>
+      <name value="Eswatini Condition Profile"/>
+      <description value="Eswatini Condition Profile"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/SzEncounter"/>
       </reference>
       <name value="Eswatini Encounter Profile"/>
       <description value="The Eswatini Encounter Profile inherits from .... This profile sets minimum expectations for the Encounter resource to record basic encounter&#xA;information for a patient. It specifies which core elements shall be present and constrains how the elements are used."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SzEpisodeOfCare"/>
+      </reference>
+      <name value="Eswatini Episode of Care"/>
+      <description value="Eswatini Episode of Care"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -653,10 +675,10 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/SzMedication"/>
+        <reference value="StructureDefinition/SzMedicationDispense"/>
       </reference>
-      <name value="Eswatini Medication Profile"/>
-      <description value="Definition of Eswatinit Medication Profile"/>
+      <name value="Eswatini Medication Dispense Profile"/>
+      <description value="Definition of Eswatinit Medication Dispense Profile"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -664,10 +686,10 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/SzMedicationDispense"/>
+        <reference value="StructureDefinition/SzMedication"/>
       </reference>
-      <name value="Eswatini Medication Request Profile"/>
-      <description value="Definition of Eswatinit Medication Request Profile"/>
+      <name value="Eswatini Medication Profile"/>
+      <description value="Definition of Eswatinit Medication Profile"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1255,6 +1277,28 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/SzConditionExample"/>
+      </reference>
+      <name value="SzConditionExample"/>
+      <description value="An example of Eswatini Condition"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzCondition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="EpisodeOfCare"/>
+      </extension>
+      <reference>
+        <reference value="EpisodeOfCare/SzEpisodeOfCareExample"/>
+      </reference>
+      <name value="SzEpisodeOfCareExample"/>
+      <description value="An example of Eswatini Episode of Care"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzEpisodeOfCare"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -1280,10 +1324,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/SzEncounterReasonVS"/>
+        <reference value="ValueSet/SzFacilityServicePointVS"/>
       </reference>
-      <name value="Value set: Eswatini Encounter Reason Codes"/>
-      <description value="Value set for Eswatini Encounter Reason Codes"/>
+      <name value="Value set: Eswatini Facility Service Points"/>
+      <description value="Value set for Facility Service Points"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -1,0 +1,189 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://172.209.216.154:3447/fhir/CodeSystem/SzFacilityServicePointCS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "SzFacilityServicePointCS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem SzFacilityServicePointCS</b></p><a name=\"SzFacilityServicePointCS\"> </a><a name=\"hcSzFacilityServicePointCS\"> </a><p>This  code system <code>http://172.209.216.154:3447/fhir/CodeSystem/SzFacilityServicePointCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"SzFacilityServicePointCS-1\"> </a></td><td>Vitals</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"SzFacilityServicePointCS-2\"> </a></td><td>TB Screening</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"SzFacilityServicePointCS-3\"> </a></td><td>HTS</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"SzFacilityServicePointCS-4\"> </a></td><td>Medical Encounter</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"SzFacilityServicePointCS-5\"> </a></td><td>ART</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"SzFacilityServicePointCS-6\"> </a></td><td>TB (DS)</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"SzFacilityServicePointCS-7\"> </a></td><td>TB (DR)</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"SzFacilityServicePointCS-8\"> </a></td><td>Laboratory</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"SzFacilityServicePointCS-9\"> </a></td><td>ANC</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"SzFacilityServicePointCS-10\"> </a></td><td>PNC</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"SzFacilityServicePointCS-11\"> </a></td><td>Child Welfare</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"SzFacilityServicePointCS-12\"> </a></td><td>Family Planning</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"SzFacilityServicePointCS-13\"> </a></td><td>Cancer Screening</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"SzFacilityServicePointCS-14\"> </a></td><td>Maternity</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"SzFacilityServicePointCS-15\"> </a></td><td>VMMC</td></tr><tr><td style=\"white-space:nowrap\">16<a name=\"SzFacilityServicePointCS-16\"> </a></td><td>In-Patient</td></tr><tr><td style=\"white-space:nowrap\">17<a name=\"SzFacilityServicePointCS-17\"> </a></td><td>Prescription</td></tr><tr><td style=\"white-space:nowrap\">18<a name=\"SzFacilityServicePointCS-18\"> </a></td><td>Palliative Care</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"SzFacilityServicePointCS-19\"> </a></td><td>Referral</td></tr><tr><td style=\"white-space:nowrap\">20<a name=\"SzFacilityServicePointCS-20\"> </a></td><td>Immunization</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"SzFacilityServicePointCS-21\"> </a></td><td>PrEP</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"SzFacilityServicePointCS-22\"> </a></td><td>OPD</td></tr><tr><td style=\"white-space:nowrap\">23<a name=\"SzFacilityServicePointCS-23\"> </a></td><td>COVID 19 Screening</td></tr><tr><td style=\"white-space:nowrap\">24<a name=\"SzFacilityServicePointCS-24\"> </a></td><td>PEP</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"SzFacilityServicePointCS-25\"> </a></td><td>Oncology</td></tr><tr><td style=\"white-space:nowrap\">26<a name=\"SzFacilityServicePointCS-26\"> </a></td><td>RHM</td></tr><tr><td style=\"white-space:nowrap\">27<a name=\"SzFacilityServicePointCS-27\"> </a></td><td>NCD</td></tr><tr><td style=\"white-space:nowrap\">28<a name=\"SzFacilityServicePointCS-28\"> </a></td><td>Ultrasound Scan</td></tr><tr><td style=\"white-space:nowrap\">29<a name=\"SzFacilityServicePointCS-29\"> </a></td><td>Psychiatric Services</td></tr><tr><td style=\"white-space:nowrap\">30<a name=\"SzFacilityServicePointCS-30\"> </a></td><td>Eye Clinic</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"SzFacilityServicePointCS-31\"> </a></td><td>Gynae</td></tr><tr><td style=\"white-space:nowrap\">32<a name=\"SzFacilityServicePointCS-32\"> </a></td><td>Peads OPD</td></tr><tr><td style=\"white-space:nowrap\">33<a name=\"SzFacilityServicePointCS-33\"> </a></td><td>X-Ray</td></tr><tr><td style=\"white-space:nowrap\">34<a name=\"SzFacilityServicePointCS-34\"> </a></td><td>COVID Vaccination</td></tr><tr><td style=\"white-space:nowrap\">35<a name=\"SzFacilityServicePointCS-35\"> </a></td><td>TPT</td></tr><tr><td style=\"white-space:nowrap\">36<a name=\"SzFacilityServicePointCS-36\"> </a></td><td>HPV Vaccine Screening</td></tr><tr><td style=\"white-space:nowrap\">37<a name=\"SzFacilityServicePointCS-37\"> </a></td><td>Ear Examination</td></tr><tr><td style=\"white-space:nowrap\">38<a name=\"SzFacilityServicePointCS-38\"> </a></td><td>Mental Health</td></tr><tr><td style=\"white-space:nowrap\">39<a name=\"SzFacilityServicePointCS-39\"> </a></td><td>Child Development</td></tr><tr><td style=\"white-space:nowrap\">40<a name=\"SzFacilityServicePointCS-40\"> </a></td><td>Eye</td></tr><tr><td style=\"white-space:nowrap\">41<a name=\"SzFacilityServicePointCS-41\"> </a></td><td>Oral Health</td></tr><tr><td style=\"white-space:nowrap\">42<a name=\"SzFacilityServicePointCS-42\"> </a></td><td>Social Welfare</td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"SzFacilityServicePointCS-43\"> </a></td><td>Dietician</td></tr><tr><td style=\"white-space:nowrap\">44<a name=\"SzFacilityServicePointCS-44\"> </a></td><td>Occupational Therapy</td></tr><tr><td style=\"white-space:nowrap\">45<a name=\"SzFacilityServicePointCS-45\"> </a></td><td>Physio Therapy</td></tr><tr><td style=\"white-space:nowrap\">46<a name=\"SzFacilityServicePointCS-46\"> </a></td><td>Audiology</td></tr><tr><td style=\"white-space:nowrap\">47<a name=\"SzFacilityServicePointCS-47\"> </a></td><td>Malaria Screening</td></tr><tr><td style=\"white-space:nowrap\">48<a name=\"SzFacilityServicePointCS-48\"> </a></td><td>Nutrition</td></tr><tr><td style=\"white-space:nowrap\">49<a name=\"SzFacilityServicePointCS-49\"> </a></td><td>HIVST</td></tr><tr><td style=\"white-space:nowrap\">50<a name=\"SzFacilityServicePointCS-50\"> </a></td><td>Potential-Retester</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://172.209.216.154:3447/fhir/CodeSystem/SzFacilityServicePointCS"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "SzFacilityServicePointCS"] ; # 
+  fhir:title [ fhir:v "Code System: Facility Service Points"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2025-09-08T12:30:01+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministry of Health Eswatini"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Ministry of Health Eswatini" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://172.209.216.154:3447" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "eswatinihie@moh.gov.sz" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Code System for Facility Service Points"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "50"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "Vitals" ]
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "TB Screening" ]
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "HTS" ]
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "Medical Encounter" ]
+  ] [
+     fhir:code [ fhir:v "5" ] ;
+     fhir:display [ fhir:v "ART" ]
+  ] [
+     fhir:code [ fhir:v "6" ] ;
+     fhir:display [ fhir:v "TB (DS)" ]
+  ] [
+     fhir:code [ fhir:v "7" ] ;
+     fhir:display [ fhir:v "TB (DR)" ]
+  ] [
+     fhir:code [ fhir:v "8" ] ;
+     fhir:display [ fhir:v "Laboratory" ]
+  ] [
+     fhir:code [ fhir:v "9" ] ;
+     fhir:display [ fhir:v "ANC" ]
+  ] [
+     fhir:code [ fhir:v "10" ] ;
+     fhir:display [ fhir:v "PNC" ]
+  ] [
+     fhir:code [ fhir:v "11" ] ;
+     fhir:display [ fhir:v "Child Welfare" ]
+  ] [
+     fhir:code [ fhir:v "12" ] ;
+     fhir:display [ fhir:v "Family Planning" ]
+  ] [
+     fhir:code [ fhir:v "13" ] ;
+     fhir:display [ fhir:v "Cancer Screening" ]
+  ] [
+     fhir:code [ fhir:v "14" ] ;
+     fhir:display [ fhir:v "Maternity" ]
+  ] [
+     fhir:code [ fhir:v "15" ] ;
+     fhir:display [ fhir:v "VMMC" ]
+  ] [
+     fhir:code [ fhir:v "16" ] ;
+     fhir:display [ fhir:v "In-Patient" ]
+  ] [
+     fhir:code [ fhir:v "17" ] ;
+     fhir:display [ fhir:v "Prescription" ]
+  ] [
+     fhir:code [ fhir:v "18" ] ;
+     fhir:display [ fhir:v "Palliative Care" ]
+  ] [
+     fhir:code [ fhir:v "19" ] ;
+     fhir:display [ fhir:v "Referral" ]
+  ] [
+     fhir:code [ fhir:v "20" ] ;
+     fhir:display [ fhir:v "Immunization" ]
+  ] [
+     fhir:code [ fhir:v "21" ] ;
+     fhir:display [ fhir:v "PrEP" ]
+  ] [
+     fhir:code [ fhir:v "22" ] ;
+     fhir:display [ fhir:v "OPD" ]
+  ] [
+     fhir:code [ fhir:v "23" ] ;
+     fhir:display [ fhir:v "COVID 19 Screening" ]
+  ] [
+     fhir:code [ fhir:v "24" ] ;
+     fhir:display [ fhir:v "PEP" ]
+  ] [
+     fhir:code [ fhir:v "25" ] ;
+     fhir:display [ fhir:v "Oncology" ]
+  ] [
+     fhir:code [ fhir:v "26" ] ;
+     fhir:display [ fhir:v "RHM" ]
+  ] [
+     fhir:code [ fhir:v "27" ] ;
+     fhir:display [ fhir:v "NCD" ]
+  ] [
+     fhir:code [ fhir:v "28" ] ;
+     fhir:display [ fhir:v "Ultrasound Scan" ]
+  ] [
+     fhir:code [ fhir:v "29" ] ;
+     fhir:display [ fhir:v "Psychiatric Services" ]
+  ] [
+     fhir:code [ fhir:v "30" ] ;
+     fhir:display [ fhir:v "Eye Clinic" ]
+  ] [
+     fhir:code [ fhir:v "31" ] ;
+     fhir:display [ fhir:v "Gynae" ]
+  ] [
+     fhir:code [ fhir:v "32" ] ;
+     fhir:display [ fhir:v "Peads OPD" ]
+  ] [
+     fhir:code [ fhir:v "33" ] ;
+     fhir:display [ fhir:v "X-Ray" ]
+  ] [
+     fhir:code [ fhir:v "34" ] ;
+     fhir:display [ fhir:v "COVID Vaccination" ]
+  ] [
+     fhir:code [ fhir:v "35" ] ;
+     fhir:display [ fhir:v "TPT" ]
+  ] [
+     fhir:code [ fhir:v "36" ] ;
+     fhir:display [ fhir:v "HPV Vaccine Screening" ]
+  ] [
+     fhir:code [ fhir:v "37" ] ;
+     fhir:display [ fhir:v "Ear Examination" ]
+  ] [
+     fhir:code [ fhir:v "38" ] ;
+     fhir:display [ fhir:v "Mental Health" ]
+  ] [
+     fhir:code [ fhir:v "39" ] ;
+     fhir:display [ fhir:v "Child Development" ]
+  ] [
+     fhir:code [ fhir:v "40" ] ;
+     fhir:display [ fhir:v "Eye" ]
+  ] [
+     fhir:code [ fhir:v "41" ] ;
+     fhir:display [ fhir:v "Oral Health" ]
+  ] [
+     fhir:code [ fhir:v "42" ] ;
+     fhir:display [ fhir:v "Social Welfare" ]
+  ] [
+     fhir:code [ fhir:v "43" ] ;
+     fhir:display [ fhir:v "Dietician" ]
+  ] [
+     fhir:code [ fhir:v "44" ] ;
+     fhir:display [ fhir:v "Occupational Therapy" ]
+  ] [
+     fhir:code [ fhir:v "45" ] ;
+     fhir:display [ fhir:v "Physio Therapy" ]
+  ] [
+     fhir:code [ fhir:v "46" ] ;
+     fhir:display [ fhir:v "Audiology" ]
+  ] [
+     fhir:code [ fhir:v "47" ] ;
+     fhir:display [ fhir:v "Malaria Screening" ]
+  ] [
+     fhir:code [ fhir:v "48" ] ;
+     fhir:display [ fhir:v "Nutrition" ]
+  ] [
+     fhir:code [ fhir:v "49" ] ;
+     fhir:display [ fhir:v "HIVST" ]
+  ] [
+     fhir:code [ fhir:v "50" ] ;
+     fhir:display [ fhir:v "Potential-Retester" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

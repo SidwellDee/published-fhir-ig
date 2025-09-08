@@ -1,0 +1,57 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://172.209.216.154:3447/fhir/Condition/SzConditionExample> a fhir:Condition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "SzConditionExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzCondition"^^xsd:anyURI ;
+       fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzCondition>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition SzConditionExample</b></p><a name=\"SzConditionExample\"> </a><a name=\"hcSzConditionExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzCondition.html\">Eswatini Condition Profile</a></p></div><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category encounter-diagnosis}\">Encounter Diagnosis</span></p><p><b>code</b>: <span title=\"Codes:{http://id.who.int/icd/release/11/2025-01/mms/119724091 5A11}\">Type 2 diabetes mellitus</span></p><p><b>subject</b>: <a href=\"Patient-SampleSzPatient.html\">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</a></p><p><b>encounter</b>: <a href=\"Encounter-SampleSzEncounter.html\">Encounter: status = finished; class = Out Patient Department (Code System: Encounter Classification#OPD); period = 2023-10-01 10:00:00+0000 --&gt; (ongoing)</a></p><p><b>onset</b>: 2025-09-05</p><p><b>recordedDate</b>: 2025-09-05</p><p><b>recorder</b>: <a href=\"Practitioner-SampleSzPractitioner.html\">Practitioner Thabile Celiwe Dlamini </a></p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/condition-category"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "encounter-diagnosis" ] ;
+       fhir:display [ fhir:v "Encounter Diagnosis" ]
+     ] ) ;
+     fhir:text [ fhir:v "Encounter Diagnosis" ]
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://id.who.int/icd/release/11/2025-01/mms/119724091"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "5A11" ] ;
+       fhir:display [ fhir:v "Type 2 diabetes mellitus" ]
+     ] ) ;
+     fhir:text [ fhir:v "Type 2 diabetes mellitus" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://172.209.216.154:3447/fhir/Patient/SampleSzPatient> ;
+     fhir:reference [ fhir:v "Patient/SampleSzPatient" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:link <http://172.209.216.154:3447/fhir/Encounter/SampleSzEncounter> ;
+     fhir:reference [ fhir:v "Encounter/SampleSzEncounter" ]
+  ] ; # 
+  fhir:onset [
+     a fhir:dateTime ;
+     fhir:v "2025-09-05"^^xsd:date
+  ] ; # 
+  fhir:recordedDate [ fhir:v "2025-09-05"^^xsd:date] ; # 
+  fhir:recorder [
+     fhir:link <http://172.209.216.154:3447/fhir/Practitioner/SampleSzPractitioner> ;
+     fhir:reference [ fhir:v "Practitioner/SampleSzPractitioner" ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

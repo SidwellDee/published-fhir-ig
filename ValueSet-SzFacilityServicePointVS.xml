@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="SzFacilityServicePointVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet SzFacilityServicePointVS</b></p><a name="SzFacilityServicePointVS"> </a><a name="hcSzFacilityServicePointVS"> </a><ul><li>Include all codes defined in <a href="CodeSystem-SzFacilityServicePointCS.html"><code>http://172.209.216.154:3447/fhir/CodeSystem/SzFacilityServicePointCS</code></a></li></ul></div>
+  </text>
+  <url value="http://172.209.216.154:3447/fhir/ValueSet/SzFacilityServicePointVS"/>
+  <version value="0.1.0"/>
+  <name value="SzFacilityServicePointVS"/>
+  <title value="Value set: Eswatini Facility Service Points"/>
+  <status value="draft"/>
+  <date value="2025-09-08T12:30:01+00:00"/>
+  <publisher value="Ministry of Health Eswatini"/>
+  <contact>
+    <name value="Ministry of Health Eswatini"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://172.209.216.154:3447"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="eswatinihie@moh.gov.sz"/>
+    </telecom>
+  </contact>
+  <description value="Value set for Facility Service Points"/>
+  <compose>
+    <include>
+      <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzFacilityServicePointCS"/>
+    </include>
+  </compose>
+</ValueSet>

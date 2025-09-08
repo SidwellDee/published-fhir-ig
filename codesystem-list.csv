@@ -1,7 +1,7 @@
 URL,Version,Status,OIDs,Name,Title,Description,Used
 http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS,0.1.0,draft,,SzChiefdomCS,Code System: Eswatini Chiefdoms,"Code system for ESwatini Chiefdoms",
 http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterClassificationCS,0.1.0,active,,EswatiniEncounterClassification,Code System: Encounter Classification,"Data element that contains the classification of encounters.",
-http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterReasonCS,0.1.0,draft,,SzEncounterReasonCS,Code System: Eswatini Encounter Reason Codes,"Code System for Eswatini Encounter Reason Codes",
+http://172.209.216.154:3447/fhir/CodeSystem/SzFacilityServicePointCS,0.1.0,draft,,SzFacilityServicePointCS,Code System: Facility Service Points,"Code System for Facility Service Points",
 http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS,0.1.0,draft,,SzPersonIdentificationsCS,Code System: Person Identification Types,"Data element that contains the name and identification number of a specific person for identity and individualization purposes.",
 http://172.209.216.154:3447/fhir/CodeSystem/SzProductCodeCS,0.1.0,draft,,SzProductCodeCS,Code System: Eswatini Product Codes,"Code system for ESwatini Product Codes",
 http://172.209.216.154:3447/fhir/CodeSystem/SzReasonsForReferralCS,0.1.0,active,,EswatiniReasonsForReferrals,Code System: Eswatini Reasons for Referral,"Data element that contains codes for reasons for referral",
