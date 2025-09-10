@@ -112,8 +112,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-SzMedication.html" : "Eswatini Medication Profile",
-      "StructureDefinition-SzMedicationRequest.html" : "Eswatini Medication Request Profile"
+      "StructureDefinition-SzMedicationRequest.html" : "Eswatini Medication Request Profile",
+      "StructureDefinition-SzMedication.html" : "Eswatini Medication Profile"
     },
     {
       "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzReaonsForReferralVS",

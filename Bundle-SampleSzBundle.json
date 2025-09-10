@@ -136,44 +136,40 @@
     }
   },
   {
-    "fullUrl" : "http://172.209.216.154:3447/fhir/Observation/SampleSzARTStartDateClinicalObservation",
+    "fullUrl" : "http://172.209.216.154:3447/fhir/EpisodeOfCare/SzEpisodeOfCareExampleArtStartDate",
     "resource" : {
-      "resourceType" : "Observation",
-      "id" : "SampleSzARTStartDateClinicalObservation",
+      "resourceType" : "EpisodeOfCare",
+      "id" : "SzEpisodeOfCareExampleArtStartDate",
       "meta" : {
-        "profile" : ["http://172.209.216.154:3447/fhir/StructureDefinition/SzClinicalObservation"]
+        "profile" : ["http://172.209.216.154:3447/fhir/StructureDefinition/SzEpisodeOfCare"]
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_SampleSzARTStartDateClinicalObservation\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation SampleSzARTStartDateClinicalObservation</b></p><a name=\"SampleSzARTStartDateClinicalObservation\"> </a><a name=\"hcSampleSzARTStartDateClinicalObservation\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzClinicalObservation.html\">Eswatini Clinical Observation Profile</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 47241-5}\">Date determined medically eligible and ready to start HIV treatment</span></p><p><b>subject</b>: <a href=\"Patient-SampleSzPatient.html\">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1\u00a0(use:\u00a0usual,\u00a0))</a></p><p><b>encounter</b>: <a href=\"Encounter-SampleSzEncounter.html\">Encounter: status = finished; class = Out Patient Department (Code System: Encounter Classification#OPD); period = 2023-10-01 10:00:00+0000 --&gt; (ongoing)</a></p><p><b>performer</b>: <a href=\"Practitioner-SampleSzPractitioner.html\">Practitioner Thabile Celiwe Dlamini </a></p><p><b>value</b>: 2024-09-11 10:00:00+0000</p></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"EpisodeOfCare_SzEpisodeOfCareExampleArtStartDate\"> </a><p class=\"res-header-id\"><b>Generated Narrative: EpisodeOfCare SzEpisodeOfCareExampleArtStartDate</b></p><a name=\"SzEpisodeOfCareExampleArtStartDate\"> </a><a name=\"hcSzEpisodeOfCareExampleArtStartDate\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzEpisodeOfCare.html\">Eswatini Episode of Care</a></p></div><p><b>status</b>: Active</p><p><b>type</b>: <span title=\"Codes:{http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS 5}\">ART</span></p><p><b>patient</b>: <a href=\"Patient-SampleSzPatient.html\">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1\u00a0(use:\u00a0usual,\u00a0))</a></p><p><b>period</b>: 2025-09-03 --&gt; (ongoing)</p></div>"
       },
-      "status" : "final",
-      "code" : {
+      "status" : "active",
+      "type" : [{
         "coding" : [{
-          "system" : "http://loinc.org",
-          "code" : "47241-5",
-          "display" : "Date determined medically eligible and ready to start HIV treatment"
+          "system" : "http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS",
+          "code" : "5",
+          "display" : "ART"
         }],
-        "text" : "Date determined medically eligible and ready to start HIV treatment"
-      },
-      "subject" : {
+        "text" : "ART"
+      }],
+      "patient" : {
         "reference" : "Patient/SampleSzPatient"
       },
-      "encounter" : {
-        "reference" : "Encounter/SampleSzEncounter"
-      },
-      "performer" : [{
-        "reference" : "Practitioner/SampleSzPractitioner"
-      }],
-      "valueDateTime" : "2024-09-11T10:00:00Z"
+      "period" : {
+        "start" : "2025-09-03"
+      }
     },
     "request" : {
       "method" : "PUT",
-      "url" : "Observation/SampleSzARTStartDateClinicalObservation"
+      "url" : "EpisodeOfCare/SzEpisodeOfCareExampleArtStartDate"
     }
   },
   {
-    "fullUrl" : "http://172.209.216.154:3447/fhir/Observation/SampleSzARTStartDateClinicalObservation",
+    "fullUrl" : "http://172.209.216.154:3447/fhir/Procedure/SampleSzIPTProcedure",
     "resource" : {
       "resourceType" : "Procedure",
       "id" : "SampleSzIPTProcedure",

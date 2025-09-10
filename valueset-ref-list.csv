@@ -7,7 +7,7 @@ http://172.209.216.154:3447/fhir/ValueSet/SzEncounterClassificationVS,0.1.0,acti
 http://172.209.216.154:3447/fhir/ValueSet/SzEpisodeOfCareTypeVS,0.1.0,draft,,SzEpisodeOfCareTypeVS,Eswatini Episode of Care Valueset,"Eswatini Episode of Care Valueset","StructureDefinition/SzEpisodeOfCare","Internal,THO"
 http://172.209.216.154:3447/fhir/ValueSet/SzFacilityServicePointVS,0.1.0,draft,,SzFacilityServicePointVS,Value set: Eswatini Facility Service Points,"Value set for Facility Service Points",,"Internal"
 http://172.209.216.154:3447/fhir/ValueSet/SzMalariaEncounterCodesVS,0.1.0,draft,,SzMalariaEncounterCodesVS,Eswatini Malaria Encounter Codes,"Eswatini Malaria Encounter Codes",,"Internal"
-http://172.209.216.154:3447/fhir/ValueSet/SzProductCodeVS,0.1.0,draft,,SzProductCodeVS,Value Set: Product Code Value Set,"Value set for ESwatini Product Codes","StructureDefinition/SzMedication,StructureDefinition/SzMedicationRequest","Internal"
+http://172.209.216.154:3447/fhir/ValueSet/SzProductCodeVS,0.1.0,draft,,SzProductCodeVS,Value Set: Product Code Value Set,"Value set for ESwatini Product Codes","StructureDefinition/SzMedicationRequest,StructureDefinition/SzMedication","Internal"
 http://172.209.216.154:3447/fhir/ValueSet/SzReaonsForReferralVS,0.1.0,active,,SzReaonsForReferralVS,Value Set: Reasons for Referral,"Eswatini Reasons for Referral",,"Internal"
 http://172.209.216.154:3447/fhir/ValueSet/SzReferralIntentVS,0.1.0,active,,SzReferralIntentVS,Value Set: Referral Intent,"Eswatini Referral Intent",,"Internal,hl7.fhir.r4.core"
 http://172.209.216.154:3447/fhir/ValueSet/SzReferralTypeVS,0.1.0,active,,SzReferralTypeVS,Value Set: Referral Type,"Eswatini Referral Types",,"Internal"

@@ -3,14 +3,14 @@
   "id" : "SzClinicalObservationCodesCS",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem SzClinicalObservationCodesCS</b></p><a name=\"SzClinicalObservationCodesCS\"> </a><a name=\"hcSzClinicalObservationCodesCS\"> </a><p>This  code system <code>http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">tpt-regimen<a name=\"SzClinicalObservationCodesCS-tpt-regimen\"> </a></td><td>TPT Regimen</td></tr><tr><td style=\"white-space:nowrap\">tpt-outcome<a name=\"SzClinicalObservationCodesCS-tpt-outcome\"> </a></td><td>TPT Outcome</td></tr><tr><td style=\"white-space:nowrap\">tpt-start-date<a name=\"SzClinicalObservationCodesCS-tpt-start-date\"> </a></td><td>TPT Start Date</td></tr><tr><td style=\"white-space:nowrap\">tpt-stop-date<a name=\"SzClinicalObservationCodesCS-tpt-stop-date\"> </a></td><td>TPT Stop Date</td></tr><tr><td style=\"white-space:nowrap\">art-regimen<a name=\"SzClinicalObservationCodesCS-art-regimen\"> </a></td><td>ART Regimen</td></tr><tr><td style=\"white-space:nowrap\">regimen-change-reason<a name=\"SzClinicalObservationCodesCS-regimen-change-reason\"> </a></td><td>RegimenChangeReason</td></tr><tr><td style=\"white-space:nowrap\">art-line-regimen<a name=\"SzClinicalObservationCodesCS-art-line-regimen\"> </a></td><td>ART Line Regimen</td></tr><tr><td style=\"white-space:nowrap\">art-care-model<a name=\"SzClinicalObservationCodesCS-art-care-model\"> </a></td><td>ART Care Model</td></tr><tr><td style=\"white-space:nowrap\">art-oi<a name=\"SzClinicalObservationCodesCS-art-oi\"> </a></td><td>Opportunistic Infection</td></tr><tr><td style=\"white-space:nowrap\">who-stage<a name=\"SzClinicalObservationCodesCS-who-stage\"> </a></td><td>WHO Stage</td></tr><tr><td style=\"white-space:nowrap\">hts-test-modality<a name=\"SzClinicalObservationCodesCS-hts-test-modality\"> </a></td><td>HTS Test Modality</td></tr><tr><td style=\"white-space:nowrap\">hts-entry-point<a name=\"SzClinicalObservationCodesCS-hts-entry-point\"> </a></td><td>HTS Entry Point</td></tr><tr><td style=\"white-space:nowrap\">hts-test-type<a name=\"SzClinicalObservationCodesCS-hts-test-type\"> </a></td><td>HTS Test Type</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem SzClinicalObservationCodesCS</b></p><a name=\"SzClinicalObservationCodesCS\"> </a><a name=\"hcSzClinicalObservationCodesCS\"> </a><p>This  code system <code>http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">tpt-regimen<a name=\"SzClinicalObservationCodesCS-tpt-regimen\"> </a></td><td>TPT Regimen</td></tr><tr><td style=\"white-space:nowrap\">tpt-outcome<a name=\"SzClinicalObservationCodesCS-tpt-outcome\"> </a></td><td>TPT Outcome</td></tr><tr><td style=\"white-space:nowrap\">art-regimen<a name=\"SzClinicalObservationCodesCS-art-regimen\"> </a></td><td>ART Regimen</td></tr><tr><td style=\"white-space:nowrap\">regimen-change-reason<a name=\"SzClinicalObservationCodesCS-regimen-change-reason\"> </a></td><td>RegimenChangeReason</td></tr><tr><td style=\"white-space:nowrap\">art-line-regimen<a name=\"SzClinicalObservationCodesCS-art-line-regimen\"> </a></td><td>ART Line Regimen</td></tr><tr><td style=\"white-space:nowrap\">art-care-model<a name=\"SzClinicalObservationCodesCS-art-care-model\"> </a></td><td>ART Care Model</td></tr><tr><td style=\"white-space:nowrap\">art-oi<a name=\"SzClinicalObservationCodesCS-art-oi\"> </a></td><td>Opportunistic Infection</td></tr><tr><td style=\"white-space:nowrap\">who-stage<a name=\"SzClinicalObservationCodesCS-who-stage\"> </a></td><td>WHO Stage</td></tr><tr><td style=\"white-space:nowrap\">hts-test-modality<a name=\"SzClinicalObservationCodesCS-hts-test-modality\"> </a></td><td>HTS Test Modality</td></tr><tr><td style=\"white-space:nowrap\">hts-entry-point<a name=\"SzClinicalObservationCodesCS-hts-entry-point\"> </a></td><td>HTS Entry Point</td></tr><tr><td style=\"white-space:nowrap\">hts-test-type<a name=\"SzClinicalObservationCodesCS-hts-test-type\"> </a></td><td>HTS Test Type</td></tr></table></div>"
   },
   "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS",
   "version" : "0.1.0",
   "name" : "SzClinicalObservationCodesCS",
   "title" : "Eswatini Clinical Observation Codes Code System",
   "status" : "draft",
-  "date" : "2025-09-10T08:40:27+00:00",
+  "date" : "2025-09-10T10:05:20+00:00",
   "publisher" : "Ministry of Health Eswatini",
   "contact" : [{
     "name" : "Ministry of Health Eswatini",
@@ -25,7 +25,7 @@
   }],
   "description" : "This Code System includes all elements that cannot be located using currently available terminology services. \nIt is intended to serve as a supplementary resource for concepts or codes that are not present in established terminologies or are not accessible through existing terminology service infrastructures",
   "content" : "complete",
-  "count" : 13,
+  "count" : 11,
   "concept" : [{
     "code" : "tpt-regimen",
     "display" : "TPT Regimen"
@@ -33,14 +33,6 @@
   {
     "code" : "tpt-outcome",
     "display" : "TPT Outcome"
-  },
-  {
-    "code" : "tpt-start-date",
-    "display" : "TPT Start Date"
-  },
-  {
-    "code" : "tpt-stop-date",
-    "display" : "TPT Stop Date"
   },
   {
     "code" : "art-regimen",

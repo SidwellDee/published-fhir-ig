@@ -1,12 +1,12 @@
 EswatiniHIEImplementationGuide : Validation Results
 =========================================
 
-err = 111, warn = 168, info = 72
+err = 107, warn = 167, info = 70
 IG Publisher Version: 2.0.12 Out of date - current version is 2.0.17
-Generated Wed Sep 10 08:46:12 UTC 2025. FHIR version 4.0.1 for hl7.fhir.sd.hie#0.1.0 (canonical = http://172.209.216.154:3447/fhir)
+Generated Wed Sep 10 10:08:45 UTC 2025. FHIR version 4.0.1 for hl7.fhir.sd.hie#0.1.0 (canonical = http://172.209.216.154:3447/fhir)
  Build Errors : 1 / 7 / 0
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Appointment-SampleSzAppointment : 0 / 1 / 2
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Bundle-SampleSzBundle : 16 / 3 / 34
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Bundle-SampleSzBundle : 12 / 2 / 32
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Bundle-SampleSzBundle1 : 10 / 0 / 8
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Bundle-SampleSzMalariaBundle : 25 / 23 / 34
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzChiefdomCS : 0 / 24 / 2
@@ -31,6 +31,7 @@ Generated Wed Sep 10 08:46:12 UTC 2025. FHIR version 4.0.1 for hl7.fhir.sd.hie#0
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Encounter-SampleSzEncounter : 0 / 0 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Encounter-SampleSzMalariaEncounter : 0 / 0 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/EpisodeOfCare-SzEpisodeOfCareExample : 0 / 1 / 1
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/EpisodeOfCare-SzEpisodeOfCareExampleArtStartDate : 0 / 1 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ImplementationGuide-hl7.fhir.sd.hie : 0 / 2 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Location-SampleSzLabLocation : 0 / 0 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Location-SampleSzLocation : 0 / 0 / 1
@@ -43,7 +44,6 @@ Generated Wed Sep 10 08:46:12 UTC 2025. FHIR version 4.0.1 for hl7.fhir.sd.hie#0
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/NamingSystem-NamingSystemCivilRegistry : 0 / 2 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/NamingSystem-NamingSystemCmis : 0 / 2 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/NamingSystem-NamingSystemMsds : 0 / 2 / 1
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Observation-SampleSzARTStartDateClinicalObservation : 0 / 1 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Observation-SampleSzArtRegimenClinicalObservation : 0 / 1 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Observation-SampleSzLabResult1 : 0 / 1 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Observation-SampleSzMalariaLabResult : 1 / 1 / 1
@@ -128,13 +128,9 @@ INFORMATION: Bundle/SampleSzBundle: Bundle.entry[0].resource/*Patient/SampleSzPa
 INFORMATION: Bundle/SampleSzBundle: Bundle.entry[1].resource/*Encounter/SampleSzEncounter*/.subject: Details for Patient/SampleSzPatient matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1
 ERROR: Bundle/SampleSzBundle: Bundle.entry[1].resource/*Encounter/SampleSzEncounter*/.subject: Unable to find a profile match for Patient/SampleSzPatient among choices: http://172.209.216.154:3447/fhir/StructureDefinition/SzPatient
 INFORMATION: Bundle/SampleSzBundle: Bundle.entry[1].resource/*Encounter/SampleSzEncounter*/.subject: Details for Patient/SampleSzPatient matching against profile http://172.209.216.154:3447/fhir/StructureDefinition/SzPatient|0.1.0
-WARNING: Bundle/SampleSzBundle: Bundle.entry[2].resource/*Observation/SampleSzARTStartDateClinicalObservation*/: Best Practice Recommendation: In general, all observations should have an effective[x] ()
-INFORMATION: Bundle/SampleSzBundle: Bundle.entry[2].resource/*Observation/SampleSzARTStartDateClinicalObservation*/.subject: Details for Patient/SampleSzPatient matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1
-INFORMATION: Bundle/SampleSzBundle: Bundle.entry[2].resource/*Observation/SampleSzARTStartDateClinicalObservation*/.encounter: Details for Encounter/SampleSzEncounter matching against profile http://hl7.org/fhir/StructureDefinition/Encounter|4.0.1
-ERROR: Bundle/SampleSzBundle: Bundle.entry[2].resource/*Observation/SampleSzARTStartDateClinicalObservation*/.subject: Unable to find a profile match for Patient/SampleSzPatient among choices: http://172.209.216.154:3447/fhir/StructureDefinition/SzPatient
-INFORMATION: Bundle/SampleSzBundle: Bundle.entry[2].resource/*Observation/SampleSzARTStartDateClinicalObservation*/.subject: Details for Patient/SampleSzPatient matching against profile http://172.209.216.154:3447/fhir/StructureDefinition/SzPatient|0.1.0
-ERROR: Bundle/SampleSzBundle: Bundle.entry[2].resource/*Observation/SampleSzARTStartDateClinicalObservation*/.encounter: Unable to find a profile match for Encounter/SampleSzEncounter among choices: http://172.209.216.154:3447/fhir/StructureDefinition/SzEncounter
-INFORMATION: Bundle/SampleSzBundle: Bundle.entry[2].resource/*Observation/SampleSzARTStartDateClinicalObservation*/.encounter: Details for Encounter/SampleSzEncounter matching against profile http://172.209.216.154:3447/fhir/StructureDefinition/SzEncounter|0.1.0
+WARNING: Bundle/SampleSzBundle: Bundle.entry[2].resource/*EpisodeOfCare/SzEpisodeOfCareExampleArtStartDate*/.type[0].coding[0]: A definition for CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS' could not be found, so the code cannot be validated
+INFORMATION: Bundle/SampleSzBundle: Bundle.entry[2].resource/*EpisodeOfCare/SzEpisodeOfCareExampleArtStartDate*/.patient: Details for Patient/SampleSzPatient matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1
+INFORMATION: Bundle/SampleSzBundle: Bundle.entry[2].resource/*EpisodeOfCare/SzEpisodeOfCareExampleArtStartDate*/.type[0]: None of the codings provided are in the value set 'Eswatini Episode of Care Valueset' (http://172.209.216.154:3447/fhir/ValueSet/SzEpisodeOfCareTypeVS|0.1.0), and a coding is recommended to come from this value set (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS#5)
 WARNING: Bundle/SampleSzBundle: Bundle.entry[3].resource/*Procedure/SampleSzIPTProcedure*/.category.coding[0].system: A definition for CodeSystem 'https://terminology.hl7.org/CodeSystem/procedure-category' could not be found, so the code cannot be validated
 ERROR: Bundle/SampleSzBundle: Bundle.entry[3].resource/*Procedure/SampleSzIPTProcedure*/.code.coding[0].code: Unknown code '12345' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201'
 INFORMATION: Bundle/SampleSzBundle: Bundle.entry[3].resource/*Procedure/SampleSzIPTProcedure*/.subject: Details for Patient/SampleSzPatient matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1
@@ -154,9 +150,6 @@ ERROR: Bundle/SampleSzBundle: Bundle.entry[5].resource/*MedicationRequest/Sample
 INFORMATION: Bundle/SampleSzBundle: Bundle.entry[5].resource/*MedicationRequest/SampleSzMedicationRequest*/.subject: Details for Patient/SampleSzPatient matching against profile http://172.209.216.154:3447/fhir/StructureDefinition/SzPatient|0.1.0
 ERROR: Bundle/SampleSzBundle: Bundle.entry[5].resource/*MedicationRequest/SampleSzMedicationRequest*/.encounter: Unable to find a profile match for Encounter/SampleSzEncounter among choices: http://172.209.216.154:3447/fhir/StructureDefinition/SzEncounter
 INFORMATION: Bundle/SampleSzBundle: Bundle.entry[5].resource/*MedicationRequest/SampleSzMedicationRequest*/.encounter: Details for Encounter/SampleSzEncounter matching against profile http://172.209.216.154:3447/fhir/StructureDefinition/SzEncounter|0.1.0
-ERROR: Bundle/SampleSzBundle: Bundle: Constraint failed: bdl-7: 'FullUrl must be unique in a bundle, or else entries with the same fullUrl must have different meta.versionId (except in history bundles)'
-WARNING: Bundle/SampleSzBundle: Bundle.entry[2].resource: Best Practice Recommendation: In general, all observations should have an effective[x] ()
-ERROR: Bundle/SampleSzBundle: Bundle.entry[0]: The fullUrl 'http://172.209.216.154:3447/fhir/Observation/SampleSzARTStartDateClinicalObservation' looks like a RESTful server URL, so it must end with the correct type and id (/Procedure/SampleSzIPTProcedure)
 == fsh-generated/resources/Bundle-SampleSzBundle1.json ==
 ERROR: Bundle/SampleSzBundle1: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[0]: The Extension 'http://hl7.org/fhir/StructureDefinition/patient-nationality' definition allows for the types [] but found type CodeableConcept
 ERROR: Bundle/SampleSzBundle1: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[0]: Extension.value[x]: max allowed = 0, but found 1 (from http://hl7.org/fhir/StructureDefinition/patient-nationality|5.3.0-ballot-tc1)
@@ -344,6 +337,8 @@ ERROR: DiagnosticReport/SampleSzMalariaLabTest: DiagnosticReport.code: None of t
 == fsh-generated/resources/Encounter-SampleSzMalariaEncounter.json ==
 == fsh-generated/resources/EpisodeOfCare-SzEpisodeOfCareExample.json ==
 WARNING: EpisodeOfCare/SzEpisodeOfCareExample: EpisodeOfCare.type[0].coding[0]: A definition for CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS' could not be found, so the code cannot be validated
+== fsh-generated/resources/EpisodeOfCare-SzEpisodeOfCareExampleArtStartDate.json ==
+WARNING: EpisodeOfCare/SzEpisodeOfCareExampleArtStartDate: EpisodeOfCare.type[0].coding[0]: A definition for CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS' could not be found, so the code cannot be validated
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.sd.hie.json ==
 WARNING: ImplementationGuide/hl7.fhir.sd.hie: ImplementationGuide.dependsOn[2]: The ImplementationGuide uses package hl7.fhir.us.core#7.0.0 released on 2024-05-08, but the most recent appropriate version is 8.0.0. This reference is getting old and the more recent version should be considered
 WARNING: ImplementationGuide.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
@@ -370,8 +365,6 @@ WARNING: NamingSystem.jurisdiction: The resource should declare its jurisdiction
 == fsh-generated/resources/NamingSystem-NamingSystemMsds.json ==
 WARNING: NamingSystem/NamingSystemMsds: NamingSystem: Constraint failed: nsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
 WARNING: NamingSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
-== fsh-generated/resources/Observation-SampleSzARTStartDateClinicalObservation.json ==
-WARNING: Observation/SampleSzARTStartDateClinicalObservation: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
 == fsh-generated/resources/Observation-SampleSzArtRegimenClinicalObservation.json ==
 INFORMATION: Observation/SampleSzArtRegimenClinicalObservation: Observation.code: Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS|0.1.0
 WARNING: Observation/SampleSzArtRegimenClinicalObservation: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()

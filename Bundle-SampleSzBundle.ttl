@@ -1,5 +1,4 @@
 @prefix fhir: <http://hl7.org/fhir/> .
-@prefix loinc: <https://loinc.org/rdf/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -27,15 +26,15 @@
        fhir:url [ fhir:v "Encounter/SampleSzEncounter"^^xsd:anyURI ]
      ]
   ] [
-     fhir:fullUrl [ fhir:v "http://172.209.216.154:3447/fhir/Observation/SampleSzARTStartDateClinicalObservation"^^xsd:anyURI ] ;
-     fhir:resource ( <http://172.209.216.154:3447/fhir/Observation/SampleSzARTStartDateClinicalObservation> ) ;
+     fhir:fullUrl [ fhir:v "http://172.209.216.154:3447/fhir/EpisodeOfCare/SzEpisodeOfCareExampleArtStartDate"^^xsd:anyURI ] ;
+     fhir:resource ( <http://172.209.216.154:3447/fhir/EpisodeOfCare/SzEpisodeOfCareExampleArtStartDate> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
-       fhir:url [ fhir:v "Observation/SampleSzARTStartDateClinicalObservation"^^xsd:anyURI ]
+       fhir:url [ fhir:v "EpisodeOfCare/SzEpisodeOfCareExampleArtStartDate"^^xsd:anyURI ]
      ]
   ] [
-     fhir:fullUrl [ fhir:v "http://172.209.216.154:3447/fhir/Observation/SampleSzARTStartDateClinicalObservation"^^xsd:anyURI ] ;
-     fhir:resource ( <http://172.209.216.154:3447/fhir/Observation/SampleSzARTStartDateClinicalObservation> ) ;
+     fhir:fullUrl [ fhir:v "http://172.209.216.154:3447/fhir/Procedure/SampleSzIPTProcedure"^^xsd:anyURI ] ;
+     fhir:resource ( <http://172.209.216.154:3447/fhir/Procedure/SampleSzIPTProcedure> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
        fhir:url [ fhir:v "Procedure/SampleSzIPTProcedure"^^xsd:anyURI ]
@@ -181,14 +180,38 @@
      fhir:status [ fhir:v "completed" ]
   ] ) . # 
 
-<http://172.209.216.154:3447/fhir/Observation/SampleSzARTStartDateClinicalObservation> a fhir:Observation, fhir:Procedure ;
-  fhir:id [ fhir:v "SampleSzARTStartDateClinicalObservation"], [ fhir:v "SampleSzIPTProcedure"] ; # 
+<http://172.209.216.154:3447/fhir/EpisodeOfCare/SzEpisodeOfCareExampleArtStartDate> a fhir:EpisodeOfCare ;
+  fhir:id [ fhir:v "SzEpisodeOfCareExampleArtStartDate"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzClinicalObservation"^^xsd:anyURI ;
-       fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzClinicalObservation>
+       fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzEpisodeOfCare"^^xsd:anyURI ;
+       fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzEpisodeOfCare>
      ] )
-  ], [
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"EpisodeOfCare_SzEpisodeOfCareExampleArtStartDate\"> </a><p class=\"res-header-id\"><b>Generated Narrative: EpisodeOfCare SzEpisodeOfCareExampleArtStartDate</b></p><a name=\"SzEpisodeOfCareExampleArtStartDate\"> </a><a name=\"hcSzEpisodeOfCareExampleArtStartDate\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzEpisodeOfCare.html\">Eswatini Episode of Care</a></p></div><p><b>status</b>: Active</p><p><b>type</b>: <span title=\"Codes:{http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS 5}\">ART</span></p><p><b>patient</b>: <a href=\"Patient-SampleSzPatient.html\">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</a></p><p><b>period</b>: 2025-09-03 --&gt; (ongoing)</p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:type ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "5" ] ;
+       fhir:display [ fhir:v "ART" ]
+     ] ) ;
+     fhir:text [ fhir:v "ART" ]
+  ] ) ; # 
+  fhir:patient [
+     fhir:link <http://172.209.216.154:3447/fhir/Patient/SampleSzPatient> ;
+     fhir:reference [ fhir:v "Patient/SampleSzPatient" ]
+  ] ; # 
+  fhir:period [
+     fhir:start [ fhir:v "2025-09-03"^^xsd:date ]
+  ] . # 
+
+<http://172.209.216.154:3447/fhir/Procedure/SampleSzIPTProcedure> a fhir:Procedure ;
+  fhir:id [ fhir:v "SampleSzIPTProcedure"] ; # 
+  fhir:meta [
      fhir:profile ( [
        fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzProcedure"^^xsd:anyURI ;
        fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzProcedure>
@@ -196,21 +219,18 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_SampleSzARTStartDateClinicalObservation\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation SampleSzARTStartDateClinicalObservation</b></p><a name=\"SampleSzARTStartDateClinicalObservation\"> </a><a name=\"hcSampleSzARTStartDateClinicalObservation\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzClinicalObservation.html\">Eswatini Clinical Observation Profile</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 47241-5}\">Date determined medically eligible and ready to start HIV treatment</span></p><p><b>subject</b>: <a href=\"Patient-SampleSzPatient.html\">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</a></p><p><b>encounter</b>: <a href=\"Encounter-SampleSzEncounter.html\">Encounter: status = finished; class = Out Patient Department (Code System: Encounter Classification#OPD); period = 2023-10-01 10:00:00+0000 --&gt; (ongoing)</a></p><p><b>performer</b>: <a href=\"Practitioner-SampleSzPractitioner.html\">Practitioner Thabile Celiwe Dlamini </a></p><p><b>value</b>: 2024-09-11 10:00:00+0000</p></div>"^^rdf:XMLLiteral
-  ], [
-     fhir:status [ fhir:v "generated" ] ;
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Procedure_SampleSzIPTProcedure\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Procedure SampleSzIPTProcedure</b></p><a name=\"SampleSzIPTProcedure\"> </a><a name=\"hcSampleSzIPTProcedure\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzProcedure.html\">Eswatini Procedure Profile</a></p></div><p><b>status</b>: Completed</p><p><b>category</b>: <span title=\"Codes:{https://terminology.hl7.org/CodeSystem/procedure-category treatment}\">Treatment</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 12345}\">Isoniazid Preventive Therapy</span></p><p><b>subject</b>: <a href=\"Patient-SampleSzPatient.html\">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</a></p><p><b>performed</b>: 2024-01-01 --&gt; 2024-06-11</p></div>"^^rdf:XMLLiteral
   ] ; # 
-  fhir:status [ fhir:v "final"], [ fhir:v "completed"] ; # 
-  fhir:code [
+  fhir:status [ fhir:v "completed"] ; # 
+  fhir:category [
      fhir:coding ( [
-       a loinc:47241-5 ;
-       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "47241-5" ] ;
-       fhir:display [ fhir:v "Date determined medically eligible and ready to start HIV treatment" ]
+       fhir:system [ fhir:v "https://terminology.hl7.org/CodeSystem/procedure-category"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "treatment" ] ;
+       fhir:display [ fhir:v "Treatment" ]
      ] ) ;
-     fhir:text [ fhir:v "Date determined medically eligible and ready to start HIV treatment" ]
-  ], [
+     fhir:text [ fhir:v "Treatment" ]
+  ] ; # 
+  fhir:code [
      fhir:coding ( [
        a sct:12345 ;
        fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
@@ -222,29 +242,6 @@
   fhir:subject [
      fhir:link <http://172.209.216.154:3447/fhir/Patient/SampleSzPatient> ;
      fhir:reference [ fhir:v "Patient/SampleSzPatient" ]
-  ], [
-     fhir:link <http://172.209.216.154:3447/fhir/Patient/SampleSzPatient> ;
-     fhir:reference [ fhir:v "Patient/SampleSzPatient" ]
-  ] ; # 
-  fhir:encounter [
-     fhir:link <http://172.209.216.154:3447/fhir/Encounter/SampleSzEncounter> ;
-     fhir:reference [ fhir:v "Encounter/SampleSzEncounter" ]
-  ] ; # 
-  fhir:performer ( [
-     fhir:link <http://172.209.216.154:3447/fhir/Practitioner/SampleSzPractitioner> ;
-     fhir:reference [ fhir:v "Practitioner/SampleSzPractitioner" ]
-  ] ) ; # 
-  fhir:value [
-     a fhir:dateTime ;
-     fhir:v "2024-09-11T10:00:00Z"^^xsd:dateTime
-  ] ; # 
-  fhir:category [
-     fhir:coding ( [
-       fhir:system [ fhir:v "https://terminology.hl7.org/CodeSystem/procedure-category"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "treatment" ] ;
-       fhir:display [ fhir:v "Treatment" ]
-     ] ) ;
-     fhir:text [ fhir:v "Treatment" ]
   ] ; # 
   fhir:performed [
      a fhir:Period ;

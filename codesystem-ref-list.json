@@ -199,8 +199,8 @@
       "oids" : ["2.16.840.1.113883.6.1"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-observation-vitalsignresult.html" : "Vital Signs",
-      "ValueSet-SzClinicalObservationCodesVS.html" : "Value Set: Clinical Observation Codes Value Set"
+      "ValueSet-SzClinicalObservationCodesVS.html" : "Value Set: Clinical Observation Codes Value Set",
+      "http://hl7.org/fhir/R4/valueset-observation-vitalsignresult.html" : "Vital Signs"
     },
     {
       "url" : "http://snomed.info/sct",

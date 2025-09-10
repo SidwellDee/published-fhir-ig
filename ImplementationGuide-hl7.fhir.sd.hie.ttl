@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "EswatiniHIEImplementationGuide"] ; # 
   fhir:title [ fhir:v "Eswatini HL7 FHIR Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-09-10T08:40:27+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-10T10:05:20+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministry of Health Eswatini"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ministry of Health Eswatini" ] ;
@@ -1739,25 +1739,6 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "Observation"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://172.209.216.154:3447/fhir/Observation/SampleSzARTStartDateClinicalObservation> ;
-         fhir:reference [ fhir:v "Observation/SampleSzARTStartDateClinicalObservation" ]
-       ] ;
-       fhir:name [ fhir:v "SampleSzARTStartDateClinicalObservation" ] ;
-       fhir:description [ fhir:v "Sample Eswatini Clinical Observation" ] ;
-       fhir:example [
-         a fhir:canonical ;
-         fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzClinicalObservation"^^xsd:anyURI ;
-         fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzClinicalObservation>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
            fhir:v "Bundle"
          ]
        ] ) ;
@@ -2337,6 +2318,25 @@
          a fhir:canonical ;
          fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzCondition"^^xsd:anyURI ;
          fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzCondition>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "EpisodeOfCare"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://172.209.216.154:3447/fhir/EpisodeOfCare/SzEpisodeOfCareExampleArtStartDate> ;
+         fhir:reference [ fhir:v "EpisodeOfCare/SzEpisodeOfCareExampleArtStartDate" ]
+       ] ;
+       fhir:name [ fhir:v "SzEpisodeOfCareExample" ] ;
+       fhir:description [ fhir:v "An example of Eswatini Episode of Care" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzEpisodeOfCare"^^xsd:anyURI ;
+         fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzEpisodeOfCare>
        ]
      ] [
        fhir:extension ( [

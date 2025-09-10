@@ -10,7 +10,7 @@
   "name" : "EswatiniHIEImplementationGuide",
   "title" : "Eswatini HL7 FHIR Implementation Guide",
   "status" : "draft",
-  "date" : "2025-09-10T08:40:27+00:00",
+  "date" : "2025-09-10T10:05:20+00:00",
   "publisher" : "Ministry of Health Eswatini",
   "contact" : [{
     "name" : "Ministry of Health Eswatini",
@@ -1209,18 +1209,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/SampleSzARTStartDateClinicalObservation"
-      },
-      "name" : "SampleSzARTStartDateClinicalObservation",
-      "description" : "Sample Eswatini Clinical Observation",
-      "exampleCanonical" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzClinicalObservation"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
       }],
       "reference" : {
@@ -1589,6 +1577,18 @@
       "name" : "SzConditionExample",
       "description" : "An example of Eswatini Condition",
       "exampleCanonical" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzCondition"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "EpisodeOfCare"
+      }],
+      "reference" : {
+        "reference" : "EpisodeOfCare/SzEpisodeOfCareExampleArtStartDate"
+      },
+      "name" : "SzEpisodeOfCareExample",
+      "description" : "An example of Eswatini Episode of Care",
+      "exampleCanonical" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzEpisodeOfCare"
     },
     {
       "extension" : [{

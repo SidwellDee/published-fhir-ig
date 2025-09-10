@@ -17,13 +17,13 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: EpisodeOfCare SzEpisodeOfCareExample</b></p><a name=\"SzEpisodeOfCareExample\"> </a><a name=\"hcSzEpisodeOfCareExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzEpisodeOfCare.html\">Eswatini Episode of Care</a></p></div><p><b>status</b>: Active</p><p><b>type</b>: <span title=\"Codes:{http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS FamilyPlanning}\">Family Planning</span></p><p><b>patient</b>: <a href=\"Patient-SampleSzPatient.html\">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</a></p><p><b>period</b>: 2025-09-03 --&gt; (ongoing)</p></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: EpisodeOfCare SzEpisodeOfCareExample</b></p><a name=\"SzEpisodeOfCareExample\"> </a><a name=\"hcSzEpisodeOfCareExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzEpisodeOfCare.html\">Eswatini Episode of Care</a></p></div><p><b>status</b>: Active</p><p><b>type</b>: <span title=\"Codes:{http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS 12}\">Family Planning</span></p><p><b>patient</b>: <a href=\"Patient-SampleSzPatient.html\">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</a></p><p><b>period</b>: 2025-09-03 --&gt; (ongoing)</p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:type ( [
      fhir:coding ( [
        fhir:system [ fhir:v "http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "FamilyPlanning" ] ;
+       fhir:code [ fhir:v "12" ] ;
        fhir:display [ fhir:v "Family Planning" ]
      ] ) ;
      fhir:text [ fhir:v "Family Planning" ]
