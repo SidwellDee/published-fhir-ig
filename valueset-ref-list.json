@@ -43,6 +43,7 @@
       "title" : "Value Set: Clinical Observation Codes Value Set",
       "description" : "Includes standard and custom codes that can be used with the Clinical Observation Profile",
       "systems" : [
+        "http://loinc.org",
         "http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS",
         "http://snomed.info/sct"
       ]
@@ -63,6 +64,21 @@
       "StructureDefinition-SzEncounter.html" : "Eswatini Encounter Profile"
     },
     {
+      "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzEpisodeOfCareTypeVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SzEpisodeOfCareTypeVS",
+      "title" : "Eswatini Episode of Care Valueset",
+      "description" : "Eswatini Episode of Care Valueset",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/episodeofcare-type",
+        "http://172.209.216.154:3447/fhir/CodeSystem/SzEpisodeOfCareTypeCS"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-SzEpisodeOfCare.html" : "Eswatini Episode of Care"
+    },
+    {
       "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzFacilityServicePointVS",
       "version" : "0.1.0",
       "status" : "draft",
@@ -71,6 +87,17 @@
       "description" : "Value set for Facility Service Points",
       "systems" : [
         "http://172.209.216.154:3447/fhir/CodeSystem/SzFacilityServicePointCS"
+      ]
+    },
+    {
+      "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzMalariaEncounterCodesVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SzMalariaEncounterCodesVS",
+      "title" : "Eswatini Malaria Encounter Codes",
+      "description" : "Eswatini Malaria Encounter Codes",
+      "systems" : [
+        "http://172.209.216.154:3447/fhir/CodeSystem/SzMalariaEncounterCodesCS"
       ]
     },
     {

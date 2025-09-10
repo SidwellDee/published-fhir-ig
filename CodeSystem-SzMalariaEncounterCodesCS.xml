@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="SzMalariaEncounterCodesCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem SzMalariaEncounterCodesCS</b></p><a name="SzMalariaEncounterCodesCS"> </a><a name="hcSzMalariaEncounterCodesCS"> </a><p>This  code system <code>http://172.209.216.154:3447/fhir/CodeSystem/SzMalariaEncounterCodesCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">aci<a name="SzMalariaEncounterCodesCS-aci"> </a></td><td>Active Case Investigation</td></tr><tr><td style="white-space:nowrap">rci<a name="SzMalariaEncounterCodesCS-rci"> </a></td><td>Reactive Case Investigation</td></tr><tr><td style="white-space:nowrap">p<a name="SzMalariaEncounterCodesCS-p"> </a></td><td>Proactive</td></tr></table></div>
+  </text>
+  <url value="http://172.209.216.154:3447/fhir/CodeSystem/SzMalariaEncounterCodesCS"/>
+  <version value="0.1.0"/>
+  <name value="SzMalariaEncounterCodesCS"/>
+  <title value="Eswatini Malaria Encounter Codes"/>
+  <status value="draft"/>
+  <date value="2025-09-10T08:40:27+00:00"/>
+  <publisher value="Ministry of Health Eswatini"/>
+  <contact>
+    <name value="Ministry of Health Eswatini"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://172.209.216.154:3447"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="eswatinihie@moh.gov.sz"/>
+    </telecom>
+  </contact>
+  <description value="Eswatini Malaria Encounter Codes"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="aci"/>
+    <display value="Active Case Investigation"/>
+  </concept>
+  <concept>
+    <code value="rci"/>
+    <display value="Reactive Case Investigation"/>
+  </concept>
+  <concept>
+    <code value="p"/>
+    <display value="Proactive"/>
+  </concept>
+</CodeSystem>

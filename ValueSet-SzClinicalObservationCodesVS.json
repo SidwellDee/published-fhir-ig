@@ -3,7 +3,7 @@
   "id" : "SzClinicalObservationCodesVS",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet SzClinicalObservationCodesVS</b></p><a name=\"SzClinicalObservationCodesVS\"> </a><a name=\"hcSzClinicalObservationCodesVS\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/278977008\">278977008</a></td><td style=\"color: #cccccc\">HIV status</td></tr></table></li><li>Include all codes defined in <a href=\"CodeSystem-SzClinicalObservationCodesCS.html\"><code>http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet SzClinicalObservationCodesVS</b></p><a name=\"SzClinicalObservationCodesVS\"> </a><a name=\"hcSzClinicalObservationCodesVS\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/278977008\">278977008</a></td><td style=\"color: #cccccc\">HIV status</td></tr></table></li><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/47241-5/\">47241-5</a></td><td style=\"color: #cccccc\">Date determined medically eligible and ready to start HIV treatment</td></tr></table></li><li>Include all codes defined in <a href=\"CodeSystem-SzClinicalObservationCodesCS.html\"><code>http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS</code></a></li></ul></div>"
   },
   "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzClinicalObservationCodesVS",
   "version" : "0.1.0",
@@ -11,7 +11,7 @@
   "title" : "Value Set: Clinical Observation Codes Value Set",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-09-09T15:13:38+00:00",
+  "date" : "2025-09-10T08:40:27+00:00",
   "publisher" : "Ministry of Health Eswatini",
   "contact" : [{
     "name" : "Ministry of Health Eswatini",
@@ -30,6 +30,12 @@
       "system" : "http://snomed.info/sct",
       "concept" : [{
         "code" : "278977008"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "47241-5"
       }]
     },
     {

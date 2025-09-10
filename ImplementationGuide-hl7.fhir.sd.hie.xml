@@ -10,7 +10,7 @@
   <name value="EswatiniHIEImplementationGuide"/>
   <title value="Eswatini HL7 FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2025-09-09T15:13:38+00:00"/>
+  <date value="2025-09-10T08:40:27+00:00"/>
   <publisher value="Ministry of Health Eswatini"/>
   <contact>
     <name value="Ministry of Health Eswatini"/>
@@ -650,6 +650,28 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/SzEpisodeOfCareTypeCS"/>
+      </reference>
+      <name value="Eswatini Episode of Care"/>
+      <description value="Eswatini Episode of Care Type"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/SzEpisodeOfCareTypeVS"/>
+      </reference>
+      <name value="Eswatini Episode of Care Valueset"/>
+      <description value="Eswatini Episode of Care Valueset"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
@@ -679,6 +701,28 @@
       </reference>
       <name value="Eswatini Location Profile"/>
       <description value="Eswatini Location Profile sets a standard for recording locations where medical care is provided"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/SzMalariaEncounterCodesVS"/>
+      </reference>
+      <name value="Eswatini Malaria Encounter Codes"/>
+      <description value="Eswatini Malaria Encounter Codes"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/SzMalariaEncounterCodesCS"/>
+      </reference>
+      <name value="Eswatini Malaria Encounter Codes"/>
+      <description value="Eswatini Malaria Encounter Codes"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -944,6 +988,17 @@
       <name value="SampleSzAppointment"/>
       <description value="Sample Eswatini Appointment"/>
       <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzAppointment"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SampleSzArtRegimenClinicalObservation"/>
+      </reference>
+      <name value="SampleSzArtRegimenClinicalObservation"/>
+      <description value="Sample Eswatini ART Regimen Observation"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzClinicalObservation"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

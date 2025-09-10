@@ -1,7 +1,7 @@
 EswatiniHIEImplementationGuide : Validation Results
 =========================================
 
-err = 111, warn = 156, info = 69
+err = 111, warn = 168, info = 72
 $--
 Generated $--. FHIR version $-- for hl7.fhir.sd.hie#$-- (canonical = http://172.209.216.154:3447/fhir)
  Build Errors : 1 / 7 / 0
@@ -12,7 +12,9 @@ Generated $--. FHIR version $-- for hl7.fhir.sd.hie#$-- (canonical = http://172.
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzChiefdomCS : 0 / 24 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzClinicalObservationCodesCS : 0 / 3 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzEncounterClassificationCS : 0 / 2 / 2
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzEpisodeOfCareTypeCS : 0 / 3 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzFacilityServicePointCS : 0 / 3 / 2
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzMalariaEncounterCodesCS : 0 / 3 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzPersonIdentificationsCS : 0 / 3 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzProductCodeCS : 0 / 3 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzReasonsForReferralCS : 0 / 2 / 2
@@ -42,6 +44,7 @@ Generated $--. FHIR version $-- for hl7.fhir.sd.hie#$-- (canonical = http://172.
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/NamingSystem-NamingSystemCmis : 0 / 2 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/NamingSystem-NamingSystemMsds : 0 / 2 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Observation-SampleSzARTStartDateClinicalObservation : 0 / 1 / 1
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Observation-SampleSzArtRegimenClinicalObservation : 0 / 1 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Observation-SampleSzLabResult1 : 0 / 1 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Observation-SampleSzMalariaLabResult : 1 / 1 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Observation-SampleSzMalariaTravelHistory : 4 / 1 / 1
@@ -89,7 +92,9 @@ Generated $--. FHIR version $-- for hl7.fhir.sd.hie#$-- (canonical = http://172.
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzChiefdomVS : 0 / 2 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzClinicalObservationCodesVS : 0 / 1 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzEncounterClassificationVS : 0 / 1 / 2
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzEpisodeOfCareTypeVS : 0 / 3 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzFacilityServicePointVS : 0 / 2 / 1
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzMalariaEncounterCodesVS : 0 / 2 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzProductCodeVS : 0 / 2 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzReaonsForReferralVS : 0 / 1 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzReferralIntentVS : 0 / 1 / 1
@@ -262,10 +267,20 @@ WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction t
 INFORMATION: CodeSystem/SzEncounterClassificationCS: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/SzEncounterClassificationCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
+== fsh-generated/resources/CodeSystem-SzEpisodeOfCareTypeCS.json ==
+INFORMATION: CodeSystem/SzEpisodeOfCareTypeCS: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/SzEpisodeOfCareTypeCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/SzEpisodeOfCareTypeCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/CodeSystem-SzFacilityServicePointCS.json ==
 INFORMATION: CodeSystem/SzFacilityServicePointCS: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/SzFacilityServicePointCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
 WARNING: CodeSystem/SzFacilityServicePointCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
+== fsh-generated/resources/CodeSystem-SzMalariaEncounterCodesCS.json ==
+INFORMATION: CodeSystem/SzMalariaEncounterCodesCS: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/SzMalariaEncounterCodesCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/SzMalariaEncounterCodesCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/CodeSystem-SzPersonIdentificationsCS.json ==
 INFORMATION: CodeSystem/SzPersonIdentificationsCS: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
@@ -357,6 +372,9 @@ WARNING: NamingSystem/NamingSystemMsds: NamingSystem: Constraint failed: nsd-0: 
 WARNING: NamingSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/Observation-SampleSzARTStartDateClinicalObservation.json ==
 WARNING: Observation/SampleSzARTStartDateClinicalObservation: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-SampleSzArtRegimenClinicalObservation.json ==
+INFORMATION: Observation/SampleSzArtRegimenClinicalObservation: Observation.code: Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS|0.1.0
+WARNING: Observation/SampleSzArtRegimenClinicalObservation: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
 == fsh-generated/resources/Observation-SampleSzLabResult1.json ==
 WARNING: Observation/SampleSzLabResult1: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
 == fsh-generated/resources/Observation-SampleSzMalariaLabResult.json ==
@@ -506,8 +524,15 @@ WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to 
 == fsh-generated/resources/ValueSet-SzEncounterClassificationVS.json ==
 WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 INFORMATION: ValueSet.where(id = 'SzEncounterClassificationVS'): The value set expansion is too large, and only a subset has been displayed
+== fsh-generated/resources/ValueSet-SzEpisodeOfCareTypeVS.json ==
+WARNING: ValueSet/SzEpisodeOfCareTypeVS: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/episodeofcare-type'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '1.0.0', found versions: 1.0.0, 1.0.1. Suggested fix: change the canonical reference from 'http://terminology.hl7.org/CodeSystem/episodeofcare-type' to 'http://terminology.hl7.org/CodeSystem/episodeofcare-type|1.0.0'
+WARNING: ValueSet/SzEpisodeOfCareTypeVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/ValueSet-SzFacilityServicePointVS.json ==
 WARNING: ValueSet/SzFacilityServicePointVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
+== fsh-generated/resources/ValueSet-SzMalariaEncounterCodesVS.json ==
+WARNING: ValueSet/SzMalariaEncounterCodesVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/ValueSet-SzProductCodeVS.json ==
 WARNING: ValueSet/SzProductCodeVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

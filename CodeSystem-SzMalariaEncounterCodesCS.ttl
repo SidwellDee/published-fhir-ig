@@ -1,0 +1,48 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://172.209.216.154:3447/fhir/CodeSystem/SzMalariaEncounterCodesCS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "SzMalariaEncounterCodesCS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem SzMalariaEncounterCodesCS</b></p><a name=\"SzMalariaEncounterCodesCS\"> </a><a name=\"hcSzMalariaEncounterCodesCS\"> </a><p>This  code system <code>http://172.209.216.154:3447/fhir/CodeSystem/SzMalariaEncounterCodesCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">aci<a name=\"SzMalariaEncounterCodesCS-aci\"> </a></td><td>Active Case Investigation</td></tr><tr><td style=\"white-space:nowrap\">rci<a name=\"SzMalariaEncounterCodesCS-rci\"> </a></td><td>Reactive Case Investigation</td></tr><tr><td style=\"white-space:nowrap\">p<a name=\"SzMalariaEncounterCodesCS-p\"> </a></td><td>Proactive</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://172.209.216.154:3447/fhir/CodeSystem/SzMalariaEncounterCodesCS"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "SzMalariaEncounterCodesCS"] ; # 
+  fhir:title [ fhir:v "Eswatini Malaria Encounter Codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2025-09-10T08:40:27+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministry of Health Eswatini"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Ministry of Health Eswatini" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://172.209.216.154:3447" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "eswatinihie@moh.gov.sz" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Eswatini Malaria Encounter Codes"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "aci" ] ;
+     fhir:display [ fhir:v "Active Case Investigation" ]
+  ] [
+     fhir:code [ fhir:v "rci" ] ;
+     fhir:display [ fhir:v "Reactive Case Investigation" ]
+  ] [
+     fhir:code [ fhir:v "p" ] ;
+     fhir:display [ fhir:v "Proactive" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

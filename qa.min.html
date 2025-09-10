@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 1, errors = 111, warn = 156, info = 69-->
+<!-- broken links = 1, errors = 111, warn = 168, info = 72-->
 <head>
   <title>EswatiniHIEImplementationGuide : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -47,7 +47,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for EswatiniHIEImplementationGuide</h1>
- <p>Generated Tue Sep 09 15:20:02 UTC 2025, FHIR version 4.0.1 for hl7.fhir.sd.hie#0.1.0 (canonical = <a href="http://172.209.216.154:3447/fhir">http://172.209.216.154:3447/fhir</a> (<a href="http://172.209.216.154:3447/fhir/history.html">history</a>)). See <a href="qa.html">Full QA Report</a> &amp; <a href="qa-ipreview.html">IP</a></p>
+ <p>Generated Wed Sep 10 08:46:12 UTC 2025, FHIR version 4.0.1 for hl7.fhir.sd.hie#0.1.0 (canonical = <a href="http://172.209.216.154:3447/fhir">http://172.209.216.154:3447/fhir</a> (<a href="http://172.209.216.154:3447/fhir/history.html">history</a>)). See <a href="qa.html">Full QA Report</a> &amp; <a href="qa-ipreview.html">IP</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span style="background-color: #ffcccc">IG Publisher Version: v2.0.12, which is out of date. The current version is v2.0.17 <a href="https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar">Download Latest</a></span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = hl7.fhir.sd.hie, Canonical = http://172.209.216.154:3447/fhir</td></tr>
@@ -78,7 +78,7 @@
  <tr><td>Dependent IGs:</td><td><a href="qa-dep.html">no references</a></td></tr>
  <tr><td>Global Profiles:</td><td>(none declared)</td></tr>
  <tr><td>Terminology Server(s):</td><td><a href="https://tx.fhir.org/r4">https://tx.fhir.org/r4</a> (<a href="qa-txservers.html">details</a>)</td></tr>
- <tr><td>HTA Analysis:</td><td><a href="qa-hta.html"><span style="background-color: #ffcccc">1 issue</span></a></td></tr>
+ <tr><td>HTA Analysis:</td><td><a href="qa-hta.html"><span style="background-color: #ffcccc">2 issues</span></a></td></tr>
  <tr><td>R5 Dependencies:</td><td><ul><li><a href="http://build.fhir.org/namingsystem.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version</a></li><li><a href="http://build.fhir.org/namingsystem.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url</a></li></ul></td></tr>
  <tr><td>Draft Dependencies:</td><td><ul>
   <li>
@@ -152,8 +152,7 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
  (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-encounter-location-status.html">EncounterLocationStatus</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-location-physical-type.html">LocationType</a>
  (2 uses),     <a href="http://hl7.org/fhir/R4/valueset-episode-of-care-status.html">EpisodeOfCareStatus</a>
- (2 uses),     <a href="http://hl7.org/fhir/R4/valueset-episodeofcare-type.html">EpisodeOfCareType</a>
- (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-specimen-status.html">SpecimenStatus</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4/valueset-specimen-status.html">SpecimenStatus</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-specimen-collection-method.html">FHIRSpecimenCollectionMethod</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-specimen-processing-procedure.html">SpecimenProcessingProcedure</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/substance.html">Substance</a>
@@ -220,7 +219,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
  (13 uses),     <a href="http://terminology.hl7.org/5.5.0/CodeSystem-condition-ver-status.html">ConditionVerificationStatus</a>
  (2 uses),     <a href="http://terminology.hl7.org/5.5.0/CodeSystem-condition-category.html">ConditionCategoryCodes</a>
  (3 uses),     <a href="http://terminology.hl7.org/5.5.0/CodeSystem-organization-type.html">OrganizationType</a>
- (2 uses)
+ (2 uses),     <a href="http://terminology.hl7.org/5.5.0/CodeSystem-episodeofcare-type.html">EpisodeOfCareType</a>
+ (1 uses)
   </li>
 </ul>
 </td></tr>
@@ -229,7 +229,7 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
  <tr><td>IPS Comparison:</td><td> n/a</td></tr>
  <tr><td>Validation Flags:</td><td> On: autoLoad; Off: hintAboutNonMustSupport, anyExtensionsAllowed, checkAggregation, showReferenceMessages, noExperimentalContent, displayWarnings</td></tr>
- <tr><td>Summary:</td><td> errors = 111, warn = 156, info = 69, broken links = 1, pinned = n/a.  <button onclick="toggleCodes()">Show Message Ids</button></td></tr>
+ <tr><td>Summary:</td><td> errors = 111, warn = 168, info = 72, broken links = 1, pinned = n/a.  <button onclick="toggleCodes()">Show Message Ids</button></td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -260,7 +260,13 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
      <td><a href="#_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_CodeSystem-SzEncounterClassificationCS"><b>/home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzEncounterClassificationCS</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_CodeSystem-SzEpisodeOfCareTypeCS"><b>/home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzEpisodeOfCareTypeCS</b></a></td><td><b>0</b></td><td><b>3</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
      <td><a href="#_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_CodeSystem-SzFacilityServicePointCS"><b>/home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzFacilityServicePointCS</b></a></td><td><b>0</b></td><td><b>3</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_CodeSystem-SzMalariaEncounterCodesCS"><b>/home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzMalariaEncounterCodesCS</b></a></td><td><b>0</b></td><td><b>3</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_CodeSystem-SzPersonIdentificationsCS"><b>/home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzPersonIdentificationsCS</b></a></td><td><b>0</b></td><td><b>3</b></td><td><b>1</b></td>
@@ -318,6 +324,9 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_Observation-SampleSzARTStartDateClinicalObservation"><b>/home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Observation-SampleSzARTStartDateClinicalObservation</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_Observation-SampleSzArtRegimenClinicalObservation"><b>/home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Observation-SampleSzArtRegimenClinicalObservation</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_Observation-SampleSzLabResult1"><b>/home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Observation-SampleSzLabResult1</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
@@ -449,7 +458,13 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
      <td><a href="#_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_ValueSet-SzEncounterClassificationVS"><b>/home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzEncounterClassificationVS</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_ValueSet-SzEpisodeOfCareTypeVS"><b>/home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzEpisodeOfCareTypeVS</b></a></td><td><b>0</b></td><td><b>3</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
      <td><a href="#_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_ValueSet-SzFacilityServicePointVS"><b>/home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzFacilityServicePointVS</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_ValueSet-SzMalariaEncounterCodesVS"><b>/home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzMalariaEncounterCodesVS</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_ValueSet-SzProductCodeVS"><b>/home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzProductCodeVS</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>0</b></td>
@@ -1018,9 +1033,31 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
    </tr>
 </table>
 <hr/>
-<a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_CodeSystem-SzFacilityServicePointCS"> </a>
-<h2><a href="CodeSystem-SzFacilityServicePointCS.html">fsh-generated/resources/CodeSystem-SzFacilityServicePointCS.json</a> <span id="svi8" class="toggle" onclick="toggle('vi8')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi8')">(1)</span></h2>
+<a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_CodeSystem-SzEpisodeOfCareTypeCS"> </a>
+<h2><a href="CodeSystem-SzEpisodeOfCareTypeCS.html">fsh-generated/resources/CodeSystem-SzEpisodeOfCareTypeCS.json</a> <span id="svi8" class="toggle" onclick="toggle('vi8')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi8')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi8"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>CodeSystem</b></td><td><b>information</b></td><td><b>CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem (l1/c1931)</b></td><td><b>warning</b></td><td><b>Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">CODESYSTEM_SHAREABLE_MISSING</span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem (l1/c1931)</b></td><td><b>warning</b></td><td><b>Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">CODESYSTEM_SHAREABLE_MISSING</span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem.jurisdiction</b></td><td><b>warning</b></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD &quot;null&quot;')</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">RESOURCE_JURISDICTION_MISMATCH</span></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_CodeSystem-SzFacilityServicePointCS"> </a>
+<h2><a href="CodeSystem-SzFacilityServicePointCS.html">fsh-generated/resources/CodeSystem-SzFacilityServicePointCS.json</a> <span id="svi9" class="toggle" onclick="toggle('vi9')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi9')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi9"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1040,9 +1077,31 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
    </tr>
 </table>
 <hr/>
+<a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_CodeSystem-SzMalariaEncounterCodesCS"> </a>
+<h2><a href="CodeSystem-SzMalariaEncounterCodesCS.html">fsh-generated/resources/CodeSystem-SzMalariaEncounterCodesCS.json</a> <span id="svi10" class="toggle" onclick="toggle('vi10')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi10')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi10"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>CodeSystem</b></td><td><b>information</b></td><td><b>CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem (l1/c1632)</b></td><td><b>warning</b></td><td><b>Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">CODESYSTEM_SHAREABLE_MISSING</span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem (l1/c1632)</b></td><td><b>warning</b></td><td><b>Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">CODESYSTEM_SHAREABLE_MISSING</span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem.jurisdiction</b></td><td><b>warning</b></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD &quot;null&quot;')</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">RESOURCE_JURISDICTION_MISMATCH</span></td>
+   </tr>
+</table>
+<hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_CodeSystem-SzPersonIdentificationsCS"> </a>
-<h2><a href="CodeSystem-SzPersonIdentificationsCS.html">fsh-generated/resources/CodeSystem-SzPersonIdentificationsCS.json</a> <span id="svi9" class="toggle" onclick="toggle('vi9')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi9')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi9"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+<h2><a href="CodeSystem-SzPersonIdentificationsCS.html">fsh-generated/resources/CodeSystem-SzPersonIdentificationsCS.json</a> <span id="svi11" class="toggle" onclick="toggle('vi11')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi11')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi11"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1063,8 +1122,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_CodeSystem-SzProductCodeCS"> </a>
-<h2><a href="CodeSystem-SzProductCodeCS.html">fsh-generated/resources/CodeSystem-SzProductCodeCS.json</a> <span id="svi10" class="toggle" onclick="toggle('vi10')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi10')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi10"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+<h2><a href="CodeSystem-SzProductCodeCS.html">fsh-generated/resources/CodeSystem-SzProductCodeCS.json</a> <span id="svi12" class="toggle" onclick="toggle('vi12')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi12')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi12"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1085,8 +1144,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_CodeSystem-SzReasonsForReferralCS"> </a>
-<h2><a href="CodeSystem-SzReasonsForReferralCS.html">fsh-generated/resources/CodeSystem-SzReasonsForReferralCS.json</a> <span id="svi11" class="toggle" onclick="toggle('vi11')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi11')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi11"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+<h2><a href="CodeSystem-SzReasonsForReferralCS.html">fsh-generated/resources/CodeSystem-SzReasonsForReferralCS.json</a> <span id="svi13" class="toggle" onclick="toggle('vi13')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi13')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi13"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1104,8 +1163,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_CodeSystem-SzReferralIntentCS"> </a>
-<h2><a href="CodeSystem-SzReferralIntentCS.html">fsh-generated/resources/CodeSystem-SzReferralIntentCS.json</a> <span id="svi12" class="toggle" onclick="toggle('vi12')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi12')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi12"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+<h2><a href="CodeSystem-SzReferralIntentCS.html">fsh-generated/resources/CodeSystem-SzReferralIntentCS.json</a> <span id="svi14" class="toggle" onclick="toggle('vi14')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi14')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi14"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1123,8 +1182,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_CodeSystem-SzReferralTypeCS"> </a>
-<h2><a href="CodeSystem-SzReferralTypeCS.html">fsh-generated/resources/CodeSystem-SzReferralTypeCS.json</a> <span id="svi13" class="toggle" onclick="toggle('vi13')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi13')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi13"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+<h2><a href="CodeSystem-SzReferralTypeCS.html">fsh-generated/resources/CodeSystem-SzReferralTypeCS.json</a> <span id="svi15" class="toggle" onclick="toggle('vi15')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi15')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi15"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1142,8 +1201,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_CodeSystem-SzServiceRequestCategoryCS"> </a>
-<h2><a href="CodeSystem-SzServiceRequestCategoryCS.html">fsh-generated/resources/CodeSystem-SzServiceRequestCategoryCS.json</a> <span id="svi14" class="toggle" onclick="toggle('vi14')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi14')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi14"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+<h2><a href="CodeSystem-SzServiceRequestCategoryCS.html">fsh-generated/resources/CodeSystem-SzServiceRequestCategoryCS.json</a> <span id="svi16" class="toggle" onclick="toggle('vi16')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi16')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi16"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1161,8 +1220,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_CodeSystem-SzTestCodeCS"> </a>
-<h2><a href="CodeSystem-SzTestCodeCS.html">fsh-generated/resources/CodeSystem-SzTestCodeCS.json</a> <span id="svi15" class="toggle" onclick="toggle('vi15')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi15')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi15"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+<h2><a href="CodeSystem-SzTestCodeCS.html">fsh-generated/resources/CodeSystem-SzTestCodeCS.json</a> <span id="svi17" class="toggle" onclick="toggle('vi17')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi17')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi17"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1186,8 +1245,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_CodeSystem-SzTestParameterCodeCS"> </a>
-<h2><a href="CodeSystem-SzTestParameterCodeCS.html">fsh-generated/resources/CodeSystem-SzTestParameterCodeCS.json</a> <span id="svi16" class="toggle" onclick="toggle('vi16')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi16')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi16"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+<h2><a href="CodeSystem-SzTestParameterCodeCS.html">fsh-generated/resources/CodeSystem-SzTestParameterCodeCS.json</a> <span id="svi18" class="toggle" onclick="toggle('vi18')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi18')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi18"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1211,8 +1270,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_CodeSystem-SzTinkhundlaCS"> </a>
-<h2><a href="CodeSystem-SzTinkhundlaCS.html">fsh-generated/resources/CodeSystem-SzTinkhundlaCS.json</a> <span id="svi17" class="toggle" onclick="toggle('vi17')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi17')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi17"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+<h2><a href="CodeSystem-SzTinkhundlaCS.html">fsh-generated/resources/CodeSystem-SzTinkhundlaCS.json</a> <span id="svi19" class="toggle" onclick="toggle('vi19')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi19')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi19"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1230,8 +1289,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_Condition-SampleSzMalariaCondition-001"> </a>
-<h2><a href="Condition-SampleSzMalariaCondition-001.html">fsh-generated/resources/Condition-SampleSzMalariaCondition-001.json</a> <span id="svi18" class="toggle" onclick="toggle('vi18')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi18')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi18"><ul style="font-size: 7px"><li>Condition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/condition.html">Condition</a></li></ul>
+<h2><a href="Condition-SampleSzMalariaCondition-001.html">fsh-generated/resources/Condition-SampleSzMalariaCondition-001.json</a> <span id="svi20" class="toggle" onclick="toggle('vi20')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi20')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi20"><ul style="font-size: 7px"><li>Condition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/condition.html">Condition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1267,8 +1326,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_Condition-SzConditionExample"> </a>
-<h2><a href="Condition-SzConditionExample.html">fsh-generated/resources/Condition-SzConditionExample.json</a> <span id="svi19" class="toggle" onclick="toggle('vi19')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi19')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi19"><ul style="font-size: 7px"><li>Condition: Validated against <i>this.</i><a href="StructureDefinition-SzCondition.html">Eswatini Condition Profile</a></li></ul>
+<h2><a href="Condition-SzConditionExample.html">fsh-generated/resources/Condition-SzConditionExample.json</a> <span id="svi21" class="toggle" onclick="toggle('vi21')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi21')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi21"><ul style="font-size: 7px"><li>Condition: Validated against <i>this.</i><a href="StructureDefinition-SzCondition.html">Eswatini Condition Profile</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1280,8 +1339,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_DiagnosticReport-SampleSzMalariaLabTest"> </a>
-<h2><a href="DiagnosticReport-SampleSzMalariaLabTest.html">fsh-generated/resources/DiagnosticReport-SampleSzMalariaLabTest.json</a> <span id="svi20" class="toggle" onclick="toggle('vi20')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi20')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi20"><ul style="font-size: 7px"><li>DiagnosticReport: Validated against <i>this.</i><a href="StructureDefinition-SzLabTest.html">Eswatini Lab Test Profile</a></li></ul>
+<h2><a href="DiagnosticReport-SampleSzMalariaLabTest.html">fsh-generated/resources/DiagnosticReport-SampleSzMalariaLabTest.json</a> <span id="svi22" class="toggle" onclick="toggle('vi22')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi22')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi22"><ul style="font-size: 7px"><li>DiagnosticReport: Validated against <i>this.</i><a href="StructureDefinition-SzLabTest.html">Eswatini Lab Test Profile</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1296,8 +1355,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_EpisodeOfCare-SzEpisodeOfCareExample"> </a>
-<h2><a href="EpisodeOfCare-SzEpisodeOfCareExample.html">fsh-generated/resources/EpisodeOfCare-SzEpisodeOfCareExample.json</a> <span id="svi21" class="toggle" onclick="toggle('vi21')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi21')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi21"><ul style="font-size: 7px"><li>EpisodeOfCare: Validated against <i>this.</i><a href="StructureDefinition-SzEpisodeOfCare.html">Eswatini Episode of Care</a></li></ul>
+<h2><a href="EpisodeOfCare-SzEpisodeOfCareExample.html">fsh-generated/resources/EpisodeOfCare-SzEpisodeOfCareExample.json</a> <span id="svi23" class="toggle" onclick="toggle('vi23')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi23')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi23"><ul style="font-size: 7px"><li>EpisodeOfCare: Validated against <i>this.</i><a href="StructureDefinition-SzEpisodeOfCare.html">Eswatini Episode of Care</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1309,8 +1368,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_ImplementationGuide-hl7.fhir.sd.hie"> </a>
-<h2><a href="index.html">fsh-generated/resources/ImplementationGuide-hl7.fhir.sd.hie.json</a> <span id="svi22" class="toggle" onclick="toggle('vi22')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi22')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi22"><ul style="font-size: 7px"><li>ImplementationGuide/hl7.fhir.sd.hie: ImplementationGuide: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/implementationguide.html">ImplementationGuide</a></li></ul>
+<h2><a href="index.html">fsh-generated/resources/ImplementationGuide-hl7.fhir.sd.hie.json</a> <span id="svi24" class="toggle" onclick="toggle('vi24')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi24')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi24"><ul style="font-size: 7px"><li>ImplementationGuide/hl7.fhir.sd.hie: ImplementationGuide: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/implementationguide.html">ImplementationGuide</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1325,8 +1384,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_NamingSystem-NamingSystemCbhis"> </a>
-<h2><a href="NamingSystem-NamingSystemCbhis.html">fsh-generated/resources/NamingSystem-NamingSystemCbhis.json</a> <span id="svi23" class="toggle" onclick="toggle('vi23')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi23')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi23"><ul style="font-size: 7px"><li>NamingSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/namingsystem.html">NamingSystem</a></li></ul>
+<h2><a href="NamingSystem-NamingSystemCbhis.html">fsh-generated/resources/NamingSystem-NamingSystemCbhis.json</a> <span id="svi25" class="toggle" onclick="toggle('vi25')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi25')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi25"><ul style="font-size: 7px"><li>NamingSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/namingsystem.html">NamingSystem</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1341,8 +1400,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_NamingSystem-NamingSystemCivilRegistry"> </a>
-<h2><a href="NamingSystem-NamingSystemCivilRegistry.html">fsh-generated/resources/NamingSystem-NamingSystemCivilRegistry.json</a> <span id="svi24" class="toggle" onclick="toggle('vi24')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi24')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi24"><ul style="font-size: 7px"><li>NamingSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/namingsystem.html">NamingSystem</a></li></ul>
+<h2><a href="NamingSystem-NamingSystemCivilRegistry.html">fsh-generated/resources/NamingSystem-NamingSystemCivilRegistry.json</a> <span id="svi26" class="toggle" onclick="toggle('vi26')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi26')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi26"><ul style="font-size: 7px"><li>NamingSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/namingsystem.html">NamingSystem</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1357,8 +1416,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_NamingSystem-NamingSystemCmis"> </a>
-<h2><a href="NamingSystem-NamingSystemCmis.html">fsh-generated/resources/NamingSystem-NamingSystemCmis.json</a> <span id="svi25" class="toggle" onclick="toggle('vi25')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi25')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi25"><ul style="font-size: 7px"><li>NamingSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/namingsystem.html">NamingSystem</a></li></ul>
+<h2><a href="NamingSystem-NamingSystemCmis.html">fsh-generated/resources/NamingSystem-NamingSystemCmis.json</a> <span id="svi27" class="toggle" onclick="toggle('vi27')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi27')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi27"><ul style="font-size: 7px"><li>NamingSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/namingsystem.html">NamingSystem</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1373,8 +1432,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_NamingSystem-NamingSystemMsds"> </a>
-<h2><a href="NamingSystem-NamingSystemMsds.html">fsh-generated/resources/NamingSystem-NamingSystemMsds.json</a> <span id="svi26" class="toggle" onclick="toggle('vi26')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi26')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi26"><ul style="font-size: 7px"><li>NamingSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/namingsystem.html">NamingSystem</a></li></ul>
+<h2><a href="NamingSystem-NamingSystemMsds.html">fsh-generated/resources/NamingSystem-NamingSystemMsds.json</a> <span id="svi28" class="toggle" onclick="toggle('vi28')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi28')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi28"><ul style="font-size: 7px"><li>NamingSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/namingsystem.html">NamingSystem</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1389,8 +1448,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_Observation-SampleSzARTStartDateClinicalObservation"> </a>
-<h2><a href="Observation-SampleSzARTStartDateClinicalObservation.html">fsh-generated/resources/Observation-SampleSzARTStartDateClinicalObservation.json</a> <span id="svi27" class="toggle" onclick="toggle('vi27')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi27')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi27"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-SzClinicalObservation.html">Eswatini Clinical Observation Profile</a></li></ul>
+<h2><a href="Observation-SampleSzARTStartDateClinicalObservation.html">fsh-generated/resources/Observation-SampleSzARTStartDateClinicalObservation.json</a> <span id="svi29" class="toggle" onclick="toggle('vi29')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi29')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi29"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-SzClinicalObservation.html">Eswatini Clinical Observation Profile</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1401,9 +1460,25 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
    </tr>
 </table>
 <hr/>
+<a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_Observation-SampleSzArtRegimenClinicalObservation"> </a>
+<h2><a href="Observation-SampleSzArtRegimenClinicalObservation.html">fsh-generated/resources/Observation-SampleSzArtRegimenClinicalObservation.json</a> <span id="svi30" class="toggle" onclick="toggle('vi30')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi30')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi30"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-SzClinicalObservation.html">Eswatini Clinical Observation Profile</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation.code (l10/c4)</b></td><td><b>information</b></td><td><b>Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS|0.1.0</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">MSG_DRAFT</span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Observation (l1/c2)</b></td><td><b>warning</b></td><td><b>Best Practice Recommendation: In general, all observations should have an effective[x] ()</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">All_observations_should_have_an_effectiveDateTime_or_an_effectivePeriod</span></td>
+   </tr>
+</table>
+<hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_Observation-SampleSzLabResult1"> </a>
-<h2><a href="Observation-SampleSzLabResult1.html">fsh-generated/resources/Observation-SampleSzLabResult1.json</a> <span id="svi28" class="toggle" onclick="toggle('vi28')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi28')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi28"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-SzLabResult.html">Eswatini Lab Result Profile</a></li></ul>
+<h2><a href="Observation-SampleSzLabResult1.html">fsh-generated/resources/Observation-SampleSzLabResult1.json</a> <span id="svi31" class="toggle" onclick="toggle('vi31')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi31')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi31"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-SzLabResult.html">Eswatini Lab Result Profile</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1415,8 +1490,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_Observation-SampleSzMalariaLabResult"> </a>
-<h2><a href="Observation-SampleSzMalariaLabResult.html">fsh-generated/resources/Observation-SampleSzMalariaLabResult.json</a> <span id="svi29" class="toggle" onclick="toggle('vi29')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi29')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi29"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-SzLabResult.html">Eswatini Lab Result Profile</a></li></ul>
+<h2><a href="Observation-SampleSzMalariaLabResult.html">fsh-generated/resources/Observation-SampleSzMalariaLabResult.json</a> <span id="svi32" class="toggle" onclick="toggle('vi32')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi32')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi32"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-SzLabResult.html">Eswatini Lab Result Profile</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1431,8 +1506,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_Observation-SampleSzMalariaTravelHistory"> </a>
-<h2><a href="Observation-SampleSzMalariaTravelHistory.html">fsh-generated/resources/Observation-SampleSzMalariaTravelHistory.json</a> <span id="svi30" class="toggle" onclick="toggle('vi30')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi30')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi30"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-SzClinicalObservation.html">Eswatini Clinical Observation Profile</a></li></ul>
+<h2><a href="Observation-SampleSzMalariaTravelHistory.html">fsh-generated/resources/Observation-SampleSzMalariaTravelHistory.json</a> <span id="svi33" class="toggle" onclick="toggle('vi33')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi33')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi33"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-SzClinicalObservation.html">Eswatini Clinical Observation Profile</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1456,8 +1531,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_Observation-SampleVitalsBodyMassIndex"> </a>
-<h2><a href="Observation-SampleVitalsBodyMassIndex.html">fsh-generated/resources/Observation-SampleVitalsBodyMassIndex.json</a> <span id="svi31" class="toggle" onclick="toggle('vi31')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi31')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi31"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-SzVitalSigns.html">Eswatini Vital Signs Profile</a></li></ul>
+<h2><a href="Observation-SampleVitalsBodyMassIndex.html">fsh-generated/resources/Observation-SampleVitalsBodyMassIndex.json</a> <span id="svi34" class="toggle" onclick="toggle('vi34')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi34')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi34"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-SzVitalSigns.html">Eswatini Vital Signs Profile</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1475,8 +1550,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_Observation-SampleVitalsHeight"> </a>
-<h2><a href="Observation-SampleVitalsHeight.html">fsh-generated/resources/Observation-SampleVitalsHeight.json</a> <span id="svi32" class="toggle" onclick="toggle('vi32')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi32')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi32"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-SzVitalSigns.html">Eswatini Vital Signs Profile</a></li></ul>
+<h2><a href="Observation-SampleVitalsHeight.html">fsh-generated/resources/Observation-SampleVitalsHeight.json</a> <span id="svi35" class="toggle" onclick="toggle('vi35')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi35')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi35"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-SzVitalSigns.html">Eswatini Vital Signs Profile</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1494,8 +1569,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_Observation-SampleVitalsRespiratoryRate"> </a>
-<h2><a href="Observation-SampleVitalsRespiratoryRate.html">fsh-generated/resources/Observation-SampleVitalsRespiratoryRate.json</a> <span id="svi33" class="toggle" onclick="toggle('vi33')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi33')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi33"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-SzVitalSigns.html">Eswatini Vital Signs Profile</a></li></ul>
+<h2><a href="Observation-SampleVitalsRespiratoryRate.html">fsh-generated/resources/Observation-SampleVitalsRespiratoryRate.json</a> <span id="svi36" class="toggle" onclick="toggle('vi36')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi36')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi36"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-SzVitalSigns.html">Eswatini Vital Signs Profile</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1513,8 +1588,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_Observation-SampleVitalsTemperature"> </a>
-<h2><a href="Observation-SampleVitalsTemperature.html">fsh-generated/resources/Observation-SampleVitalsTemperature.json</a> <span id="svi34" class="toggle" onclick="toggle('vi34')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi34')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi34"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-SzVitalSigns.html">Eswatini Vital Signs Profile</a></li></ul>
+<h2><a href="Observation-SampleVitalsTemperature.html">fsh-generated/resources/Observation-SampleVitalsTemperature.json</a> <span id="svi37" class="toggle" onclick="toggle('vi37')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi37')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi37"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-SzVitalSigns.html">Eswatini Vital Signs Profile</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1532,8 +1607,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_Observation-SampleVitalsWeight"> </a>
-<h2><a href="Observation-SampleVitalsWeight.html">fsh-generated/resources/Observation-SampleVitalsWeight.json</a> <span id="svi35" class="toggle" onclick="toggle('vi35')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi35')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi35"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-SzVitalSigns.html">Eswatini Vital Signs Profile</a></li></ul>
+<h2><a href="Observation-SampleVitalsWeight.html">fsh-generated/resources/Observation-SampleVitalsWeight.json</a> <span id="svi38" class="toggle" onclick="toggle('vi38')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi38')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi38"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-SzVitalSigns.html">Eswatini Vital Signs Profile</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1551,8 +1626,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_Patient-SampleSzMalariaPatient"> </a>
-<h2><a href="Patient-SampleSzMalariaPatient.html">fsh-generated/resources/Patient-SampleSzMalariaPatient.json</a> <span id="svi36" class="toggle" onclick="toggle('vi36')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi36')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi36"><ul style="font-size: 7px"><li>Patient: Validated against <i>this.</i><a href="StructureDefinition-SzPatient.html">Eswatini Patient Profile</a></li></ul>
+<h2><a href="Patient-SampleSzMalariaPatient.html">fsh-generated/resources/Patient-SampleSzMalariaPatient.json</a> <span id="svi39" class="toggle" onclick="toggle('vi39')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi39')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi39"><ul style="font-size: 7px"><li>Patient: Validated against <i>this.</i><a href="StructureDefinition-SzPatient.html">Eswatini Patient Profile</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1591,8 +1666,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_Patient-SampleSzPatient"> </a>
-<h2><a href="Patient-SampleSzPatient.html">fsh-generated/resources/Patient-SampleSzPatient.json</a> <span id="svi37" class="toggle" onclick="toggle('vi37')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi37')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi37"><ul style="font-size: 7px"><li>Patient: Validated against <i>this.</i><a href="StructureDefinition-SzPatient.html">Eswatini Patient Profile</a></li></ul>
+<h2><a href="Patient-SampleSzPatient.html">fsh-generated/resources/Patient-SampleSzPatient.json</a> <span id="svi40" class="toggle" onclick="toggle('vi40')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi40')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi40"><ul style="font-size: 7px"><li>Patient: Validated against <i>this.</i><a href="StructureDefinition-SzPatient.html">Eswatini Patient Profile</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1625,8 +1700,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_Practitioner-SampleSzPractitioner"> </a>
-<h2><a href="Practitioner-SampleSzPractitioner.html">fsh-generated/resources/Practitioner-SampleSzPractitioner.json</a> <span id="svi38" class="toggle" onclick="toggle('vi38')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi38')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi38"><ul style="font-size: 7px"><li>Practitioner: Validated against <i>this.</i><a href="StructureDefinition-SzPractitioner.html">Eswatini Practitioner Profile</a></li></ul>
+<h2><a href="Practitioner-SampleSzPractitioner.html">fsh-generated/resources/Practitioner-SampleSzPractitioner.json</a> <span id="svi41" class="toggle" onclick="toggle('vi41')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi41')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi41"><ul style="font-size: 7px"><li>Practitioner: Validated against <i>this.</i><a href="StructureDefinition-SzPractitioner.html">Eswatini Practitioner Profile</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1641,8 +1716,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_Procedure-SampleSzIPTProcedure"> </a>
-<h2><a href="Procedure-SampleSzIPTProcedure.html">fsh-generated/resources/Procedure-SampleSzIPTProcedure.json</a> <span id="svi39" class="toggle" onclick="toggle('vi39')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi39')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi39"><ul style="font-size: 7px"><li>Procedure: Validated against <i>this.</i><a href="StructureDefinition-SzProcedure.html">Eswatini Procedure Profile</a></li></ul>
+<h2><a href="Procedure-SampleSzIPTProcedure.html">fsh-generated/resources/Procedure-SampleSzIPTProcedure.json</a> <span id="svi42" class="toggle" onclick="toggle('vi42')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi42')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi42"><ul style="font-size: 7px"><li>Procedure: Validated against <i>this.</i><a href="StructureDefinition-SzProcedure.html">Eswatini Procedure Profile</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1657,8 +1732,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_Specimen-SampleSzMalariaSpecimen"> </a>
-<h2><a href="Specimen-SampleSzMalariaSpecimen.html">fsh-generated/resources/Specimen-SampleSzMalariaSpecimen.json</a> <span id="svi40" class="toggle" onclick="toggle('vi40')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi40')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi40"><ul style="font-size: 7px"><li>Specimen: Validated against <i>this.</i><a href="StructureDefinition-SzLabSpecimen.html">Eswatini Specimen Profile</a></li></ul>
+<h2><a href="Specimen-SampleSzMalariaSpecimen.html">fsh-generated/resources/Specimen-SampleSzMalariaSpecimen.json</a> <span id="svi43" class="toggle" onclick="toggle('vi43')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi43')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi43"><ul style="font-size: 7px"><li>Specimen: Validated against <i>this.</i><a href="StructureDefinition-SzLabSpecimen.html">Eswatini Specimen Profile</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1673,8 +1748,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_Specimen-SampleSzSpecimen"> </a>
-<h2><a href="Specimen-SampleSzSpecimen.html">fsh-generated/resources/Specimen-SampleSzSpecimen.json</a> <span id="svi41" class="toggle" onclick="toggle('vi41')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi41')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi41"><ul style="font-size: 7px"><li>Specimen: Validated against <i>this.</i><a href="StructureDefinition-SzLabSpecimen.html">Eswatini Specimen Profile</a></li></ul>
+<h2><a href="Specimen-SampleSzSpecimen.html">fsh-generated/resources/Specimen-SampleSzSpecimen.json</a> <span id="svi44" class="toggle" onclick="toggle('vi44')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi44')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi44"><ul style="font-size: 7px"><li>Specimen: Validated against <i>this.</i><a href="StructureDefinition-SzLabSpecimen.html">Eswatini Specimen Profile</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1689,8 +1764,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_StructureDefinition-SzAppointment"> </a>
-<h2><a href="StructureDefinition-SzAppointment.html">fsh-generated/resources/StructureDefinition-SzAppointment.json</a> <span id="svi42" class="toggle" onclick="toggle('vi42')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi42')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi42"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-SzAppointment.html">fsh-generated/resources/StructureDefinition-SzAppointment.json</a> <span id="svi45" class="toggle" onclick="toggle('vi45')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi45')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi45"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1705,8 +1780,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_StructureDefinition-SzAuthorizerExtension"> </a>
-<h2><a href="StructureDefinition-SzAuthorizerExtension.html">fsh-generated/resources/StructureDefinition-SzAuthorizerExtension.json</a> <span id="svi43" class="toggle" onclick="toggle('vi43')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi43')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi43"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-SzAuthorizerExtension.html">fsh-generated/resources/StructureDefinition-SzAuthorizerExtension.json</a> <span id="svi46" class="toggle" onclick="toggle('vi46')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi46')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi46"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1721,8 +1796,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_StructureDefinition-SzChiefdomExtension"> </a>
-<h2><a href="StructureDefinition-SzChiefdomExtension.html">fsh-generated/resources/StructureDefinition-SzChiefdomExtension.json</a> <span id="svi44" class="toggle" onclick="toggle('vi44')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi44')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi44"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-SzChiefdomExtension.html">fsh-generated/resources/StructureDefinition-SzChiefdomExtension.json</a> <span id="svi47" class="toggle" onclick="toggle('vi47')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi47')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi47"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1737,46 +1812,7 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_StructureDefinition-SzClinicalObservation"> </a>
-<h2><a href="StructureDefinition-SzClinicalObservation.html">fsh-generated/resources/StructureDefinition-SzClinicalObservation.json</a> <span id="svi45" class="toggle" onclick="toggle('vi45')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi45')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi45"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition.jurisdiction</b></td><td><b>error</b></td><td><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD &quot;null&quot;')</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">RESOURCE_JURISDICTION_MISMATCH</span></td>
-   </tr>
-</table>
-<hr/>
-<a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_StructureDefinition-SzCondition"> </a>
-<h2><a href="StructureDefinition-SzCondition.html">fsh-generated/resources/StructureDefinition-SzCondition.json</a> <span id="svi46" class="toggle" onclick="toggle('vi46')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi46')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi46"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition.jurisdiction</b></td><td><b>error</b></td><td><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD &quot;null&quot;')</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">RESOURCE_JURISDICTION_MISMATCH</span></td>
-   </tr>
-</table>
-<hr/>
-<a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_StructureDefinition-SzEncounter"> </a>
-<h2><a href="StructureDefinition-SzEncounter.html">fsh-generated/resources/StructureDefinition-SzEncounter.json</a> <span id="svi47" class="toggle" onclick="toggle('vi47')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi47')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi47"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition.jurisdiction</b></td><td><b>error</b></td><td><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD &quot;null&quot;')</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">RESOURCE_JURISDICTION_MISMATCH</span></td>
-   </tr>
-</table>
-<hr/>
-<a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_StructureDefinition-SzEpisodeOfCare"> </a>
-<h2><a href="StructureDefinition-SzEpisodeOfCare.html">fsh-generated/resources/StructureDefinition-SzEpisodeOfCare.json</a> <span id="svi48" class="toggle" onclick="toggle('vi48')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi48')">(1)</span></h2>
+<h2><a href="StructureDefinition-SzClinicalObservation.html">fsh-generated/resources/StructureDefinition-SzClinicalObservation.json</a> <span id="svi48" class="toggle" onclick="toggle('vi48')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi48')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi48"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
@@ -1788,9 +1824,48 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
    </tr>
 </table>
 <hr/>
-<a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_StructureDefinition-SzInkhundlaExtension"> </a>
-<h2><a href="StructureDefinition-SzInkhundlaExtension.html">fsh-generated/resources/StructureDefinition-SzInkhundlaExtension.json</a> <span id="svi49" class="toggle" onclick="toggle('vi49')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi49')">(1)</span></h2>
+<a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_StructureDefinition-SzCondition"> </a>
+<h2><a href="StructureDefinition-SzCondition.html">fsh-generated/resources/StructureDefinition-SzCondition.json</a> <span id="svi49" class="toggle" onclick="toggle('vi49')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi49')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi49"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.jurisdiction</b></td><td><b>error</b></td><td><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD &quot;null&quot;')</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">RESOURCE_JURISDICTION_MISMATCH</span></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_StructureDefinition-SzEncounter"> </a>
+<h2><a href="StructureDefinition-SzEncounter.html">fsh-generated/resources/StructureDefinition-SzEncounter.json</a> <span id="svi50" class="toggle" onclick="toggle('vi50')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi50')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi50"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.jurisdiction</b></td><td><b>error</b></td><td><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD &quot;null&quot;')</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">RESOURCE_JURISDICTION_MISMATCH</span></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_StructureDefinition-SzEpisodeOfCare"> </a>
+<h2><a href="StructureDefinition-SzEpisodeOfCare.html">fsh-generated/resources/StructureDefinition-SzEpisodeOfCare.json</a> <span id="svi51" class="toggle" onclick="toggle('vi51')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi51')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi51"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.jurisdiction</b></td><td><b>error</b></td><td><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD &quot;null&quot;')</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">RESOURCE_JURISDICTION_MISMATCH</span></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_StructureDefinition-SzInkhundlaExtension"> </a>
+<h2><a href="StructureDefinition-SzInkhundlaExtension.html">fsh-generated/resources/StructureDefinition-SzInkhundlaExtension.json</a> <span id="svi52" class="toggle" onclick="toggle('vi52')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi52')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi52"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1805,8 +1880,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_StructureDefinition-SzLabResult"> </a>
-<h2><a href="StructureDefinition-SzLabResult.html">fsh-generated/resources/StructureDefinition-SzLabResult.json</a> <span id="svi50" class="toggle" onclick="toggle('vi50')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi50')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi50"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-SzLabResult.html">fsh-generated/resources/StructureDefinition-SzLabResult.json</a> <span id="svi53" class="toggle" onclick="toggle('vi53')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi53')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi53"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1818,8 +1893,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_StructureDefinition-SzLabSpecimen"> </a>
-<h2><a href="StructureDefinition-SzLabSpecimen.html">fsh-generated/resources/StructureDefinition-SzLabSpecimen.json</a> <span id="svi51" class="toggle" onclick="toggle('vi51')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi51')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi51"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-SzLabSpecimen.html">fsh-generated/resources/StructureDefinition-SzLabSpecimen.json</a> <span id="svi54" class="toggle" onclick="toggle('vi54')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi54')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi54"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1843,8 +1918,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_StructureDefinition-SzLabTest"> </a>
-<h2><a href="StructureDefinition-SzLabTest.html">fsh-generated/resources/StructureDefinition-SzLabTest.json</a> <span id="svi52" class="toggle" onclick="toggle('vi52')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi52')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi52"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-SzLabTest.html">fsh-generated/resources/StructureDefinition-SzLabTest.json</a> <span id="svi55" class="toggle" onclick="toggle('vi55')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi55')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi55"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1856,8 +1931,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_StructureDefinition-SzLocation"> </a>
-<h2><a href="StructureDefinition-SzLocation.html">fsh-generated/resources/StructureDefinition-SzLocation.json</a> <span id="svi53" class="toggle" onclick="toggle('vi53')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi53')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi53"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-SzLocation.html">fsh-generated/resources/StructureDefinition-SzLocation.json</a> <span id="svi56" class="toggle" onclick="toggle('vi56')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi56')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi56"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1869,8 +1944,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_StructureDefinition-SzLocationCodeExtension"> </a>
-<h2><a href="StructureDefinition-SzLocationCodeExtension.html">fsh-generated/resources/StructureDefinition-SzLocationCodeExtension.json</a> <span id="svi54" class="toggle" onclick="toggle('vi54')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi54')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi54"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-SzLocationCodeExtension.html">fsh-generated/resources/StructureDefinition-SzLocationCodeExtension.json</a> <span id="svi57" class="toggle" onclick="toggle('vi57')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi57')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi57"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1888,8 +1963,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_StructureDefinition-SzMedication"> </a>
-<h2><a href="StructureDefinition-SzMedication.html">fsh-generated/resources/StructureDefinition-SzMedication.json</a> <span id="svi55" class="toggle" onclick="toggle('vi55')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi55')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi55"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-SzMedication.html">fsh-generated/resources/StructureDefinition-SzMedication.json</a> <span id="svi58" class="toggle" onclick="toggle('vi58')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi58')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi58"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1901,8 +1976,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_StructureDefinition-SzMedicationDispense"> </a>
-<h2><a href="StructureDefinition-SzMedicationDispense.html">fsh-generated/resources/StructureDefinition-SzMedicationDispense.json</a> <span id="svi56" class="toggle" onclick="toggle('vi56')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi56')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi56"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-SzMedicationDispense.html">fsh-generated/resources/StructureDefinition-SzMedicationDispense.json</a> <span id="svi59" class="toggle" onclick="toggle('vi59')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi59')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi59"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1917,8 +1992,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_StructureDefinition-SzMedicationRequest"> </a>
-<h2><a href="StructureDefinition-SzMedicationRequest.html">fsh-generated/resources/StructureDefinition-SzMedicationRequest.json</a> <span id="svi57" class="toggle" onclick="toggle('vi57')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi57')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi57"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-SzMedicationRequest.html">fsh-generated/resources/StructureDefinition-SzMedicationRequest.json</a> <span id="svi60" class="toggle" onclick="toggle('vi60')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi60')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi60"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1930,8 +2005,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_StructureDefinition-SzOrganization"> </a>
-<h2><a href="StructureDefinition-SzOrganization.html">fsh-generated/resources/StructureDefinition-SzOrganization.json</a> <span id="svi58" class="toggle" onclick="toggle('vi58')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi58')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi58"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-SzOrganization.html">fsh-generated/resources/StructureDefinition-SzOrganization.json</a> <span id="svi61" class="toggle" onclick="toggle('vi61')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi61')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi61"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1943,8 +2018,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_StructureDefinition-SzPatient"> </a>
-<h2><a href="StructureDefinition-SzPatient.html">fsh-generated/resources/StructureDefinition-SzPatient.json</a> <span id="svi59" class="toggle" onclick="toggle('vi59')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi59')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi59"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-SzPatient.html">fsh-generated/resources/StructureDefinition-SzPatient.json</a> <span id="svi62" class="toggle" onclick="toggle('vi62')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi62')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi62"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1971,8 +2046,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_StructureDefinition-SzPractitioner"> </a>
-<h2><a href="StructureDefinition-SzPractitioner.html">fsh-generated/resources/StructureDefinition-SzPractitioner.json</a> <span id="svi60" class="toggle" onclick="toggle('vi60')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi60')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi60"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-SzPractitioner.html">fsh-generated/resources/StructureDefinition-SzPractitioner.json</a> <span id="svi63" class="toggle" onclick="toggle('vi63')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi63')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi63"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1984,8 +2059,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_StructureDefinition-SzProcedure"> </a>
-<h2><a href="StructureDefinition-SzProcedure.html">fsh-generated/resources/StructureDefinition-SzProcedure.json</a> <span id="svi61" class="toggle" onclick="toggle('vi61')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi61')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi61"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-SzProcedure.html">fsh-generated/resources/StructureDefinition-SzProcedure.json</a> <span id="svi64" class="toggle" onclick="toggle('vi64')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi64')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi64"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1997,8 +2072,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_StructureDefinition-SzReferral"> </a>
-<h2><a href="StructureDefinition-SzReferral.html">fsh-generated/resources/StructureDefinition-SzReferral.json</a> <span id="svi62" class="toggle" onclick="toggle('vi62')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi62')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi62"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-SzReferral.html">fsh-generated/resources/StructureDefinition-SzReferral.json</a> <span id="svi65" class="toggle" onclick="toggle('vi65')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi65')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi65"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -2010,8 +2085,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_StructureDefinition-SzReferralRecipientExtension"> </a>
-<h2><a href="StructureDefinition-SzReferralRecipientExtension.html">fsh-generated/resources/StructureDefinition-SzReferralRecipientExtension.json</a> <span id="svi63" class="toggle" onclick="toggle('vi63')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi63')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi63"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-SzReferralRecipientExtension.html">fsh-generated/resources/StructureDefinition-SzReferralRecipientExtension.json</a> <span id="svi66" class="toggle" onclick="toggle('vi66')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi66')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi66"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -2026,8 +2101,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_StructureDefinition-SzTestingLabExtension"> </a>
-<h2><a href="StructureDefinition-SzTestingLabExtension.html">fsh-generated/resources/StructureDefinition-SzTestingLabExtension.json</a> <span id="svi64" class="toggle" onclick="toggle('vi64')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi64')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi64"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-SzTestingLabExtension.html">fsh-generated/resources/StructureDefinition-SzTestingLabExtension.json</a> <span id="svi67" class="toggle" onclick="toggle('vi67')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi67')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi67"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -2042,8 +2117,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_StructureDefinition-SzVitalSigns"> </a>
-<h2><a href="StructureDefinition-SzVitalSigns.html">fsh-generated/resources/StructureDefinition-SzVitalSigns.json</a> <span id="svi65" class="toggle" onclick="toggle('vi65')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi65')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi65"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-SzVitalSigns.html">fsh-generated/resources/StructureDefinition-SzVitalSigns.json</a> <span id="svi68" class="toggle" onclick="toggle('vi68')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi68')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi68"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -2055,8 +2130,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_ValueSet-CIE10VS"> </a>
-<h2><a href="ValueSet-CIE10VS.html">fsh-generated/resources/ValueSet-CIE10VS.json</a> <span id="svi66" class="toggle" onclick="toggle('vi66')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi66')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi66"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-CIE10VS.html">fsh-generated/resources/ValueSet-CIE10VS.json</a> <span id="svi69" class="toggle" onclick="toggle('vi69')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi69')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi69"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -2068,8 +2143,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_ValueSet-PersonIdentifiersVS"> </a>
-<h2><a href="ValueSet-PersonIdentifiersVS.html">fsh-generated/resources/ValueSet-PersonIdentifiersVS.json</a> <span id="svi67" class="toggle" onclick="toggle('vi67')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi67')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi67"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-PersonIdentifiersVS.html">fsh-generated/resources/ValueSet-PersonIdentifiersVS.json</a> <span id="svi70" class="toggle" onclick="toggle('vi70')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi70')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi70"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -2084,8 +2159,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_ValueSet-SzChiefdomVS"> </a>
-<h2><a href="ValueSet-SzChiefdomVS.html">fsh-generated/resources/ValueSet-SzChiefdomVS.json</a> <span id="svi68" class="toggle" onclick="toggle('vi68')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi68')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi68"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-SzChiefdomVS.html">fsh-generated/resources/ValueSet-SzChiefdomVS.json</a> <span id="svi71" class="toggle" onclick="toggle('vi71')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi71')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi71"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -2100,8 +2175,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_ValueSet-SzClinicalObservationCodesVS"> </a>
-<h2><a href="ValueSet-SzClinicalObservationCodesVS.html">fsh-generated/resources/ValueSet-SzClinicalObservationCodesVS.json</a> <span id="svi69" class="toggle" onclick="toggle('vi69')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi69')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi69"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-SzClinicalObservationCodesVS.html">fsh-generated/resources/ValueSet-SzClinicalObservationCodesVS.json</a> <span id="svi72" class="toggle" onclick="toggle('vi72')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi72')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi72"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -2113,8 +2188,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_ValueSet-SzEncounterClassificationVS"> </a>
-<h2><a href="ValueSet-SzEncounterClassificationVS.html">fsh-generated/resources/ValueSet-SzEncounterClassificationVS.json</a> <span id="svi70" class="toggle" onclick="toggle('vi70')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi70')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi70"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-SzEncounterClassificationVS.html">fsh-generated/resources/ValueSet-SzEncounterClassificationVS.json</a> <span id="svi73" class="toggle" onclick="toggle('vi73')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi73')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi73"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -2128,9 +2203,28 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
    </tr>
 </table>
 <hr/>
+<a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_ValueSet-SzEpisodeOfCareTypeVS"> </a>
+<h2><a href="ValueSet-SzEpisodeOfCareTypeVS.html">fsh-generated/resources/ValueSet-SzEpisodeOfCareTypeVS.json</a> <span id="svi74" class="toggle" onclick="toggle('vi74')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi74')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi74"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose.include[0] (l1/c1322)</b></td><td><b>warning</b></td><td><b>There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/episodeofcare-type'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '1.0.0', found versions: 1.0.0, 1.0.1. Suggested fix: change the canonical reference from 'http://terminology.hl7.org/CodeSystem/episodeofcare-type' to 'http://terminology.hl7.org/CodeSystem/episodeofcare-type|1.0.0'</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet (l1/c1404)</b></td><td><b>warning</b></td><td><b>Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.jurisdiction</b></td><td><b>warning</b></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD &quot;null&quot;')</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">RESOURCE_JURISDICTION_MISMATCH</span></td>
+   </tr>
+</table>
+<hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_ValueSet-SzFacilityServicePointVS"> </a>
-<h2><a href="ValueSet-SzFacilityServicePointVS.html">fsh-generated/resources/ValueSet-SzFacilityServicePointVS.json</a> <span id="svi71" class="toggle" onclick="toggle('vi71')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi71')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi71"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-SzFacilityServicePointVS.html">fsh-generated/resources/ValueSet-SzFacilityServicePointVS.json</a> <span id="svi75" class="toggle" onclick="toggle('vi75')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi75')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi75"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -2144,9 +2238,25 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
    </tr>
 </table>
 <hr/>
+<a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_ValueSet-SzMalariaEncounterCodesVS"> </a>
+<h2><a href="ValueSet-SzMalariaEncounterCodesVS.html">fsh-generated/resources/ValueSet-SzMalariaEncounterCodesVS.json</a> <span id="svi76" class="toggle" onclick="toggle('vi76')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi76')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi76"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet (l1/c1111)</b></td><td><b>warning</b></td><td><b>Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.jurisdiction</b></td><td><b>warning</b></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD &quot;null&quot;')</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">RESOURCE_JURISDICTION_MISMATCH</span></td>
+   </tr>
+</table>
+<hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_ValueSet-SzProductCodeVS"> </a>
-<h2><a href="ValueSet-SzProductCodeVS.html">fsh-generated/resources/ValueSet-SzProductCodeVS.json</a> <span id="svi72" class="toggle" onclick="toggle('vi72')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi72')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi72"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-SzProductCodeVS.html">fsh-generated/resources/ValueSet-SzProductCodeVS.json</a> <span id="svi77" class="toggle" onclick="toggle('vi77')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi77')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi77"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -2161,8 +2271,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_ValueSet-SzReaonsForReferralVS"> </a>
-<h2><a href="ValueSet-SzReaonsForReferralVS.html">fsh-generated/resources/ValueSet-SzReaonsForReferralVS.json</a> <span id="svi73" class="toggle" onclick="toggle('vi73')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi73')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi73"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-SzReaonsForReferralVS.html">fsh-generated/resources/ValueSet-SzReaonsForReferralVS.json</a> <span id="svi78" class="toggle" onclick="toggle('vi78')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi78')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi78"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -2174,8 +2284,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_ValueSet-SzReferralIntentVS"> </a>
-<h2><a href="ValueSet-SzReferralIntentVS.html">fsh-generated/resources/ValueSet-SzReferralIntentVS.json</a> <span id="svi74" class="toggle" onclick="toggle('vi74')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi74')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi74"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-SzReferralIntentVS.html">fsh-generated/resources/ValueSet-SzReferralIntentVS.json</a> <span id="svi79" class="toggle" onclick="toggle('vi79')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi79')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi79"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -2187,8 +2297,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_ValueSet-SzReferralTypeVS"> </a>
-<h2><a href="ValueSet-SzReferralTypeVS.html">fsh-generated/resources/ValueSet-SzReferralTypeVS.json</a> <span id="svi75" class="toggle" onclick="toggle('vi75')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi75')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi75"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-SzReferralTypeVS.html">fsh-generated/resources/ValueSet-SzReferralTypeVS.json</a> <span id="svi80" class="toggle" onclick="toggle('vi80')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi80')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi80"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -2200,8 +2310,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_ValueSet-SzServiceRequestCategoryVS"> </a>
-<h2><a href="ValueSet-SzServiceRequestCategoryVS.html">fsh-generated/resources/ValueSet-SzServiceRequestCategoryVS.json</a> <span id="svi76" class="toggle" onclick="toggle('vi76')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi76')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi76"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-SzServiceRequestCategoryVS.html">fsh-generated/resources/ValueSet-SzServiceRequestCategoryVS.json</a> <span id="svi81" class="toggle" onclick="toggle('vi81')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi81')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi81"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -2213,8 +2323,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_ValueSet-SzTestCodeVS"> </a>
-<h2><a href="ValueSet-SzTestCodeVS.html">fsh-generated/resources/ValueSet-SzTestCodeVS.json</a> <span id="svi77" class="toggle" onclick="toggle('vi77')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi77')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi77"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-SzTestCodeVS.html">fsh-generated/resources/ValueSet-SzTestCodeVS.json</a> <span id="svi82" class="toggle" onclick="toggle('vi82')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi82')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi82"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -2226,8 +2336,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_ValueSet-SzTestParameterCodeVS"> </a>
-<h2><a href="ValueSet-SzTestParameterCodeVS.html">fsh-generated/resources/ValueSet-SzTestParameterCodeVS.json</a> <span id="svi78" class="toggle" onclick="toggle('vi78')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi78')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi78"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-SzTestParameterCodeVS.html">fsh-generated/resources/ValueSet-SzTestParameterCodeVS.json</a> <span id="svi83" class="toggle" onclick="toggle('vi83')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi83')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi83"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -2248,8 +2358,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
 </table>
 <hr/>
 <a name="_home_publisher_ig_hmis-eswatini-fhir-ig_fsh-generated_resources_ValueSet-SzTinkhundlaVS"> </a>
-<h2><a href="ValueSet-SzTinkhundlaVS.html">fsh-generated/resources/ValueSet-SzTinkhundlaVS.json</a> <span id="svi79" class="toggle" onclick="toggle('vi79')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi79')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi79"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-SzTinkhundlaVS.html">fsh-generated/resources/ValueSet-SzTinkhundlaVS.json</a> <span id="svi84" class="toggle" onclick="toggle('vi84')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi84')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi84"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -2339,6 +2449,9 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
      <td><a href="Observation-SampleSzARTStartDateClinicalObservation.html">fsh-generated/resources/Observation-SampleSzARTStartDateClinicalObservation.json</a></td><td><b>Best Practice Recommendation: In general, all observations should have an effective[x] ()</b></td>
    </tr>
    <tr style="background-color: #fff4ee">
+     <td><a href="Observation-SampleSzArtRegimenClinicalObservation.html">fsh-generated/resources/Observation-SampleSzArtRegimenClinicalObservation.json</a></td><td><b>Best Practice Recommendation: In general, all observations should have an effective[x] ()</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
      <td><a href="Observation-SampleSzLabResult1.html">fsh-generated/resources/Observation-SampleSzLabResult1.json</a></td><td><b>Best Practice Recommendation: In general, all observations should have an effective[x] ()</b></td>
    </tr>
    <tr style="background-color: #fff4ee">
@@ -2398,10 +2511,22 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
      <td><a href="CodeSystem-SzEncounterClassificationCS.html">fsh-generated/resources/CodeSystem-SzEncounterClassificationCS.json</a></td><td><b>Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present</b></td>
    </tr>
    <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-SzEpisodeOfCareTypeCS.html">fsh-generated/resources/CodeSystem-SzEpisodeOfCareTypeCS.json</a></td><td><b>Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-SzEpisodeOfCareTypeCS.html">fsh-generated/resources/CodeSystem-SzEpisodeOfCareTypeCS.json</a></td><td><b>Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
      <td><a href="CodeSystem-SzFacilityServicePointCS.html">fsh-generated/resources/CodeSystem-SzFacilityServicePointCS.json</a></td><td><b>Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present</b></td>
    </tr>
    <tr style="background-color: #fff4ee">
      <td><a href="CodeSystem-SzFacilityServicePointCS.html">fsh-generated/resources/CodeSystem-SzFacilityServicePointCS.json</a></td><td><b>Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-SzMalariaEncounterCodesCS.html">fsh-generated/resources/CodeSystem-SzMalariaEncounterCodesCS.json</a></td><td><b>Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-SzMalariaEncounterCodesCS.html">fsh-generated/resources/CodeSystem-SzMalariaEncounterCodesCS.json</a></td><td><b>Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present</b></td>
    </tr>
    <tr style="background-color: #fff4ee">
      <td><a href="CodeSystem-SzPersonIdentificationsCS.html">fsh-generated/resources/CodeSystem-SzPersonIdentificationsCS.json</a></td><td><b>Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present</b></td>
@@ -2643,6 +2768,9 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
      <td><a href="MedicationRequest-SampleSzMedicationRequest.html">fsh-generated/resources/MedicationRequest-SampleSzMedicationRequest.json</a></td><td><b>Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzProductCodeCS|0.1.0</b></td>
    </tr>
    <tr style="background-color: #fffff2">
+     <td><a href="Observation-SampleSzArtRegimenClinicalObservation.html">fsh-generated/resources/Observation-SampleSzArtRegimenClinicalObservation.json</a></td><td><b>Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS|0.1.0</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
      <td><a href="Organization-SampleSzOrganization.html">fsh-generated/resources/Organization-SampleSzOrganization.json</a></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/organization-type|2.0.0</b></td>
    </tr>
    <tr style="background-color: #fffff2">
@@ -2704,7 +2832,13 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
      <td><a href="CodeSystem-SzEncounterClassificationCS.html">fsh-generated/resources/CodeSystem-SzEncounterClassificationCS.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD &quot;null&quot;')</b></td>
    </tr>
    <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-SzEpisodeOfCareTypeCS.html">fsh-generated/resources/CodeSystem-SzEpisodeOfCareTypeCS.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
      <td><a href="CodeSystem-SzFacilityServicePointCS.html">fsh-generated/resources/CodeSystem-SzFacilityServicePointCS.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-SzMalariaEncounterCodesCS.html">fsh-generated/resources/CodeSystem-SzMalariaEncounterCodesCS.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD &quot;null&quot;')</b></td>
    </tr>
    <tr style="background-color: #fff4ee">
      <td><a href="CodeSystem-SzPersonIdentificationsCS.html">fsh-generated/resources/CodeSystem-SzPersonIdentificationsCS.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD &quot;null&quot;')</b></td>
@@ -2836,7 +2970,13 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
      <td><a href="ValueSet-SzEncounterClassificationVS.html">fsh-generated/resources/ValueSet-SzEncounterClassificationVS.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD &quot;null&quot;')</b></td>
    </tr>
    <tr style="background-color: #fff4ee">
+     <td><a href="ValueSet-SzEpisodeOfCareTypeVS.html">fsh-generated/resources/ValueSet-SzEpisodeOfCareTypeVS.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
      <td><a href="ValueSet-SzFacilityServicePointVS.html">fsh-generated/resources/ValueSet-SzFacilityServicePointVS.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="ValueSet-SzMalariaEncounterCodesVS.html">fsh-generated/resources/ValueSet-SzMalariaEncounterCodesVS.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD &quot;null&quot;')</b></td>
    </tr>
    <tr style="background-color: #fff4ee">
      <td><a href="ValueSet-SzProductCodeVS.html">fsh-generated/resources/ValueSet-SzProductCodeVS.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD &quot;null&quot;')</b></td>

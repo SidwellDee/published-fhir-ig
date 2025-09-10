@@ -34,6 +34,17 @@
       "ValueSet-SzEncounterClassificationVS.html" : "Value Set: Encounter Classification"
     },
     {
+      "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzEpisodeOfCareTypeCS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SzEpisodeOfCareTypeCS",
+      "title" : "Eswatini Episode of Care",
+      "description" : "Eswatini Episode of Care Type",
+      "uses" : {
+      },
+      "ValueSet-SzEpisodeOfCareTypeVS.html" : "Eswatini Episode of Care Valueset"
+    },
+    {
       "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzFacilityServicePointCS",
       "version" : "0.1.0",
       "status" : "draft",
@@ -43,6 +54,17 @@
       "uses" : {
       },
       "ValueSet-SzFacilityServicePointVS.html" : "Value set: Eswatini Facility Service Points"
+    },
+    {
+      "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzMalariaEncounterCodesCS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SzMalariaEncounterCodesCS",
+      "title" : "Eswatini Malaria Encounter Codes",
+      "description" : "Eswatini Malaria Encounter Codes",
+      "uses" : {
+      },
+      "ValueSet-SzMalariaEncounterCodesVS.html" : "Eswatini Malaria Encounter Codes"
     },
     {
       "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS",
@@ -177,7 +199,8 @@
       "oids" : ["2.16.840.1.113883.6.1"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-observation-vitalsignresult.html" : "Vital Signs"
+      "http://hl7.org/fhir/R4/valueset-observation-vitalsignresult.html" : "Vital Signs",
+      "ValueSet-SzClinicalObservationCodesVS.html" : "Value Set: Clinical Observation Codes Value Set"
     },
     {
       "url" : "http://snomed.info/sct",
@@ -190,6 +213,18 @@
       "uses" : {
       },
       "ValueSet-SzClinicalObservationCodesVS.html" : "Value Set: Clinical Observation Codes Value Set"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/episodeofcare-type",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "EpisodeOfCareType",
+      "title" : "Episode of care type",
+      "description" : "This example value set defines a set of codes that can be used to express the usage type of an EpisodeOfCare record.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1189"],
+      "uses" : {
+      },
+      "ValueSet-SzEpisodeOfCareTypeVS.html" : "Eswatini Episode of Care Valueset"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",

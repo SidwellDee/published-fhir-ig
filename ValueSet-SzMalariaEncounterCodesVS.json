@@ -1,0 +1,32 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "SzMalariaEncounterCodesVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet SzMalariaEncounterCodesVS</b></p><a name=\"SzMalariaEncounterCodesVS\"> </a><a name=\"hcSzMalariaEncounterCodesVS\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-SzMalariaEncounterCodesCS.html\"><code>http://172.209.216.154:3447/fhir/CodeSystem/SzMalariaEncounterCodesCS</code></a></li></ul></div>"
+  },
+  "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzMalariaEncounterCodesVS",
+  "version" : "0.1.0",
+  "name" : "SzMalariaEncounterCodesVS",
+  "title" : "Eswatini Malaria Encounter Codes",
+  "status" : "draft",
+  "date" : "2025-09-10T08:40:27+00:00",
+  "publisher" : "Ministry of Health Eswatini",
+  "contact" : [{
+    "name" : "Ministry of Health Eswatini",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://172.209.216.154:3447"
+    },
+    {
+      "system" : "email",
+      "value" : "eswatinihie@moh.gov.sz"
+    }]
+  }],
+  "description" : "Eswatini Malaria Encounter Codes",
+  "compose" : {
+    "include" : [{
+      "system" : "http://172.209.216.154:3447/fhir/CodeSystem/SzMalariaEncounterCodesCS"
+    }]
+  }
+}

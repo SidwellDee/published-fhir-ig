@@ -21,11 +21,25 @@
     "name" : "EswatiniEncounterClassification"
   },
   {
+    "id" : "SzEpisodeOfCareTypeCS",
+    "type" : "CodeSystem",
+    "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzEpisodeOfCareTypeCS",
+    "version" : "0.1.0",
+    "name" : "SzEpisodeOfCareTypeCS"
+  },
+  {
     "id" : "SzFacilityServicePointCS",
     "type" : "CodeSystem",
     "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzFacilityServicePointCS",
     "version" : "0.1.0",
     "name" : "SzFacilityServicePointCS"
+  },
+  {
+    "id" : "SzMalariaEncounterCodesCS",
+    "type" : "CodeSystem",
+    "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzMalariaEncounterCodesCS",
+    "version" : "0.1.0",
+    "name" : "SzMalariaEncounterCodesCS"
   },
   {
     "id" : "SzPersonIdentificationsCS",
@@ -329,11 +343,25 @@
     "name" : "EswatiniEncounterClassification"
   },
   {
+    "id" : "SzEpisodeOfCareTypeVS",
+    "type" : "ValueSet",
+    "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzEpisodeOfCareTypeVS",
+    "version" : "0.1.0",
+    "name" : "SzEpisodeOfCareTypeVS"
+  },
+  {
     "id" : "SzFacilityServicePointVS",
     "type" : "ValueSet",
     "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzFacilityServicePointVS",
     "version" : "0.1.0",
     "name" : "SzFacilityServicePointVS"
+  },
+  {
+    "id" : "SzMalariaEncounterCodesVS",
+    "type" : "ValueSet",
+    "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzMalariaEncounterCodesVS",
+    "version" : "0.1.0",
+    "name" : "SzMalariaEncounterCodesVS"
   },
   {
     "id" : "SzProductCodeVS",

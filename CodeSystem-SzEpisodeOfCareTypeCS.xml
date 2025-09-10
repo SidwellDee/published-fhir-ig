@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="SzEpisodeOfCareTypeCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem SzEpisodeOfCareTypeCS</b></p><a name="SzEpisodeOfCareTypeCS"> </a><a name="hcSzEpisodeOfCareTypeCS"> </a><p>This  code system <code>http://172.209.216.154:3447/fhir/CodeSystem/SzEpisodeOfCareTypeCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">tbds<a name="SzEpisodeOfCareTypeCS-tbds"> </a></td><td>TB DS</td></tr><tr><td style="white-space:nowrap">tbdr<a name="SzEpisodeOfCareTypeCS-tbdr"> </a></td><td>TB DR</td></tr><tr><td style="white-space:nowrap">anc<a name="SzEpisodeOfCareTypeCS-anc"> </a></td><td>ANC</td></tr><tr><td style="white-space:nowrap">fp<a name="SzEpisodeOfCareTypeCS-fp"> </a></td><td>Family Planning</td></tr><tr><td style="white-space:nowrap">art<a name="SzEpisodeOfCareTypeCS-art"> </a></td><td>ART</td></tr><tr><td style="white-space:nowrap">prep<a name="SzEpisodeOfCareTypeCS-prep"> </a></td><td>PrEP</td></tr></table></div>
+  </text>
+  <url value="http://172.209.216.154:3447/fhir/CodeSystem/SzEpisodeOfCareTypeCS"/>
+  <version value="0.1.0"/>
+  <name value="SzEpisodeOfCareTypeCS"/>
+  <title value="Eswatini Episode of Care"/>
+  <status value="draft"/>
+  <date value="2025-09-10T08:40:27+00:00"/>
+  <publisher value="Ministry of Health Eswatini"/>
+  <contact>
+    <name value="Ministry of Health Eswatini"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://172.209.216.154:3447"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="eswatinihie@moh.gov.sz"/>
+    </telecom>
+  </contact>
+  <description value="Eswatini Episode of Care Type"/>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="tbds"/>
+    <display value="TB DS"/>
+  </concept>
+  <concept>
+    <code value="tbdr"/>
+    <display value="TB DR"/>
+  </concept>
+  <concept>
+    <code value="anc"/>
+    <display value="ANC"/>
+  </concept>
+  <concept>
+    <code value="fp"/>
+    <display value="Family Planning"/>
+  </concept>
+  <concept>
+    <code value="art"/>
+    <display value="ART"/>
+  </concept>
+  <concept>
+    <code value="prep"/>
+    <display value="PrEP"/>
+  </concept>
+</CodeSystem>

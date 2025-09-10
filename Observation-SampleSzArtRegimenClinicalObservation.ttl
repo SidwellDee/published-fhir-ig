@@ -1,0 +1,49 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://172.209.216.154:3447/fhir/Observation/SampleSzArtRegimenClinicalObservation> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "SampleSzArtRegimenClinicalObservation"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzClinicalObservation"^^xsd:anyURI ;
+       fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzClinicalObservation>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation SampleSzArtRegimenClinicalObservation</b></p><a name=\"SampleSzArtRegimenClinicalObservation\"> </a><a name=\"hcSampleSzArtRegimenClinicalObservation\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzClinicalObservation.html\">Eswatini Clinical Observation Profile</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS art-regimen}\">ART Regimen</span></p><p><b>subject</b>: <a href=\"Patient-SampleSzPatient.html\">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</a></p><p><b>encounter</b>: <a href=\"Encounter-SampleSzEncounter.html\">Encounter: status = finished; class = Out Patient Department (Code System: Encounter Classification#OPD); period = 2023-10-01 10:00:00+0000 --&gt; (ongoing)</a></p><p><b>performer</b>: <a href=\"Practitioner-SampleSzPractitioner.html\">Practitioner Thabile Celiwe Dlamini </a></p><p><b>value</b>: ABC+3TC+DTG</p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "art-regimen" ] ;
+       fhir:display [ fhir:v "ART Regimen" ]
+     ] ) ;
+     fhir:text [ fhir:v "ART Regimen" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://172.209.216.154:3447/fhir/Patient/SampleSzPatient> ;
+     fhir:reference [ fhir:v "Patient/SampleSzPatient" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:link <http://172.209.216.154:3447/fhir/Encounter/SampleSzEncounter> ;
+     fhir:reference [ fhir:v "Encounter/SampleSzEncounter" ]
+  ] ; # 
+  fhir:performer ( [
+     fhir:link <http://172.209.216.154:3447/fhir/Practitioner/SampleSzPractitioner> ;
+     fhir:reference [ fhir:v "Practitioner/SampleSzPractitioner" ]
+  ] ) ; # 
+  fhir:value [
+     a fhir:string ;
+     fhir:v "ABC+3TC+DTG"
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

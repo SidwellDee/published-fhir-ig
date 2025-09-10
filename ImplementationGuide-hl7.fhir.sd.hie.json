@@ -10,7 +10,7 @@
   "name" : "EswatiniHIEImplementationGuide",
   "title" : "Eswatini HL7 FHIR Implementation Guide",
   "status" : "draft",
-  "date" : "2025-09-09T15:13:38+00:00",
+  "date" : "2025-09-10T08:40:27+00:00",
   "publisher" : "Ministry of Health Eswatini",
   "contact" : [{
     "name" : "Ministry of Health Eswatini",
@@ -825,6 +825,30 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/SzEpisodeOfCareTypeCS"
+      },
+      "name" : "Eswatini Episode of Care",
+      "description" : "Eswatini Episode of Care Type",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/SzEpisodeOfCareTypeVS"
+      },
+      "name" : "Eswatini Episode of Care Valueset",
+      "description" : "Eswatini Episode of Care Valueset",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
@@ -856,6 +880,30 @@
       },
       "name" : "Eswatini Location Profile",
       "description" : "Eswatini Location Profile sets a standard for recording locations where medical care is provided",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/SzMalariaEncounterCodesVS"
+      },
+      "name" : "Eswatini Malaria Encounter Codes",
+      "description" : "Eswatini Malaria Encounter Codes",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/SzMalariaEncounterCodesCS"
+      },
+      "name" : "Eswatini Malaria Encounter Codes",
+      "description" : "Eswatini Malaria Encounter Codes",
       "exampleBoolean" : false
     },
     {
@@ -1145,6 +1193,18 @@
       "name" : "SampleSzAppointment",
       "description" : "Sample Eswatini Appointment",
       "exampleCanonical" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzAppointment"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/SampleSzArtRegimenClinicalObservation"
+      },
+      "name" : "SampleSzArtRegimenClinicalObservation",
+      "description" : "Sample Eswatini ART Regimen Observation",
+      "exampleCanonical" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzClinicalObservation"
     },
     {
       "extension" : [{

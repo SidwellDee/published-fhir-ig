@@ -43,6 +43,7 @@
       "title" : "Value Set: Clinical Observation Codes Value Set",
       "description" : "Includes standard and custom codes that can be used with the Clinical Observation Profile",
       "systems" : [
+        "http://loinc.org",
         "http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS",
         "http://snomed.info/sct"
       ]
@@ -63,6 +64,21 @@
       "StructureDefinition-SzEncounter.html" : "Eswatini Encounter Profile"
     },
     {
+      "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzEpisodeOfCareTypeVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SzEpisodeOfCareTypeVS",
+      "title" : "Eswatini Episode of Care Valueset",
+      "description" : "Eswatini Episode of Care Valueset",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/episodeofcare-type",
+        "http://172.209.216.154:3447/fhir/CodeSystem/SzEpisodeOfCareTypeCS"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-SzEpisodeOfCare.html" : "Eswatini Episode of Care"
+    },
+    {
       "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzFacilityServicePointVS",
       "version" : "0.1.0",
       "status" : "draft",
@@ -71,6 +87,17 @@
       "description" : "Value set for Facility Service Points",
       "systems" : [
         "http://172.209.216.154:3447/fhir/CodeSystem/SzFacilityServicePointCS"
+      ]
+    },
+    {
+      "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzMalariaEncounterCodesVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SzMalariaEncounterCodesVS",
+      "title" : "Eswatini Malaria Encounter Codes",
+      "description" : "Eswatini Malaria Encounter Codes",
+      "systems" : [
+        "http://172.209.216.154:3447/fhir/CodeSystem/SzMalariaEncounterCodesCS"
       ]
     },
     {
@@ -298,12 +325,12 @@
       "sources" : ["2.16.840.1.113883.4.642.3.141"],
       "uses" : {
       },
-      "StructureDefinition-SzClinicalObservation.html" : "Eswatini Clinical Observation Profile",
-      "StructureDefinition-SzCondition.html" : "Eswatini Condition Profile",
       "StructureDefinition-SzLabSpecimen.html" : "Eswatini Specimen Profile",
-      "StructureDefinition-SzReferral.html" : "Eswatini Referral Profile",
-      "StructureDefinition-SzProcedure.html" : "Eswatini Procedure Profile",
       "StructureDefinition-SzLabResult.html" : "Eswatini Lab Result Profile",
+      "StructureDefinition-SzReferral.html" : "Eswatini Referral Profile",
+      "StructureDefinition-SzClinicalObservation.html" : "Eswatini Clinical Observation Profile",
+      "StructureDefinition-SzProcedure.html" : "Eswatini Procedure Profile",
+      "StructureDefinition-SzCondition.html" : "Eswatini Condition Profile",
       "StructureDefinition-SzVitalSigns.html" : "Eswatini Vital Signs Profile"
     },
     {
@@ -374,9 +401,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.161"],
       "uses" : {
       },
-      "StructureDefinition-SzCondition.html" : "Eswatini Condition Profile",
+      "StructureDefinition-SzMedicationRequest.html" : "Eswatini Medication Request Profile",
       "StructureDefinition-SzProcedure.html" : "Eswatini Procedure Profile",
-      "StructureDefinition-SzMedicationRequest.html" : "Eswatini Medication Request Profile"
+      "StructureDefinition-SzCondition.html" : "Eswatini Condition Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/condition-severity",
@@ -460,8 +487,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.5"],
       "uses" : {
       },
-      "StructureDefinition-SzClinicalObservation.html" : "Eswatini Clinical Observation Profile",
       "StructureDefinition-SzLabResult.html" : "Eswatini Lab Result Profile",
+      "StructureDefinition-SzClinicalObservation.html" : "Eswatini Clinical Observation Profile",
       "StructureDefinition-SzVitalSigns.html" : "Eswatini Vital Signs Profile"
     },
     {
@@ -518,8 +545,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.49"],
       "uses" : {
       },
-      "StructureDefinition-SzEncounter.html" : "Eswatini Encounter Profile",
-      "StructureDefinition-SzEpisodeOfCare.html" : "Eswatini Episode of Care"
+      "StructureDefinition-SzEpisodeOfCare.html" : "Eswatini Episode of Care",
+      "StructureDefinition-SzEncounter.html" : "Eswatini Encounter Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/diagnostic-report-status",
@@ -636,8 +663,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.250"],
       "uses" : {
       },
-      "StructureDefinition-SzEncounter.html" : "Eswatini Encounter Profile",
-      "StructureDefinition-SzAppointment.html" : "Eswatini Appointment Profile"
+      "StructureDefinition-SzAppointment.html" : "Eswatini Appointment Profile",
+      "StructureDefinition-SzEncounter.html" : "Eswatini Encounter Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-reason",
@@ -651,8 +678,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.261"],
       "uses" : {
       },
-      "StructureDefinition-SzEncounter.html" : "Eswatini Encounter Profile",
-      "StructureDefinition-SzAppointment.html" : "Eswatini Appointment Profile"
+      "StructureDefinition-SzAppointment.html" : "Eswatini Appointment Profile",
+      "StructureDefinition-SzEncounter.html" : "Eswatini Encounter Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-special-arrangements",
@@ -730,20 +757,6 @@
       "StructureDefinition-SzEpisodeOfCare.html" : "Eswatini Episode of Care"
     },
     {
-      "url" : "http://hl7.org/fhir/ValueSet/episodeofcare-type",
-      "version" : "4.0.1",
-      "status" : "draft",
-      "name" : "EpisodeOfCareType",
-      "title" : "Episode of care type",
-      "description" : "This example value set defines a set of codes that can be used to express the usage type of an EpisodeOfCare record.",
-      "systems" : ["http://terminology.hl7.org/CodeSystem/episodeofcare-type"],
-      "oids" : ["2.16.840.1.113883.4.642.3.666"],
-      "sources" : ["2.16.840.1.113883.4.642.3.666"],
-      "uses" : {
-      },
-      "StructureDefinition-SzEpisodeOfCare.html" : "Eswatini Episode of Care"
-    },
-    {
       "url" : "http://hl7.org/fhir/ValueSet/event-status",
       "version" : "4.0.1",
       "status" : "draft",
@@ -797,24 +810,24 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-SzClinicalObservation.html" : "Eswatini Clinical Observation Profile",
-      "StructureDefinition-SzCondition.html" : "Eswatini Condition Profile",
+      "StructureDefinition-SzAppointment.html" : "Eswatini Appointment Profile",
       "StructureDefinition-SzLabSpecimen.html" : "Eswatini Specimen Profile",
-      "StructureDefinition-SzReferral.html" : "Eswatini Referral Profile",
-      "StructureDefinition-SzEncounter.html" : "Eswatini Encounter Profile",
+      "StructureDefinition-SzLabTest.html" : "Eswatini Lab Test Profile",
       "StructureDefinition-SzMedication.html" : "Eswatini Medication Profile",
-      "StructureDefinition-SzPatient.html" : "Eswatini Patient Profile",
-      "StructureDefinition-SzLabResult.html" : "Eswatini Lab Result Profile",
       "StructureDefinition-SzMedicationRequest.html" : "Eswatini Medication Request Profile",
+      "StructureDefinition-SzLocation.html" : "Eswatini Location Profile",
+      "StructureDefinition-SzLabResult.html" : "Eswatini Lab Result Profile",
+      "StructureDefinition-SzClinicalObservation.html" : "Eswatini Clinical Observation Profile",
+      "StructureDefinition-SzProcedure.html" : "Eswatini Procedure Profile",
       "StructureDefinition-SzVitalSigns.html" : "Eswatini Vital Signs Profile",
-      "StructureDefinition-SzOrganization.html" : "Eswatini Organization Profile",
+      "StructureDefinition-SzMedicationDispense.html" : "Eswatini Medication Dispense Profile",
       "StructureDefinition-SzPractitioner.html" : "Eswatini Practitioner Profile",
       "StructureDefinition-SzEpisodeOfCare.html" : "Eswatini Episode of Care",
-      "StructureDefinition-SzAppointment.html" : "Eswatini Appointment Profile",
-      "StructureDefinition-SzLabTest.html" : "Eswatini Lab Test Profile",
-      "StructureDefinition-SzProcedure.html" : "Eswatini Procedure Profile",
-      "StructureDefinition-SzLocation.html" : "Eswatini Location Profile",
-      "StructureDefinition-SzMedicationDispense.html" : "Eswatini Medication Dispense Profile"
+      "StructureDefinition-SzOrganization.html" : "Eswatini Organization Profile",
+      "StructureDefinition-SzPatient.html" : "Eswatini Patient Profile",
+      "StructureDefinition-SzReferral.html" : "Eswatini Referral Profile",
+      "StructureDefinition-SzEncounter.html" : "Eswatini Encounter Profile",
+      "StructureDefinition-SzCondition.html" : "Eswatini Condition Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -858,8 +871,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.328"],
       "uses" : {
       },
-      "StructureDefinition-SzEncounter.html" : "Eswatini Encounter Profile",
-      "StructureDefinition-SzLocation.html" : "Eswatini Location Profile"
+      "StructureDefinition-SzLocation.html" : "Eswatini Location Profile",
+      "StructureDefinition-SzEncounter.html" : "Eswatini Encounter Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/location-status",
@@ -918,8 +931,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.96"],
       "uses" : {
       },
-      "StructureDefinition-SzReferral.html" : "Eswatini Referral Profile",
-      "StructureDefinition-SzMedicationRequest.html" : "Eswatini Medication Request Profile"
+      "StructureDefinition-SzMedicationRequest.html" : "Eswatini Medication Request Profile",
+      "StructureDefinition-SzReferral.html" : "Eswatini Referral Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medication-codes",
@@ -933,8 +946,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.375"],
       "uses" : {
       },
-      "StructureDefinition-SzMedicationDispense.html" : "Eswatini Medication Dispense Profile",
-      "StructureDefinition-SzMedicationRequest.html" : "Eswatini Medication Request Profile"
+      "StructureDefinition-SzMedicationRequest.html" : "Eswatini Medication Request Profile",
+      "StructureDefinition-SzMedicationDispense.html" : "Eswatini Medication Dispense Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medication-form-codes",
@@ -1131,8 +1144,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.403"],
       "uses" : {
       },
-      "StructureDefinition-SzClinicalObservation.html" : "Eswatini Clinical Observation Profile",
       "StructureDefinition-SzLabResult.html" : "Eswatini Lab Result Profile",
+      "StructureDefinition-SzClinicalObservation.html" : "Eswatini Clinical Observation Profile",
       "StructureDefinition-SzVitalSigns.html" : "Eswatini Vital Signs Profile"
     },
     {
@@ -1147,8 +1160,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.396"],
       "uses" : {
       },
-      "StructureDefinition-SzClinicalObservation.html" : "Eswatini Clinical Observation Profile",
-      "StructureDefinition-SzLabResult.html" : "Eswatini Lab Result Profile"
+      "StructureDefinition-SzLabResult.html" : "Eswatini Lab Result Profile",
+      "StructureDefinition-SzClinicalObservation.html" : "Eswatini Clinical Observation Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
@@ -1164,8 +1177,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.399"],
       "uses" : {
       },
-      "StructureDefinition-SzClinicalObservation.html" : "Eswatini Clinical Observation Profile",
       "StructureDefinition-SzLabResult.html" : "Eswatini Lab Result Profile",
+      "StructureDefinition-SzClinicalObservation.html" : "Eswatini Clinical Observation Profile",
       "StructureDefinition-SzVitalSigns.html" : "Eswatini Vital Signs Profile"
     },
     {
@@ -1180,8 +1193,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.395"],
       "uses" : {
       },
-      "StructureDefinition-SzClinicalObservation.html" : "Eswatini Clinical Observation Profile",
       "StructureDefinition-SzLabResult.html" : "Eswatini Lab Result Profile",
+      "StructureDefinition-SzClinicalObservation.html" : "Eswatini Clinical Observation Profile",
       "StructureDefinition-SzVitalSigns.html" : "Eswatini Vital Signs Profile"
     },
     {
@@ -1196,8 +1209,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.400"],
       "uses" : {
       },
-      "StructureDefinition-SzClinicalObservation.html" : "Eswatini Clinical Observation Profile",
       "StructureDefinition-SzLabResult.html" : "Eswatini Lab Result Profile",
+      "StructureDefinition-SzClinicalObservation.html" : "Eswatini Clinical Observation Profile",
       "StructureDefinition-SzVitalSigns.html" : "Eswatini Vital Signs Profile"
     },
     {
@@ -1296,8 +1309,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.433"],
       "uses" : {
       },
-      "StructureDefinition-SzProcedure.html" : "Eswatini Procedure Profile",
-      "StructureDefinition-SzMedicationRequest.html" : "Eswatini Medication Request Profile"
+      "StructureDefinition-SzMedicationRequest.html" : "Eswatini Medication Request Profile",
+      "StructureDefinition-SzProcedure.html" : "Eswatini Procedure Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/procedure-category",
@@ -1414,8 +1427,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.407"],
       "uses" : {
       },
-      "StructureDefinition-SzClinicalObservation.html" : "Eswatini Clinical Observation Profile",
       "StructureDefinition-SzLabResult.html" : "Eswatini Lab Result Profile",
+      "StructureDefinition-SzClinicalObservation.html" : "Eswatini Clinical Observation Profile",
       "StructureDefinition-SzVitalSigns.html" : "Eswatini Vital Signs Profile"
     },
     {
@@ -1432,8 +1445,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.397"],
       "uses" : {
       },
-      "StructureDefinition-SzClinicalObservation.html" : "Eswatini Clinical Observation Profile",
       "StructureDefinition-SzLabResult.html" : "Eswatini Lab Result Profile",
+      "StructureDefinition-SzClinicalObservation.html" : "Eswatini Clinical Observation Profile",
       "StructureDefinition-SzVitalSigns.html" : "Eswatini Vital Signs Profile"
     },
     {
@@ -1462,8 +1475,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.115"],
       "uses" : {
       },
-      "StructureDefinition-SzReferral.html" : "Eswatini Referral Profile",
-      "StructureDefinition-SzMedicationRequest.html" : "Eswatini Medication Request Profile"
+      "StructureDefinition-SzMedicationRequest.html" : "Eswatini Medication Request Profile",
+      "StructureDefinition-SzReferral.html" : "Eswatini Referral Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/request-status",
@@ -1519,8 +1532,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.518"],
       "uses" : {
       },
-      "StructureDefinition-SzEncounter.html" : "Eswatini Encounter Profile",
-      "StructureDefinition-SzAppointment.html" : "Eswatini Appointment Profile"
+      "StructureDefinition-SzAppointment.html" : "Eswatini Appointment Profile",
+      "StructureDefinition-SzEncounter.html" : "Eswatini Encounter Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/servicerequest-category",
@@ -1772,8 +1785,8 @@
       "sources" : ["2.16.840.1.113883.1.11.16621"],
       "uses" : {
       },
-      "StructureDefinition-SzMedicationDispense.html" : "Eswatini Medication Dispense Profile",
-      "StructureDefinition-SzMedicationRequest.html" : "Eswatini Medication Request Profile"
+      "StructureDefinition-SzMedicationRequest.html" : "Eswatini Medication Request Profile",
+      "StructureDefinition-SzMedicationDispense.html" : "Eswatini Medication Dispense Profile"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType",
@@ -1787,8 +1800,8 @@
       "sources" : ["2.16.840.1.113883.1.11.17660"],
       "uses" : {
       },
-      "StructureDefinition-SzReferral.html" : "Eswatini Referral Profile",
-      "StructureDefinition-SzLocation.html" : "Eswatini Location Profile"
+      "StructureDefinition-SzLocation.html" : "Eswatini Location Profile",
+      "StructureDefinition-SzReferral.html" : "Eswatini Referral Profile"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-SubstanceAdminSubstitutionReason",
@@ -1802,8 +1815,8 @@
       "sources" : ["2.16.840.1.113883.1.11.19377"],
       "uses" : {
       },
-      "StructureDefinition-SzMedicationDispense.html" : "Eswatini Medication Dispense Profile",
-      "StructureDefinition-SzMedicationRequest.html" : "Eswatini Medication Request Profile"
+      "StructureDefinition-SzMedicationRequest.html" : "Eswatini Medication Request Profile",
+      "StructureDefinition-SzMedicationDispense.html" : "Eswatini Medication Dispense Profile"
     }
   ]
 }
