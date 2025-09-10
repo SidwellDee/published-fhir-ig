@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="6d372be4-d53a-489b-9090-d6b44614bef4"/>
+  <id value="1a23f530-d70e-46ed-acfc-b1c0703f72dc"/>
   <meta>
-    <lastUpdated value="2025-09-08T12:30:54.611+00:00"/>
+    <lastUpdated value="2025-09-09T15:16:51.365+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -12154,10 +12154,10 @@
         <name value="PersonIdentifiersVS"/>
         <title value="Value Set: Person Identifier"/>
         <status value="draft"/>
-        <date value="2025-09-08T12:30:01+00:00"/>
+        <date value="2025-09-09T15:13:38+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:2eb264bd-cc16-4a95-bfec-e7c3570d8f77"/>
-          <timestamp value="2025-09-08T12:32:00+00:00"/>
+          <identifier value="urn:uuid:2ff8a368-2947-4d6d-a1ee-7089fa30af1e"/>
+          <timestamp value="2025-09-09T15:17:56+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -14966,10 +14966,10 @@
         <name value="SzChiefdomVS"/>
         <title value="Value Set: Chiefdoms Value Set"/>
         <status value="draft"/>
-        <date value="2025-09-08T12:30:01+00:00"/>
+        <date value="2025-09-09T15:13:38+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:498d5c6a-e633-4985-ad39-51708bde752d"/>
-          <timestamp value="2025-09-08T12:32:00+00:00"/>
+          <identifier value="urn:uuid:bb4fa3a4-aaeb-47ef-91b2-d8a28e4e7957"/>
+          <timestamp value="2025-09-09T15:17:56+00:00"/>
           <total value="340"/>
           <offset value="0"/>
           <parameter>
@@ -16691,6 +16691,273 @@
             <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS"/>
             <code value="340"/>
             <display value="Mhawini"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://172.209.216.154:3447/fhir/ValueSet/SzClinicalObservationCodesVS"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion from tx.fhir.org based on:</p>
+              <ul>
+                <li>
+                  <a href="CodeSystem-SzClinicalObservationCodesCS.html">codesystem Eswatini Clinical Observation Codes Code System v0.1.0 (CodeSystem)</a>
+                </li>
+                <li>SNOMED CT International edition 01-Feb 2025</li>
+              </ul>
+            </div>
+            <p>This value set contains 14 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display (en-US)</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-278977008"> </a>  
+                  <a href="http://snomed.info/id/278977008">278977008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>HIV status</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS-tpt-regimen"> </a>  
+                  <a href="CodeSystem-SzClinicalObservationCodesCS.html#SzClinicalObservationCodesCS-tpt-regimen">tpt-regimen</a>
+                </td>
+                <td>http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS</td>
+                <td>TPT Regimen</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS-tpt-outcome"> </a>  
+                  <a href="CodeSystem-SzClinicalObservationCodesCS.html#SzClinicalObservationCodesCS-tpt-outcome">tpt-outcome</a>
+                </td>
+                <td>http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS</td>
+                <td>TPT Outcome</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS-tpt-start-date"> </a>  
+                  <a href="CodeSystem-SzClinicalObservationCodesCS.html#SzClinicalObservationCodesCS-tpt-start-date">tpt-start-date</a>
+                </td>
+                <td>http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS</td>
+                <td>TPT Start Date</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS-tpt-stop-date"> </a>  
+                  <a href="CodeSystem-SzClinicalObservationCodesCS.html#SzClinicalObservationCodesCS-tpt-stop-date">tpt-stop-date</a>
+                </td>
+                <td>http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS</td>
+                <td>TPT Stop Date</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS-art-regimen"> </a>  
+                  <a href="CodeSystem-SzClinicalObservationCodesCS.html#SzClinicalObservationCodesCS-art-regimen">art-regimen</a>
+                </td>
+                <td>http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS</td>
+                <td>ART Regimen</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS-regimen-change-reason"> </a>  
+                  <a href="CodeSystem-SzClinicalObservationCodesCS.html#SzClinicalObservationCodesCS-regimen-change-reason">regimen-change-reason</a>
+                </td>
+                <td>http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS</td>
+                <td>RegimenChangeReason</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS-art-line-regimen"> </a>  
+                  <a href="CodeSystem-SzClinicalObservationCodesCS.html#SzClinicalObservationCodesCS-art-line-regimen">art-line-regimen</a>
+                </td>
+                <td>http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS</td>
+                <td>ART Line Regimen</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS-art-care-model"> </a>  
+                  <a href="CodeSystem-SzClinicalObservationCodesCS.html#SzClinicalObservationCodesCS-art-care-model">art-care-model</a>
+                </td>
+                <td>http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS</td>
+                <td>ART Care Model</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS-art-oi"> </a>  
+                  <a href="CodeSystem-SzClinicalObservationCodesCS.html#SzClinicalObservationCodesCS-art-oi">art-oi</a>
+                </td>
+                <td>http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS</td>
+                <td>Opportunistic Infection</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS-who-stage"> </a>  
+                  <a href="CodeSystem-SzClinicalObservationCodesCS.html#SzClinicalObservationCodesCS-who-stage">who-stage</a>
+                </td>
+                <td>http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS</td>
+                <td>WHO Stage</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS-hts-test-modality"> </a>  
+                  <a href="CodeSystem-SzClinicalObservationCodesCS.html#SzClinicalObservationCodesCS-hts-test-modality">hts-test-modality</a>
+                </td>
+                <td>http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS</td>
+                <td>HTS Test Modality</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS-hts-entry-point"> </a>  
+                  <a href="CodeSystem-SzClinicalObservationCodesCS.html#SzClinicalObservationCodesCS-hts-entry-point">hts-entry-point</a>
+                </td>
+                <td>http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS</td>
+                <td>HTS Entry Point</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS-hts-test-type"> </a>  
+                  <a href="CodeSystem-SzClinicalObservationCodesCS.html#SzClinicalObservationCodesCS-hts-test-type">hts-test-type</a>
+                </td>
+                <td>http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS</td>
+                <td>HTS Test Type</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://172.209.216.154:3447/fhir/ValueSet/SzClinicalObservationCodesVS"/>
+        <version value="0.1.0"/>
+        <name value="EswatiniClinicalObservationCodes"/>
+        <title value="Value Set: Clinical Observation Codes Value Set"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2025-09-09T15:13:38+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:640678d6-3806-4d63-aa79-a0cabf0c0a6d"/>
+          <timestamp value="2025-09-09T15:17:57+00:00"/>
+          <total value="14"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <parameter>
+            <name value="warning-draft"/>
+            <valueUri value="http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS|0.1.0"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="278977008"/>
+            <display value="HIV status"/>
+          </contains>
+          <contains>
+            <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS"/>
+            <code value="tpt-regimen"/>
+            <display value="TPT Regimen"/>
+          </contains>
+          <contains>
+            <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS"/>
+            <code value="tpt-outcome"/>
+            <display value="TPT Outcome"/>
+          </contains>
+          <contains>
+            <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS"/>
+            <code value="tpt-start-date"/>
+            <display value="TPT Start Date"/>
+          </contains>
+          <contains>
+            <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS"/>
+            <code value="tpt-stop-date"/>
+            <display value="TPT Stop Date"/>
+          </contains>
+          <contains>
+            <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS"/>
+            <code value="art-regimen"/>
+            <display value="ART Regimen"/>
+          </contains>
+          <contains>
+            <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS"/>
+            <code value="regimen-change-reason"/>
+            <display value="RegimenChangeReason"/>
+          </contains>
+          <contains>
+            <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS"/>
+            <code value="art-line-regimen"/>
+            <display value="ART Line Regimen"/>
+          </contains>
+          <contains>
+            <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS"/>
+            <code value="art-care-model"/>
+            <display value="ART Care Model"/>
+          </contains>
+          <contains>
+            <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS"/>
+            <code value="art-oi"/>
+            <display value="Opportunistic Infection"/>
+          </contains>
+          <contains>
+            <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS"/>
+            <code value="who-stage"/>
+            <display value="WHO Stage"/>
+          </contains>
+          <contains>
+            <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS"/>
+            <code value="hts-test-modality"/>
+            <display value="HTS Test Modality"/>
+          </contains>
+          <contains>
+            <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS"/>
+            <code value="hts-entry-point"/>
+            <display value="HTS Entry Point"/>
+          </contains>
+          <contains>
+            <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS"/>
+            <code value="hts-test-type"/>
+            <display value="HTS Test Type"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -33608,10 +33875,10 @@
         <title value="Value Set: Encounter Classification"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-09-08T12:30:01+00:00"/>
+        <date value="2025-09-09T15:13:38+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:f276e4c9-dd57-4cf8-a9de-dcb2033e8276"/>
-          <timestamp value="2025-09-08T12:32:01+00:00"/>
+          <identifier value="urn:uuid:f43dbd2e-4314-4d29-a760-6da49cf231e4"/>
+          <timestamp value="2025-09-09T15:17:58+00:00"/>
           <total value="1303"/>
           <offset value="0"/>
           <parameter>
@@ -39257,10 +39524,10 @@
         <name value="SzFacilityServicePointVS"/>
         <title value="Value set: Eswatini Facility Service Points"/>
         <status value="draft"/>
-        <date value="2025-09-08T12:30:01+00:00"/>
+        <date value="2025-09-09T15:13:38+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:cb579982-7a77-4fb2-b810-4dd64b6de79a"/>
-          <timestamp value="2025-09-08T12:32:04+00:00"/>
+          <identifier value="urn:uuid:00d58524-79e3-48a5-ab83-d05e2e4c7ad6"/>
+          <timestamp value="2025-09-09T15:18:01+00:00"/>
           <total value="50"/>
           <offset value="0"/>
           <parameter>
@@ -39897,10 +40164,10 @@
         <name value="SzProductCodeVS"/>
         <title value="Value Set: Product Code Value Set"/>
         <status value="draft"/>
-        <date value="2025-09-08T12:30:01+00:00"/>
+        <date value="2025-09-09T15:13:38+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:f702f862-90c8-427f-af9e-a96e97e5713f"/>
-          <timestamp value="2025-09-08T12:32:04+00:00"/>
+          <identifier value="urn:uuid:1197f463-6832-4c26-9c4a-dca0b902f63a"/>
+          <timestamp value="2025-09-09T15:18:01+00:00"/>
           <total value="41"/>
           <offset value="0"/>
           <parameter>
@@ -40365,10 +40632,10 @@
         <title value="Value Set: Reasons for Referral"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-09-08T12:30:01+00:00"/>
+        <date value="2025-09-09T15:13:38+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:7fb18f3c-71f8-4b18-856e-5a39cad3fd4e"/>
-          <timestamp value="2025-09-08T12:32:04+00:00"/>
+          <identifier value="urn:uuid:692e80f7-80ef-4b06-8d4e-af818ec45b22"/>
+          <timestamp value="2025-09-09T15:18:02+00:00"/>
           <total value="25"/>
           <offset value="0"/>
           <parameter>
@@ -40701,10 +40968,10 @@
         <title value="Value Set: Referral Intent"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-09-08T12:30:01+00:00"/>
+        <date value="2025-09-09T15:13:38+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:40d875b8-7e4d-4bf2-bc18-6a51dadfa010"/>
-          <timestamp value="2025-09-08T12:32:04+00:00"/>
+          <identifier value="urn:uuid:9c19ced5-7dee-4c6f-9a81-6aadb899be0e"/>
+          <timestamp value="2025-09-09T15:18:02+00:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -40862,10 +41129,10 @@
         <title value="Value Set: Referral Type"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-09-08T12:30:01+00:00"/>
+        <date value="2025-09-09T15:13:38+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:ff8be32d-3e4c-48ad-90bb-0145a3c40aa0"/>
-          <timestamp value="2025-09-08T12:32:05+00:00"/>
+          <identifier value="urn:uuid:0c98f6c0-0fa0-429d-842f-527cf8369d38"/>
+          <timestamp value="2025-09-09T15:18:02+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -40958,10 +41225,10 @@
         <title value="Value Set: Service Request"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-09-08T12:30:01+00:00"/>
+        <date value="2025-09-09T15:13:38+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:810096d9-c3e8-4c23-925d-5e2df3c2d97e"/>
-          <timestamp value="2025-09-08T12:32:05+00:00"/>
+          <identifier value="urn:uuid:7d92d72b-74c7-4236-ace5-d9a991a3ad0e"/>
+          <timestamp value="2025-09-09T15:18:02+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -44226,10 +44493,10 @@
         <title value="Value Set: Local Test Codes"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-09-08T12:30:01+00:00"/>
+        <date value="2025-09-09T15:13:38+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:07c73f34-443c-4e77-9386-0f3a02638965"/>
-          <timestamp value="2025-09-08T12:32:05+00:00"/>
+          <identifier value="urn:uuid:e793fb8e-5dd8-43b7-98a0-79ad92ab846c"/>
+          <timestamp value="2025-09-09T15:18:02+00:00"/>
           <total value="400"/>
           <offset value="0"/>
           <parameter>
@@ -54288,10 +54555,10 @@
         <name value="SzTestParameterCodeVS"/>
         <title value="Value Set: Eswatini Local Test Parameter Codes"/>
         <status value="draft"/>
-        <date value="2025-09-08T12:30:01+00:00"/>
+        <date value="2025-09-09T15:13:38+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:33e5fcc7-0fb2-4bd4-b487-8d966d6213ca"/>
-          <timestamp value="2025-09-08T12:32:06+00:00"/>
+          <identifier value="urn:uuid:0002bdf9-8606-44c3-91eb-a7de5513c588"/>
+          <timestamp value="2025-09-09T15:18:03+00:00"/>
           <total value="1105"/>
           <offset value="0"/>
           <parameter>
@@ -59830,10 +60097,10 @@
         <name value="SzTinkhundlaVS"/>
         <title value="Value Set: Tinkhundla"/>
         <status value="draft"/>
-        <date value="2025-09-08T12:30:01+00:00"/>
+        <date value="2025-09-09T15:13:38+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:c38649d3-d7b0-4fd8-be5e-37f22e6ff829"/>
-          <timestamp value="2025-09-08T12:32:08+00:00"/>
+          <identifier value="urn:uuid:21bd260f-a4b2-4665-925e-4ccf0275343e"/>
+          <timestamp value="2025-09-09T15:18:05+00:00"/>
           <total value="60"/>
           <offset value="0"/>
           <parameter>

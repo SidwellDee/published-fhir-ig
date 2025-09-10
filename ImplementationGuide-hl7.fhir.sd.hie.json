@@ -10,7 +10,7 @@
   "name" : "EswatiniHIEImplementationGuide",
   "title" : "Eswatini HL7 FHIR Implementation Guide",
   "status" : "draft",
-  "date" : "2025-09-08T12:30:01+00:00",
+  "date" : "2025-09-09T15:13:38+00:00",
   "publisher" : "Ministry of Health Eswatini",
   "contact" : [{
     "name" : "Ministry of Health Eswatini",
@@ -760,6 +760,18 @@
       },
       "name" : "Eswatini Appointment Profile",
       "description" : "Definition of Eswatini Appointment Profile",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/SzClinicalObservationCodesCS"
+      },
+      "name" : "Eswatini Clinical Observation Codes Code System",
+      "description" : "This Code System includes all elements that cannot be located using currently available terminology services. \nIt is intended to serve as a supplementary resource for concepts or codes that are not present in established terminologies or are not accessible through existing terminology service infrastructures",
       "exampleBoolean" : false
     },
     {
@@ -1540,6 +1552,18 @@
       },
       "name" : "Value Set: Chiefdoms Value Set",
       "description" : "Value set for ESwatini chiefdoms",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/SzClinicalObservationCodesVS"
+      },
+      "name" : "Value Set: Clinical Observation Codes Value Set",
+      "description" : "Includes standard and custom codes that can be used with the Clinical Observation Profile",
       "exampleBoolean" : false
     },
     {

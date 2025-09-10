@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "EswatiniHIEImplementationGuide"] ; # 
   fhir:title [ fhir:v "Eswatini HL7 FHIR Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-09-08T12:30:01+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-09T15:13:38+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministry of Health Eswatini"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ministry of Health Eswatini" ] ;
@@ -1059,6 +1059,24 @@
        ] ;
        fhir:name [ fhir:v "Eswatini Appointment Profile" ] ;
        fhir:description [ fhir:v "Definition of Eswatini Appointment Profile" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS> ;
+         fhir:reference [ fhir:v "CodeSystem/SzClinicalObservationCodesCS" ]
+       ] ;
+       fhir:name [ fhir:v "Eswatini Clinical Observation Codes Code System" ] ;
+       fhir:description [ fhir:v "This Code System includes all elements that cannot be located using currently available terminology services. \nIt is intended to serve as a supplementary resource for concepts or codes that are not present in established terminologies or are not accessible through existing terminology service infrastructures" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -2262,6 +2280,24 @@
        ] ;
        fhir:name [ fhir:v "Value Set: Chiefdoms Value Set" ] ;
        fhir:description [ fhir:v "Value set for ESwatini chiefdoms" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://172.209.216.154:3447/fhir/ValueSet/SzClinicalObservationCodesVS> ;
+         fhir:reference [ fhir:v "ValueSet/SzClinicalObservationCodesVS" ]
+       ] ;
+       fhir:name [ fhir:v "Value Set: Clinical Observation Codes Value Set" ] ;
+       fhir:description [ fhir:v "Includes standard and custom codes that can be used with the Clinical Observation Profile" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

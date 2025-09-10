@@ -30,6 +30,18 @@
       "systems" : ["http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS"]
     },
     {
+      "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzClinicalObservationCodesVS",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "EswatiniClinicalObservationCodes",
+      "title" : "Value Set: Clinical Observation Codes Value Set",
+      "description" : "Includes standard and custom codes that can be used with the Clinical Observation Profile",
+      "systems" : [
+        "http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
       "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzEncounterClassificationVS",
       "version" : "0.1.0",
       "status" : "active",

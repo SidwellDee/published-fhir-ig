@@ -10,7 +10,7 @@
   <name value="EswatiniHIEImplementationGuide"/>
   <title value="Eswatini HL7 FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2025-09-08T12:30:01+00:00"/>
+  <date value="2025-09-09T15:13:38+00:00"/>
   <publisher value="Ministry of Health Eswatini"/>
   <contact>
     <name value="Ministry of Health Eswatini"/>
@@ -591,6 +591,17 @@
       </reference>
       <name value="Eswatini Appointment Profile"/>
       <description value="Definition of Eswatini Appointment Profile"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/SzClinicalObservationCodesCS"/>
+      </reference>
+      <name value="Eswatini Clinical Observation Codes Code System"/>
+      <description value="This Code System includes all elements that cannot be located using currently available terminology services. &#xA;It is intended to serve as a supplementary resource for concepts or codes that are not present in established terminologies or are not accessible through existing terminology service infrastructures"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1306,6 +1317,17 @@
       </reference>
       <name value="Value Set: Chiefdoms Value Set"/>
       <description value="Value set for ESwatini chiefdoms"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/SzClinicalObservationCodesVS"/>
+      </reference>
+      <name value="Value Set: Clinical Observation Codes Value Set"/>
+      <description value="Includes standard and custom codes that can be used with the Clinical Observation Profile"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

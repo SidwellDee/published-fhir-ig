@@ -9,6 +9,14 @@
       "description" : "Code system for ESwatini Chiefdoms"
     },
     {
+      "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzClinicalObservationCodesCS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SzClinicalObservationCodesCS",
+      "title" : "Eswatini Clinical Observation Codes Code System",
+      "description" : "This Code System includes all elements that cannot be located using currently available terminology services. \nIt is intended to serve as a supplementary resource for concepts or codes that are not present in established terminologies or are not accessible through existing terminology service infrastructures"
+    },
+    {
       "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterClassificationCS",
       "version" : "0.1.0",
       "status" : "active",

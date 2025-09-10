@@ -1,15 +1,16 @@
 EswatiniHIEImplementationGuide : Validation Results
 =========================================
 
-err = 121, warn = 152, info = 68
+err = 111, warn = 156, info = 69
 $--
 Generated $--. FHIR version $-- for hl7.fhir.sd.hie#$-- (canonical = http://172.209.216.154:3447/fhir)
  Build Errors : 1 / 7 / 0
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Appointment-SampleSzAppointment : 0 / 1 / 2
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Bundle-SampleSzBundle : 18 / 3 / 34
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Bundle-SampleSzBundle1 : 12 / 0 / 8
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Bundle-SampleSzMalariaBundle : 27 / 23 / 34
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Bundle-SampleSzBundle : 16 / 3 / 34
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Bundle-SampleSzBundle1 : 10 / 0 / 8
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Bundle-SampleSzMalariaBundle : 25 / 23 / 34
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzChiefdomCS : 0 / 24 / 2
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzClinicalObservationCodesCS : 0 / 3 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzEncounterClassificationCS : 0 / 2 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzFacilityServicePointCS : 0 / 3 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzPersonIdentificationsCS : 0 / 3 / 2
@@ -51,8 +52,8 @@ Generated $--. FHIR version $-- for hl7.fhir.sd.hie#$-- (canonical = http://172.
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Observation-SampleVitalsWeight : 1 / 2 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Organization-SampleSzOrganization : 0 / 0 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Organization-SampleSzOrganization1 : 0 / 0 / 2
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Patient-SampleSzMalariaPatient : 7 / 2 / 4
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Patient-SampleSzPatient : 7 / 0 / 4
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Patient-SampleSzMalariaPatient : 5 / 2 / 4
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Patient-SampleSzPatient : 5 / 0 / 4
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Practitioner-SampleSzPharmacyPractitioner : 0 / 0 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Practitioner-SampleSzPractitioner : 0 / 1 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Procedure-SampleSzIPTProcedure : 1 / 1 / 1
@@ -86,6 +87,7 @@ Generated $--. FHIR version $-- for hl7.fhir.sd.hie#$-- (canonical = http://172.
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-CIE10VS : 0 / 1 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-PersonIdentifiersVS : 0 / 2 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzChiefdomVS : 0 / 2 / 1
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzClinicalObservationCodesVS : 0 / 1 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzEncounterClassificationVS : 0 / 1 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzFacilityServicePointVS : 0 / 2 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzProductCodeVS : 0 / 2 / 1
@@ -113,10 +115,8 @@ WARNING: Appointment/SampleSzAppointment: Appointment.serviceType[0].coding[0].s
 ERROR: Bundle/SampleSzBundle: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[0]: The Extension 'http://hl7.org/fhir/StructureDefinition/patient-nationality' definition allows for the types [] but found type CodeableConcept
 ERROR: Bundle/SampleSzBundle: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[0]: Extension.value[x]: max allowed = 0, but found 1 (from http://hl7.org/fhir/StructureDefinition/patient-nationality|5.3.0-ballot-tc1)
 ERROR: Bundle/SampleSzBundle: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[0].value.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Eswatini' for urn:iso:std:iso:3166#SWZ. Valid display is 'Swaziland' (for the language(s) 'en-US')
-ERROR: Bundle/SampleSzBundle: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[1].value.ofType(CodeableConcept).coding[0].code: Unknown code 'DVOKODVWENI' in the CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS' version '0.1.0'
-ERROR: Bundle/SampleSzBundle: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[1].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Value Set: Tinkhundla' (http://172.209.216.154:3447/fhir/ValueSet/SzTinkhundlaVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS#DVOKODVWENI)
-ERROR: Bundle/SampleSzBundle: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[2].value.ofType(CodeableConcept).coding[0].code: Unknown code 'Kwaluseni' in the CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS' version '0.1.0'
-ERROR: Bundle/SampleSzBundle: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[2].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Value Set: Chiefdoms Value Set' (http://172.209.216.154:3447/fhir/ValueSet/SzChiefdomVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS#Kwaluseni)
+ERROR: Bundle/SampleSzBundle: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[2].value.ofType(CodeableConcept).coding[0].display: Wrong whitespace in Display Name 'Lobamba' for http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS#7. Valid display is 'Lobamba ' (for the language(s) 'en-US')
+ERROR: Bundle/SampleSzBundle: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[2].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Value Set: Chiefdoms Value Set' (http://172.209.216.154:3447/fhir/ValueSet/SzChiefdomVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS#7)
 INFORMATION: Bundle/SampleSzBundle: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[2].value.ofType(CodeableConcept): Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS|0.1.0
 INFORMATION: Bundle/SampleSzBundle: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.identifier[0].type: Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS|0.1.0
 INFORMATION: Bundle/SampleSzBundle: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.identifier[1].type: Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS|0.1.0
@@ -156,10 +156,8 @@ ERROR: Bundle/SampleSzBundle: Bundle.entry[0]: The fullUrl 'http://172.209.216.1
 ERROR: Bundle/SampleSzBundle1: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[0]: The Extension 'http://hl7.org/fhir/StructureDefinition/patient-nationality' definition allows for the types [] but found type CodeableConcept
 ERROR: Bundle/SampleSzBundle1: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[0]: Extension.value[x]: max allowed = 0, but found 1 (from http://hl7.org/fhir/StructureDefinition/patient-nationality|5.3.0-ballot-tc1)
 ERROR: Bundle/SampleSzBundle1: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[0].value.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Eswatini' for urn:iso:std:iso:3166#SWZ. Valid display is 'Swaziland' (for the language(s) 'en-US')
-ERROR: Bundle/SampleSzBundle1: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[1].value.ofType(CodeableConcept).coding[0].code: Unknown code 'DVOKODVWENI' in the CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS' version '0.1.0'
-ERROR: Bundle/SampleSzBundle1: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[1].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Value Set: Tinkhundla' (http://172.209.216.154:3447/fhir/ValueSet/SzTinkhundlaVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS#DVOKODVWENI)
-ERROR: Bundle/SampleSzBundle1: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[2].value.ofType(CodeableConcept).coding[0].code: Unknown code 'Kwaluseni' in the CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS' version '0.1.0'
-ERROR: Bundle/SampleSzBundle1: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[2].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Value Set: Chiefdoms Value Set' (http://172.209.216.154:3447/fhir/ValueSet/SzChiefdomVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS#Kwaluseni)
+ERROR: Bundle/SampleSzBundle1: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[2].value.ofType(CodeableConcept).coding[0].display: Wrong whitespace in Display Name 'Lobamba' for http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS#7. Valid display is 'Lobamba ' (for the language(s) 'en-US')
+ERROR: Bundle/SampleSzBundle1: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[2].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Value Set: Chiefdoms Value Set' (http://172.209.216.154:3447/fhir/ValueSet/SzChiefdomVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS#7)
 INFORMATION: Bundle/SampleSzBundle1: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[2].value.ofType(CodeableConcept): Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS|0.1.0
 INFORMATION: Bundle/SampleSzBundle1: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.identifier[0].type: Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS|0.1.0
 INFORMATION: Bundle/SampleSzBundle1: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.identifier[1].type: Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS|0.1.0
@@ -172,10 +170,8 @@ ERROR: Bundle/SampleSzBundle1: Bundle.entry[0]: The fullUrl 'http://172.209.216.
 ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/.extension[0]: The Extension 'http://hl7.org/fhir/StructureDefinition/patient-nationality' definition allows for the types [] but found type CodeableConcept
 ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/.extension[0]: Extension.value[x]: max allowed = 0, but found 1 (from http://hl7.org/fhir/StructureDefinition/patient-nationality|5.3.0-ballot-tc1)
 ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/.extension[0].value.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Eswatini' for urn:iso:std:iso:3166#SWZ. Valid display is 'Swaziland' (for the language(s) 'en-US')
-ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/.extension[1].value.ofType(CodeableConcept).coding[0].code: Unknown code 'DVOKODVWENI' in the CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS' version '0.1.0'
-ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/.extension[1].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Value Set: Tinkhundla' (http://172.209.216.154:3447/fhir/ValueSet/SzTinkhundlaVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS#DVOKODVWENI)
-ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/.extension[2].value.ofType(CodeableConcept).coding[0].code: Unknown code 'Kwaluseni' in the CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS' version '0.1.0'
-ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/.extension[2].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Value Set: Chiefdoms Value Set' (http://172.209.216.154:3447/fhir/ValueSet/SzChiefdomVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS#Kwaluseni)
+ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/.extension[2].value.ofType(CodeableConcept).coding[0].display: Wrong whitespace in Display Name 'Lobamba' for http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS#7. Valid display is 'Lobamba ' (for the language(s) 'en-US')
+ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/.extension[2].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Value Set: Chiefdoms Value Set' (http://172.209.216.154:3447/fhir/ValueSet/SzChiefdomVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS#7)
 INFORMATION: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/.extension[2].value.ofType(CodeableConcept): Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS|0.1.0
 INFORMATION: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/.identifier[0].type: Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS|0.1.0
 WARNING: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/.identifier[0].system: No definition could be found for URL value 'http://mfl.sys/m001'
@@ -256,6 +252,11 @@ WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[333].display: value should 
 INFORMATION: CodeSystem/SzChiefdomCS: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/SzChiefdomCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
 WARNING: CodeSystem/SzChiefdomCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
+== fsh-generated/resources/CodeSystem-SzClinicalObservationCodesCS.json ==
+INFORMATION: CodeSystem/SzClinicalObservationCodesCS: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/SzClinicalObservationCodesCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/SzClinicalObservationCodesCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/CodeSystem-SzEncounterClassificationCS.json ==
 INFORMATION: CodeSystem/SzEncounterClassificationCS: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
@@ -395,10 +396,8 @@ INFORMATION: Organization/SampleSzOrganization1: Organization.type[0]: Reference
 ERROR: Patient/SampleSzMalariaPatient: Patient.extension[0]: The Extension 'http://hl7.org/fhir/StructureDefinition/patient-nationality' definition allows for the types [] but found type CodeableConcept
 ERROR: Patient/SampleSzMalariaPatient: Patient.extension[0]: Extension.value[x]: max allowed = 0, but found 1 (from http://hl7.org/fhir/StructureDefinition/patient-nationality|5.3.0-ballot-tc1)
 ERROR: Patient/SampleSzMalariaPatient: Patient.extension[0].value.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Eswatini' for urn:iso:std:iso:3166#SWZ. Valid display is 'Swaziland' (for the language(s) 'en-US')
-ERROR: Patient/SampleSzMalariaPatient: Patient.extension[1].value.ofType(CodeableConcept).coding[0].code: Unknown code 'DVOKODVWENI' in the CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS' version '0.1.0'
-ERROR: Patient/SampleSzMalariaPatient: Patient.extension[1].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Value Set: Tinkhundla' (http://172.209.216.154:3447/fhir/ValueSet/SzTinkhundlaVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS#DVOKODVWENI)
-ERROR: Patient/SampleSzMalariaPatient: Patient.extension[2].value.ofType(CodeableConcept).coding[0].code: Unknown code 'Kwaluseni' in the CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS' version '0.1.0'
-ERROR: Patient/SampleSzMalariaPatient: Patient.extension[2].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Value Set: Chiefdoms Value Set' (http://172.209.216.154:3447/fhir/ValueSet/SzChiefdomVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS#Kwaluseni)
+ERROR: Patient/SampleSzMalariaPatient: Patient.extension[2].value.ofType(CodeableConcept).coding[0].display: Wrong whitespace in Display Name 'Lobamba' for http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS#7. Valid display is 'Lobamba ' (for the language(s) 'en-US')
+ERROR: Patient/SampleSzMalariaPatient: Patient.extension[2].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Value Set: Chiefdoms Value Set' (http://172.209.216.154:3447/fhir/ValueSet/SzChiefdomVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS#7)
 INFORMATION: Patient/SampleSzMalariaPatient: Patient.extension[2].value.ofType(CodeableConcept): Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS|0.1.0
 INFORMATION: Patient/SampleSzMalariaPatient: Patient.identifier[0].type: Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS|0.1.0
 WARNING: Patient/SampleSzMalariaPatient: Patient.identifier[0].system: No definition could be found for URL value 'http://mfl.sys/m001'
@@ -408,10 +407,8 @@ WARNING: Patient/SampleSzMalariaPatient: Patient.identifier[1].system: No defini
 ERROR: Patient/SampleSzPatient: Patient.extension[0]: The Extension 'http://hl7.org/fhir/StructureDefinition/patient-nationality' definition allows for the types [] but found type CodeableConcept
 ERROR: Patient/SampleSzPatient: Patient.extension[0]: Extension.value[x]: max allowed = 0, but found 1 (from http://hl7.org/fhir/StructureDefinition/patient-nationality|5.3.0-ballot-tc1)
 ERROR: Patient/SampleSzPatient: Patient.extension[0].value.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Eswatini' for urn:iso:std:iso:3166#SWZ. Valid display is 'Swaziland' (for the language(s) 'en-US')
-ERROR: Patient/SampleSzPatient: Patient.extension[1].value.ofType(CodeableConcept).coding[0].code: Unknown code 'DVOKODVWENI' in the CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS' version '0.1.0'
-ERROR: Patient/SampleSzPatient: Patient.extension[1].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Value Set: Tinkhundla' (http://172.209.216.154:3447/fhir/ValueSet/SzTinkhundlaVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzTinkhundlaCS#DVOKODVWENI)
-ERROR: Patient/SampleSzPatient: Patient.extension[2].value.ofType(CodeableConcept).coding[0].code: Unknown code 'Kwaluseni' in the CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS' version '0.1.0'
-ERROR: Patient/SampleSzPatient: Patient.extension[2].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Value Set: Chiefdoms Value Set' (http://172.209.216.154:3447/fhir/ValueSet/SzChiefdomVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS#Kwaluseni)
+ERROR: Patient/SampleSzPatient: Patient.extension[2].value.ofType(CodeableConcept).coding[0].display: Wrong whitespace in Display Name 'Lobamba' for http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS#7. Valid display is 'Lobamba ' (for the language(s) 'en-US')
+ERROR: Patient/SampleSzPatient: Patient.extension[2].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Value Set: Chiefdoms Value Set' (http://172.209.216.154:3447/fhir/ValueSet/SzChiefdomVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS#7)
 INFORMATION: Patient/SampleSzPatient: Patient.extension[2].value.ofType(CodeableConcept): Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS|0.1.0
 INFORMATION: Patient/SampleSzPatient: Patient.identifier[0].type: Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS|0.1.0
 INFORMATION: Patient/SampleSzPatient: Patient.identifier[1].type: Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS|0.1.0
@@ -503,6 +500,8 @@ WARNING: ValueSet/PersonIdentifiersVS: ValueSet: Published value sets SHOULD con
 WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/ValueSet-SzChiefdomVS.json ==
 WARNING: ValueSet/SzChiefdomVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
+== fsh-generated/resources/ValueSet-SzClinicalObservationCodesVS.json ==
 WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/ValueSet-SzEncounterClassificationVS.json ==
 WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
