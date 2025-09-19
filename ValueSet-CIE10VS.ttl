@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "CIE10VS"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet CIE10VS</b></p><a name=\"CIE10VS\"> </a><a name=\"hcCIE10VS\"> </a><ul><li>Include all codes defined in <a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-icd10.html\"><code>http://hl7.org/fhir/sid/icd-10</code></a></li></ul></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet CIE10VS</b></p><a name=\"CIE10VS\"> </a><a name=\"hcCIE10VS\"> </a><ul><li>Include all codes defined in <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-icd10.html\"><code>http://hl7.org/fhir/sid/icd-10</code></a></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "http://172.209.216.154:3447/fhir/ValueSet/CIE10VS"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 

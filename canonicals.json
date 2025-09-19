@@ -1,5 +1,12 @@
 [
   {
+    "id" : "SzCauseOfDeathSequenceOfConditionsCS",
+    "type" : "CodeSystem",
+    "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzCauseOfDeathSequenceOfConditionsCS",
+    "version" : "0.1.0",
+    "name" : "SzCauseOfDeathSequenceOfConditionsCS"
+  },
+  {
     "id" : "SzChiefdomCS",
     "type" : "CodeSystem",
     "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS",
@@ -154,6 +161,13 @@
     "name" : "SzAuthorizerExtension"
   },
   {
+    "id" : "SzCauseOfDeath",
+    "type" : "StructureDefinition",
+    "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzCauseOfDeath",
+    "version" : "0.1.0",
+    "name" : "SzCauseOfDeath"
+  },
+  {
     "id" : "SzChiefdomExtension",
     "type" : "StructureDefinition",
     "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzChiefdomExtension",
@@ -294,6 +308,13 @@
     "name" : "SzReferralRecipientExtension"
   },
   {
+    "id" : "SzRegistrationDate",
+    "type" : "StructureDefinition",
+    "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzRegistrationDate",
+    "version" : "0.1.0",
+    "name" : "SzRegistrationDate"
+  },
+  {
     "id" : "SzTestingLabExtension",
     "type" : "StructureDefinition",
     "url" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzTestingLabExtension",
@@ -390,6 +411,13 @@
     "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzReferralTypeVS",
     "version" : "0.1.0",
     "name" : "SzReferralTypeVS"
+  },
+  {
+    "id" : "SzSequenceOfConditionsVS",
+    "type" : "ValueSet",
+    "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzSequenceOfConditionsVS",
+    "version" : "0.1.0",
+    "name" : "SzSequenceOfConditionsVS"
   },
   {
     "id" : "SzServiceRequestCategoryVS",

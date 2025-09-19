@@ -10,7 +10,7 @@
   "name" : "EswatiniHIEImplementationGuide",
   "title" : "Eswatini HL7 FHIR Implementation Guide",
   "status" : "draft",
-  "date" : "2025-09-10T10:05:20+00:00",
+  "date" : "2025-09-19T08:18:44+00:00",
   "publisher" : "Ministry of Health Eswatini",
   "contact" : [{
     "name" : "Ministry of Health Eswatini",
@@ -51,6 +51,12 @@
     "uri" : "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core",
     "packageId" : "hl7.fhir.us.core",
     "version" : "7.0.0"
+  },
+  {
+    "id" : "hl7_fhir_us_vrdr",
+    "uri" : "http://hl7.org/fhir/us/vrdr/ImplementationGuide/hl7.fhir.us.vrdr",
+    "packageId" : "hl7.fhir.us.vrdr",
+    "version" : "3.0.0"
   }],
   "definition" : {
     "extension" : [{
@@ -765,6 +771,54 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/SzCauseOfDeathExample"
+      },
+      "name" : "Eswatini Cause of Death Example",
+      "description" : "Eswatini cause of Death Example",
+      "exampleCanonical" : "http://172.209.216.154:3447/fhir/StructureDefinition/SzCauseOfDeath"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/SzCauseOfDeath"
+      },
+      "name" : "Eswatini Cause of Death Profile",
+      "description" : "Eswatini Cause of Death Profile",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/SzSequenceOfConditionsVS"
+      },
+      "name" : "Eswatini Cause of Death sequence of conditions",
+      "description" : "Eswatini Cause of Death sequence of conditions",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/SzCauseOfDeathSequenceOfConditionsCS"
+      },
+      "name" : "Eswatini Cause of Death sequence of conditions",
+      "description" : "Eswatini Cause of Death sequence of conditions",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -1096,6 +1150,18 @@
       },
       "name" : "Extention: Eswatini Testing Laboratory",
       "description" : "Extention for Eswatini Testing Laboratory",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/SzRegistrationDate"
+      },
+      "name" : "Extention: Patient Registration Date",
+      "description" : "Extention for Eswatini Chiefdom",
       "exampleBoolean" : false
     },
     {

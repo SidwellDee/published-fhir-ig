@@ -1,14 +1,15 @@
 EswatiniHIEImplementationGuide : Validation Results
 =========================================
 
-err = 107, warn = 167, info = 70
+err = 113, warn = 184, info = 70
 IG Publisher Version: 2.0.12 Out of date - current version is 2.0.17
-Generated Wed Sep 10 10:08:45 UTC 2025. FHIR version 4.0.1 for hl7.fhir.sd.hie#0.1.0 (canonical = http://172.209.216.154:3447/fhir)
+Generated Fri Sep 19 08:23:20 UTC 2025. FHIR version 4.0.1 for hl7.fhir.sd.hie#0.1.0 (canonical = http://172.209.216.154:3447/fhir)
  Build Errors : 1 / 7 / 0
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Appointment-SampleSzAppointment : 0 / 1 / 2
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Appointment-SampleSzAppointment : 0 / 1 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Bundle-SampleSzBundle : 12 / 2 / 32
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Bundle-SampleSzBundle1 : 10 / 0 / 8
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Bundle-SampleSzMalariaBundle : 25 / 23 / 34
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Bundle-SampleSzMalariaBundle : 26 / 23 / 34
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzCauseOfDeathSequenceOfConditionsCS : 0 / 3 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzChiefdomCS : 0 / 24 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzClinicalObservationCodesCS : 0 / 3 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/CodeSystem-SzEncounterClassificationCS : 0 / 2 / 2
@@ -53,9 +54,10 @@ Generated Wed Sep 10 10:08:45 UTC 2025. FHIR version 4.0.1 for hl7.fhir.sd.hie#0
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Observation-SampleVitalsRespiratoryRate : 1 / 2 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Observation-SampleVitalsTemperature : 1 / 2 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Observation-SampleVitalsWeight : 1 / 2 / 1
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Organization-SampleSzOrganization : 0 / 0 / 2
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Organization-SampleSzOrganization1 : 0 / 0 / 2
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Patient-SampleSzMalariaPatient : 5 / 2 / 4
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Observation-SzCauseOfDeathExample : 2 / 1 / 3
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Organization-SampleSzOrganization : 0 / 0 / 1
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Organization-SampleSzOrganization1 : 0 / 0 / 1
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Patient-SampleSzMalariaPatient : 6 / 2 / 4
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Patient-SampleSzPatient : 5 / 0 / 4
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Practitioner-SampleSzPharmacyPractitioner : 0 / 0 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Practitioner-SampleSzPractitioner : 0 / 1 / 2
@@ -65,33 +67,35 @@ Generated Wed Sep 10 10:08:45 UTC 2025. FHIR version 4.0.1 for hl7.fhir.sd.hie#0
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/Specimen-SampleSzSpecimen : 2 / 0 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzAppointment : 1 / 0 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzAuthorizerExtension : 1 / 1 / 1
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzCauseOfDeath : 1 / 0 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzChiefdomExtension : 1 / 1 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzClinicalObservation : 1 / 0 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzCondition : 1 / 0 / 1
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzEncounter : 1 / 0 / 1
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzEncounter : 1 / 2 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzEpisodeOfCare : 1 / 0 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzInkhundlaExtension : 1 / 1 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzLabResult : 1 / 0 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzLabSpecimen : 5 / 0 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzLabTest : 1 / 0 / 1
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzLocation : 1 / 0 / 1
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzLocation : 1 / 1 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzLocationCodeExtension : 1 / 2 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzMedication : 1 / 0 / 1
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzMedicationDispense : 1 / 0 / 2
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzMedicationRequest : 1 / 0 / 1
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzMedicationDispense : 1 / 3 / 2
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzMedicationRequest : 1 / 2 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzOrganization : 1 / 0 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzPatient : 1 / 4 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzPractitioner : 1 / 0 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzProcedure : 1 / 0 / 1
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzReferral : 1 / 0 / 1
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzReferral : 1 / 1 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzReferralRecipientExtension : 1 / 1 / 1
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzRegistrationDate : 1 / 1 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzTestingLabExtension : 1 / 1 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/StructureDefinition-SzVitalSigns : 1 / 0 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-CIE10VS : 0 / 1 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-PersonIdentifiersVS : 0 / 2 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzChiefdomVS : 0 / 2 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzClinicalObservationCodesVS : 0 / 1 / 1
- /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzEncounterClassificationVS : 0 / 1 / 2
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzEncounterClassificationVS : 0 / 2 / 2
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzEpisodeOfCareTypeVS : 0 / 3 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzFacilityServicePointVS : 0 / 2 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzMalariaEncounterCodesVS : 0 / 2 / 1
@@ -99,6 +103,7 @@ Generated Wed Sep 10 10:08:45 UTC 2025. FHIR version 4.0.1 for hl7.fhir.sd.hie#0
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzReaonsForReferralVS : 0 / 1 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzReferralIntentVS : 0 / 1 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzReferralTypeVS : 0 / 1 / 1
+ /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzSequenceOfConditionsVS : 0 / 2 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzServiceRequestCategoryVS : 0 / 1 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzTestCodeVS : 0 / 1 / 1
  /home/publisher/ig/hmis-eswatini-fhir-ig/fsh-generated/resources/ValueSet-SzTestParameterCodeVS : 0 / 3 / 2
@@ -114,7 +119,6 @@ WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-ta
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 WARNING: IG: The IG is not for the international realm, and it uses SNOMED CT, so it should fix the SCT edition in the expansion parameters
 == fsh-generated/resources/Appointment-SampleSzAppointment.json ==
-INFORMATION: Appointment/SampleSzAppointment: Appointment.serviceCategory[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/service-category|1.1.0
 WARNING: Appointment/SampleSzAppointment: Appointment.serviceType[0].coding[0].system: A definition for CodeSystem 'http://172.209.216.154:3447/fhir/CodeSystem/SzServicePointCS' could not be found, so the code cannot be validated
 == fsh-generated/resources/Bundle-SampleSzBundle.json ==
 ERROR: Bundle/SampleSzBundle: Bundle.entry[0].resource/*Patient/SampleSzPatient*/.extension[0]: The Extension 'http://hl7.org/fhir/StructureDefinition/patient-nationality' definition allows for the types [] but found type CodeableConcept
@@ -175,6 +179,7 @@ INFORMATION: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/Sam
 WARNING: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/.identifier[0].system: No definition could be found for URL value 'http://mfl.sys/m001'
 INFORMATION: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/.identifier[1].type: Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzPersonIdentificationsCS|0.1.0
 WARNING: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/.identifier[1].system: No definition could be found for URL value 'http://homeaffairs.sys'
+ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[0].resource/*Patient/SampleSzMalariaPatient*/: Slice 'Patient.extension:registrationDate' for extension 'http://172.209.216.154:3447/fhir/StructureDefinition/SzRegistrationDate': a matching slice is required, but not found (from http://172.209.216.154:3447/fhir/StructureDefinition/SzPatient|0.1.0). Note that other slices are allowed in addition to this required slice
 WARNING: Bundle/SampleSzMalariaBundle: Bundle.entry[2].resource/*Observation/SampleVitalsWeight*/: Best Practice Recommendation: In general, all observations should have a performer
 ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[2].resource/*Observation/SampleVitalsWeight*/.code.coding[0].system: The Coding references a value set, not a code system ('http://hl7.org/fhir/ValueSet/observation-vitalsignresult')
 WARNING: Bundle/SampleSzMalariaBundle: Bundle.entry[2].resource/*Observation/SampleVitalsWeight*/.code.coding[0]: A definition for CodeSystem 'http://hl7.org/fhir/ValueSet/observation-vitalsignresult' could not be found, so the code cannot be validated
@@ -197,7 +202,7 @@ INFORMATION: Bundle/SampleSzMalariaBundle: Bundle.entry[7].resource/*DiagnosticR
 ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[7].resource/*DiagnosticReport/SampleSzMalariaLabTest*/.code: None of the codings provided are in the value set 'Value Set: Local Test Codes' (http://172.209.216.154:3447/fhir/ValueSet/SzTestCodeVS|0.1.0), and a coding from this value set is required) (codes = http://172.209.216.154:3447/fhir/CodeSystem/SzTestCodeCS#MALS)
 ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[7].resource/*DiagnosticReport/SampleSzMalariaLabTest*/.subject: Unable to find a profile match for Patient/SampleSzMalariaPatient among choices: http://172.209.216.154:3447/fhir/StructureDefinition/SzPatient
 INFORMATION: Bundle/SampleSzMalariaBundle: Bundle.entry[7].resource/*DiagnosticReport/SampleSzMalariaLabTest*/.subject: Details for Patient/SampleSzMalariaPatient matching against profile http://172.209.216.154:3447/fhir/StructureDefinition/SzPatient|0.1.0
-ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[8].resource/*Condition/SampleSzMalariaCondition-001*/.category[0].coding[0].code: Unknown code 'diagnosis' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/condition-category' version '1.0.0'
+ERROR: Bundle/SampleSzMalariaBundle: Bundle.entry[8].resource/*Condition/SampleSzMalariaCondition-001*/.category[0].coding[0].code: Unknown code 'diagnosis' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/condition-category' version '1.0.1'
 WARNING: Bundle/SampleSzMalariaBundle: Bundle.entry[8].resource/*Condition/SampleSzMalariaCondition-001*/.code.coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/sid/icd-11' could not be found, so the code cannot be validated
 WARNING: Bundle/SampleSzMalariaBundle: Bundle.entry[8].resource/*Condition/SampleSzMalariaCondition-001*/.code.coding[1]: A definition for CodeSystem 'http://hl7.org/fhir/sid/icd-11' could not be found, so the code cannot be validated
 WARNING: Bundle/SampleSzMalariaBundle: Bundle.entry[8].resource/*Condition/SampleSzMalariaCondition-001*/.code.coding[2]: A definition for CodeSystem 'http://hl7.org/fhir/sid/icd-11' could not be found, so the code cannot be validated
@@ -225,6 +230,11 @@ WARNING: Bundle/SampleSzMalariaBundle: Bundle.entry[4].resource: Best Practice R
 WARNING: Bundle/SampleSzMalariaBundle: Bundle.entry[5].resource: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Bundle/SampleSzMalariaBundle: Bundle.entry[6].resource: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Bundle/SampleSzMalariaBundle: Bundle.entry[10].resource: Best Practice Recommendation: In general, all observations should have a performer
+== fsh-generated/resources/CodeSystem-SzCauseOfDeathSequenceOfConditionsCS.json ==
+INFORMATION: CodeSystem/SzCauseOfDeathSequenceOfConditionsCS: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/SzCauseOfDeathSequenceOfConditionsCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/SzCauseOfDeathSequenceOfConditionsCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/CodeSystem-SzChiefdomCS.json ==
 WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[1].display: value should not start or finish with whitespace 'Lamgabhi '
 WARNING: CodeSystem/SzChiefdomCS: CodeSystem.concept[7].display: value should not start or finish with whitespace 'Lobamba '
@@ -318,7 +328,7 @@ INFORMATION: CodeSystem/SzTinkhundlaCS: CodeSystem: CodeSystems SHOULD have a st
 WARNING: CodeSystem/SzTinkhundlaCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/Condition-SampleSzMalariaCondition-001.json ==
-ERROR: Condition/SampleSzMalariaCondition-001: Condition.category[0].coding[0].code: Unknown code 'diagnosis' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/condition-category' version '1.0.0'
+ERROR: Condition/SampleSzMalariaCondition-001: Condition.category[0].coding[0].code: Unknown code 'diagnosis' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/condition-category' version '1.0.1'
 WARNING: Condition/SampleSzMalariaCondition-001: Condition.code.coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/sid/icd-11' could not be found, so the code cannot be validated
 WARNING: Condition/SampleSzMalariaCondition-001: Condition.code.coding[1]: A definition for CodeSystem 'http://hl7.org/fhir/sid/icd-11' could not be found, so the code cannot be validated
 WARNING: Condition/SampleSzMalariaCondition-001: Condition.code.coding[2]: A definition for CodeSystem 'http://hl7.org/fhir/sid/icd-11' could not be found, so the code cannot be validated
@@ -399,11 +409,16 @@ WARNING: Observation/SampleVitalsTemperature: Observation: Best Practice Recomme
 WARNING: Observation/SampleVitalsWeight: Observation.code.coding[0]: A definition for CodeSystem 'http://hl7.org/fhir/ValueSet/observation-vitalsignresult' could not be found, so the code cannot be validated
 ERROR: Observation/SampleVitalsWeight: Observation.code: None of the codings provided are in the value set 'Vital Signs' (http://hl7.org/fhir/ValueSet/observation-vitalsignresult|4.0.1), and a coding from this value set is required) (codes = http://hl7.org/fhir/ValueSet/observation-vitalsignresult#29463-7)
 WARNING: Observation/SampleVitalsWeight: Observation: Best Practice Recommendation: In general, all observations should have a performer
+== fsh-generated/resources/Observation-SzCauseOfDeathExample.json ==
+ERROR: Observation/SzCauseOfDeathExample: Observation.component[0]: Slicing cannot be evaluated: Could not match discriminator (code) for slice Observation.component:sequenceOfConditions in profile http://172.209.216.154:3447/fhir/StructureDefinition/SzCauseOfDeath|0.1.0 - the discriminator [code] does not have fixed value, binding or existence assertions
+ERROR: Observation/SzCauseOfDeathExample: Observation.component[1]: Slicing cannot be evaluated: Could not match discriminator (code) for slice Observation.component:sequenceOfConditions in profile http://172.209.216.154:3447/fhir/StructureDefinition/SzCauseOfDeath|0.1.0 - the discriminator [code] does not have fixed value, binding or existence assertions
+INFORMATION: Observation/SzCauseOfDeathExample: Observation: Observation.component:sequenceOfConditions: Found 0 matches, but unable to check minimum required (Observation.component) due to lack of slicing validation (from http://172.209.216.154:3447/fhir/StructureDefinition/SzCauseOfDeath|0.1.0)
+INFORMATION: Observation/SzCauseOfDeathExample: Observation.component[1].code: Reference to draft CodeSystem http://172.209.216.154:3447/fhir/CodeSystem/SzCauseOfDeathSequenceOfConditionsCS|0.1.0
+WARNING: Observation/SzCauseOfDeathExample: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
 == fsh-generated/resources/Organization-SampleSzOrganization.json ==
-INFORMATION: Organization/SampleSzOrganization: Organization.type[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/organization-type|2.0.0
 == fsh-generated/resources/Organization-SampleSzOrganization1.json ==
-INFORMATION: Organization/SampleSzOrganization1: Organization.type[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/organization-type|2.0.0
 == fsh-generated/resources/Patient-SampleSzMalariaPatient.json ==
+ERROR: Patient/SampleSzMalariaPatient: Patient: Slice 'Patient.extension:registrationDate' for extension 'http://172.209.216.154:3447/fhir/StructureDefinition/SzRegistrationDate': a matching slice is required, but not found (from http://172.209.216.154:3447/fhir/StructureDefinition/SzPatient|0.1.0). Note that other slices are allowed in addition to this required slice
 ERROR: Patient/SampleSzMalariaPatient: Patient.extension[0]: The Extension 'http://hl7.org/fhir/StructureDefinition/patient-nationality' definition allows for the types [] but found type CodeableConcept
 ERROR: Patient/SampleSzMalariaPatient: Patient.extension[0]: Extension.value[x]: max allowed = 0, but found 1 (from http://hl7.org/fhir/StructureDefinition/patient-nationality|5.3.0-ballot-tc1)
 ERROR: Patient/SampleSzMalariaPatient: Patient.extension[0].value.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Eswatini' for urn:iso:std:iso:3166#SWZ. Valid display is 'Swaziland' (for the language(s) 'en-US')
@@ -444,6 +459,8 @@ ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdict
 == fsh-generated/resources/StructureDefinition-SzAuthorizerExtension.json ==
 WARNING: StructureDefinition/SzAuthorizerExtension: StructureDefinition.context[0]: Review the extension type for SzAuthorizerExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
+== fsh-generated/resources/StructureDefinition-SzCauseOfDeath.json ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/StructureDefinition-SzChiefdomExtension.json ==
 WARNING: StructureDefinition/SzChiefdomExtension: StructureDefinition.context[0]: Review the extension type for SzChiefdomExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
@@ -452,6 +469,8 @@ ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdict
 == fsh-generated/resources/StructureDefinition-SzCondition.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/StructureDefinition-SzEncounter.json ==
+WARNING: StructureDefinition/SzEncounter: StructureDefinition.snapshot.element[22].binding.valueSet: There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/v3-ActEncounterCode'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 2.0.0, 3.0.0. Suggested fix: change the canonical reference from 'http://terminology.hl7.org/ValueSet/v3-ActEncounterCode' to 'http://terminology.hl7.org/ValueSet/v3-ActEncounterCode|3.0.0'
+WARNING: StructureDefinition/SzEncounter: StructureDefinition.snapshot.element[26].binding.valueSet: There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/v3-ActPriority'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 2.0.0, 3.0.0. Suggested fix: change the canonical reference from 'http://terminology.hl7.org/ValueSet/v3-ActPriority' to 'http://terminology.hl7.org/ValueSet/v3-ActPriority|3.0.0'
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/StructureDefinition-SzEpisodeOfCare.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
@@ -469,6 +488,7 @@ ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdict
 == fsh-generated/resources/StructureDefinition-SzLabTest.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/StructureDefinition-SzLocation.json ==
+WARNING: StructureDefinition/SzLocation: StructureDefinition.snapshot.element[16].binding.valueSet: There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 2.0.0, 3.0.0. Suggested fix: change the canonical reference from 'http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType' to 'http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType|3.0.0'
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/StructureDefinition-SzLocationCodeExtension.json ==
 WARNING: StructureDefinition/SzLocationCodeExtension: StructureDefinition.context[0]: Review the extension type for SzLocationCodeExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
@@ -477,27 +497,36 @@ WARNING: StructureDefinition.where(url = 'http://172.209.216.154:3447/fhir/Struc
 == fsh-generated/resources/StructureDefinition-SzMedication.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/StructureDefinition-SzMedicationDispense.json ==
+WARNING: StructureDefinition/SzMedicationDispense: StructureDefinition.snapshot.element[27].binding.valueSet: There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/v3-ActPharmacySupplyType'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 2.0.0, 3.0.0. Suggested fix: change the canonical reference from 'http://terminology.hl7.org/ValueSet/v3-ActPharmacySupplyType' to 'http://terminology.hl7.org/ValueSet/v3-ActPharmacySupplyType|3.0.0'
 INFORMATION: StructureDefinition/SzMedicationDispense: StructureDefinition.snapshot.element[29].mapping[0].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+WARNING: StructureDefinition/SzMedicationDispense: StructureDefinition.snapshot.element[41].binding.valueSet: There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/v3-ActSubstanceAdminSubstitutionCode'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 2.0.0, 3.0.0. Suggested fix: change the canonical reference from 'http://terminology.hl7.org/ValueSet/v3-ActSubstanceAdminSubstitutionCode' to 'http://terminology.hl7.org/ValueSet/v3-ActSubstanceAdminSubstitutionCode|3.0.0'
+WARNING: StructureDefinition/SzMedicationDispense: StructureDefinition.snapshot.element[42].binding.valueSet: There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/v3-SubstanceAdminSubstitutionReason'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 2.0.0, 3.0.0. Suggested fix: change the canonical reference from 'http://terminology.hl7.org/ValueSet/v3-SubstanceAdminSubstitutionReason' to 'http://terminology.hl7.org/ValueSet/v3-SubstanceAdminSubstitutionReason|3.0.0'
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/StructureDefinition-SzMedicationRequest.json ==
+WARNING: StructureDefinition/SzMedicationRequest: StructureDefinition.snapshot.element[79].binding.valueSet: There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/v3-ActSubstanceAdminSubstitutionCode'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 2.0.0, 3.0.0. Suggested fix: change the canonical reference from 'http://terminology.hl7.org/ValueSet/v3-ActSubstanceAdminSubstitutionCode' to 'http://terminology.hl7.org/ValueSet/v3-ActSubstanceAdminSubstitutionCode|3.0.0'
+WARNING: StructureDefinition/SzMedicationRequest: StructureDefinition.snapshot.element[80].binding.valueSet: There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/v3-SubstanceAdminSubstitutionReason'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 2.0.0, 3.0.0. Suggested fix: change the canonical reference from 'http://terminology.hl7.org/ValueSet/v3-SubstanceAdminSubstitutionReason' to 'http://terminology.hl7.org/ValueSet/v3-SubstanceAdminSubstitutionReason|3.0.0'
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/StructureDefinition-SzOrganization.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/StructureDefinition-SzPatient.json ==
 WARNING: StructureDefinition/SzPatient: StructureDefinition.snapshot.element[8].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-nationality'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.3.0-ballot-tc1', found versions: 4.0.1, 5.1.0, 5.3.0-ballot-tc1. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-nationality' to 'http://hl7.org/fhir/StructureDefinition/patient-nationality|5.3.0-ballot-tc1'
-WARNING: StructureDefinition/SzPatient: StructureDefinition.snapshot.element[48].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-birthTime'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.3.0-ballot-tc1', found versions: 4.0.1, 5.1.0, 5.3.0-ballot-tc1. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-birthTime' to 'http://hl7.org/fhir/StructureDefinition/patient-birthTime|5.3.0-ballot-tc1'
-INFORMATION: StructureDefinition/SzPatient: StructureDefinition.snapshot.element[49].type[0].extension[1]: The extension http://hl7.org/fhir/StructureDefinition/regex|5.3.0-ballot-tc1 is deprecated with the note This was deprecated in favor of using a constraint on the element using FHIRPath, since constraints allow for the provision of a human readable message associated with the regex
+WARNING: StructureDefinition/SzPatient: StructureDefinition.snapshot.element[49].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-birthTime'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.3.0-ballot-tc1', found versions: 4.0.1, 5.1.0, 5.3.0-ballot-tc1. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-birthTime' to 'http://hl7.org/fhir/StructureDefinition/patient-birthTime|5.3.0-ballot-tc1'
+INFORMATION: StructureDefinition/SzPatient: StructureDefinition.snapshot.element[50].type[0].extension[1]: The extension http://hl7.org/fhir/StructureDefinition/regex|5.3.0-ballot-tc1 is deprecated with the note This was deprecated in favor of using a constraint on the element using FHIRPath, since constraints allow for the provision of a human readable message associated with the regex
 WARNING: StructureDefinition/SzPatient: StructureDefinition.differential.element[1].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-nationality'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.3.0-ballot-tc1', found versions: 4.0.1, 5.1.0, 5.3.0-ballot-tc1. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-nationality' to 'http://hl7.org/fhir/StructureDefinition/patient-nationality|5.3.0-ballot-tc1'
-WARNING: StructureDefinition/SzPatient: StructureDefinition.differential.element[14].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-birthTime'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.3.0-ballot-tc1', found versions: 4.0.1, 5.1.0, 5.3.0-ballot-tc1. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-birthTime' to 'http://hl7.org/fhir/StructureDefinition/patient-birthTime|5.3.0-ballot-tc1'
+WARNING: StructureDefinition/SzPatient: StructureDefinition.differential.element[15].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-birthTime'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.3.0-ballot-tc1', found versions: 4.0.1, 5.1.0, 5.3.0-ballot-tc1. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-birthTime' to 'http://hl7.org/fhir/StructureDefinition/patient-birthTime|5.3.0-ballot-tc1'
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/StructureDefinition-SzPractitioner.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/StructureDefinition-SzProcedure.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/StructureDefinition-SzReferral.json ==
+WARNING: StructureDefinition/SzReferral: StructureDefinition.snapshot.element[32].binding.valueSet: There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 2.0.0, 3.0.0. Suggested fix: change the canonical reference from 'http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType' to 'http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType|3.0.0'
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/StructureDefinition-SzReferralRecipientExtension.json ==
 WARNING: StructureDefinition/SzReferralRecipientExtension: StructureDefinition.context[0]: Review the extension type for SzReferralRecipientExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
+== fsh-generated/resources/StructureDefinition-SzRegistrationDate.json ==
+WARNING: StructureDefinition/SzRegistrationDate: StructureDefinition.context[0]: Review the extension type for SzRegistrationDate: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/StructureDefinition-SzTestingLabExtension.json ==
 WARNING: StructureDefinition/SzTestingLabExtension: StructureDefinition.context[0]: Review the extension type for SzTestingLabExtension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
@@ -515,10 +544,11 @@ WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to 
 == fsh-generated/resources/ValueSet-SzClinicalObservationCodesVS.json ==
 WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/ValueSet-SzEncounterClassificationVS.json ==
+WARNING: ValueSet/SzEncounterClassificationVS: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-ActCode'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '9.0.0', found versions: 6.1.0, 7.0.0, 9.0.0. Suggested fix: change the canonical reference from 'http://terminology.hl7.org/CodeSystem/v3-ActCode' to 'http://terminology.hl7.org/CodeSystem/v3-ActCode|9.0.0'
 WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 INFORMATION: ValueSet.where(id = 'SzEncounterClassificationVS'): The value set expansion is too large, and only a subset has been displayed
 == fsh-generated/resources/ValueSet-SzEpisodeOfCareTypeVS.json ==
-WARNING: ValueSet/SzEpisodeOfCareTypeVS: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/episodeofcare-type'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '1.0.0', found versions: 1.0.0, 1.0.1. Suggested fix: change the canonical reference from 'http://terminology.hl7.org/CodeSystem/episodeofcare-type' to 'http://terminology.hl7.org/CodeSystem/episodeofcare-type|1.0.0'
+WARNING: ValueSet/SzEpisodeOfCareTypeVS: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/episodeofcare-type'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '1.0.1', found versions: 0.1.0, 1.0.0, 1.0.1. Suggested fix: change the canonical reference from 'http://terminology.hl7.org/CodeSystem/episodeofcare-type' to 'http://terminology.hl7.org/CodeSystem/episodeofcare-type|1.0.1'
 WARNING: ValueSet/SzEpisodeOfCareTypeVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/ValueSet-SzFacilityServicePointVS.json ==
@@ -535,6 +565,9 @@ WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to 
 == fsh-generated/resources/ValueSet-SzReferralIntentVS.json ==
 WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/ValueSet-SzReferralTypeVS.json ==
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
+== fsh-generated/resources/ValueSet-SzSequenceOfConditionsVS.json ==
+WARNING: ValueSet/SzSequenceOfConditionsVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')
 == fsh-generated/resources/ValueSet-SzServiceRequestCategoryVS.json ==
 WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.sd.hie, jurisdiction = urn:iso:std:iso:3166#SD instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#SD "null"')

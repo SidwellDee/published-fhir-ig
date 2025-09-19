@@ -10,7 +10,7 @@
   <name value="EswatiniHIEImplementationGuide"/>
   <title value="Eswatini HL7 FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2025-09-10T10:05:20+00:00"/>
+  <date value="2025-09-19T08:18:44+00:00"/>
   <publisher value="Ministry of Health Eswatini"/>
   <contact>
     <name value="Ministry of Health Eswatini"/>
@@ -46,6 +46,11 @@
     <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"/>
     <packageId value="hl7.fhir.us.core"/>
     <version value="7.0.0"/>
+  </dependsOn>
+  <dependsOn id="hl7_fhir_us_vrdr">
+    <uri value="http://hl7.org/fhir/us/vrdr/ImplementationGuide/hl7.fhir.us.vrdr"/>
+    <packageId value="hl7.fhir.us.vrdr"/>
+    <version value="3.0.0"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -595,6 +600,50 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SzCauseOfDeathExample"/>
+      </reference>
+      <name value="Eswatini Cause of Death Example"/>
+      <description value="Eswatini cause of Death Example"/>
+      <exampleCanonical value="http://172.209.216.154:3447/fhir/StructureDefinition/SzCauseOfDeath"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SzCauseOfDeath"/>
+      </reference>
+      <name value="Eswatini Cause of Death Profile"/>
+      <description value="Eswatini Cause of Death Profile"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/SzSequenceOfConditionsVS"/>
+      </reference>
+      <name value="Eswatini Cause of Death sequence of conditions"/>
+      <description value="Eswatini Cause of Death sequence of conditions"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/SzCauseOfDeathSequenceOfConditionsCS"/>
+      </reference>
+      <name value="Eswatini Cause of Death sequence of conditions"/>
+      <description value="Eswatini Cause of Death sequence of conditions"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -899,6 +948,17 @@
       </reference>
       <name value="Extention: Eswatini Testing Laboratory"/>
       <description value="Extention for Eswatini Testing Laboratory"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SzRegistrationDate"/>
+      </reference>
+      <name value="Extention: Patient Registration Date"/>
+      <description value="Extention for Eswatini Chiefdom"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

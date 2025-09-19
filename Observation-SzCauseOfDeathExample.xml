@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="SzCauseOfDeathExample"/>
+  <meta>
+    <profile value="http://172.209.216.154:3447/fhir/StructureDefinition/SzCauseOfDeath"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation SzCauseOfDeathExample</b></p><a name="SzCauseOfDeathExample"> </a><a name="hcSzCauseOfDeathExample"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-SzCauseOfDeath.html">Eswatini Cause of Death Profile</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://loinc.org 79378-6}">Cause of death</span></p><p><b>subject</b>: <a href="Patient-SampleSzPatient.html">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</a></p><p><b>performer</b>: <a href="Practitioner-SampleSzPractitioner.html">Practitioner Thabile Celiwe Dlamini </a></p><p><b>value</b>: <span title="Codes:">Acute kidney failure, stage 3</span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 69440-6}">Disease onset to death interval</span></p><p><b>value</b>: 4 hours</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://172.209.216.154:3447/fhir/CodeSystem/SzCauseOfDeathSequenceOfConditionsCS intermediate}">Intermediate</span></p><p><b>value</b>: Intermediate</p></blockquote></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="79378-6"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/SampleSzPatient"/>
+  </subject>
+  <performer>
+    <reference value="Practitioner/SampleSzPractitioner"/>
+  </performer>
+  <valueCodeableConcept>
+    <text value="Acute kidney failure, stage 3"/>
+  </valueCodeableConcept>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="69440-6"/>
+      </coding>
+    </code>
+    <valueString value="4 hours"/>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzCauseOfDeathSequenceOfConditionsCS"/>
+        <code value="intermediate"/>
+      </coding>
+    </code>
+    <valueString value="Intermediate"/>
+  </component>
+</Observation>

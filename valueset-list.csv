@@ -11,6 +11,7 @@ http://172.209.216.154:3447/fhir/ValueSet/SzProductCodeVS,0.1.0,draft,,SzProduct
 http://172.209.216.154:3447/fhir/ValueSet/SzReaonsForReferralVS,0.1.0,active,,SzReaonsForReferralVS,Value Set: Reasons for Referral,"Eswatini Reasons for Referral",,"Internal"
 http://172.209.216.154:3447/fhir/ValueSet/SzReferralIntentVS,0.1.0,active,,SzReferralIntentVS,Value Set: Referral Intent,"Eswatini Referral Intent",,"Internal,hl7.fhir.r4.core"
 http://172.209.216.154:3447/fhir/ValueSet/SzReferralTypeVS,0.1.0,active,,SzReferralTypeVS,Value Set: Referral Type,"Eswatini Referral Types",,"Internal"
+http://172.209.216.154:3447/fhir/ValueSet/SzSequenceOfConditionsVS,0.1.0,draft,,SzSequenceOfConditionsVS,Eswatini Cause of Death sequence of conditions,"Eswatini Cause of Death sequence of conditions",,"Internal"
 http://172.209.216.154:3447/fhir/ValueSet/SzServiceRequestCategoryVS,0.1.0,active,,SzServiceRequestCategoryVS,Value Set: Service Request,"Eswatini Service Request",,"Internal"
 http://172.209.216.154:3447/fhir/ValueSet/SzTestCodeVS,0.1.0,active,,SzTestCodeVS,Value Set: Local Test Codes,"Eswatini Local Test Codes",,"Internal"
 http://172.209.216.154:3447/fhir/ValueSet/SzTestParameterCodeVS,0.1.0,draft,,SzTestParameterCodeVS,Value Set: Eswatini Local Test Parameter Codes,"",,"Internal"

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="SzSequenceOfConditionsVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet SzSequenceOfConditionsVS</b></p><a name="SzSequenceOfConditionsVS"> </a><a name="hcSzSequenceOfConditionsVS"> </a><ul><li>Include all codes defined in <a href="CodeSystem-SzCauseOfDeathSequenceOfConditionsCS.html"><code>http://172.209.216.154:3447/fhir/CodeSystem/SzCauseOfDeathSequenceOfConditionsCS</code></a></li></ul></div>
+  </text>
+  <url value="http://172.209.216.154:3447/fhir/ValueSet/SzSequenceOfConditionsVS"/>
+  <version value="0.1.0"/>
+  <name value="SzSequenceOfConditionsVS"/>
+  <title value="Eswatini Cause of Death sequence of conditions"/>
+  <status value="draft"/>
+  <date value="2025-09-19T08:18:44+00:00"/>
+  <publisher value="Ministry of Health Eswatini"/>
+  <contact>
+    <name value="Ministry of Health Eswatini"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://172.209.216.154:3447"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="eswatinihie@moh.gov.sz"/>
+    </telecom>
+  </contact>
+  <description value="Eswatini Cause of Death sequence of conditions"/>
+  <compose>
+    <include>
+      <system value="http://172.209.216.154:3447/fhir/CodeSystem/SzCauseOfDeathSequenceOfConditionsCS"/>
+    </include>
+  </compose>
+</ValueSet>

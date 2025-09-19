@@ -3,7 +3,7 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="SzEncounterClassificationVS"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet SzEncounterClassificationVS</b></p><a name="SzEncounterClassificationVS"> </a><a name="hcSzEncounterClassificationVS"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="http://terminology.hl7.org/5.5.0/CodeSystem-v3-ActCode.html"><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></a></li><li>Include all codes defined in <a href="CodeSystem-SzEncounterClassificationCS.html"><code>http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterClassificationCS</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet SzEncounterClassificationVS</b></p><a name="SzEncounterClassificationVS"> </a><a name="hcSzEncounterClassificationVS"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="http://terminology.hl7.org/6.0.2/CodeSystem-v3-ActCode.html"><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></a></li><li>Include all codes defined in <a href="CodeSystem-SzEncounterClassificationCS.html"><code>http://172.209.216.154:3447/fhir/CodeSystem/SzEncounterClassificationCS</code></a></li></ul></div>
   </text>
   <url value="http://172.209.216.154:3447/fhir/ValueSet/SzEncounterClassificationVS"/>
   <version value="0.1.0"/>
@@ -11,7 +11,7 @@
   <title value="Value Set: Encounter Classification"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-09-10T10:05:20+00:00"/>
+  <date value="2025-09-19T08:18:44+00:00"/>
   <publisher value="Ministry of Health Eswatini"/>
   <contact>
     <name value="Ministry of Health Eswatini"/>

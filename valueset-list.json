@@ -134,6 +134,17 @@
       ]
     },
     {
+      "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzSequenceOfConditionsVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SzSequenceOfConditionsVS",
+      "title" : "Eswatini Cause of Death sequence of conditions",
+      "description" : "Eswatini Cause of Death sequence of conditions",
+      "systems" : [
+        "http://172.209.216.154:3447/fhir/CodeSystem/SzCauseOfDeathSequenceOfConditionsCS"
+      ]
+    },
+    {
       "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzServiceRequestCategoryVS",
       "version" : "0.1.0",
       "status" : "active",

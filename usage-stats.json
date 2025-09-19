@@ -89,6 +89,13 @@
       ]
     },
     {
+      "url": "http://172.209.216.154:3447/fhir/StructureDefinition/SzRegistrationDate",
+      "title": "Extention: Patient Registration Date",
+      "types": [
+        "dateTime"
+      ]
+    },
+    {
       "url": "http://172.209.216.154:3447/fhir/StructureDefinition/SzTestingLabExtension",
       "title": "Extention: Eswatini Testing Laboratory",
       "types": [
@@ -208,6 +215,10 @@
     ],
     "http://172.209.216.154:3447/fhir/StructureDefinition/SzReferralRecipientExtension": [
       "ServiceRequest"
+    ],
+    "http://172.209.216.154:3447/fhir/StructureDefinition/SzRegistrationDate": [
+      "Bundle.entry.resource",
+      "Patient"
     ],
     "http://172.209.216.154:3447/fhir/StructureDefinition/SzTestingLabExtension": [
       "Observation"

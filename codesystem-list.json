@@ -1,6 +1,14 @@
 {
   "codeSystems" : [
     {
+      "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzCauseOfDeathSequenceOfConditionsCS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SzCauseOfDeathSequenceOfConditionsCS",
+      "title" : "Eswatini Cause of Death sequence of conditions",
+      "description" : "Eswatini Cause of Death sequence of conditions"
+    },
+    {
       "url" : "http://172.209.216.154:3447/fhir/CodeSystem/SzChiefdomCS",
       "version" : "0.1.0",
       "status" : "draft",

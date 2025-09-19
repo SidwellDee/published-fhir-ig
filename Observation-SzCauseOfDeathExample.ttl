@@ -1,0 +1,69 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://172.209.216.154:3447/fhir/Observation/SzCauseOfDeathExample> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "SzCauseOfDeathExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzCauseOfDeath"^^xsd:anyURI ;
+       fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzCauseOfDeath>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation SzCauseOfDeathExample</b></p><a name=\"SzCauseOfDeathExample\"> </a><a name=\"hcSzCauseOfDeathExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SzCauseOfDeath.html\">Eswatini Cause of Death Profile</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 79378-6}\">Cause of death</span></p><p><b>subject</b>: <a href=\"Patient-SampleSzPatient.html\">Celucolo Celani Sacolo  Male, DoB: 2000-01-01 ( Medical Record Number: Client Management Information System#M001010101-1 (use: usual, ))</a></p><p><b>performer</b>: <a href=\"Practitioner-SampleSzPractitioner.html\">Practitioner Thabile Celiwe Dlamini </a></p><p><b>value</b>: <span title=\"Codes:\">Acute kidney failure, stage 3</span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 69440-6}\">Disease onset to death interval</span></p><p><b>value</b>: 4 hours</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://172.209.216.154:3447/fhir/CodeSystem/SzCauseOfDeathSequenceOfConditionsCS intermediate}\">Intermediate</span></p><p><b>value</b>: Intermediate</p></blockquote></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a loinc:79378-6 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "79378-6" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://172.209.216.154:3447/fhir/Patient/SampleSzPatient> ;
+     fhir:reference [ fhir:v "Patient/SampleSzPatient" ]
+  ] ; # 
+  fhir:performer ( [
+     fhir:link <http://172.209.216.154:3447/fhir/Practitioner/SampleSzPractitioner> ;
+     fhir:reference [ fhir:v "Practitioner/SampleSzPractitioner" ]
+  ] ) ; # 
+  fhir:value [
+     a fhir:CodeableConcept ;
+     fhir:text [ fhir:v "Acute kidney failure, stage 3" ]
+  ] ; # 
+  fhir:component ( [
+     fhir:code [
+       fhir:coding ( [
+         a loinc:69440-6 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "69440-6" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:string ;
+       fhir:v "4 hours"
+     ]
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://172.209.216.154:3447/fhir/CodeSystem/SzCauseOfDeathSequenceOfConditionsCS"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "intermediate" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:string ;
+       fhir:v "Intermediate"
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

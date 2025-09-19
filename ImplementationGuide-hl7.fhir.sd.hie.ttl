@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "EswatiniHIEImplementationGuide"] ; # 
   fhir:title [ fhir:v "Eswatini HL7 FHIR Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-09-10T10:05:20+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-19T08:18:44+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministry of Health Eswatini"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Ministry of Health Eswatini" ] ;
@@ -71,6 +71,14 @@
      ] ;
      fhir:packageId [ fhir:v "hl7.fhir.us.core" ] ;
      fhir:version [ fhir:v "7.0.0" ]
+  ] [
+     fhir:id [ fhir:v "hl7_fhir_us_vrdr" ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/us/vrdr/ImplementationGuide/hl7.fhir.us.vrdr"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/us/vrdr/ImplementationGuide/hl7.fhir.us.vrdr>
+     ] ;
+     fhir:packageId [ fhir:v "hl7.fhir.us.vrdr" ] ;
+     fhir:version [ fhir:v "3.0.0" ]
   ] ) ; # 
   fhir:definition [
      fhir:extension ( [
@@ -1068,6 +1076,79 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "Observation"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://172.209.216.154:3447/fhir/Observation/SzCauseOfDeathExample> ;
+         fhir:reference [ fhir:v "Observation/SzCauseOfDeathExample" ]
+       ] ;
+       fhir:name [ fhir:v "Eswatini Cause of Death Example" ] ;
+       fhir:description [ fhir:v "Eswatini cause of Death Example" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://172.209.216.154:3447/fhir/StructureDefinition/SzCauseOfDeath"^^xsd:anyURI ;
+         fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzCauseOfDeath>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzCauseOfDeath> ;
+         fhir:reference [ fhir:v "StructureDefinition/SzCauseOfDeath" ]
+       ] ;
+       fhir:name [ fhir:v "Eswatini Cause of Death Profile" ] ;
+       fhir:description [ fhir:v "Eswatini Cause of Death Profile" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://172.209.216.154:3447/fhir/ValueSet/SzSequenceOfConditionsVS> ;
+         fhir:reference [ fhir:v "ValueSet/SzSequenceOfConditionsVS" ]
+       ] ;
+       fhir:name [ fhir:v "Eswatini Cause of Death sequence of conditions" ] ;
+       fhir:description [ fhir:v "Eswatini Cause of Death sequence of conditions" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://172.209.216.154:3447/fhir/CodeSystem/SzCauseOfDeathSequenceOfConditionsCS> ;
+         fhir:reference [ fhir:v "CodeSystem/SzCauseOfDeathSequenceOfConditionsCS" ]
+       ] ;
+       fhir:name [ fhir:v "Eswatini Cause of Death sequence of conditions" ] ;
+       fhir:description [ fhir:v "Eswatini Cause of Death sequence of conditions" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "CodeSystem"
          ]
        ] ) ;
@@ -1563,6 +1644,24 @@
        ] ;
        fhir:name [ fhir:v "Extention: Eswatini Testing Laboratory" ] ;
        fhir:description [ fhir:v "Extention for Eswatini Testing Laboratory" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://172.209.216.154:3447/fhir/StructureDefinition/SzRegistrationDate> ;
+         fhir:reference [ fhir:v "StructureDefinition/SzRegistrationDate" ]
+       ] ;
+       fhir:name [ fhir:v "Extention: Patient Registration Date" ] ;
+       fhir:description [ fhir:v "Extention for Eswatini Chiefdom" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

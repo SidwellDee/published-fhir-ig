@@ -112,8 +112,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-SzMedicationRequest.html" : "Eswatini Medication Request Profile",
-      "StructureDefinition-SzMedication.html" : "Eswatini Medication Profile"
+      "StructureDefinition-SzMedication.html" : "Eswatini Medication Profile",
+      "StructureDefinition-SzMedicationRequest.html" : "Eswatini Medication Request Profile"
     },
     {
       "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzReaonsForReferralVS",
@@ -147,6 +147,17 @@
       "description" : "Eswatini Referral Types",
       "systems" : [
         "http://172.209.216.154:3447/fhir/CodeSystem/SzReferralTypeCS"
+      ]
+    },
+    {
+      "url" : "http://172.209.216.154:3447/fhir/ValueSet/SzSequenceOfConditionsVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SzSequenceOfConditionsVS",
+      "title" : "Eswatini Cause of Death sequence of conditions",
+      "description" : "Eswatini Cause of Death sequence of conditions",
+      "systems" : [
+        "http://172.209.216.154:3447/fhir/CodeSystem/SzCauseOfDeathSequenceOfConditionsCS"
       ]
     },
     {

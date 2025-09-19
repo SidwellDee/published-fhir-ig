@@ -1,0 +1,51 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://172.209.216.154:3447/fhir/CodeSystem/SzCauseOfDeathSequenceOfConditionsCS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "SzCauseOfDeathSequenceOfConditionsCS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem SzCauseOfDeathSequenceOfConditionsCS</b></p><a name=\"SzCauseOfDeathSequenceOfConditionsCS\"> </a><a name=\"hcSzCauseOfDeathSequenceOfConditionsCS\"> </a><p>This  code system <code>http://172.209.216.154:3447/fhir/CodeSystem/SzCauseOfDeathSequenceOfConditionsCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">intermediate<a name=\"SzCauseOfDeathSequenceOfConditionsCS-intermediate\"> </a></td><td>Intermediate</td></tr><tr><td style=\"white-space:nowrap\">intermediateI<a name=\"SzCauseOfDeathSequenceOfConditionsCS-intermediateI\"> </a></td><td>Intermediate I</td></tr><tr><td style=\"white-space:nowrap\">intermediateII<a name=\"SzCauseOfDeathSequenceOfConditionsCS-intermediateII\"> </a></td><td>Intermediate II</td></tr><tr><td style=\"white-space:nowrap\">underlying<a name=\"SzCauseOfDeathSequenceOfConditionsCS-underlying\"> </a></td><td>Underlying</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://172.209.216.154:3447/fhir/CodeSystem/SzCauseOfDeathSequenceOfConditionsCS"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "SzCauseOfDeathSequenceOfConditionsCS"] ; # 
+  fhir:title [ fhir:v "Eswatini Cause of Death sequence of conditions"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2025-09-19T08:18:44+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministry of Health Eswatini"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Ministry of Health Eswatini" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://172.209.216.154:3447" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "eswatinihie@moh.gov.sz" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Eswatini Cause of Death sequence of conditions"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "intermediate" ] ;
+     fhir:display [ fhir:v "Intermediate" ]
+  ] [
+     fhir:code [ fhir:v "intermediateI" ] ;
+     fhir:display [ fhir:v "Intermediate I" ]
+  ] [
+     fhir:code [ fhir:v "intermediateII" ] ;
+     fhir:display [ fhir:v "Intermediate II" ]
+  ] [
+     fhir:code [ fhir:v "underlying" ] ;
+     fhir:display [ fhir:v "Underlying" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
